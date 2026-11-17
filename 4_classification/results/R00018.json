@@ -1,0 +1,17 @@
+{
+  "record_id": "R00018",
+  "pdf_sha256": "7c3c6e175441a672abf9fa04b591e278a1c5034322cd9ba44be14800202871f7",
+  "mechanism": "Value Agent hindsight feedback (natural-language explanations) fed back to the Action Agent when re-expanding tree-search nodes",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "functions as feedback for the Action Agent, which can leverage this explanation when re-expanding from the parent node",
+  "evidence_role": "we propose SWE-Search, a multi-agent framework that integrates Monte Carlo Tree Search (MCTS) with a self-improvement mechanism to enhance software agents’ performance on repository-level software tasks.",
+  "read_full_text": true
+}

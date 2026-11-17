@@ -1,0 +1,31 @@
+﻿record_id,scope,na_reason,cross_origin,role,activity,mechanism
+R00133,NOT_APPLICABLE,NO_MECHANISM,,,,none identified: MCTS tool-use planner with Planner/Simulator/Critic roles and reflection-based reward shaping
+R00253,EXTERNAL,,,COMPONENT,SOFTWARE_MAINTENANCE,CodeGraph-based search with priority action scheduling and distance-aware pruning of searched context
+R00328,WITHIN,,,COMPONENT,SOFTWARE_DEVELOPMENT,Online-learned policy over context-assembly levers of the harness
+R00357,WITHIN,,,CORE,SOFTWARE_MAINTENANCE,Learned line-level pruning head that prunes tool outputs from the agent backbone's hidden states
+R00415,EXTERNAL,,,COMPONENT,SOFTWARE_MAINTENANCE,"Feature-to-code mapping hierarchy extracted from the repository, plus contextual expansion"
+R00429,EXTERNAL,,,CORE,SOFTWARE_MAINTENANCE,Static-analysis structural tags (deterministic anchors) injected into the codebase as comments
+R00468,NOT_APPLICABLE,PARAMETRIC,,CORE,SOFTWARE_MAINTENANCE,RL training of a decompilation LLM for feedback-driven multi-turn refinement
+R00485,CROSS,,own_trajectories,CORE,SOFTWARE_DEVELOPMENT,Append-only event-sourced project memory with file-scoped advisory prechecks
+R00528,CROSS,,own_trajectories,CORE,SOFTWARE_DEVELOPMENT,"Schema-governed research memory populated by literature ingestion, plus active project memory"
+R00582,CROSS,,both,CORE,SOFTWARE_MAINTENANCE,"Lifecycle governance of agent skills: library search, trajectory attribution and evidence-gated skill updates"
+R00595,CROSS,,own_trajectories,CORE,SOFTWARE_DEVELOPMENT,Evolving library of skills and reflective insights extracted from the model's own inference trajectories
+R00621,CROSS,,own_trajectories,CORE,SOFTWARE_DEVELOPMENT,"Persona drift detection against curated behavioral anchor texts, plus an embedding memory layer"
+R00667,WITHIN,,,CORE,SOFTWARE_DEVELOPMENT,Layer-dependent KV-cache pruning with a global budget allocated across layers
+R00700,WITHIN,,,COMPONENT,SOFTWARE_MAINTENANCE,none identified (agents iteratively evolve the ABC codebase under an evaluation loop)
+R00719,EXTERNAL,,,COMPONENT,SOFTWARE_DEVELOPMENT,Dependency-aware translation graph and interface/function mapping with dynamic context collection
+R00768,WITHIN,,,CORE,SOFTWARE_DEVELOPMENT,Handoff and post-hoc consolidation structures with an explicit global memory in a multi-agent research run
+R00797,WITHIN,,,CORE,SOFTWARE_DEVELOPMENT,"Offline-built shared memory of contrast-derived reasoning constraints, retrieved by task category"
+R00928,CROSS,,both,CORE,SOFTWARE_DEVELOPMENT,Knowledge system over external resources plus an episodic store of lessons from experiment traces
+R00929,EXTERNAL,,,COMPONENT,SOFTWARE_DEVELOPMENT,"Diversity-aware retrieval of few-shot examples from a fixed 3,000-sample memory bank"
+R00944,WITHIN,,,CORE,SOFTWARE_MAINTENANCE,Goal-conditioned line-level pruning of tool-observation context within a task using a small neural skimmer
+R00957,WITHIN,,,CORE,SOFTWARE_MAINTENANCE,Agent-triggered consolidation of interaction history into a Knowledge block with deletion of raw messages within a task
+R00985,EXTERNAL,,,CORE,SOFTWARE_MAINTENANCE,Trained code retriever and reranker over the repository with an agentic search loop that keeps a memory buffer of candidates
+R01445,NOT_APPLICABLE,PARAMETRIC,,CORE,SOFTWARE_DEVELOPMENT,Code-to-code data augmentation and fine-tuning for RTL generation with trained self-reflection from compiler feedback
+R01453,WITHIN,,,CORE,QUALITY_ASSURANCE,Adaptive pruning of input token sequences inside transformer layers
+R01769,EXTERNAL,,,CORE,SOFTWARE_MAINTENANCE,"Local code index with hybrid retrieval (lexical, dense, graph) served through MCP, plus a git-pinned memory store"
+R00044,WITHIN,,,CORE,SOFTWARE_DEVELOPMENT,Textual backpropagation of verification feedback to update agents and connections in a multi-agent network within a task
+R00339,CROSS,,own_trajectories,COMPONENT,SOFTWARE_DEVELOPMENT,Persistent skill library distilled from human language corrections to synthesized robot programs and reused on later tasks
+R00705,CROSS,,own_trajectories,CORE,SOFTWARE_DEVELOPMENT,Unified pool of memories extracted from the agent's own trajectories across coding domains and reused on new tasks
+R00840,NOT_APPLICABLE,PARAMETRIC,,CORE,SOFTWARE_MAINTENANCE,Semi-supervised training of a critic model from rubric features and sparse outcomes of human-agent interactions
+R00874,EXTERNAL,,,CORE,SOFTWARE_DEVELOPMENT,Selection of solved precedents from an external pool and test-time adapter updates on them to shorten reasoning

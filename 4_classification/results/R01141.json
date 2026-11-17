@@ -1,0 +1,17 @@
+{
+  "record_id": "R01141",
+  "pdf_sha256": "ed5511b38274cdf9f19c3bec7ee3c119b039791437579326dc940edb84527e3d",
+  "mechanism": "Optimization ideas mined from kernel library development histories and retrieved with RAG to guide evolutionary kernel search",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "RISC-V kernels",
+  "evidence_scope": "EoK mitigates reference scarcity by mining and formalizing reusable optimization \"ideas\" (general design principles + actionable thoughts) from established kernel libraries' development histories",
+  "evidence_role": "We present Evolution of Kernels (EoK), a novel LLM-based evolutionary program search framework that automates kernel design for domains with limited reference material.",
+  "read_full_text": true
+}

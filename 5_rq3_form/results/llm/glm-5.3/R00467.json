@@ -1,0 +1,86 @@
+{
+ "record_id": "R00467",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "At a 20-call cap on Acrobot, the Critic brings no measurable benefit over Actor-only.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Our control tasks are low-dimensional and CCAA is a single structured design problem; building informative BE for high-dimensional observations or long-horizon control remains open.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Cross-task transfer is tested on two source–target pairs with one model",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We have not run a human study of whether individual diagnoses are correct, nor a sensitivity study of population size, the UCB1 constant, or memory capacity.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "executable memory does not outperform textual memory in our ablation",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "REFLEX also inherits the stochasticity and cost of LLM inference.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,81 @@
+{
+ "record_id": "R00615",
+ "fields": {
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "To confirm or refute these hypotheses, we propose future work to experiment with a more granular selection of steps for compression.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Through qualitative analysis, we observed examples where URLs or file paths were hallucinated during reconstruction, such as replacing swe-agent.com/latest/ with swe-agent.com/agent/latest/, invalidating the output.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Information Preservation for Future Steps relates to the limitations of the compression objective during fine-tuning.",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "Hence, the training signal flows through only this single step, and the model has no incentive to preserve the information needed for subsequent steps.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "These challenges are non-trivial to resolve and require a more involved modeling and training approach than anticipated (e.g., full-trajectory reinforcement learning).",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

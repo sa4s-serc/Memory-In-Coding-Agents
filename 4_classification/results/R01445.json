@@ -1,0 +1,15 @@
+{
+  "record_id": "R01445",
+  "pdf_sha256": "ad40d3d7837152969697133f2ef0147ee92155480b8f2f6259e8d9f7bb0a16e4",
+  "mechanism": "Code-to-code data augmentation and fine-tuning for RTL generation with trained self-reflection from compiler feedback",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Verilog",
+  "evidence_scope": "Our approach employs a code-to- code augmentation technique to enhance the quality of open-source RTL code datasets.",
+  "evidence_role": "we introduce OriGen, a fully open-source framework that incorporates self-reflection capabili- ties and a novel dataset augmentation methodology for generating high-quality, large-scale RTL code.",
+  "read_full_text": true
+}

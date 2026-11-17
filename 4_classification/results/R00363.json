@@ -1,0 +1,17 @@
+{
+  "record_id": "R00363",
+  "pdf_sha256": "72218053d1dace574e4fd257fbfb4ea63b165dd9d324f1d079ee6fac03c05f6e",
+  "mechanism": "Failure taxonomy induced once from a system's traces and consumed unchanged as a feedback vocabulary",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "each target system’s taxonomy is induced and validated once, then consumed unchanged by every procedure that reads its traces.",
+  "evidence_role": "We presentAdaMAST(Adaptive Multi-Agent System Failure Taxonomies), 0 which induces exactly this vocabulary.",
+  "read_full_text": true
+}

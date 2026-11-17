@@ -1,0 +1,74 @@
+{
+ "record_id": "R01457",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "while the evaluation method based on exact matches is convenient and quick, it does not provide comprehensive results.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Therefore, there may be a discrepancy between the evaluation outcomes and the actual capabilities of the model.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In this study, sampling functions and class methods based on relevance required the use of a text embedding model.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "When the number of code files in the repository is excessive, this may reduce the sampling rate, leading to increased completion latency.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00415",
+  "pdf_sha256": "1445d6fdf8299ae6f7844af9f8d5c10c4030afd4c70f31be64093909ec992114",
+  "mechanism": "Feature-to-code mapping hierarchy extracted from the repository, plus contextual expansion",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Java",
+  "evidence_scope": "Given an existing repository, FeatX extracts a hierarchical epic-feature structure with explicit feature-to-code mappings",
+  "evidence_role": "We present FeatX, a feature-oriented tool for editing software by editing features.",
+  "read_full_text": true
+}

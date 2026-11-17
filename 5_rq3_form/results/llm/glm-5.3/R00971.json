@@ -1,0 +1,112 @@
+{
+ "record_id": "R00971",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Reliance on a Python runtime. CaveAgent's design fundamentally couples the agent's execution to a Python interpreter: tools must be Python-callable or wrapped as Python functions, and the persistent state lives in a Python kernel namespace.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "Tools exposed only through non-Python interfaces (e.g., native binaries, proprietary REST APIs in other languages, microservices written in Java/Go/Rust) require manual wrapper creation, and the runtime state cannot be transparently shared with non-Python downstream systems — a generalizability bound intrinsic to this design choice rather than an implementation gap.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The multi-agent coordination capabilities are demonstrated qualitatively; rigorous quantitative evaluation of runtime-mediated multi-agent systems is left for future investigation.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "The two added model families and the bash filesystem paradigm in Table 7 are at n=1 per cell; we report directional findings rather than statistical significance and recommend n≥3 replication for any specific deployment decision.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "We acknowledge this limitation and note that larger-n replications, beyond the API-cost budget of this study, would tighten the per-condition confidence intervals.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "This is a partial ablation over two components; ablations of the remaining architectural elements (persistent state vs. ephemeral kernel, the Agent-Skills–compatible extension layer, and the multi-agent shared-runtime mode) require separate experimental setups and are left for future work.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "While agent behavior is in principle programmatically verifiable, designing comprehensive fine-grained benchmarks for stateful evaluation remains future work.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Type Proficiency (96.5–100%) and Multi-Variable (90.9–100%) compress most evaluated models near the ceiling, providing limited model-ranking signal.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Memory. The persistent runtime consumes memory proportional to the complexity of stored objects; for extremely long sessions with large data artifacts, memory management becomes a concern.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "The persistent IPython kernel carries a baseline memory footprint plus payload proportional to the size of injected and retained objects, and the first turn of each session pays a kernel-boot cost not incurred by stateless JSON function calling.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This is a structural property of the architecture rather than a fully tooled deliverable: comprehensive audit-grade tooling (chain-of-custody logs, immutable run histories) remains future work, but the underlying inspectability is what regulated-deployment use cases (healthcare decision support, financial advisory) typically require.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

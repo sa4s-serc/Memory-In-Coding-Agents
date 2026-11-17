@@ -1,0 +1,85 @@
+{
+ "record_id": "R00526",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, due to computing-resource constraints, the Code-X training recipe is only validated at the 9B and 27B scales (Qwen-3.5-9B and Qwen-3.6-27B), and we have not yet characterized how the recipe scales to frontier-size open-source models.",
+     "page": 25,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, due to API credit constraints, several closed-source coding agents could not be evaluated on the full benchmark suite. In particular, Claude Opus 4.6 results on VideoZeroBench and Claude Opus 4.7 results across all four benchmarks are incomplete in the current draft, which means the comparison between coding agents and native omni-modal models is somewhat uneven on the closed-source side.",
+     "page": 25,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, our scope is restricted to offline omni-modal tasks, where files are staged into a workspace ahead of time; conclusions do not transfer directly to streaming or interactive settings.",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This exposes a limitation of current omnimodal benchmarks: many tasks can be solved through text or shallow perception (e.g., OCR) rather than deep visual understanding.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "When a text+image coding agent can answer many ostensibly omnimodal tasks by selectively extracting transcripts, sparse frames, or metadata, benchmark accuracy no longer cleanly measures native end-to-end audio-video understanding.",
+     "page": 26,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "reveals six recurring failure modes ranging from premature exploration of multimodal content to brittle tool and environment infrastructure.",
+     "page": 2,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

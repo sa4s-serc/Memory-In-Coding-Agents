@@ -1,0 +1,17 @@
+{
+  "record_id": "R00874",
+  "pdf_sha256": "cf346e446eda2909bcf2b46b2231d3475117636ef20746c60d713e23279fe91f",
+  "mechanism": "Selection of solved precedents from an external pool and test-time adapter updates on them to shorten reasoning",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "APS first performs coarse filtering by ranking candidates with a joint score of question- level semantic similarity and model perplexity.",
+  "evidence_role": "we propose Precedent Informed Reasoning (PIR) transforming LRMs' reasoning paradigm from exhaustive self-exploration to guided learning from precedents.",
+  "read_full_text": true
+}

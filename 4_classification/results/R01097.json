@@ -1,0 +1,18 @@
+{
+  "record_id": "R01097",
+  "pdf_sha256": "21962e5f355a4fbb2b68c5c300cbce74de571b47d041e773fa52e7dc94e08d3a",
+  "mechanism": "Curated domain knowledge base for priors plus graph search that reuses trajectories across branches within a task",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we introduce AutoMLGen, an LLM-based coding agent that integrates a domain knowledge base for high-quality prior guidance and Monte Carlo Graph Search (MCGS) for efficient exploration.",
+  "evidence_role": "we introduce AutoMLGen, an LLM-based coding agent that integrates a domain knowledge base for high-quality prior guidance and Monte Carlo Graph Search (MCGS) for efficient exploration.",
+  "read_full_text": true
+}

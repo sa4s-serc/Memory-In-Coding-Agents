@@ -1,0 +1,92 @@
+{
+ "record_id": "R01733",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The principal hazard of durable memory is drift: records referencing files that no longer exist, identifiers that have been renamed, or claims contradicting current state.",
+     "page": 9,
+     "verbatim": false
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Trusted-local is useful for first-party automation and local development. It is not a security boundary against hostile agent code.",
+     "page": 10,
+     "verbatim": false
+    },
+    {
+     "quote": "The gap between trusted-local and a production sandbox for hostile code is the largest remaining isolation gap.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "B4 in Table 1 is partial. The daemon brokers MCP tool calls and A2A messages, and operator tokens are protected at the daemon boundary, but the OS-keychain credential broker for external services is not yet a uniform interface. Until it is, an agent that has any tool capability potentially has access to environment-inherited credentials in its subprocess image.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The implementation operates over a single host today. Peer authentication, peer registry, peer-scoped A2A, and operator-token rotation are implemented; multi-peer operation across untrusted hosts requires transport hardening, identity discovery beyond the local registry, optional slashable identity stake for marketplace participation, and a cross-host registry protocol.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "Audit-root attestations exist locally. Publication to a transparency log—Sigstore Rekor or an in-toto-compatible log—is the next step but has not landed.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "This is scaﬀolding. The interface trait ships with a no-op implementation; the first burn surface (memory writes) is local-accounted and queued; on-chain wiring is roadmap. The paper does not claim production on-chain settlement.",
+     "page": 12,
+     "verbatim": false
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F4:no_verbatim_quote"
+ ]
+}

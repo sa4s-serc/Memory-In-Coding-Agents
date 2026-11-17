@@ -1,0 +1,17 @@
+{
+  "record_id": "R00087",
+  "pdf_sha256": "93250013341c3bfd879eb28c92e6c2071ccf25403adb4181d5abd37274f55ea5",
+  "mechanism": "Two-layer optimisation: Designer–Critic self-reflective loop with compiler/user feedback appended to context",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "MistyCode (Misty robot control code)",
+  "evidence_scope": "If execution errors occur, they are appended to the context and returned to the Designer for revision.",
+  "evidence_role": "We present AutoMisty, the first multi-agent system designed for natural language-driven Misty robot programming.",
+  "read_full_text": true
+}

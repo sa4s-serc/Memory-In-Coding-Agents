@@ -1,0 +1,17 @@
+{
+  "record_id": "R00079",
+  "pdf_sha256": "7ee47ea7b8b944b0c61597392828f2322a5f13e87ea4b2b65077a13cad4d44cb",
+  "mechanism": "Self-evolving per-problem testing pool with failure feedback used to update refinement instructions",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "is used to update the instructions I = [p, gs, ft, f,tests, prompt] for the next exploration.",
+  "evidence_role": "We introduce ThinkCoder, an efficiency framework for code generation that integrates an LLM-based exploration agent with a non-LLM-based CodeVerifier.",
+  "read_full_text": true
+}

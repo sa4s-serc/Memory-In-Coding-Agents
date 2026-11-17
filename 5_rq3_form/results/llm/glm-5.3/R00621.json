@@ -1,0 +1,124 @@
+{
+ "record_id": "R00621",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our 100-prompt drift evaluation set is hand-authored to cover canonical aligned and deviation patterns. AUC 0.92 reflects performance on this distribution; real production prompt distributions may differ. We have not yet conducted a longitudinal study on real user traces",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "the n = 20 here is chosen to fit the 6-subject CPU budget",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "The mem0 head-to-head (Table 5) is on the stratified subset of 12 questions because re-running mem0 at full scale requires resetting and re-populating its index per question",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Readers expecting “nautilus-compass causally improves Claude’s safety” should treat this paper as preliminary evidence with axis-specific effects, not as a uniform guarantee.",
+     "page": 3,
+     "verbatim": true
+    },
+    {
+     "quote": "In practice, the long-term value of this loop depends on user willingness to label, which we have not yet measured at scale (current evaluation is on synthetic alerts seeded into the log file).",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "reducing the labeling burden by an estimated factor of 10 (theoretical analysis; empirical user study left for future work).",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Step 4 explicitly incorporates patterns from misclassified test prompts into the anchor set, which by classical interpretation contaminates the test signal.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "We acknowledge that LLM-as-judge labeling is itself a noisy signal; we treat held-out AUC as a complementary metric to the in-set ablation rather than a definitive replacement.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "LongMemEval-S 56.6% is ~30 points below recent white-box leaders (90+%); we treat that as the architectural ceiling of the no-extraction design.",
+     "page": 1,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "On Windows with Python 3.14, the Hugging Face Hub client (httpx backend) intermittently fails to download large models like bge-m3 (2.27 GB), showing zero-byte progress. We work around this via the ModelScope mirror but consider it a deployment-environment fragility rather than a fundamental fix.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The legal, medical, and finance starter anchor sets we ship are written by software engineers reasoning about each domain’s typical patterns, not by domain experts. Production deployment in any of these sensitive areas should involve review by qualified domain practitioners before relying on drift detection signals.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The current implementation cold-loads one anchor profile at daemon startup; switching profile requires daemon restart. Multi-profile in-memory caching with per-request profile selection is planned for v0.8.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "(c) automated anchor generation from user history (current implementation is a regex-pattern v0.1; LLM-based v0.2 is on the roadmap)",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

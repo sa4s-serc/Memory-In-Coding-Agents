@@ -1,0 +1,92 @@
+{
+ "record_id": "R00375",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our current prompt design and evaluation are tailored to Python repositories. While the QA-driven paradigm itself is language-agnostic, adapting the prompt design to other programming languages and validating its effectiveness across them remains future work.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Additionally, the question-quality evaluation in RQ3 relies on LLM-as-a-judge; to mitigate potential scoring bias, we adopt both scoring and pairwise voting perspectives, repeat each judgment 10 times, and apply position-bias mitigation following established practices [27].",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Additionally, knowledge is currently injected as pre-generated QA context before repair, which has proven simple and stable in practice.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "However, dynamic acquisition would inevitably introduce additional cost; exploring how to balance knowledge freshness and computational cost remains an open challenge.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The four-category question template, while practical and effective, can be further refined for broader coverage.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This regression analysis confirms a limitation of ACQUIRE: QA can influence repair behavior negatively in some cases.",
+     "page": 21,
+     "verbatim": true
+    },
+    {
+     "quote": "This analysis reveals that the regression bottleneck lies in how the Resolver utilizes otherwise reliable QA, not in QA quality itself, suggesting that improving the Resolver’s capacity to critically evaluate and selectively apply injected knowledge is a promising direction for reducing regressions.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

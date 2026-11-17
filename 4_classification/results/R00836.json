@@ -1,0 +1,17 @@
+{
+  "record_id": "R00836",
+  "pdf_sha256": "67d403096ed604c609353587442dcf01e3e65c4e9580e8bd4e13c99a7911d7b9",
+  "mechanism": "Progressive context compaction with a persistent strategy playbook in a terminal coding agent harness",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Context Engineering applies five-stage progressive compaction as the conversation grows.",
+  "evidence_role": "we present OPENDEV, an open-source, command-line coding agent written in Rust, engineered specifically for this new paradigm.",
+  "read_full_text": true
+}

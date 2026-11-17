@@ -1,0 +1,17 @@
+{
+  "record_id": "R00367",
+  "pdf_sha256": "e7930afaa5ccf1b3b0d6829ae6c18063fb697daaf3d77461cf051ae7440c6932",
+  "mechanism": "Git-bound project memory built from commits and linked session transcripts, with routing between structural map, episode lookup and decision synthesis",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "We argue memory should instead be git-bound — built into the repository's version control, inheriting the guarantees the machinery struggles to construct",
+  "evidence_role": "The title's claim is the paper's thesis, argued and then measured: the memory solution for the ADLC is git itself",
+  "read_full_text": true
+}

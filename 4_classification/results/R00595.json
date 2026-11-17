@@ -1,0 +1,17 @@
+{
+  "record_id": "R00595",
+  "pdf_sha256": "ad74e6e9d71a1873193940abbafc2718739f953c65ab885051ddd40af0b35414",
+  "mechanism": "Evolving library of skills and reflective insights extracted from the model's own inference trajectories",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "our approach maintains a shared library ofknowledge abstractions, including modular skills and reflective insights, automatically extracted from the model’s own inference trajectories.",
+  "evidence_role": "We introduce EVOLIB, a test-time learning framework that enables large language models to accumulate, reuse, and evolve knowledge across problem instances without parameter updates or external supervision.",
+  "read_full_text": true
+}

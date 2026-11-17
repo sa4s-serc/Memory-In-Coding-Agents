@@ -1,0 +1,15 @@
+{
+  "record_id": "R01384",
+  "pdf_sha256": "ad06b358339622a6ffd1b6801df563f817ecac0ede183820021b81b3bb3a2268",
+  "mechanism": "MCTS-generated reasoning data used for supervised fine-tuning of code models",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "This thinking guides the model in generating corresponding code, and both are combined as training data for supervised fine-tuning.",
+  "evidence_role": "we propose a self-driven reasoning augmentation pro- cess, SRA-MCTS, which incorporates Monte Carlo Tree Search (MCTS) for reasoning data generation.",
+  "read_full_text": true
+}

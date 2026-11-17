@@ -1,0 +1,15 @@
+{
+  "record_id": "R02376",
+  "pdf_sha256": "c3da8eaca8c267a7695f3be61ac2ce23801a997362ac46c8fb2302df69b76061",
+  "mechanism": "QLoRA adapter fine-tuned on Russian programming instructions",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "The proposed adapter was trained using a large and diverse dataset, including question-answer pairs related to programming, as well code-related texts in Russian language.",
+  "evidence_role": "an approach to training and evaluating an adapter model for the popular language model \"zephyr-7b-beta\" is described.",
+  "read_full_text": true
+}

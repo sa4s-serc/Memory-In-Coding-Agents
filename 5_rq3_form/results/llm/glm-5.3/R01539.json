@@ -1,0 +1,74 @@
+{
+ "record_id": "R01539",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Firstly, the limited sample size of 14 participants who formulated prompts for the construction of the applications. It is possible that these participants do not represent the entire population of users who intend to use ChatGPT to support end-to-end software construction.",
+     "page": 26,
+     "verbatim": true
+    },
+    {
+     "quote": "Secondly, the systems (ForumApp and TodoApp) defined for construction in the two experiments may not represent the full spectrum of systems that are built from scratch by software developers.",
+     "page": 26,
+     "verbatim": true
+    },
+    {
+     "quote": "As future work, we intend to evaluate the use of our interface with more apps and more developers. We also plan to make it compatible with other language models, including open-source models. Finally, we aim to investigate the construction of new types of applications, such as mobile apps.",
+     "page": 29,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The main negative point pointed out by participants was the delay in responses during interactions with the prompts (14 participants), as commented by the following participants:",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

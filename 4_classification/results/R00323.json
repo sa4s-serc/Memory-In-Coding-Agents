@@ -1,0 +1,18 @@
+{
+  "record_id": "R00323",
+  "pdf_sha256": "a4af850415a66e81bc528c92d02f7de0f6cb7a0a218e01875634c07c742a47e6",
+  "mechanism": "Pre-built dataset graph of reusable dataset skills retrieved progressively, plus shared in-task progress memory",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "UrbanDS instead explores each dataset once and stores the resulting knowledge for later use.",
+  "evidence_role": "we propose UrbanDS, a graph-guided LLM multi-agent system for data-intensive urban tasks.",
+  "read_full_text": true
+}

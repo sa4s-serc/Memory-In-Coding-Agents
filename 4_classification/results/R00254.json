@@ -1,0 +1,17 @@
+{
+  "record_id": "R00254",
+  "pdf_sha256": "68461c9539f7bfafa76653765a9801d8cfc0d1a2a3021407745acd2d304ef541",
+  "mechanism": "Control-unit context management with step summaries and an external file-store memory",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "If none are found, it asks the LLM to summarize the generated output in the current context window C t as a message Mrs and resets the context window as C t+1 ← {I(k+1), Mrs}.",
+  "evidence_role": "This paper presents L2MAC 1, the first practical LLM-based general-purpose stored-program automatic computer (von Neumann architecture) framework, an LLM-based multi-agent system, for long and consistent output generation.",
+  "read_full_text": true
+}

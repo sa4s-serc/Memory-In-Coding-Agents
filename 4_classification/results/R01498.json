@@ -1,0 +1,15 @@
+{
+  "record_id": "R01498",
+  "pdf_sha256": "22549d23ac035da405e77c47e1b0a3e2ecac6870fbba7e8f449bff87cbf9d44f",
+  "mechanism": "none identified (empirical study of auxiliary functions in prompts)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

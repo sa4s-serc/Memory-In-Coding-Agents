@@ -1,0 +1,102 @@
+{
+ "record_id": "R00537",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Generalization under rapid distribution shifts and integration into SWE-agent or OpenHands remain untested; framework independence is a design claim.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "the learning capacity for retrieved experiences varies across different model architectures.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "These proportions describe usage rather than independently establish each source’s causal contribution.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Results suggest stability at λ = 0.5; broader sensitivity remains unquantified.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because judge errors can affect retrieval and updating, we assess agreement with human judgment using 50 successful and 50 failed experiences.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "This agreement supports consistency with human judgment, but does not establish whether scores predict repair gains on unseen CVEs.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In fact, excessive experiences often lead to diminishing returns or negative performance impacts.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Other models increase by roughly 10%–20%, mainly from the prompt-token overhead of injected experiences.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Thus, EVOREPAIR repairs 8.0% more cases at 4.30% greater cost.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

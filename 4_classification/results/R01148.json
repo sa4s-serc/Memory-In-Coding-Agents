@@ -1,0 +1,15 @@
+{
+  "record_id": "R01148",
+  "pdf_sha256": "c4d4731ef8f95fb6f2bf179fa268cee8608680beae237f69743bc13f1a1f0674",
+  "mechanism": "none identified (multi-agent loop of coding, testing, profiling and planning agents for GPU kernels)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "CUDA",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

@@ -1,0 +1,19 @@
+{
+  "record_id": "R00928",
+  "pdf_sha256": "102bbdbe27f8071a3bdeccd0abfdf61dda6e0ea8f2f920f18f07f56bd6985a3c",
+  "mechanism": "Knowledge system over external resources plus an episodic store of lessons from experiment traces",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "external",
+    "within"
+  ],
+  "cross_origin": "both",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Episodic memory entries are derived from experiment traces and are designed to be reusable across tasks.",
+  "evidence_role": "A cognitive memory system that combines knowledge retrieval with episodic learning from experiment traces to reduce repeated failures and accelerate iteration.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00776",
+  "pdf_sha256": "b51866b189361dacbce2c6956cd055c86133ee543dbfc6038559630cf31b4be5",
+  "mechanism": "Persistent Tree-Sitter knowledge graph of the codebase served via MCP",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple (66 languages)",
+  "evidence_scope": "We present Codebase-Memory, an open-source system that con- structs a persistent, Tree-Sitter-based knowledge graph via the Model Context Protocol (MCP)",
+  "evidence_role": "We present Codebase-Memory, an open-source system that con- structs a persistent, Tree-Sitter-based knowledge graph via the Model Context Protocol (MCP)",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R01523",
+  "pdf_sha256": "ec6d7b2b18b5e62ce79a5b432948e59547156502c8e34136e5bf1cfc47557f93",
+  "mechanism": "RAG knowledge base over multi-source data for database interaction, with fine-tuned text-to-SQL and feedback-based adaptive learning",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "SQL",
+  "evidence_scope": "DB-GPT builds a pipeline that ingests multi-source unstructured data (PDF's, web pages, images, etc) into inter- mediate representations, stores them in a structured knowledge base, retrieves the most relevant pieces",
+  "evidence_role": "we present DB-GPT, a revolutionary and production- ready project that integrates LLMs with traditional database systems to enhance user experience and accessibility.",
+  "read_full_text": true
+}

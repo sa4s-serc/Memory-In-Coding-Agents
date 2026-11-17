@@ -1,0 +1,85 @@
+{
+ "record_id": "R01358",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This assumption will not hold when solving issues from new or private repositories that are not well-represented in the model training data, which will likely require modifications to our retrieval pipeline to attain high recalls.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our file-level filter-and-rank procedure still omits relevant files for 7.4% of SWE-bench Verified instances.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In our state machines, we only provide models with execution feedback from their testing scripts, with each script attempting to reproduce the target issue.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Distinct pairs of testing/editing state machines have no awareness of other state machines that are being made for the same problem, which can lead to redundant/non-diverse generations.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "one source of selection signal that we do not exploit is the existing suite of tests inside of each repo.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "our work omits additional approaches to scaling test-time compute, such as ensembling different models together [43, 54] and leveraging dedicated reasoning models",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

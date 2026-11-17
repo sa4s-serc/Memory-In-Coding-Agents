@@ -1,0 +1,17 @@
+{
+  "record_id": "R00121",
+  "pdf_sha256": "d2c046d9307630e1fcd5b6a709fccd3eb8153c01ad50b064d60983d80a86d119",
+  "mechanism": "Branching re-sampling of actions conditioned on trajectory history and execution feedback of the previous attempt",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "branching out a trajectory at certain key decision points by taking an alternative action given the history of the trajectory and execution feedback of the previous attempt from that point.",
+  "evidence_role": "We introduce DARS, an inference-time compute scaling method for coding agents that rapidly recovers from suboptimal decisions",
+  "read_full_text": true
+}

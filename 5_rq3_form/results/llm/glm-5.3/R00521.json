@@ -1,0 +1,79 @@
+{
+ "record_id": "R00521",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because we evaluate only one coding-agent/LLM configuration, we consider these results important but preliminary evidence of the usefulness of the optimization loop.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "we leave the exploration of smaller models and multi-agent orchestration to future work.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "We leave experimentation with different frameworks [20, 24] to future work.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Skills associated with complex, multi-skill workflows improved only marginally when optimized in isolation, motivating future work on joint skill optimization.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "This result points to a clear line of future work: jointly optimizing skills. Our approach optimizes each skill in isolation, but the dataset supports complex tasks where skills may need to be adapted jointly to enable the agent to complete a correct workflow, end-to-end.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

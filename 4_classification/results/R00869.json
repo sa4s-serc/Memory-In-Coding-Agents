@@ -1,0 +1,17 @@
+{
+  "record_id": "R00869",
+  "pdf_sha256": "0c7e5833b1bf806d23fbcf7afd48f01b81a50532f2e068213690ce3a07081298",
+  "mechanism": "Hierarchical graph memory (short-term execution memory and target-level long-term memory) managed by a memory agent",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Our hierarchical memory system and dedicated memory agent signifi- cantly optimized context length while preventing redundant and repeated queries.",
+  "evidence_role": "We propose OpenSage, the first ADK that enables LLMs to automatically create agents with self-generated topology and toolsets while providing comprehensive and structured memory support.",
+  "read_full_text": true
+}

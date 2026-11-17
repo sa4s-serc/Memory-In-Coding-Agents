@@ -1,0 +1,81 @@
+{
+ "record_id": "R01266",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our current prototype relies on conservative generalization, focusing primarily on repetitive tasks such as filling out web forms, making hotel reservations and conducting online purchases, etc.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "And how to delineate the scope of tasks for which R&R is most suitable versus where a more flexible approach is needed?",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, these approaches still face limitations such as incomplete summarization and potential failures in generating executable scripts.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Recording demonstrations requires initial user effort. Furthermore, building trust in shared Experiences within the Experience Store likely requires mechanisms for auditing, rating, or verification, adding an additional layer of human oversight or computational cost.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Even with tools like Browser-use and Playwright for web behavior recording, achieving 100% reliable replay remains elusive.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

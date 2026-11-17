@@ -1,0 +1,18 @@
+{
+  "record_id": "R01011",
+  "pdf_sha256": "e674a63d5cb8791ad8309ada39c7e73049c9dcafbde2a497769a7d270fbb827e",
+  "mechanism": "Information-flow management for paper-to-codebase synthesis: blueprint compression, stateful code memory, retrieval of reference code, closed-loop verification",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "a stateful Code Memory (CodeMem) that performs structured indexing of the evolving codebase to maintain cross-file consistency, and a CodeRAG system that performs conditional knowledge injection to bridge implicit domain gaps with standard implementation patterns.",
+  "evidence_role": "we introduce DeepCode, a fully autonomous framework that fundamentally addresses this challenge through principled information-flow management.",
+  "read_full_text": true
+}

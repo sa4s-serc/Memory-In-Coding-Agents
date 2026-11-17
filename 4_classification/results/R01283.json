@@ -1,0 +1,17 @@
+{
+  "record_id": "R01283",
+  "pdf_sha256": "7a6e71be0782916aa094d395428f6a46bd9a1a9c584d2096d86d4b1b25b94043",
+  "mechanism": "Web search that retrieves optimization techniques from recent publications to guide a generate-and-evaluate multi-agent loop",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "A key innovation is MARCO's web-search component that retrieves real-time optimization techniques from recent conference proceedings and research publications, bridging the knowledge gap in pre-trained LLMs.",
+  "evidence_role": "A key innovation is MARCO's web-search component that retrieves real-time optimization techniques from recent conference proceedings and research publications, bridging the knowledge gap in pre-trained LLMs.",
+  "read_full_text": true
+}

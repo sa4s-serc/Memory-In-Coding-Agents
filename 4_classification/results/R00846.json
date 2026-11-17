@@ -1,0 +1,17 @@
+{
+  "record_id": "R00846",
+  "pdf_sha256": "4fe54f8011f476239a02dd12ac7a1a2f3c5690a6310e6a05c0f217c7c5c79e0e",
+  "mechanism": "Success memory acting as momentum within a single MLE search",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Gomemaps structured diagnostic reasoning to gradient computation, success memory to momentum, and multi-trace execution to distributed optimization.",
+  "evidence_role": "We introduceGome, an MLE agent that operationalizes gradient-based optimization.",
+  "read_full_text": true
+}

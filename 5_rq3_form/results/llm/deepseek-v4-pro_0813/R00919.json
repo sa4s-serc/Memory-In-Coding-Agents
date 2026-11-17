@@ -1,0 +1,58 @@
+{
+ "record_id": "R00919",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, we acknowledge the potential risks associated with automated environment setup and code execution. Malicious actors could potentially exploit the framework to construct environments for developing harmful software or executing unauthorized scripts. Furthermore, LLMs may inevitably generate erroneous commands that could lead to severe consequences.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

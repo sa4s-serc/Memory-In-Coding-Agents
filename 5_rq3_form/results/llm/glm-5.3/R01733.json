@@ -1,0 +1,89 @@
+{
+ "record_id": "R01733",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "It is not a security boundary against hostile agent code.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Until it is, an agent that has any tool capability potentially has access to environment-inherited credentials in its subprocess image.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Production sandboxing for hostile code, multi-peer operation across untrusted hosts, and on-chain settlement are not.",
+     "page": 3,
+     "verbatim": true
+    },
+    {
+     "quote": "The gap between trusted-local and a production sandbox for hostile code is the largest remaining isolation gap.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "The implementation operates over a single host today.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "Publication to a transparency log—Sigstore Rekor or an in-toto-compatible log—is the next step but has not landed.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "On-chain settlement is the most speculative primitive.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

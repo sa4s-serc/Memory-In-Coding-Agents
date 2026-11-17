@@ -1,0 +1,15 @@
+{
+  "record_id": "R00360",
+  "pdf_sha256": "22d6e111558d64d94331e3f74157190e2a7448d5d3a6cadb6a5f015d85875fe7",
+  "mechanism": "Quality scoring and filtering of agent trajectories for LoRA fine-tuning",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "We present a systematic study of data filtering for LoRA [12] fine-tuning of a code-agent LLM",
+  "evidence_role": "Contributions: (i) a multi-dimensional quality scoring framework spanning Efficiency (error-retry rate, step-count ratio) and Style (action diversity, observation utilization)",
+  "read_full_text": true
+}

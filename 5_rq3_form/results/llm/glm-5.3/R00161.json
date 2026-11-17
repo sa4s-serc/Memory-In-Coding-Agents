@@ -1,0 +1,75 @@
+{
+ "record_id": "R00161",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "UCD-LLM’s performance depends on the quality of the underlying pre-trained LLM. For example, among three model variants, 𝑈𝐶𝐷-𝐿𝐿𝑀𝐷𝑒𝑒𝑝𝑆𝑒𝑒𝑘 — despite having the most parameters — performs the worst, likely because it is trained mostly on general data. Weaknesses in the base model can affect UCD-LLM’s overall results and reliability.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In the use case relationship extraction module, UCD-LLM checks relationships between all use case pairs. If a debate is triggered, it requires more computation.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Though the debate mechanism adds some computational cost, it helps resolve ambiguities early and reduces the need for later corrections.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Explore the integration of more external knowledge based on existing frameworks, such as utilizing relevant knowledge in the field of requirement modeling to establish a knowledge graph, enabling agents to possess more domain knowledge.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

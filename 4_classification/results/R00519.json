@@ -1,0 +1,18 @@
+{
+  "record_id": "R00519",
+  "pdf_sha256": "c1a25446379128098a1ea354a18fb062700c41a3cdb37e9b6a2e501a0a340e6d",
+  "mechanism": "RAG over architectural standards and patterns, plus working and episodic memory within the design run",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DESIGN",
+  "target": "Architecture blueprints (4+1 view models)",
+  "evidence_scope": "MAAD incorporates Retrieval-Augmented Generation (RAG) to inject recognized architectural standards and patterns into the workflow",
+  "evidence_role": "we proposed MAAD (Multi-Agent Architecture Design), a knowledge-driven framework that orchestrates four specialized agents",
+  "read_full_text": true
+}

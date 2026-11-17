@@ -1,0 +1,15 @@
+{
+  "record_id": "R00512",
+  "pdf_sha256": "41155da62925919947053242e24833d97001f0054ca858c55f2b016da2c10ea3",
+  "mechanism": "Tree-like self-play reinforcement learning for secure code generation",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "TSP constructs a decision tree where the model explores branching trajectories—generating both secure \"golden paths\" and vulnerable variants.",
+  "evidence_role": "we introduce Tree-like Self-Play (TSP), a framework that reframes secure code generation as a fine-grained sequential decision process.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00310",
+  "pdf_sha256": "d2a20eac11decc927aa08fd1418c19eaa6f8cc7145becd81748375c02979b536",
+  "mechanism": "Dynamically updated prompt with accumulated gathered-information section as in-task memory",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Java",
+  "evidence_scope": "we maintain a prompt section that lists the information gathered by the different tool invocations. Intuitively, this section of the prompt serves as a memory for the agent, allowing it to recall information from previous cycles.",
+  "evidence_role": "This paper introduces RepairAgent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM).",
+  "read_full_text": true
+}

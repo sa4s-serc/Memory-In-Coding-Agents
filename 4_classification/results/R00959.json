@@ -1,0 +1,18 @@
+{
+  "record_id": "R00959",
+  "pdf_sha256": "7807b11784b79d258c2cd6572dc096922c50fa21fd268a8b9bea9f12f612161a",
+  "mechanism": "Global memory of task-level experiences distilled after each task and retrieved by later tasks, plus local intra-task memory",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "Global Memory. Mglb aims to distill and reuse inter-task experiences.",
+  "evidence_role": "To address these bottlenecks, we proposeControlledSelf-Evolution (CSE), which consists of three key components.",
+  "read_full_text": true
+}

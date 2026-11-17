@@ -1,0 +1,17 @@
+{
+  "record_id": "R01215",
+  "pdf_sha256": "46ae5e707df21470c41b574d3939099a0f753e852132bf0b36878b097770be09",
+  "mechanism": "Conversion of numerical state observations into semantic trajectory descriptions for an evaluator LLM in a closed-loop code refinement cycle",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Our framework transforms numerical state observations from UA V operations into semantic trajectory descriptions to enhance the evaluator LLM's understanding of UA V dynamics for precise feedback generation.",
+  "evidence_role": "we propose a closed-loop LLM-driven UA V operation code generation framework that enables reliable UA V operations powered by effective feedback and re- finement using two LLM modules, i.e., a Code Generator and an Evaluator.",
+  "read_full_text": true
+}

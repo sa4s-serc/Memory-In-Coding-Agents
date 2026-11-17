@@ -1,0 +1,18 @@
+{
+  "record_id": "R00393",
+  "pdf_sha256": "129fb5d852a45db53bc2997aeeb79e3e5324d5a9eeed9badd1706870422f6a29",
+  "mechanism": "Agentic Oracle: documentation and source retrieval with dual-stream (persistent trace, pruned observations) context management",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "Python",
+  "evidence_scope": "We introduce anAgentic Oraclethat actively retrieves documentation, inspects runtime states, and performs targeted executions to gather evidence before rendering verdicts.",
+  "evidence_role": "We presentLogicHunter, a fuzzing framework that unifies specification-driven generation with an Agentic Oracle",
+  "read_full_text": true
+}

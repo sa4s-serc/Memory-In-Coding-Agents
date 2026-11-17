@@ -1,0 +1,96 @@
+{
+ "record_id": "R00165",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Considering the convenience of evaluating the software application for participants, we used web development to demonstrate our idea of the framework design due to the broad compatibility of web-based programming languages.",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "If we want our framework to support mobile application development, we can change the visual design components and the programming language of the code generation components.",
+     "page": 40,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, to ensure fairness in the experimental setup, we did not provide any human experience before testing all projects, so the impact of the memory pool can only be measured later.",
+     "page": 40,
+     "verbatim": true
+    },
+    {
+     "quote": "In the future, we plan to deploy our method on a public testing platform to collect more human experiences over time, demonstrating the process of continuous enhancement through human-in-the-loop interactions.",
+     "page": 40,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "During software applications generation, large language models (e.g., GPT-4) have hallucination problems, resulting in generated real multimedia API failure. To maintain the display effect of web application interfaces, we typically replace multimedia resources with placeholders during automatic generation.",
+     "page": 39,
+     "verbatim": true
+    },
+    {
+     "quote": "Placeholder images are often gray and provide a poor visual experience, which can result in participants giving lower visual scores even if the functionality is complete.",
+     "page": 39,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "By introducing Cucumber, the tool could automatically test and correct such functionality, minimizing manual corrections. This will be a key focus of our future research.",
+     "page": 39,
+     "verbatim": true
+    },
+    {
+     "quote": "In the future, we will incorporate appropriate external tools such as Cucumber to implement automated testing iterations.",
+     "page": 43,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

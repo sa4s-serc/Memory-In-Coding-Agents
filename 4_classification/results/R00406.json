@@ -1,0 +1,17 @@
+{
+  "record_id": "R00406",
+  "pdf_sha256": "1ce66645a45b0710fbbc2504fd8e160aaa6fa5443464b62c8ace47b77c6f2196",
+  "mechanism": "Task-time local code memory with output gating and compact evidence packets",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Its memory is built from the current repository snapshot, queried during the current repair run, refreshed as files change",
+  "evidence_role": "This paper presents ContextSniper, AntTrail’s code-repair module for precision evidence selection in repository-level program repair, part of AntTrail’s broader agent-memory engine",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R01543",
+  "pdf_sha256": "f1eb66d65763d84367fd380625cf86d66b5dd8e319c46259e7d0aabba9b608e2",
+  "mechanism": "none identified (recursive self-improvement of a scaffolding program)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

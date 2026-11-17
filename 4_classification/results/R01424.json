@@ -1,0 +1,17 @@
+{
+  "record_id": "R01424",
+  "pdf_sha256": "6e56005a5c813d76b2feb8b8f8210c8dfb75cbe1216839e8fd671f9fa6f5fd3e",
+  "mechanism": "Persistent Python runtime context across interaction turns with variable isolation and an IoC container",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "MOSS ensures consistency and adaptability by using a mechanism that maintains the Python context across interactions, including isolation of local variables and preservation of runtime integrity.",
+  "evidence_role": "We introduce MOSS (llM-oriented Operating System Simulation), a novel framework that addresses these challenges by integrating code generation with a dynamic context management system.",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00862",
+  "pdf_sha256": "d45401e72a89eedc91ac91823b0c1087befdb9031b82f26b3c052ef9890b89d6",
+  "mechanism": "Human-written constitution file and on-demand specification documents for coding agents",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "CONTEXT_FILES",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "C#",
+  "evidence_scope": "a hot-memory constitution encoding conventions, retrieval hooks, and orchestration protocols; (2) 19 specialized domain-expert agents; and (3) a cold-memory knowledge base of 34 on-demand specification documents.",
+  "evidence_role": "This paper presents a three-componentcodified context infrastructuredeveloped during construction of a 108,000-line C# distributed system",
+  "read_full_text": true
+}

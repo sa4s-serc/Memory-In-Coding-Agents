@@ -1,0 +1,17 @@
+{
+  "record_id": "R01458",
+  "pdf_sha256": "fcfd7cb0948650f39340745a1468144e863df9d6b15a2ce362e5acda060811dd",
+  "mechanism": "Conversational repair keeping earlier incorrect responses and tutor guidance in the dialogue for one defect",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "C++",
+  "evidence_scope": "To fully harness LLMs' conversational capabilities and the benefits of augmented information, we introduce a novel conversational semi-automatic repair framework Cref assisting human program- ming tutor.",
+  "evidence_role": "we introduce a novel conversational semi-automatic repair framework Cref assisting human program- ming tutor.",
+  "read_full_text": true
+}

@@ -1,0 +1,98 @@
+{
+ "record_id": "R00747",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Single system. All data comes from one agent system (DunCrew). While the base encoding scheme is general (any ReAct agent produces tool call sequences that can be classified), the specific patterns (P-X-P risk, X self-loop rates) may differ across systems, models, and task domains.",
+     "page": 18,
+     "verbatim": true
+    },
+    {
+     "quote": "Sample size. With N=347, our n-gram analysis is limited to 2-grams and 3-grams. Higher-order patterns (4-grams, 5-grams) require substantially more data.",
+     "page": 19,
+     "verbatim": true
+    },
+    {
+     "quote": "The base encoding scheme assumes a ReAct-style agent with observable tool calls. It does not apply to: Pure chat models without tool use; End-to-end RL agents where actions are not decomposable into discrete tool calls; Multi-agent systems where coordination between agents introduces a fifth dimension.",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Non-randomized design. Our before/after comparison cannot fully exclude confounds. Task distribution, user behavior, and system improvements may all contribute to the observed gains. A randomized A/B test with concurrent control would provide stronger causal evidence.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Of 74 searchMemory calls across 51 tasks, only 23% return useful results. Each empty retrieval adds a wasted X base to the sequence.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our current Governor, with its 7 hand-crafted rules operating on 347 traces, is analogous to a primitive reflex arc: effective for the most common failure modes, but far from a true cerebellum.",
+     "page": 21,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "E→V deficit (2.1%): The agent almost never verifies after executing, the most significant structural weakness.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This replaces Governor’s hand-crafted rules with a learned statistical model while retaining full interpretability.",
+     "page": 21,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

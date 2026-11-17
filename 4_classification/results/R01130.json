@@ -1,0 +1,17 @@
+{
+  "record_id": "R01130",
+  "pdf_sha256": "3545fcaf6c0f0fe1253833991d44a2a0f3f7e4b1d6b3314d9a04079d82f46481",
+  "mechanism": "Shared memory with a read-write protocol coordinating agents during one paper-to-code reproduction",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we design an explicit Shared Memory architecture that decouples information storage from the LLM reasoning process.",
+  "evidence_role": "we introduce RepLLM, an end-to-end multi-agent framework de- signed to automate code reproduction from paper content.",
+  "read_full_text": true
+}

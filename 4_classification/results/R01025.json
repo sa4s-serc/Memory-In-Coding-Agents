@@ -1,0 +1,17 @@
+{
+  "record_id": "R01025",
+  "pdf_sha256": "6ad933628641500c914f9fc88ddddaae592c8ca67dc56c96c38f966b27fd1402",
+  "mechanism": "Shared latent working memory in KV caches transferred between agents during a single problem",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Across agents, informa- tion is exchanged via shared latent working memory stored in layer-wise KV caches, capturing both the input context and newly generated latent thoughts.",
+  "evidence_role": "We introduceLatentMAS, anend-to-end training-freeframework that enables pure latent collaboration among LLM agents.",
+  "read_full_text": true
+}

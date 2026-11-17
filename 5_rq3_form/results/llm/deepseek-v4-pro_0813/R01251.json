@@ -1,0 +1,91 @@
+{
+ "record_id": "R01251",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our results show that this simple EL implementation does not generalize to the SE setting and that the findings reported by Zhao et al. (2024) and Lingam et al. (2024) are thus limited to simpler environments with shorter trajectories.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Regarding our dataset a key limitation is that we had to remove ≈10% of samples from SWE-bench Verified due to defective environment setup scripts.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This suggests noisy CTIM biases CTIM-Rover toward suboptimal initial steps rather than helping it skip initial exploration turns and furthermore hypothesize that lengthy exemplar trajectories likely cause similar issues.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "Our investigations reveal noisy CTIM items as the likely culprit.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, we suspect that the use of the CTIM should not be limited to the initial context, and instead a subset of relevant items should be provided at each turn (Su et al., 2025).",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, while our ablation study and qualitative analysis hint at a potential path towards a concise and focused CTIM implementation that improves, rather than degrades performance via embedding-based retrieval of CTIM items, we do not investigate such an approach.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Future work may also consider the re-use of self-reflections as CTIM items more explicitly. In our work we only implicitly distill knowledge from these in the success-failure tuple setting.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

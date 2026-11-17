@@ -1,0 +1,64 @@
+{
+ "record_id": "R00582",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "GPT-5.4 mini drops at 50k and full scale, indicating that routing over large libraries still depends on the capability of the recommender model.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This also explains why the average gains in Tables 1 and 2 are moderate despite large improvements on some tasks: the effect of skills is heavy tailed, helping substantially when matched well but causing regressions when exposed indiscriminately.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

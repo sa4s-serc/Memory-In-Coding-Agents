@@ -1,0 +1,17 @@
+{
+  "record_id": "R00467",
+  "pdf_sha256": "faa17b7d9952b5638c0d2d7c7a92d9ae7838559a3373b2726482cb7d7c9e465b",
+  "mechanism": "Persistent Skill Memory of reusable code snippets credited by fitness change, transferred across campaigns",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "REFLEX augments the Actor with a persistent, self-evolving Skill Memory—a library of reusable code snippets extracted from elite individuals and credited with the fitness change of the children that use them.",
+  "evidence_role": "we introduceREFLEX( Reflective Evolution From LLM Experience), a fully train-free evolutionary framework",
+  "read_full_text": true
+}

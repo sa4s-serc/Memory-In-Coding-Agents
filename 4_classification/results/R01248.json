@@ -1,0 +1,17 @@
+{
+  "record_id": "R01248",
+  "pdf_sha256": "07afe0155a7ca74e1d13607b82a20b21c68d3595b530434ce8f5c48988ad98c6",
+  "mechanism": "Git-based phylogenetic graph of code versions as the shared coordination store for decentralized agents",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "all coordination emerges through a Git-based phylogenetic graph that tracks the full version lineage and enables agents to asynchronously read from and write to the evolving code repository.",
+  "evidence_role": "We introduce EvoGit, a decentralized multi-agent framework for collaborative software development driven by autonomous code evolution.",
+  "read_full_text": true
+}

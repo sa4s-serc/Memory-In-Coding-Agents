@@ -1,0 +1,15 @@
+{
+  "record_id": "R01126",
+  "pdf_sha256": "b016395c922324fb6777a2908d2b55d014bf2877b00e80b1641eed00e8c57278",
+  "mechanism": "Agentless training recipe and SFT adaptation to instil SWE skill priors in model weights",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "reasoning-intensive Agentless training induces skill priors, including lo- calization, code edit, and self-reflection that enable efficient and effective SWE- Agent adaptation.",
+  "evidence_role": "we first curate the Agentless training recipe and present Kimi-Dev, an open-source SWE LLM achieving 60.4% on SWE-bench Verified",
+  "read_full_text": true
+}

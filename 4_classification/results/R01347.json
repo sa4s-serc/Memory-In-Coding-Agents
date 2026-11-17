@@ -1,0 +1,15 @@
+{
+  "record_id": "R01347",
+  "pdf_sha256": "3cb820b1cab499a9905fb19f3e2855bbbe972e34cff33aae940b0f0e4c46126a",
+  "mechanism": "Fine-tuning (multi-turn SFT and DPO) of a guide model that steers code versus text generation",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "We fine-tune the Llama-3-8B model with a newly designed multi-turn supervised fine-tuning (SFT) and direct preference optimization (DPO).",
+  "evidence_role": "We introduce CodeSteer, an effective method for guiding LLM code/text generation.",
+  "read_full_text": true
+}

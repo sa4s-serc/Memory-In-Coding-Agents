@@ -1,0 +1,15 @@
+{
+  "record_id": "R00849",
+  "pdf_sha256": "84fd4f0095bfdc3d4b640a65e0659d982dbbcc7c654824eac13c77448ed67d2a",
+  "mechanism": "Compiling AGENTS.md-style instruction files into executable guardrails",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "CONTEXT_FILES",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "developers rely on natural language instruction files such as AGENTS.md to express project-specific coding conventions, tooling restrictions, and archi- tectural boundaries.",
+  "evidence_role": "we in- troduceContextCov, a framework that transforms passive natural language instructions into executable guardrails.",
+  "read_full_text": true
+}

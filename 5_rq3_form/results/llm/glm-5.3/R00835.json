@@ -1,0 +1,68 @@
+{
+ "record_id": "R00835",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We evaluate CodeScout using three language models (DeepSeek R1, GPT-5-mini, Qwen3 Coder) and three agentic scaffolds (SWE-Agent, OpenHands, Mini-SWE-Agent), which, while representing state-of-the-art systems, constitute only a subset of available approaches.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Similarly, our analysis focuses exclusively on Python repositories, not by choice but due to the availability of established benchmarks like SWEBench-Verified with reliable evaluation harnesses.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "our evaluation relies on open-source repositories from SWEBench-Verified, which may differ systematically from enterprise codebases in terms of architectural patterns, documentation practices, code quality standards, and proprietary constraints.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

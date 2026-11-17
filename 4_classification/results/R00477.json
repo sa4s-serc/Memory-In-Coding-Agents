@@ -1,0 +1,17 @@
+{
+  "record_id": "R00477",
+  "pdf_sha256": "247ac2ffaa8b6e61b8e4c0e3db63c9a5b0a8f75e8ffd486d30a9f18a7d76743d",
+  "mechanism": "Lifecycle-governed typed state symbols mediating shared workflow state",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Actor outputs are mediated before they become shared state, instead of spreading through prompts, transcripts, or implicit memory.",
+  "evidence_role": "We presentXFlow, an executable protocol programming system for reliable multi- agent workflows",
+  "read_full_text": true
+}

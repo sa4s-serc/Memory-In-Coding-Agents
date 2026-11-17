@@ -1,0 +1,15 @@
+{
+  "record_id": "R01348",
+  "pdf_sha256": "d7caa7287aa5895ad0884f985a270f45a19c5683331e35e3d290f2fa96ad427e",
+  "mechanism": "Stepwise preference learning on MCTS-collected, critique-refined preference pairs for long-form generation",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Following the collection of stepwise preference pairs, we apply step- wise preference learning for fine-grained optimization.",
+  "evidence_role": "we present LongDPO, a novel approach de- signed to enhance long-form text generation through step-level supervision.",
+  "read_full_text": true
+}

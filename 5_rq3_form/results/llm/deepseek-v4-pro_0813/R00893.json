@@ -1,0 +1,70 @@
+{
+ "record_id": "R00893",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While our framework does not architecturally prohibit other agent configurations, adversarial agents with conflicting goals are not considered in this work.",
+     "page": 3,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "high-quality seed configurations are critical (15.6-point gain over empty pool) and moderate depth (T=3) outperforms deeper evolution, suggesting diminishing returns from excessive iterations.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Extending to adversarial coordination and reducing evolution cost remain promising future directions.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

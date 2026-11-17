@@ -1,0 +1,63 @@
+{
+ "record_id": "R00357",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "SWE-Pruner Pro reads the agent backbone’s internal hidden states, so the present evaluation covers only open-weight models",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "As for language coverage, although our agent-task benchmarks are Python-centric, the pipeline is language-agnostic, and Oolong (a long-context natural-language aggregation benchmark) gives an out-of-domain check on which SWE-Pruner Pro preserves both token savings and quality on both backbones (Table 1); broader coverage across programming languages reuses the same pipeline and is left to future work.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

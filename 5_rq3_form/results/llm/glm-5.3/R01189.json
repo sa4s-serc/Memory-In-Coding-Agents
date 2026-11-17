@@ -1,0 +1,87 @@
+{
+ "record_id": "R01189",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The first internal threat comes from our reliance on a single underlying language model for all agent interactions.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "Our evaluation focuses exclusively on Python-based open-source projects, limiting our ability to demonstrate cross-language effectiveness.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Another internal threat stems from potential data leakage, where SWE-bench instances may have been included in the training data of our underlying language model.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Its effectiveness depends on the quality of extracted experiences and their relevance to the target issue; if the retrieved knowledge fails to align with the current problem's semantics, performance may degrade.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Moreover, the agent currently lacks a robust mechanism to assess the applicability of prior experiences in novel contexts, which may lead to inappropriate reuse or misleading to irrelevant patterns.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "In addition, exploring more accurate retrieval and alignment techniques, incorporating confidence estimation or applicability scoring, and integrating formal verification can further enhance the reliability and adaptability of experience-driven agents in dynamic and unfamiliar code environment.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [],
+ "json_repaired": "trailing commas removed"
+}

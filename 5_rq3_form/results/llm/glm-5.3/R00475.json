@@ -1,0 +1,113 @@
+{
+ "record_id": "R00475",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "It does not cover frontier-class models, rich episodic memory (full reasoning traces rather than one-shot distilled lessons, which every arm here under-tests), or multi-agent settings",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "the two full-suite backbones are adjacent in size and from different model families, and the 32B (§5) runs only the method-transfer arm; this is a robustness check, not a scaling law.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "AWQ int4 quantization on the 32B (affects the absolute level, not paired within-model ∆s)",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Until a compute-matched control runs (§9), the 47% should be read as a system-plus-compute result.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "a single seed for wall-clock budgets",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ScienceWorld's floor (∼12%) and its uniform action-mask scaffolding",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "That is a floor, not a fair test.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "rich episodic memory (full reasoning traces rather than one-shot distilled lessons, which every arm here under-tests)",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "GitOfThoughts buys its system gain at large wall-clock cost (∼470 s/question), and the arms in Table 8 run different budgets.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Whether merged memory also helps accuracy is a pre-registered experiment still to run (§9).",
+     "page": 3,
+     "verbatim": true
+    },
+    {
+     "quote": "the functional phase is complete (§6.3); what remains is the pre-registered accuracy phase, in which two agents accumulate model-distilled memory over disjoint domains, the orchestrator merges, and merged memory is compared against each solo memory and a naive concatenation on a mixed-domain test set.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

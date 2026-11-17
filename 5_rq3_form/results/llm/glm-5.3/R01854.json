@@ -1,0 +1,87 @@
+{
+ "record_id": "R01854",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Domain concentration. Empirical evidence is concentrated in software engineering. The architectural abstraction is intended to be domain-general but has not yet been validated in other settings.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "No controlled comparison. The Leviathan results demonstrate absolute capability but do not include a controlled comparison against a baseline agent without SOMA’s memory architecture.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Shared L3 trade-off. A global L3 improves cross-project transfer but may introduce cross-project contamination if not managed carefully.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Sovereign Kernel requires local hardware. The SGLang integration requires a GPU with sufficient VRAM (24GB+) and is not applicable to API-only deployments.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Perft residual error. The chess engine has a known 13-node error at depth 5, consistent with an en-passant-discovers-check edge case.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "Known residual bug: assignment inside expressions (Token inesperado: =); the agent correctly identified the issue, documented it, and called finish_task rather than entering an infinite debug loop.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

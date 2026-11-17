@@ -1,0 +1,18 @@
+{
+  "record_id": "R00412",
+  "pdf_sha256": "fa395480443a646c756a9f478b5d9fc7e5c711be5d1d6b625cc3ded184306d82",
+  "mechanism": "Hub of human-curated reusable agent-computer interfaces plus a structured experiment log",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we instantiate human experience as a repository of reusable ACIs, named AutoTrainHub, that provide the agent with structured guidance for conducting iterative post-training.",
+  "evidence_role": "We introduce AutoTrainess, an LM agent empowered by a training-specialized ACIs that enables autonomous end-to-end LLM post-training.",
+  "read_full_text": true
+}

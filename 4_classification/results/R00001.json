@@ -1,0 +1,17 @@
+{
+  "record_id": "R00001",
+  "pdf_sha256": "4e79d588b2092fda3d89f43e700526a49dfc3f4507c1d45a459b4c04b41b2f10",
+  "mechanism": "Closed-loop planner-coder-critic refinement in which the planner receives previously learned skills and historical strategies together with critic feedback",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "for each SMAC task, unit and map information are formatted as an environment prompt for the planner LLM, along with previously learned skills and historical strategies.",
+  "evidence_role": "We propose LLM-SMAC, a Planner–Coder–Critic framework that generates and iteratively refines decision-tree code through closed-loop environmental feedback.",
+  "read_full_text": true
+}

@@ -1,0 +1,106 @@
+{
+ "record_id": "R00569",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "It is smaller than Opus's +0.326 for the same reason the remaining three do not register: MBPP+/100 was filtered by Opus's failures, so every other model faces a subset selected against a stronger model.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The rolling gain therefore reports a lift only in a middle capability band, and the three non-reproducing families are excluded by headroom or by the statistic, not by the mechanism",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The load-bearing limitation is instead that ˆc is a decision statistic and not a treatment effect",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "(3) The sensor is associational. ˆc carries a survivorship confound and a selection one, the Router steering each skill toward tasks it already looks good on; Proposition 1 is stated for that same routed-conditional target, so the floor holds for what the Curator reads, but a causal reading needs randomised toggling.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "(4) Seeds. Three support the load-bearing separations and not the ∼0.04 differences we decline to claim, and the six further families are single-seed",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "(5) No governance bake-off, the sharpest test being to swap each system's curator onto a shared log, which the role-factored design supports.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "We label this preliminary and report the peak only, since under twenty rounds, at roughly 50 minutes each, leaves no stable late window",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "(1) The corruption is exogenous. Injecting a channel on top of a deterministic grader is what isolates it, so the coupled regime, where an evolving library learns phrasing that induces the blindness and ρF →P climbs along the trajectory, is out of scope and no fixed audit bounds it.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "(2) The audit certifies only enumerable classes, locating the boundary against failure modes an operator can name, not all of them.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "What that austerity costs is composition and text: no task ever receives two skills, and the Curator cannot recognise two skills as near-duplicates except through the outcomes they produce",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

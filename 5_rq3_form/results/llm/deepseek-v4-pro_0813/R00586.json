@@ -1,0 +1,123 @@
+{
+ "record_id": "R00586",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The evaluation covers 425 instances across C/C++, Go, Python, and JavaScript, but does not represent all vulnerability classes, software architectures, or deployment environments.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "In particular, vulnerabilities involving concurrency, cryptography, distributed state, or proprietary code may require evidence and repair mechanisms beyond those evaluated here.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The reported cross-language results therefore support portability across the evaluated ecosystems rather than language-independent generality.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "These benchmark oracles are not complete semantic specifications.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Pretraining contamination in proprietary LLMs cannot be fully ruled out, but ContraFix’s 29.5–42.0 point gains over same-backbone GPT-5-mini baselines and its DeepSeek-V3.2 result make backbone memorization unlikely to explain the relative improvements.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Behavior regressions require positive boundary tests in addition to malicious inputs, so that a patch is accepted only when it removes the vulnerability without rejecting valid behavior.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Experience reuse may introduce order dependence or leakage across instances.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The reported three-run results therefore measure stochastic variation under a fixed experience curriculum rather than all possible instance orders.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ContraFix derives each RepairSpec from a finite set of generated executions, so the inferred relation may not cover the full input space.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "ContraFix also fails to produce any benchmark-validated patch for 16 instances, including 9 root-cause tracing failures and 7 incomplete candidate repairs.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "As reported in Section 4.1, 77 benchmark-validated patches are not semantically correct, including 44 incomplete/PoC-specific and 33 behavior-regressive patches.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Root-cause tracing failures suggest probing where invalid state is created, including parser failure and rollback boundaries, rather than only the final crash site.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Oracle-passing incomplete repairs require searching sibling functions that manipulate the same fields or implement the same format rule.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

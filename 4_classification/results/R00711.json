@@ -1,0 +1,17 @@
+{
+  "record_id": "R00711",
+  "pdf_sha256": "8e744fe22674ebe74b588430e76b4598f326340806a93113c1a403cad0438b91",
+  "mechanism": "KV-cache eviction with low-rank backfill for latent relay between agents",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "We adapt KV-cache eviction to this setting and in- troduceOrthogonal BackFill (OBF), which injects a low-rank residual from the discarded KV states back into the retained ones",
+  "evidence_role": "We adapt KV-cache eviction to this setting and in- troduceOrthogonal BackFill (OBF), which injects a low-rank residual from the discarded KV states back into the retained ones",
+  "read_full_text": true
+}

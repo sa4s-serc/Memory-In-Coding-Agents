@@ -1,0 +1,74 @@
+{
+ "record_id": "R00718",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, although CodeTraceBench is constructed from executed trajectories spanning multiple agent frameworks, backbones, and workloads, it does not cover the full design space of software engineering agents or real world repositories; conclusions about failure patterns and replay gains may therefore not transfer uniformly to other frameworks, domains, or deployment settings.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, our tracing and replay results are evaluated under matched offline budgets on previously collected runs. This setting isolates diagnostic quality, but it cannot fully capture how agents might adapt to interactive human oversight, changing environments, or repeated online intervention.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Finally, our reflective replay experiments test whether localized evidence can help recover failed runs, but they do not by themselves establish a general training signal or guarantee robust improvement across all task categories and model families. We therefore view CODETRACER and CODETRACEBENCH as tools for structured diagnosis and controlled evaluation, rather than as a complete account of code agent reliability.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, our supervision relies on stage and step level annotation of failure critical behavior. While our guidelines aim to make these judgments consistent, labels such as “incorrect,” “unuseful,” and “error critical” still involve annotator interpretation, especially for long trajectories with intertwined exploration and state changes.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

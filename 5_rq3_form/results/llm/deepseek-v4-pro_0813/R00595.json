@@ -1,0 +1,75 @@
+{
+ "record_id": "R00595",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Additionally, the current evaluation focuses on math, coding, and agentic tasks. It is unclear how well the approach generalizes to other domains, such as open-ended question-answering or scientific tasks, with different knowledge types and feedback characteristics.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Another direction is to deploy the framework in long-horizon settings with a mixed stream of diverse tasks. Such settings would better reflect real-world usage and help identify challenges related to scalability, distribution shift, and knowledge retention.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The current EVOLIB framework assumes that the model’s own judgment of a solution provides more useful signals than noise for self-evaluation. Thus, the method works best for tasks in which verifying a solution is easier than generating one (e.g., coding tasks with executable test cases). For tasks where verification requires comparable or even greater effort than solution generation, a powerful external verifier model may be necessary to reliably assess each candidate solution.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One promising direction is to enable LLMs to meta-learn the design of the library itself, including the choice of abstraction forms, the weighting mechanism, and the library update algorithm. Rather than fixing these components, the system could optimize them over time based on previous tasks and sampled trajectories, the structure of the task stream, potentially leading to more efficient test-time learning schemes.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

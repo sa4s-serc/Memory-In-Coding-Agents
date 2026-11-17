@@ -1,0 +1,18 @@
+{
+  "record_id": "R00679",
+  "pdf_sha256": "29df271e8a7fe6410a350e45a78e1fb5cc87201f41483155c739524f40b936e7",
+  "mechanism": "On-demand Search Agent supplying external procedural knowledge",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "an on-demandSearch Agentsupplies external procedural knowledge to the agent.",
+  "evidence_role": "we presentVLAA-GUI, a modular GUI agentic framework organized around three decisions: when toStop,Recover, andSearch.",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00343",
+  "pdf_sha256": "68ac2928333c0bbab2f67d15f5fe7858171982f606509c7b21b99f1c8d577da4",
+  "mechanism": "Multi-turn RL with execution and structural performance rewards for CUDA kernel generation",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "CUDA",
+  "evidence_scope": "an online RL training phase that jointly optimizes for correctness, performance, and structural efficiency through a unified reward signal",
+  "evidence_role": "we propose CUDAPERF, a reflective RL framework that incorporates both verifiable execution rewards and structural code-aware rewards derived from parallelization features",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R01473",
+  "pdf_sha256": "d584aefb355ea15b13ea04aa2a1612b30cc93dc7c2422db2a4a7781201981adf",
+  "mechanism": "none identified (Tree of Thoughts prompting applied to a GitHub issue)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

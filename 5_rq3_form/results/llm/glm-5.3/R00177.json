@@ -1,0 +1,69 @@
+{
+ "record_id": "R00177",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our system can solve beginner-level data science tasks from Kaggle.",
+     "page": 2,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Nevertheless, our focus here was on context engineering, and agent complexity in CEDAR is still rudimentary.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "Natural next steps would introduce independent agents that inspect a solution for faithfulness with respect to original user intent, and critique generated solution workflows for improving target metrics.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

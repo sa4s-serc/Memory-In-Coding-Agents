@@ -1,0 +1,17 @@
+{
+  "record_id": "R00643",
+  "pdf_sha256": "9dcddf925aca8fcf3c44815ff15a7e5f970d6544b579cf6a64ab7abf1ab8b11f",
+  "mechanism": "Evolving episodic case memory refined during deployment with contextual-bandit case selection",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "We present CASCADE (CASe-based Continual Adaptation during DEployment), a general and principled framework that equips LLM agents with an explicit, evolving episodic memory.",
+  "evidence_role": "We present CASCADE (CASe-based Continual Adaptation during DEployment), a general and principled framework that equips LLM agents with an explicit, evolving episodic memory.",
+  "read_full_text": true
+}

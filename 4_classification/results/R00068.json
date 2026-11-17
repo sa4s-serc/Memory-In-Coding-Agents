@@ -1,0 +1,17 @@
+{
+  "record_id": "R00068",
+  "pdf_sha256": "d0dc726a7a930b74e207227f40772f01e01ff901820028f3b02b4a0a865900ad",
+  "mechanism": "Verification-guided repair loop feeding model-checker counterexamples back to the LLM",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DESIGN",
+  "target": "CSP# (PAT process models)",
+  "evidence_scope": "Repair Loop leverages feedback from PAT, such as counterexamples and violation traces, to iteratively revise the model.",
+  "evidence_role": "We propose PAT-Agent, a fully automated end-to-end framework for natural language autoformalization and formal code repair.",
+  "read_full_text": true
+}

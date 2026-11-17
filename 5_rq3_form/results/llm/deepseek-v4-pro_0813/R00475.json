@@ -1,0 +1,108 @@
+{
+ "record_id": "R00475",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The null is established for short, distilled, answer-free lessons and worked-example retrieval, on two adjacent open-weight backbones, up to n=500. It does not cover frontier-class models, rich episodic memory (full reasoning traces rather than one-shot distilled lessons, which every arm here under-tests), or multi-agent settings; §9 lays out the experiments that would close each gap.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "We state the scope of this claim precisely: the two full-suite backbones are adjacent in size and from different model families, and the 32B (§5) runs only the method-transfer arm; this is a robustness check, not a scaling law.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "A note on statistical power: the n=40 results (§4.2–4.3) are exploratory, with ±∼12pp confidence intervals that can only detect large effects, and exist to generate hypotheses that the high-powered n=500 study (§4.4) and the pre-registered replications then confirm or kill.",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "Caution: wall-clock budgets differ across arms (60 s / 180 s / 600 s), so this comparison confounds method with compute. A compute-matched control is future work (§8).",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "One methodological point matters before the results: at n=20 the noise floor is ±10pp (greedy itself swung 55% ↔65% across identical runs), so single-cycle deltas are noise and we don’t crown a winner from them.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "the scaffolded 9B sits at ∼12% absolute, versus SwiftSage’s 84.7 [8]. That is a floor, not a fair test.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "conditioning on completion selects the easier-to-finish problems (timeouts correlate with problem length and difficulty), so this number is upward-biased and is not an estimate of accuracy under a larger budget.",
+     "page": 7,
+     "verbatim": false
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One caveat surfaced along the way: with content-hashed lesson filenames, merges are conflict-free by construction and contradictions can coexist silently, the same failure mode as concatenation; conflict surfacing requires a keyed layout (one file per topic) so the merge encodes “same slot, different content.”",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Memory only helps once the problem being solved is nearly identical to something already in memory (cosine similarity above about 0.8); below that, it does nothing. In other words, the model is finding the answer rather than learning the method.",
+     "page": 1,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "GitOfThoughts buys its system gain at large wall-clock cost (∼470 s/question), and the arms in Table 8 run different budgets.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

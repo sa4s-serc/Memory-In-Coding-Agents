@@ -1,0 +1,15 @@
+{
+  "record_id": "R01060",
+  "pdf_sha256": "f564668ec4ef2168bb65499c9cb4e21982ae1dea0df399686494d306d4d186d7",
+  "mechanism": "Supervised Reinforcement Learning: step-wise rewards from expert actions for training small LLMs",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "It provides smoother rewards based on the similarity between the model's actions and expert actions extracted from the SFT dataset in a step-wise manner.",
+  "evidence_role": "we propose Supervised Reinforcement Learning (SRL), a framework that reformulates problem solving as generating a sequence of logical \"actions\".",
+  "read_full_text": true
+}

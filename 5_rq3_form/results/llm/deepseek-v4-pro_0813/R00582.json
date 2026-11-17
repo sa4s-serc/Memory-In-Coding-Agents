@@ -1,0 +1,63 @@
+{
+ "record_id": "R00582",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The curated open source library is less consistent: it improves Terminal-Bench 2.0 for GPT-5.2 and GPT-5.4 mini by ↑3.7 pp and ↑4.0 pp, but reduces GPT-5.5 by ↓1.7 pp; on SWE-Bench Pro, it helps only GPT-5.4 mini. Offline reuse helps in several settings, but the gains vary across frozen libraries, benchmarks, and backbones.",
+     "page": 8,
+     "verbatim": false
+    },
+    {
+     "quote": "GPT-5.4 mini drops at 50k and full scale, indicating that routing over large libraries still depends on the capability of the recommender model.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

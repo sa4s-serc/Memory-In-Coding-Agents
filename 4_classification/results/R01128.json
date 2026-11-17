@@ -1,0 +1,15 @@
+{
+  "record_id": "R01128",
+  "pdf_sha256": "a87e394b479cbab34d39b2d8e748a1826922b7e465784fe5073a14917f3d56c8",
+  "mechanism": "Critique Reinforcement Learning mixed with standard RL to train coder models",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we propose Critique Reinforcement Learning (CRL), where the model is tasked with generating a critique for a given (question, solution) pair.",
+  "evidence_role": "we introduce CRITIQUE-CODER, which is trained on a hybrid of RL and CRL by substituting 20% of the standard RL data with CRL data.",
+  "read_full_text": true
+}

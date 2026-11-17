@@ -1,0 +1,17 @@
+{
+  "record_id": "R00165",
+  "pdf_sha256": "458a53787a38cd2a119db2fcb0843d5325f1566c36ee482661c3c116c3fc2ad4",
+  "mechanism": "Memory pool of scenario decisions made by previous users, retrieved by similarity to guide new scenario design",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "others_tasks",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Web code (HTML, CSS, JavaScript)",
+  "evidence_scope": "Scenarios decided by previous users are stored in the memory pool and selected to guide current scenario design in the form of examples.",
+  "evidence_role": "This paper proposes the AgileGen framework, marking the first integration of agile methodologies with human-AI teamwork for generative software development.",
+  "read_full_text": true
+}

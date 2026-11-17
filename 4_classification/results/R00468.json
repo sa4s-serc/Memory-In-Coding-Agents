@@ -1,0 +1,15 @@
+{
+  "record_id": "R00468",
+  "pdf_sha256": "602d9f10224aa680c6a1d51057357f9e545af0da630b809dcc8d305ec51e9e07",
+  "mechanism": "RL training of a decompilation LLM for feedback-driven multi-turn refinement",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "C",
+  "evidence_scope": "This paper presents AutoDecompiler, a decompilation-specialized LLM trained with reinforcement learning (RL) to perform feedback-driven multi-turn binary decompilation.",
+  "evidence_role": "This paper presents AutoDecompiler, a decompilation-specialized LLM trained with reinforcement learning (RL) to perform feedback-driven multi-turn binary decompilation.",
+  "read_full_text": true
+}

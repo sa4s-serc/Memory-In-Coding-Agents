@@ -1,0 +1,15 @@
+{
+  "record_id": "R01232",
+  "pdf_sha256": "d1fdb2aca2eb9326e47b76834b6a4b9f14dabdfc9da54d8a3ef7a05a39206def",
+  "mechanism": "MCTS-based generation of verified chain-of-thought data for fine-tuning issue-resolution models",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "generating high-quality CoT data to improve LLM performance in issue resolution tasks.",
+  "evidence_role": "The paper proposes MCTS-REFINE, an enhanced Monte Carlo Tree Search (MCTS)-based algorithm that dynamically validates and optimizes intermediate reasoning steps through a rigorous rejection sampling strategy",
+  "read_full_text": true
+}

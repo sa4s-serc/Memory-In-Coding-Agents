@@ -1,0 +1,17 @@
+{
+  "record_id": "R00794",
+  "pdf_sha256": "3fe993212b673d298a5038fdd633c8697bb82471839c33e5ae6b5809d6ecc8c2",
+  "mechanism": "Sharing the optimizer's internal state (CMA-ES mean, step size, covariance) with the LLM across trials",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we introduce Centaur, a hybrid that shares CMA-ES’s interpretable internal state, including mean vector, step-size, and covariance matrix, with an LLM",
+  "evidence_role": "To combine the strengths of both, we introduce Centaur, a hybrid that shares CMA-ES’s interpretable internal state, including mean vector, step-size, and covariance matrix, with an LLM",
+  "read_full_text": true
+}

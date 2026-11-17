@@ -1,0 +1,15 @@
+{
+  "record_id": "R00479",
+  "pdf_sha256": "595d4411649dc9cd6b4eac16585cfe57bd456f6d4b1cd8e02cd33e96ef7c2fe5",
+  "mechanism": "none identified (blockwise sparse attention inside the model)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

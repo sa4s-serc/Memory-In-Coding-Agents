@@ -1,0 +1,15 @@
+{
+  "record_id": "R00158",
+  "pdf_sha256": "178e98fb0ec3db1e9302a98045afdda4e69fdd0fa3cc5f9467abc8ac19c4133e",
+  "mechanism": "Distillation of multi-agent trajectories into a single 7B model via agent-wise LoRA fine-tuning",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we propose a role-aligned supervised fine-tuning pipeline that equips a single 7B backbone with specialized behavior for four agents via lightweight LoRA adapters.",
+  "evidence_role": "Our contribution is a novel, three-pillar methodology that synergistically generates, refines, and encodes multi-agent knowledge",
+  "read_full_text": true
+}

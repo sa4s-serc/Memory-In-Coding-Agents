@@ -1,0 +1,75 @@
+{
+ "record_id": "R00869",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, we also noted that SOTA models do not yet utilize these advanced features consistently or may misuse them, indicating a gap in capability.",
+     "page": 2,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, we also observe cases (Appendix C.3) where the agent creates sub-agents with mismatched toolsets and purposes, hallucinated tools and sub-agents, or overly complicated instructions, reducing the effectiveness.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, we plan to extend OpenSage to support AI-generated workflows.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, we plan to incorporate model training support on top of OpenSage.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

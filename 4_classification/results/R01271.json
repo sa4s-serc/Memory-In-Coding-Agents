@@ -1,0 +1,18 @@
+{
+  "record_id": "R01271",
+  "pdf_sha256": "379864eb1c159f7ee8e5dec4c3f576d07d3e4bfe4b6d9c174c3169dbf99f439e",
+  "mechanism": "Semantic memory from offline-built library knowledge bases plus a per-run episodic memory of execution records",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "The Semantic Memory Module St enhances the LLM's parametric knowledge with domain-specific information from external knowledge bases at each iteration t.",
+  "evidence_role": "We introduce MLZero, a novel multi-agent framework powered by Large Language Models (LLMs) that enables end-to-end ML automation across diverse data modalities with minimal human intervention.",
+  "read_full_text": true
+}

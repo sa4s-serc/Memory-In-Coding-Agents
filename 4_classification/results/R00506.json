@@ -1,0 +1,18 @@
+{
+  "record_id": "R00506",
+  "pdf_sha256": "a5a7184ca3036c6ce22a00b4f691158a5df30b760dae50cf66d4f91939fff194",
+  "mechanism": "Skills built from open-world documentation and refined on self-built virtual tasks for the target task",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "it acquires grounded knowledge and verification anchors from documentation, repositories, and the web, synthesizes them into transferable skills, and refines those skills against self-built virtual tasks",
+  "evidence_role": "We proposeOpenSkill, a framework that bootstraps this loop",
+  "read_full_text": true
+}

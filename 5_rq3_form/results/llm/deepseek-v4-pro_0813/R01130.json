@@ -1,0 +1,102 @@
+{
+ "record_id": "R01130",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In practice, RepLLM has limited support for three classes of systems papers: 1) Kernel- and driver-level systems. Papers that require patched kernels, custom eBPF programs, or GPU driver extensions are difficult to compile and test in the lightweight Docker sandbox provisioned by ARA.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The current audit and runtime-repair steps are stateless across steps: once a repair attempt terminates, its failure trace is logged but not reused.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "RepLLM bounds each repair loop with small fixed limits: the static-audit loop and the runtime-repair loop run at most three and five iterations, respectively.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "The trade-off is that some recoverable bugs may be abandoned too early; we therefore prioritize system availability over exhaustive repair.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "TypedDict keeps data as plain dicts with no implicit behaviour binding, maintaining pipeline flexibility at the cost of having no runtime enforcement: schema violations — dropped Nones, renamed keys, mistyped fields — propagate until a runtime assert catches them, and the catch rate is bounded by the iteration cap, not by validation correctness.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Stray closing tags, missing attributes, or explanatory prose may cause valid edits to be dropped or matched ambiguously.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ARA currently freezes the architecture once arch.json is generated. In future work, runtime evidence such as repeated ModuleNotFoundErrors, persistent interface type mismatches, or consistently empty module outputs can be used to revise the architecture.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "RepLLM currently does not clone, pin, and patch the required upstream codebase. As a result, it may generate self-contained code that is structurally plausible but cannot compile against the intended project.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "Current sandbox construction has limited support for code that depends on specific kernels, compilers, or hardware toolchains.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

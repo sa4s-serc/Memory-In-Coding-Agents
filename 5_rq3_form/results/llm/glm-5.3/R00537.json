@@ -1,0 +1,75 @@
+{
+ "record_id": "R00537",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Generalization under rapid distribution shifts and integration into SWE-agent or OpenHands remain untested; framework independence is a design claim.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Results suggest stability at λ = 0.5; broader sensitivity remains unquantified.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "These proportions describe usage rather than independently establish each source’s causal contribution.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This agreement supports consistency with human judgment, but does not establish whether scores predict repair gains on unseen CVEs.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00133",
+  "pdf_sha256": "a5c58fbc283ad399d36de4931ec15054e89e64c4dc0ddf2bfee0ee7c9e187c8b",
+  "mechanism": "none identified: MCTS tool-use planner with Planner/Simulator/Critic roles and reflection-based reward shaping",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": null,
+  "target": "tool-use plans (TaskBench tool/API call sequences)",
+  "evidence_scope": "SPIRAL’s key contribution is its integrated planning pipeline where a Planner proposes creative next steps, a Simulator grounds the search by predicting realistic outcomes, and a Critic provides dense reward signals through reflection.",
+  "evidence_role": "SPIRAL’s key contribution is its integrated planning pipeline where a Planner proposes creative next steps, a Simulator grounds the search by predicting realistic outcomes, and a Critic provides dense reward signals through reflection.",
+  "read_full_text": true
+}

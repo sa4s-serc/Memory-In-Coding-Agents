@@ -1,0 +1,15 @@
+{
+  "record_id": "R01697",
+  "pdf_sha256": "4307f0fa2d8af343afc3f60b2c6166a67161ad6e0337175d6ff9cdea9b5c91f3",
+  "mechanism": "Unified reinforcement learning of solving, critiquing and guided re-exploration in one policy",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we propose CURE (Critique-driven Unified REinforcement Learning), a framework that jointly optimizes a single policy for standard solving, critiquing, and guided re-exploration.",
+  "evidence_role": "we propose CURE (Critique-driven Unified REinforcement Learning), a framework that jointly optimizes a single policy for standard solving, critiquing, and guided re-exploration.",
+  "read_full_text": true
+}

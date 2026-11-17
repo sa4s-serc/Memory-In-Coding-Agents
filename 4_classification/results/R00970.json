@@ -1,0 +1,15 @@
+{
+  "record_id": "R00970",
+  "pdf_sha256": "8a96a024c2c90a42673fb3c5566a315c0ba969b903f80a8b2b9f192235e9e185",
+  "mechanism": "Domain data pipeline and three-stage post-training (CPT, SFT, RL) of molecular-dynamics code models",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "LAMMPS",
+  "evidence_scope": "we adopt a three stage post-training strategy—continued pre-training (CPT), supervised fine-tuning (SFT), and rein- forcement learning (RL)—to train two domain-adapted models, MD-Instruct and MD-Code.",
+  "evidence_role": "we present MDAgent2, the first end-to-end framework capa- ble of performing both knowledge Q&A and code generation within the MD domain.",
+  "read_full_text": true
+}

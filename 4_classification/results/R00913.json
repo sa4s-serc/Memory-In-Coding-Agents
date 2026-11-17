@@ -1,0 +1,17 @@
+{
+  "record_id": "R00913",
+  "pdf_sha256": "5c46053caab43e3281f2c069eb27a5b4cf06f39f0636ca54a6b731d86e6dec31",
+  "mechanism": "Pruning of denoising trajectories and partial remasking that keeps high-confidence tokens",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "performs Hierarchical Trajectory Search (HTS) which dy- namically prunes and reallocates compute in an early-to-mid denoising window",
+  "evidence_role": "we proposePRISM(Pruning,Remasking,andIntegratedSelf-verificationMethod), an effi- cient TTS framework for dLLMs",
+  "read_full_text": true
+}

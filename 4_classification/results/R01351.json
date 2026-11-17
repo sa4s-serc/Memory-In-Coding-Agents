@@ -1,0 +1,17 @@
+{
+  "record_id": "R01351",
+  "pdf_sha256": "fe2fc37c5f975f8badd1fab210e672c8de6b74a513294dc79f72e25badb54a6d",
+  "mechanism": "Prefix-tree sharing of a single KV cache across beams during decoding",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "By sharing a single KV cache across beams with common prefixes, our ap- proach dramatically reduces memory usage and enables efficient decoding.",
+  "evidence_role": "This work presents a novel trie (prefix-tree)-based parallel decoding method that addresses the memory inefficiency of batch-based beam search.",
+  "read_full_text": true
+}

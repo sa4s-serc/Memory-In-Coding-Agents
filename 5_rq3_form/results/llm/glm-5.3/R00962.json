@@ -1,0 +1,69 @@
+{
+ "record_id": "R00962",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "our evaluation is limited to SWE-bench Verified, a human-validated benchmark released by OpenAI for reliably assessing AI models' ability to resolve SE issues.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Extending EET to non-programming domains (e.g., general multi-step reasoning agents) is an important direction for future work.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "As an experience-driven approach, EET relies on historical data to construct its experience base. For entirely novel issues or domains with sparse historical data, i.e., the \"cold start\" problem, EET may fail to retrieve relevant experience.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

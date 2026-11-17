@@ -1,0 +1,69 @@
+{
+ "record_id": "R00061",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Upon closer examination, while Co-Learning exhibits notable strengths in the areas of complete- ness and executability, it demonstrates only a slight enhancement in the aspect of consistency. This re- sult could likely stem from the embedding models’ broad-grained semantic representation capabilities for text and code, which might not be adequately sensitive to discern extremely nuanced inconsisten- cies. This discovery presents an exciting research opportunity to develop advanced criteria and met- rics for assessing software’s consistency with its text requirements, emphasizing the need for more refined evaluation methodologies.",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "Secondly, unlike traditional function-level code generation approach, automating the evalua- tion of general-purpose software is exceptionally challenging. Though recent efforts aimed to em- ploy Human Revision Cost (Hong et al., 2024), manual verification is still impractical. This paper instead focuses on three objective and crucial dimensions and a comprehensive quality. Future research need take additional dimensions like robustness into consideration.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Firstly, the ability of au- tonomous agents to produce software might be overestimated. In co-learning, autonomous agents still tend to implement the simplest logic in absence of necessary and clear requirements, indicating that these technologies are more suitable for prototype systems rather than real-world applications.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

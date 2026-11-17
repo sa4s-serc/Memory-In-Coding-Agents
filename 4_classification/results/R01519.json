@@ -1,0 +1,19 @@
+{
+  "record_id": "R01519",
+  "pdf_sha256": "837e71dc6d3c2ca5fad4a9d8dcd85509d83c2c6bf61e70368ecdeb3c65e6b27b",
+  "mechanism": "Long-term memory of successful cases retrieved as few-shot demonstrations, with injected medical information and execution-feedback debugging",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we incorporate long-term memory to continuously maintain a set of successful cases and dynamically select the most relevant few-shot examples, in or- der to effectively learn from and improve upon past experiences.",
+  "evidence_role": "Using long-term memory, EHRAgent replaces original few-shot demonstra- tions with the most relevant successful cases re- trieved from past experiences.",
+  "read_full_text": true
+}

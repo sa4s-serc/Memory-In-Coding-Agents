@@ -1,0 +1,75 @@
+{
+ "record_id": "R00553",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Nevertheless, current evaluation focuses on single-run containerized setup, and future work will extend SETUPX to broader language ecosystems, enable cost-efficient repeated evaluation, and scale telemetry-driven experience evolution for long-term validation.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Nevertheless, current evaluation focuses on single-run containerized setup, and future work will extend SETUPX to broader language ecosystems, enable cost-efficient repeated evaluation, and scale telemetry-driven experience evolution for long-term validation.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The remaining SETUPX+XPU failures occur mainly in the AI/ML and DevOps domains, suggesting that retrieval can still be incomplete for repository-specific dependency stacks.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Nevertheless, current evaluation focuses on single-run containerized setup, and future work will extend SETUPX to broader language ecosystems, enable cost-efficient repeated evaluation, and scale telemetry-driven experience evolution for long-term validation.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

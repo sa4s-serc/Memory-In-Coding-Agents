@@ -1,0 +1,17 @@
+{
+  "record_id": "R00586",
+  "pdf_sha256": "00c227f5aff7ccb85a9093bdb2bb414203d9d918e07977c765ceb75d0ef0a302",
+  "mechanism": "Contrastive runtime evidence from same-crash and oracle-passing PoC variants of the current vulnerability",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple (C/C++, Go, Python, JavaScript)",
+  "evidence_scope": "ContraFixconstructs format-preservingsame-crashandoracle-passingPoC variants that still reach the same vulnerable execution region, then compares their executions to narrow a broad crash context to the failure boundary.",
+  "evidence_role": "we proposeContraFix, an agentic AVR framework that turns a single exploit witness into boundary evidence for localization, patch generation, and experience reuse.",
+  "read_full_text": true
+}

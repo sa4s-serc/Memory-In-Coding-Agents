@@ -1,0 +1,18 @@
+{
+  "record_id": "R00384",
+  "pdf_sha256": "c4961228fcaa4b470083802784d71e611e80fa939c96619f4abdb523adce5b57",
+  "mechanism": "Code knowledge graph and retrieval tools over the repository, plus reflection/decomposition tools",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "Python",
+  "evidence_scope": "The graph is constructed by recursively parsing the repository with Tree-sitter [ 43] to extract program entities such as classes, function definitions, and function calls from source files.",
+  "evidence_role": "we proposeReProAgent, a multi-stage agent framework for issue reproduction test generation.",
+  "read_full_text": true
+}

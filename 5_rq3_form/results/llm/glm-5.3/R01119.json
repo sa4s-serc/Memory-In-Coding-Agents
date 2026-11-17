@@ -1,0 +1,80 @@
+{
+ "record_id": "R01119",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "For this reason, we did not extensively compare with other memory architectures such as episodic or hierarchical memory.",
+     "page": 30,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In our implementation, success and failure signals for trajectories are determined by an LLM-as-a-judge. While this automatic labeling enables scalable evaluation without ground-truth feedback, it may introduce noise when tasks are ambiguous or when the judge model itself errs.",
+     "page": 30,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We intentionally adopt simple embedding-based retrieval and straightforward consolidation to better isolate the effect of content quality.",
+     "page": 30,
+     "verbatim": true
+    },
+    {
+     "quote": "This design highlights the effect of memory content but does not consider how items could be composed into higher-level strategies.",
+     "page": 29,
+     "verbatim": true
+    },
+    {
+     "quote": "Our current system design is intentionally minimal",
+     "page": 29,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

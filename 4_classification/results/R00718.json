@@ -1,0 +1,17 @@
+{
+  "record_id": "R00718",
+  "pdf_sha256": "fdbf42421e29c4fee322c07becea38545e9322672e0d1b918b1914035da4fc1a",
+  "mechanism": "Hierarchical trace tree of one run's state transitions with persistent memory and failure-onset debugging signals",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "unspecified",
+  "evidence_scope": "reconstructs the full state transition history as a hierarchical trace tree with persistent memory, and performs failure onset localizationto pinpoint the failure origin and its downstream chain.",
+  "evidence_role": "We present CODETRACER, a tracing architecture that parses heterogeneous run artifacts through evolving extractors",
+  "read_full_text": true
+}

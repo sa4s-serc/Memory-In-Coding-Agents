@@ -1,0 +1,17 @@
+{
+  "record_id": "R00429",
+  "pdf_sha256": "b02068983dc5069b0d5a32432c9410cd6160d63993052708433f8415bf0b5a14",
+  "mechanism": "Static-analysis structural tags (deterministic anchors) injected into the codebase as comments",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "repository-level relationships (e.g., who calls whom, inheritance links, configuration usage) that are fixed for a given code snapshot and therefore should not vary across runs.",
+  "evidence_role": "we presentCodeAnchor, a framework that augments grep-based code agents withstatic-analysis-based structured comments.",
+  "read_full_text": true
+}

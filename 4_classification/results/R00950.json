@@ -1,0 +1,17 @@
+{
+  "record_id": "R00950",
+  "pdf_sha256": "c21b0ca6d46df0558652843c7da437b8d4d5a3054b06349a234adf897b0db74f",
+  "mechanism": "Case base of error-to-operator correction cases retrieved to guide iterative code refinement",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "TextBFGS maintains a dynamic Case Base of historical \"Error-to-Operator\" correction trajectories to approximate the semantic curvature (inverse Hessian matrix) of the task.",
+  "evidence_role": "we intro- duce TextBFGS, a Case-Based Reasoning (CBR) framework inspired by the Quasi-Newton optimization method.",
+  "read_full_text": true
+}

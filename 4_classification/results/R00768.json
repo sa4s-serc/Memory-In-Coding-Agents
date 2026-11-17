@@ -1,0 +1,17 @@
+{
+  "record_id": "R00768",
+  "pdf_sha256": "7f94092a0f4d618d46ceed801b47cd5175cfff30c9d5905344f50270cc8be8d2",
+  "mechanism": "Handoff and post-hoc consolidation structures with an explicit global memory in a multi-agent research run",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "a subagent architecture (parallel exploration with post-hoc consolidation) and an agent team architecture (expertswithpre-executionhandoffs)",
+  "evidence_role": "we present a systematic empir- ical study investigating the comparative efficacy of distinct multi-agent structures for automated machine learning optimization.",
+  "read_full_text": true
+}

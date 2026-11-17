@@ -1,0 +1,15 @@
+{
+  "record_id": "R01116",
+  "pdf_sha256": "2ae224342fd03066046f82416c6d56e2041f658fdd0362f2fb01848d887ed583",
+  "mechanism": "Mid-training on code execution traces and agentic trajectories, then SFT and RL, of a code world model",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we mid-trainCWMon a large amount of observation-action trajectories from Python interpreter and agentic Docker environments, and perform extensive multi-task reasoning RL",
+  "evidence_role": "We release Code World Model (CWM), a 32-billion-parameter open-weights LLM, to advance research on code generation with world models.",
+  "read_full_text": true
+}

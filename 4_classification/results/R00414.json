@@ -1,0 +1,15 @@
+{
+  "record_id": "R00414",
+  "pdf_sha256": "bf66e200cc3097cc11611168f24b2a65d133171c436aca26a942d46ecf192fc8",
+  "mechanism": "Reference-guided code optimization: injecting ground-truth reference code into low-performing RL rollout groups",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (Python plotting code, SVG, HTML/CSS)",
+  "evidence_scope": "This strategy dynamically injects ground-truth reference code into the policy’s rollout buffer during low-performance episodes.",
+  "evidence_role": "We propose UniCoder, a novel framework integrating an LLM-based Attribute Extractor for fine-grained reward modeling and a Reference Injection strategy for stable policy exploration.",
+  "read_full_text": true
+}

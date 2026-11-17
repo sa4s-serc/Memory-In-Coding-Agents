@@ -1,0 +1,17 @@
+{
+  "record_id": "R00200",
+  "pdf_sha256": "bd9bf0eb8bf25ec5966928ce1d65cb17fd8d84fcaa075bde324970efa6f099af",
+  "mechanism": "Knowledge-graph retrieval plus a curated case base of reference code (DomRetriever)",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "It dynamically integrates top-down knowledge-graph reasoning with bottom-up case-based reasoning, enabling iterative retrieval and synthesis of structured knowledge and representative cases",
+  "evidence_role": "We develop a novel retrieval module (DomRetriever) that unifies knowledge-graph-guided retrieval and case-based reasoning into a dynamic, bidirectional process.",
+  "read_full_text": true
+}

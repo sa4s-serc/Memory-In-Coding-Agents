@@ -1,0 +1,15 @@
+{
+  "record_id": "R00840",
+  "pdf_sha256": "6a3e61d7820b68065f4df664da008e36b58cf0da142c2b567f9bba0358ae0761",
+  "mechanism": "Semi-supervised training of a critic model from rubric features and sparse outcomes of human-agent interactions",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "Using a semi-supervised objective, we can then jointly predict these rubrics and sparse human feedback (when present).",
+  "evidence_role": "we propose a process to learn a \"critic\" model from sparse and noisy interaction data, which can then be used both as a reward model for either RL-based training or inference-time scaling.",
+  "read_full_text": true
+}

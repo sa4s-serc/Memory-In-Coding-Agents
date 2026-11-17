@@ -1,0 +1,109 @@
+{
+ "record_id": "R00836",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This paper documents architectural decisions and design rationale but lacks systematic quantitative evaluation.",
+     "page": 52,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The ACE playbook currently operates per-project with effectiveness scoring and semantic retrieval.",
+     "page": 52,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The current memory pipeline stores experience as flat natural-language bullets.",
+     "page": 52,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In our experience, tool outputs (file contents, command results, search hits) consume 70–80% of the context in a typical session, dwarfing the system prompt and the agent’s own reasoning. This makes context utilization the single most important metric for agent longevity, and it imposes a pervasive tension: richer tool outputs improve per-turn accuracy but shorten the session’s useful life.",
+     "page": 42,
+     "verbatim": true
+    },
+    {
+     "quote": "System prompt influence decays as conversations grow. Instructions that reliably govern the agent’s first few turns are routinely violated after 30 or more tool calls, when the instruction is far from the model’s attention window and buried under dozens of tool results.",
+     "page": 43,
+     "verbatim": true
+    },
+    {
+     "quote": "Loading all MCP tool schemas at startup consumed 40% of the context budget before the agent processed its first user message.",
+     "page": 45,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Current parameters - the 70% compaction threshold, 3 nudge attempts, 6 thinking depth levels - are globally fixed.",
+     "page": 52,
+     "verbatim": true
+    },
+    {
+     "quote": "The 24-template reminder catalog and its injection timing were manually engineered based on observed failure modes.",
+     "page": 52,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Agents default to text search (grep) for nearly every lookup, even when a more precise tool exists. This wastes iterations and floods the context with false positives.",
+     "page": 43,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Current subagents execute independently under main-agent coordination, communicating only through completion markers.",
+     "page": 52,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

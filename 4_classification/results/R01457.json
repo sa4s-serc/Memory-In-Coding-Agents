@@ -1,0 +1,17 @@
+{
+  "record_id": "R01457",
+  "pdf_sha256": "4f339bcd7d3d5a537ffa24959dd64454cc63f55916d429d59fb018d966628a79",
+  "mechanism": "Function-level hierarchical pruning of repository context for a completion prompt",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "The HCP models the code repository at the function level, maintaining the topological dependencies between code files while removing a large amount of irrelevant code content",
+  "evidence_role": "we proposed a strategy named Hierarchical Context Pruning (HCP) to construct completion prompts with high in- formational code content.",
+  "read_full_text": true
+}

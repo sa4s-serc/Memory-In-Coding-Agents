@@ -1,0 +1,17 @@
+{
+  "record_id": "R01119",
+  "pdf_sha256": "d9e08c61ab714304a6a88e014f552597d9ac654c4cb23dc63a5d53248715da13",
+  "mechanism": "Memory of reasoning strategies distilled from the agent's own successes and failures, retrieved for new tasks and updated after each task",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "At test time, an agent retrieves relevant memories from ReasoningBank to inform its interaction and then integrates new learnings back, enabling it to become more capable over time.",
+  "evidence_role": "We propose ReasoningBank, a novel memory framework that distills generalizable reasoning strategies from an agent's self-judged successful and failed experiences.",
+  "read_full_text": true
+}

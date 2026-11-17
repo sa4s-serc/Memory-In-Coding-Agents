@@ -1,0 +1,17 @@
+{
+  "record_id": "R00835",
+  "pdf_sha256": "7d9b16338db2d0c779928e8eef917726da76feab955fa6d29a5f830fe4e86e4d",
+  "mechanism": "Pre-exploration that rewrites an underspecified request into an enhanced problem statement",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "We introduce CodeScout, a contextual query refinement approach that systematically converts underspeci- fied user requests into comprehensive, action- able problem statements through lightweight pre-exploration of the target codebase.",
+  "evidence_role": "We introduce CodeScout, a contextual query refinement approach that systematically converts underspeci- fied user requests into comprehensive, action- able problem statements through lightweight pre-exploration of the target codebase.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00526",
+  "pdf_sha256": "569eaa3d7b4616b4265560c181100f5763b97f2f56df10cc1bcab26fd6c95b6a",
+  "mechanism": "Coding agents write code to extract relevant evidence from media within the task instead of ingesting whole streams",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "thereby converting omnimodal tasks into retrieval and information- processing problems rather than ingesting entire media streams.",
+  "evidence_role": "coding agents with only text+image access and a sandboxedtool-useinterfacecanmatch,andinseveralsettingsoutperform,SOTAnativeomnimodalmodelsand predefinedmultimodalagentscaffoldsacrossmultipleaudio-videobenchmarks.",
+  "read_full_text": true
+}

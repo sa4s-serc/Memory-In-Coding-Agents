@@ -1,0 +1,17 @@
+{
+  "record_id": "R00744",
+  "pdf_sha256": "3cd86cb12b6c9855b5212cab6dfc3528b4815d22df7611004537fc609d34eca2",
+  "mechanism": "Local agent memory with adaptive forgetting, quantization, consolidation and multi-channel retrieval",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "AI coding agents operate in a paradox: they possess vast parametric knowledge yet cannot remember a conversation from an hour ago.",
+  "evidence_role": "We presentSuperLocalMemory V3.3(“The Living Brain”), a local-first agent mem- ory system implementing the full cognitive memory taxonomy",
+  "read_full_text": true
+}

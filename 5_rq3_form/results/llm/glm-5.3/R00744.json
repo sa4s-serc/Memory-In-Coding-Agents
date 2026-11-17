@@ -1,0 +1,88 @@
+{
+ "record_id": "R00744",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Hook specificity. The zero-friction pipeline is Claude Code-specific. The MCP server works with any MCP-compatible agent, but automatic lifecycle requires per-platform hook integration.",
+     "page": 16,
+     "verbatim": false
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Cold-start. Behavioral learning requires ∼200 feedback signals before the full adaptive model trains. During cold-start, retrieval relies on fixed channel weights.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "LoCoMo regression on single-hop. The 7-channel architecture introduces fusion noise on simple queries.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "Extreme compression. At 2-bit precision, embedding quality degrades significantly. 2-bit is appropriate only for archived memories.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Soft prompts vs. fine-tuning. Natural language soft prompts are less powerful than LoRA. They can configure preferences but cannot teach new capabilities.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "LoRA-based parameterization when model weight access becomes available",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F1:no_verbatim_quote"
+ ]
+}

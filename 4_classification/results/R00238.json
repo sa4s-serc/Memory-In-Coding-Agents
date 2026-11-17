@@ -1,0 +1,17 @@
+{
+  "record_id": "R00238",
+  "pdf_sha256": "6598bd32952dfdbb95f2d4a5502b2bb2be13c15a7674f6404c684c5d82867138",
+  "mechanism": "Engram activation-diffusion graph memory storing experiences for cross-session recall",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "To verify its long-term memory, Bob starts a new session and issues a compound command: “Activate the stock analyst, first recall the stocks I hold, then analyze today’s market.",
+  "evidence_role": "Engram-based activation-diffusion memory networks that unify raw experiences with conceptual sequences, enabling associative retrieval through graph network propagation",
+  "read_full_text": true
+}

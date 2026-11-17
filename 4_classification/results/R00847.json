@@ -1,0 +1,17 @@
+{
+  "record_id": "R00847",
+  "pdf_sha256": "079ad9a9cdf4843110e8fe808c59bdf103da5d4df906236146e0b3c15e325b1f",
+  "mechanism": "Shared working memory of code-state checkpoints plus agent-directed dependency traversal",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "These tools interface with a shared working memory that stores code- state checkpoints indexed by execution steps,",
+  "evidence_role": "we propose SWE-Adept, an LLM-based two-agent framework where a localization agent identifies issue-relevant code locations and a resolution agent implements the corresponding fixes.",
+  "read_full_text": true
+}

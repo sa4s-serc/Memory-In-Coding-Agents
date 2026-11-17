@@ -1,0 +1,121 @@
+{
+ "record_id": "R00406",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Broader conclusions about repair success require more standardized validation, more tasks, and more repositories.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "A SWE-bench Verified evaluation would strengthen the evidence",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "The pilot is exploratory and smaller than the main 50-task OpenClaw comparison; task-resolution counts are reported in the text.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "future work should report confidence intervals so token reductions can be separated from benchmark and validation noise",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "Because the comparison incorporates two accepted re-runs and provides one retained observation per instance, it does not establish statistical or causal superiority.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Official validation gives comparable submitted-resolution rates, 24.0% for ContextSniper versus 26.0% for the OpenClaw baseline, but the validation-error imbalance prevents a strong repair-success conclusion.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ContextSniper also depends on retrieval and indexing quality. Embedding models, chunking strategies, symbol extraction, and structural links all affect which snippets are surfaced.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "If the relevant evidence is weakly signaled, spread across unusual files, or visible only after running tests, retrieval may miss it.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Context control introduces its own risk. The system can remove useful evidence if the sniping policy is too aggressive or if the task requires broad architectural context.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "On pylint-dev pylint-7228, pallets flask-5063, and matplotlib matplotlib-24265, ContextSniper uses the same number of total actions as the OpenClaw baseline, but adds two to four code-search calls.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "These are not cases where the agent spirals into much longer exploration; rather, the task is short enough that the retrieval layer's setup and search turns are not fully amortized by shorter later context.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Commit-history memory is another promising direction because prior changes and linked issues may reveal repair-relevant files that current-source retrieval alone misses.",
+     "page": 14,
+     "verbatim": false
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F11:no_verbatim_quote"
+ ]
+}

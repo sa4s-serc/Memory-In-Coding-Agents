@@ -1,0 +1,17 @@
+{
+  "record_id": "R00492",
+  "pdf_sha256": "629d4a6fa978d6f954216c25175a37fc6950da8f1f203680f6a72ca4772ae655",
+  "mechanism": "Iterative controller-code revision with accumulated rollout evidence and physical priors within a design problem",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "Agents receive a candidate controller, accumulated rollout evidence and physical priors, then propose changes to the controller's logic and parameters.",
+  "evidence_role": "we show how self-evolving scientific agents can design explicit, neural-network-free white-box controllers by iteratively interpreting simulation evidence, accumulat- ing control knowledge and refining controller code.",
+  "read_full_text": true
+}

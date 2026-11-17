@@ -1,0 +1,17 @@
+{
+  "record_id": "R01799",
+  "pdf_sha256": "18bdd464157e2cc521afc95c50894d30d982d402268a4a4620c5d658909c9063",
+  "mechanism": "Retrieval over a vetted EDI knowledge base inside an educator chatbot",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MANAGEMENT",
+  "target": "unspecified",
+  "evidence_scope": "Unlike generic chat interfaces, GenEDIt provides a tailored UI and workflow, and embeds retrieval over a vetted EDI knowledge base.",
+  "evidence_role": "We present GenEDIt, a purpose-built, LLM-backed chatbot that helps educators weave EDI into SE education artefacts without altering intended learning outcomes.",
+  "read_full_text": true
+}

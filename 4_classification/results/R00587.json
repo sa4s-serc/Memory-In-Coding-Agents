@@ -1,0 +1,18 @@
+{
+  "record_id": "R00587",
+  "pdf_sha256": "4e317102befcd10422850ffa312e5c36bc166a9e0464feb6e4bb9e892a98e9e2",
+  "mechanism": "Three-layer memory: History-Fix, Security-Pattern and Refinement-Trajectory memories",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "within"
+  ],
+  "cross_origin": "both",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple (C/C++, Python, Go, JavaScript)",
+  "evidence_scope": "This design allows the agent to retrieve repository- specific repair conventions, apply reusable security defenses, and exploit prior “failure-to-success” trajectories to revise semantically invalid patches based on runtime evidence.",
+  "evidence_role": "We presentMemRepair, a memory-augmented agentic framework that formulates vulnerability repair as an iterative, experience-driven process.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00844",
+  "pdf_sha256": "e5bbbfbb3f6f23f6056624c65c6588d4ccb52adecc3af19c79665fbdab2fc981",
+  "mechanism": "Persistent fixed-size recurrent working memory across denoising steps of a diffusion LM",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we intro- duceMetaState, a lightweight recurrent augmentation that equips a frozen dLLM backbone with persistent, fixed-size working memory.",
+  "evidence_role": "we intro- duceMetaState, a lightweight recurrent augmentation that equips a frozen dLLM backbone with persistent, fixed-size working memory.",
+  "read_full_text": true
+}

@@ -1,0 +1,74 @@
+{
+ "record_id": "R00363",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In a three-seed granularity ablation, the full taxonomy is directionally higher than a flat code list by 3.3 percentage points on TheoremQA and 1.7 percentage points on MMLU-Pro, but neither difference is statistically conclusive (Section I).",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "The two harnesses are therefore separate case studies, not a controlled pair—different solvers, different scaffolds, no number compared across them; all controlled comparisons are within a harness.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Selection is substrate-sensitive. Selection routes taxonomy criteria through the feature selector and heuristic verifier substrate of Section 3.5, so the gain reflects both the induced vocabulary and the selection pipeline that consumes it.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "On ForgeCode, both MAST and AdaMAST approach the oracle ceiling, so the comparison is less informative.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

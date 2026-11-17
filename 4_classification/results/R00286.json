@@ -1,0 +1,17 @@
+{
+  "record_id": "R00286",
+  "pdf_sha256": "bbac2fc56e32e3264153d13aa1fbba8b81e501a9861b56865242cc27a68e69c3",
+  "mechanism": "RAG index over repository metadata and CI configurations for grounded guidance",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "unspecified",
+  "evidence_scope": "The RAG index ensures grounding; the LLM synthesizes retrieved evidence into human-readable guidance with citations.",
+  "evidence_role": "we propose ContextPilot, a multi-agent framework designed to provide adaptive, context-aware support for OSS contributors.",
+  "read_full_text": true
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00330",
+  "pdf_sha256": "75952b668a86ee2ae638a30132e4109ab7b5a0b4861229452afc3e889e3a2edd",
+  "mechanism": "Precomputed multi-view repository index served as search, navigation and bounded context, reused across tasks",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "The key design is to reuse repository-derived state across tasks without collapsing ranked candidates, source locations, and prompt history into one abstraction.",
+  "evidence_role": "CodeNibis a multi-view data system that makes that measurement possible. It is the first to compile lexical, dense, and structural views of one commit behind a single manifest and source-address contract",
+  "read_full_text": true
+}

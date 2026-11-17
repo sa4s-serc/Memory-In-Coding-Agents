@@ -1,0 +1,76 @@
+{
+ "record_id": "R00250",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, REPOAUDIT is not sound in detecting inter-procedural data-flow facts, as it currently limits flow analysis to a maximum of four functions. This constraint may cause it to miss complex bugs involving longer call chains.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, the analysis overhead of REPOAUDIT is highly sensitive to the number of source elements within a repository. In cases where a large number of sources exist, the tool may incur substantial time and token costs.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Apart from the false positives and negatives caused by LLM hallucinations, REPOAUDIT faces several limitations.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Expanding the Tool Suite for Better Retrieval: Developing a more comprehensive tool suite that facilitates the retrieval across the entire codebase is crucial.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

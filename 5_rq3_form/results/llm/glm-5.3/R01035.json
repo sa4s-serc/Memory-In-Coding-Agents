@@ -1,0 +1,80 @@
+{
+ "record_id": "R01035",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "weaker LLMs may lack the high-level reasoning capabilities to synthesize useful tools on the fly",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "In particular, we see that for GPT-5-Nano, the results are significantly worse when using LIVE-SWE-AGENT compared to base mini-SWE-agent.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Instead of discarding each evolved agent after a task is completed, we can save and serialize the useful tools and insights (via concepts like Skills [5]) for future tasks.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In this work, we start from a simple agent scaffold and focus primarily on self-evolution for tool creation and usage, as tools represent one of the most critical components of an agent.",
+     "page": 3,
+     "verbatim": true
+    },
+    {
+     "quote": "In this work, LIVE-SWE-AGENT is implemented as a lightweight modification to an existing agent, requiring no offline training or updates.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

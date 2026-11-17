@@ -1,0 +1,17 @@
+{
+  "record_id": "R00705",
+  "pdf_sha256": "106898da2db2101d0596f1764d9a96244769bc2047f5ed1ad0790db921620404",
+  "mechanism": "Unified pool of memories extracted from the agent's own trajectories across coding domains and reused on new tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "we investigate Memory Transfer Learning (MTL) by harnessing a unified memory pool from heterogeneous domains.",
+  "evidence_role": "Our work establishes empirical design principles for expanding memory utilization beyond single-domain silos.",
+  "read_full_text": true
+}

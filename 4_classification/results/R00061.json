@@ -1,0 +1,17 @@
+{
+  "record_id": "R00061",
+  "pdf_sha256": "f10aa31645161f8595420e042f1181d23b5849173efbaf873771622f6fb35f34",
+  "mechanism": "Shortcut experience pools mined from historical trajectories and retrieved as few-shot examples",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "instructor and assistant agents gather shortcut-oriented experiences from their historical trajectories and use these past experiences for future task execution.",
+  "evidence_role": "we propose Experiential Co-Learning, a novel multi-agent learning paradigm designed to boost agents’ software-developing abilities through the utilization of experiences gathered from their historical communications.",
+  "read_full_text": true
+}

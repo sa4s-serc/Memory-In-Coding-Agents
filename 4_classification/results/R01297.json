@@ -1,0 +1,15 @@
+{
+  "record_id": "R01297",
+  "pdf_sha256": "97781b82ed43a330f491a35f772360bc3a9e7b47c5817e8889a0e1fec1115a15",
+  "mechanism": "none identified (agent edits its own code across iterations using benchmark results)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

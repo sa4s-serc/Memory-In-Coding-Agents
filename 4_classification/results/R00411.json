@@ -1,0 +1,17 @@
+{
+  "record_id": "R00411",
+  "pdf_sha256": "a5c43e20b514060c9e96f3c50a9e0259225d7be107e61b2e57f1e8fdda2e039a",
+  "mechanism": "Context grounding with local code augmentation and a repository-level security summary",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "C and C++",
+  "evidence_scope": "a grounded context is then built for each, combining local code augmentation with a stable repository-level security summary",
+  "evidence_role": "we present Antaeus, a repository-level framework for detecting C and C++ logic vulnerabilities through context-grounded model reasoning",
+  "read_full_text": true
+}

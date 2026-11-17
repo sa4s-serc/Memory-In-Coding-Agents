@@ -1,0 +1,17 @@
+{
+  "record_id": "R00887",
+  "pdf_sha256": "b3a84be54c3a662c903f7cd25a2a3400591af8694fb4b1331fef66b5be3ef861",
+  "mechanism": "Evolving debugging context aggregated across iterations by a coordinator",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Verilog (RTL)",
+  "evidence_scope": "it aggregates de- bugging history across iterations, tracking identified errors, suggested fixes, and their outcomes.",
+  "evidence_role": "we propose ACE-RTL, which adopts the notion of Agentic Context Evolution (ACE) through three components: the Generator, the Reflector, and the Coordinator.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R01077",
+  "pdf_sha256": "1f8f1685e4cdb43be81f98d068c8dcb44b216151bb915c33613dfaebff90d606",
+  "mechanism": "Indexing-time agent exploration of the repository that caches speculative cross-file context for later code completion",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "SpecAgent, a speculative context construction framework that shifts repository-specific retrieval from inference time to indexing time",
+  "evidence_role": "We address this limitation with SpecAgent, an agent that improves both latency and code-generation quality by proactively exploring repository files dur- ing indexing and constructing speculative con- text that anticipates future edits in each file.",
+  "read_full_text": true
+}

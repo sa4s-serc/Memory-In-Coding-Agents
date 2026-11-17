@@ -1,0 +1,86 @@
+{
+ "record_id": "R00575",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because applying the agent to millions of tokens with the latest frontier model is extremely costly (as shown in §4.4), we use GPT-5-mini [36] as the base LM in our main results (§4.3) and perform some less exhaustive evaluations with GPT-5.5 and other open-source models.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Due to the extremely high cost, we were unable to run the entire benchmark of §4.3 with the latest proprietary models.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Since different agents interact with context differently, what should be cached may vary. Thus, although the map stores task-independent knowledge, its downstream usefulness may still vary across agents.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The usefulness of the context map depends on how the agent interacts with the context. If that interaction reveals little reusable knowledge, the map has little value to cache.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work includes adaptively adjusting the cache size, training the Distiller, exploring untapped reusable artifacts, and maintaining collections of caches for agents to interact with through programs or parallel agents.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work includes adaptively adjusting the cache size, training the Distiller, exploring untapped reusable artifacts, and maintaining collections of caches for agents to interact with through programs or parallel agents.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

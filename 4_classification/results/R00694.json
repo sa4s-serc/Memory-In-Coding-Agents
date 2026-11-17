@@ -1,0 +1,18 @@
+{
+  "record_id": "R00694",
+  "pdf_sha256": "3839d0ecb0aa296ec3c1dbbf38871d8c7732544c3fe5f70b3ca8311bcd3a54e6",
+  "mechanism": "Cross-task memory of validity rules built from recurring execution failures",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "within"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Triton",
+  "evidence_scope": "the agent synthesizes training tasks and uses execution failures to construct a cross-task memory of validity rules that guide future generations toward the feasible set.",
+  "evidence_role": "We propose AdaExplore, an agent framework that enablesself-improvement via accu- mulated execution feedbackfor performance-critical kernel code gener- ation through two complementary stages",
+  "read_full_text": true
+}

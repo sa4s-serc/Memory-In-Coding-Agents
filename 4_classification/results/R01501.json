@@ -1,0 +1,17 @@
+{
+  "record_id": "R01501",
+  "pdf_sha256": "bda8a59dc6f69ee1773070c30bb3595ec9115f762df2e33bb1668a7a920845e2",
+  "mechanism": "Fusion of retrieved analogy and rationale repository contexts with rank truncated generation into a bounded prompt",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "REPOFUSE uniquely fuses two types of context: the analogy context, rooted in code analogies, and the rationale context, which encompasses in-depth semantic relationships.",
+  "evidence_role": "We propose a novel rank truncated generation (RTG) technique that efficiently condenses these contexts into prompts with restricted size.",
+  "read_full_text": true
+}

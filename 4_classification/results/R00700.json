@@ -1,0 +1,17 @@
+{
+  "record_id": "R00700",
+  "pdf_sha256": "a2559b62569be1142b7ff4cf463e7dab5547e012f96fc7a4a50963f536db24bc",
+  "mechanism": "Self-evolving rulebase guiding agents during evolution cycles",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "C",
+  "evidence_scope": "During evolution, the planner continuously evaluates whether these rules are overly restrictive or misaligned with emergent patterns in QoR feedback.",
+  "evidence_role": "This paper introduces the first self-evolving logic synthesis framework, which leverages Large Language Model (LLM) agents to autonomously improve the source code of ABC",
+  "read_full_text": true
+}

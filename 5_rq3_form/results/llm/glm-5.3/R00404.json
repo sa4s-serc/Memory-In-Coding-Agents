@@ -1,0 +1,79 @@
+{
+ "record_id": "R00404",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Under the original dataset splits, LiveMath and OfficeQA contain only 10 to 20 validation instances, resulting in high validation variance.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Therefore, we focus our evaluation on SpreadsheetBench as a representative and challenging case study to analyze the efficacy of HarnessOpt.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "While current state-of-the-art agents (e.g., Claude Code [14]) offer effective safety protocols for local software engineering environments, extending these containment mechanisms to internet-augmented or multimodally grounded execution domains remains unaddressed.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This shifts the optimization boundary from scripts to model parameters, achieving full agent self-evolution.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "Fully automating this data-model-harness co-design loop without manual intervention remains a critical next step.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

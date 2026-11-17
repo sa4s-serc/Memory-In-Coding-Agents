@@ -1,0 +1,86 @@
+{
+ "record_id": "R01238",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "A second threat arises from the limited scope of our experiments, primarily constrained by computational resources. Although we evaluate four models from three different providers, our study still covers only a limited set of representative LLMs rather than the full spectrum of open- and closed-source architectures. This may introduce model-selection bias and limit the generalizability of our findings.",
+     "page": 19,
+     "verbatim": true
+    },
+    {
+     "quote": "The third threat concerns the generalizability of our approach beyond Python codebases. Our evaluation is limited to open-source projects implemented in Python, constraining our ability to demonstrate cross-language effectiveness.",
+     "page": 19,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The first threat to validity is the potential for data leakage. Since LLMs are often trained on open-source repositories, public benchmarks may inadvertently overlap with their training corpora. This raises the risk that evaluation results reflect prior exposure rather than genuine generalization.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "At the same time, issues solved exclusively by DARS highlight a limitation of ExpeRepair: its effectiveness drops when relevant prior experience is unavailable.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While our approach improves test generation and patch generation by leveraging accumulated episodic and semantic memories, it currently places less emphasis on optimizing bug localization, which is also a critical factor in program repair performance.",
+     "page": 18,
+     "verbatim": true
+    },
+    {
+     "quote": "We leave the integration of reliable, memory-based bug localization into our framework as an important direction for future work.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

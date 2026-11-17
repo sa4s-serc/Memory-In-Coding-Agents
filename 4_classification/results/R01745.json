@@ -1,0 +1,15 @@
+{
+  "record_id": "R01745",
+  "pdf_sha256": "7f832a7fd8f57074dabc5460a844706bab5bb84addbdd76855141f1a828ff5ab",
+  "mechanism": "none identified (membership inference experiment and privacy analysis)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

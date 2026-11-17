@@ -1,0 +1,17 @@
+{
+  "record_id": "R00088",
+  "pdf_sha256": "f6cb6bb79f39504a0e6647e982e4e0338e04c2363bcb359bb839f5979a6fadb7",
+  "mechanism": "Reflexion feedback loop with test-bench feedback and reviewer advice, context limited to latest attempt",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Verilog",
+  "evidence_scope": "Thus, we limit the context of the generator to only its most recent implementation of the module and its corresponding advice (in addition to the problem description).",
+  "evidence_role": "we adopt the technique for hardware description language (HDL) code generation as RTL Agent - an implementation of the workflow for Verilog generation with Reflexion.",
+  "read_full_text": true
+}

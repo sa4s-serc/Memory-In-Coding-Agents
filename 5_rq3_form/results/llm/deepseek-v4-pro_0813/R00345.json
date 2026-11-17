@@ -1,0 +1,141 @@
+{
+ "record_id": "R00345",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One corpus (Apache Camel), one task family per experiment, one agent product, one model family; the decay probe uses a small fast model (Claude Haiku 4.5), chosen to make k ≥100 compactions affordable; decay behavior of larger summarizers may differ.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "At n = 2 vs n = 1 (and n = 3 vs n = 6 in the pilot), with within-arm wall spreads of 2.4–4.4×, none of this clears a significance bar, and we make no headline speed claim. The direction is consistent across every metric and both channels; a defensible percentage would need ∼15–20 runs per arm.",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "Sample sizes are small throughout (12 graded matrix runs; one gated run per decay arm, each after protocol repairs documented in the published run log). We report absolute numbers with n visible, claim direction rather than effect size, and mark every percentage in §5.4 accordingly.",
+     "page": 11,
+     "verbatim": false
+    },
+    {
+     "quote": "The trigger vocabulary is exercised unevenly: the graded runs fire path, event, and semantic triggers; symbol and temporal triggers are implemented but never fired by any graded run, so C2’s composition claim rests on three of its five elements having measured fires.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Fact survival is verbatim token-match; a paraphrased survival would be missed (none was observed on spot-check, and the all-or-nothing selection pattern suggests block-level, not token-level, summarizer behavior).",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Token costs in §5.5 use a chars/4 proxy and support relative comparison only.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Camel is public and present in training corpora: if equivalent resequencer logic exists anywhere upstream, part of the fix may be pretrained knowledge; this affects all arms equally and cannot manufacture a between-arm delta, but it shrinks the exploration burden the arms differ on.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Stale-memory poisoning, injection bloat, and false-alarm rate are first-class design constraints (the poisoning literature demonstrates adversarial cue-anchored firing, planted items persisting dormant until a later trigger, and finds lightweight rule- and filter-based defenses insufficient [15]).",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One delivery honesty note: the injected index carried three of the four seeded notes. The index budget dropped one (a known ranking limitation logged as product work); the agent recovered that note’s content from code exploration.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "A delivery-design lesson from the probe’s preflight: injection surfaces that ship an index tier (title line now, expand on demand) deliver only the title at session boundaries — a fact must ride the index line itself or it does not travel.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The prompt-submit index tier separately delivered partial fact coverage, 3/10 tokens early and 1/10 late — the budgeted-index lesson of this section’s closing note, caught live.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The memory-equipped arm carries fixed per-cycle context the naive arm does not: MCP tool schemas re-loaded per resumed call, guidance files, per-prompt injections — a fixed context overhead the guard reads as refill pressure. At the arms’ shared 8k cap the guard killed M’s first audit phase fourteen turns in and the launch was scrapped; running required lowering only M’s read cap to 6k tokens, and even at 6k the guard killed the final audit phase as the growing report tightened the squeeze.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The tier’s price, measured: the delivery overhead, the guard-forced tighter read cap (below), and the late-run confabulation spiral put M at +21% turns and +36% cost versus N.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Tool bans proved unenforceable in both decay arms (shell archaeology in both; forbidden subagents additionally in M); we treat constraint non-compliance under context loss as data, and gate every endpoint on transcript-level provenance forensics rather than on compliance.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "the agent skipped two entire audit phases, invented an arithmetically self-consistent phase numbering deep into the run (“Phase 52: Files 203–206” — in a sixteen-phase, 64-file audit), re-audited completed files under the invented scheme, and spent 37 transcript-archaeology greps, nine memory recalls, and three (forbidden) subagent launches hunting a task specification that never existed.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Capture is the unevaluated half (§2’s open half): the probe’s ten fact notes were seeded by the harness, and §5’s voluntary-write counts measure initiative, not capture quality; capture-side automation is future work.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

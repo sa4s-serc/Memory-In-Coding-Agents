@@ -1,0 +1,17 @@
+{
+  "record_id": "R00929",
+  "pdf_sha256": "cf2003668f7a5585d7bd923eca8d54d6afc13d7a74ba7c006c087f9ee7439d16",
+  "mechanism": "Diversity-aware retrieval of few-shot examples from a fixed 3,000-sample memory bank",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we select a memory bank of 3,000 samples chosen to maximize cov- erage across 15 distinct problem types including knapsack, scheduling, routing, and facility location problems",
+  "evidence_role": "We introduce novel coordination patterns including asymmetric validation loops between independently generated optimizer and simulator implementations, external memory for experience reuse",
+  "read_full_text": true
+}

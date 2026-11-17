@@ -1,0 +1,17 @@
+{
+  "record_id": "R00730",
+  "pdf_sha256": "42e7a4ae0609e5d138776bb97a07af99b55a8f2e78897fc1809c90518b06a487",
+  "mechanism": "Shared skill repository continuously updated by an agentic evolver from multi-user trajectories",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "both",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "SkillClaw continuously aggregates trajectories generated during use and processes them with an autonomous evolver, which identifies recurring behavioral patterns and translates them into updates to the skill set",
+  "evidence_role": "we present SkillClaw, a framework for collective skill evolution in multi-user agent ecosystems",
+  "read_full_text": true
+}

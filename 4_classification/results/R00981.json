@@ -1,0 +1,17 @@
+{
+  "record_id": "R00981",
+  "pdf_sha256": "e5de348669b42cfc64593b751fb4034973b4d843c51d4cfb62554c52fa58c8c0",
+  "mechanism": "Callable context-management tool over a structured workspace with condensed long-term memory within one task",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "CAT formalizes a structured context workspace consisting of stable task semantics, condensed long-term memory, and high-fidelity short-term interactions",
+  "evidence_role": "We propose CAT, a new context management paradigm that elevates context maintenance to a callable tool integrated into the decision-making process of agents.",
+  "read_full_text": true
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00039",
+  "pdf_sha256": "0961fa46cd2835745cc5be2110d022c97f109d1e765936293c1bba94a1db85ba",
+  "mechanism": "Bi-level experience learning: GitHub Issues/PRs plus summarised experience stored from the agent's own past tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "external"
+  ],
+  "cross_origin": "both",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "Apart from in-task knowledge learned from community experiences and solutions, OpenAgent can also learn from its own past experiences to improve decision-making over time.",
+  "evidence_role": "We propose OpenAgent, a novel LLM agent system that autonomously extends its tool set by integrating repositories from GitHub. It employs a hierarchical structure and possesses a bi-level experience learning mechanism.",
+  "read_full_text": true
+}

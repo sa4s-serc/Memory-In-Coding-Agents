@@ -1,0 +1,8 @@
+{
+ "model": "deepseek-v4-pro:0813",
+ "host": "https://ollama.com",
+ "temperature": 0.0,
+ "think": "server default",
+ "prompt_and_form_sha256": "0b9b0f76707870b167b628ecdc2c7eeffc50ade0149336626b0dd65b9a234355",
+ "started": "2026-11-16T19:08:27"
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R01260",
+  "pdf_sha256": "9d9fd2668c0327e54e66ac751e22a624d5d53e37bf1c97015bd9395b3b3258ef",
+  "mechanism": "Deep-research context gathering over code and commit history into a per-task memory that is filtered before patch synthesis",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "C",
+  "evidence_scope": "Code Researcher performs multi-step reasoning about semantics, patterns, and commit history of code to retrieve all relevant context from the codebase and its commit history.",
+  "evidence_role": "we design the first deep research agent for code, called Code Researcher, and apply it to the problem of generating patches to mitigate crashes reported in systems code.",
+  "read_full_text": true
+}

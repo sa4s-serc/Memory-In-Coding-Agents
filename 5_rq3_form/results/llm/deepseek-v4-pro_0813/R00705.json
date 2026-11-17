@@ -1,0 +1,83 @@
+{
+ "record_id": "R00705",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, cross-model transfer consistently underperforms compared to MTL using self-generated memories. This suggests that model-specific biases may exist in the memories.",
+     "page": 9,
+     "verbatim": false
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "As shown in Table 1, Memory Transfer Learning can degrade performance in certain benchmarks.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Domain-mismatched anchoring: Structurally irrelevant but superficially similar memories act as misleading anchors. These introduce incorrect assumptions, diverting the agent’s reasoning from core logic and constraints.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "These findings suggest that retrieval methods designed for static settings may not generalize well to cross-domain memory transfer, highlighting the need for further study on agentic memory retrieval and adaptation, such as domain routing (Yeo et al., 2025a) and step-wise memory retrieval (Cao et al., 2025).",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, we acknowledge the potential for negative transfer, where agents might misapply implementation patterns or overlook domain-specific safety constraints. Consequently, the deployment of such systems requires careful attention to robust retrieval strategies to prevent the generation of unreliable or insecure code.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F1:no_verbatim_quote"
+ ]
+}

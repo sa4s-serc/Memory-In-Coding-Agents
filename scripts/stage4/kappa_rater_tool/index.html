@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper classification (rater)</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--mute:#5d6470;--line:#d9dde3;--blue:#1f5fd1;--blueink:#fff;
+--warnbg:#fff4d6;--errbg:#fde2e2;--ok:#1e8e3e}
+@media (prefers-color-scheme:dark){:root{--bg:#121417;--card:#1c1f24;--ink:#eceef1;--mute:#9aa2ad;--line:#333841;
+--blue:#6ea0ff;--blueink:#0b0d10;--warnbg:#3a3214;--errbg:#3d1d1d}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 48px}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px}
+header .in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+#progress{font-weight:700;font-size:17px;flex:1;min-width:0}
+button,.btn{font:inherit;cursor:pointer;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);
+min-height:48px;padding:8px 12px;touch-action:manipulation;-webkit-tap-highlight-color:transparent;text-decoration:none;
+display:inline-flex;align-items:center;justify-content:center;text-align:center}
+button:active,.btn:active{transform:scale(.98)}
+#dl{font-weight:700;border-color:var(--blue);color:var(--blue)}
+.banner{margin:12px 0;padding:12px 14px;border-radius:10px;font-weight:600;display:none}
+.banner.show{display:block}.warn{background:var(--warnbg)}.err{background:var(--errbg)}
+details{margin:12px 0;background:var(--card);border:1px solid var(--line);border-radius:12px}
+summary{padding:12px 14px;font-weight:700;cursor:pointer;min-height:48px;display:flex;align-items:center}
+details ul{margin:0;padding:0 14px 12px 32px}details li{margin:4px 0}details p{margin:0;padding:0 14px 12px}
+.crit{white-space:pre-wrap;font:14px/1.45 ui-monospace,Menlo,Consolas,monospace;padding:0 14px 14px;overflow-wrap:anywhere}
+.crit .stp{display:block;margin-top:14px;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--mute);font-size:14px}
+.rid{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700;color:var(--ink);font-size:15px}
+h1{font-size:19px;margin:8px 0 0;overflow-wrap:anywhere}
+.saved{margin-top:10px;font-weight:700;padding:8px 10px;border-radius:8px;border:2px solid var(--ok);color:var(--ok)}
+.links{display:flex;gap:10px;flex-wrap:wrap}
+.lk{min-height:64px;font-weight:700;font-size:18px;border-color:var(--blue);color:var(--blue);flex:2 1 220px}
+.lk.small{min-height:48px;font-size:15px;flex:1 1 110px}
+.grp{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0}
+.grp.miss{border-color:#c62828;box-shadow:0 0 0 2px #c62828}
+.grp h2{font-size:16px;margin:0 0 2px}.grp .q{color:var(--mute);font-size:14px;margin:0 0 10px}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.opts.two{grid-template-columns:1fr 1fr}
+.opts button{flex-direction:column;gap:2px;font-weight:700;min-height:60px}
+.opts button small{font-weight:500;font-size:12px;color:var(--mute)}
+.opts button.on{background:var(--blue);border-color:var(--blue);color:var(--blueink)}
+.opts button.on small{color:var(--blueink);opacity:.85}
+.opts button:disabled{opacity:.4}
+.sub{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line)}
+.sub .t{font-size:14px;font-weight:600;margin-bottom:8px}
+input[type=text],textarea{width:100%;font:inherit;padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink)}
+textarea{resize:vertical;min-height:84px}
+label{display:block;font-size:14px;font-weight:600;margin:10px 0 4px}
+#save{width:100%;min-height:68px;font-size:20px;font-weight:800;background:var(--blue);border-color:var(--blue);color:var(--blueink);margin-top:6px}
+#need{min-height:22px;margin:8px 0 0;color:#c62828;font-weight:600;text-align:center}
+.row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.row button{font-size:15px}
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+#toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);max-width:calc(100% - 32px);background:var(--ink);color:var(--bg);
+padding:12px 16px;border-radius:10px;font-weight:600;opacity:0;transition:opacity .2s;pointer-events:none;z-index:9}
+#toast.show{opacity:1}
+.done{text-align:center;font-size:20px;font-weight:700;padding:24px 0}
+.hint{color:var(--mute);font-size:13px;margin-top:14px;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="in">
+  <div id="progress">…</div>
+  <button id="dl" type="button">Download decisions</button>
+</div></header>
+<div class="wrap">
+  <div id="storeErr" class="banner err">Browser storage is unavailable or failing. Your answers are kept only while this tab stays open. Use “Download decisions” often.</div>
+  <div id="ckpt" class="banner warn"></div>
+
+  <details>
+    <summary>Quick guide (plain wording)</summary>
+    <ul>
+      <li>Open the paper and find the <b>one</b> memory / context / information-handling mechanism it presents as its contribution (stored, kept, removed, compressed, retrieved or supplied to the model).</li>
+      <li><b>Scope</b>: where does the information that mechanism gives the agent come from?
+        <b>WITHIN</b> = made during this one task. <b>CROSS</b> = made by earlier, separate tasks (by the agent, other agents or humans). <b>EXTERNAL</b> = not made by running tasks (docs, a fixed knowledge base, web search, a code index). <b>NOT APPLICABLE</b> = no mechanism, or it works by changing the model's weights, or it is about human-written instruction files.</li>
+      <li>If it mixes sources: CROSS if any part is CROSS, else EXTERNAL if any part is EXTERNAL, else WITHIN. Words like “memory” or “experience” decide nothing; look at what is stored, when it is made and when it is used.</li>
+      <li><b>Role</b>: CORE if the mechanism is in the paper’s own list of contributions (or the abstract’s “we propose …”). COMPONENT if it is a part of something else the paper claims.</li>
+      <li><b>Activity</b>: the kind of task it is tested on.</li>
+      <li>Use only the paper’s own text. The reasoning box is optional; one line is enough. The exact criteria are in the box below.</li>
+    </ul>
+  </details>
+  <details>
+    <summary>Criteria (exact text from the prompt)</summary>
+    <div class="crit"><b class=\"stp\">STEP 0. IDENTIFY THE MECHANISM</b>
+
+Find the information-handling mechanism this paper proposes or
+evaluates. An information- handling mechanism is any part of an
+LLM-based agent system that decides what information is stored, kept,
+removed, compressed, retrieved or supplied to the model across steps or
+tasks. Examples: trajectory compression or pruning, summarisation,
+context folding, scratchpads, notes, experience stores, skill libraries,
+retrieval over prior work or documentation, repository indexes. If the
+paper describes more than one, classify the one it presents as its
+contribution. If none is identifiable, set scope = NOT_APPLICABLE with
+reason NO_MECHANISM and skip Steps 1 and 2.
+
+<b class=\"stp\">STEP 1. REUSE SCOPE</b>
+
+The unit is the TASK: one problem instance with a defined start and end,
+such as one issue, one benchmark instance or one user request. Classify
+by where the information that the mechanism supplies to the agent comes
+from. The three sources follow Zhang et al. (ACM TOIS), adapted from
+trials to tasks.
+
+-   <b>WITHIN</b> --- The information is produced during the current task
+    and is not available to any later, separate task. This covers
+    compression, pruning, folding, summarising or note-taking over the
+    current trajectory, even if it is written to disk. It also covers
+    retries, reflection or best-of-n across attempts at the SAME task
+    instance. (Zhang et al. call repeated attempts &quot;cross-trial&quot;; we
+    count them as WITHIN, because the information never reaches a
+    different task.)
+-   <b>CROSS</b> --- The information was produced by executing EARLIER,
+    SEPARATE tasks and is supplied to the agent during a later task. The
+    earlier tasks may have been solved by this agent, other agents or
+    human developers (e.g. past issues with their fixes, past commits,
+    earlier trajectories, distilled lessons, skills learned from earlier
+    tasks). A repository index that is updated from task outcomes and
+    reused across tasks is CROSS.
+-   <b>EXTERNAL</b> --- The information is persistent but was NOT produced
+    by executing tasks: API or library documentation, a fixed knowledge
+    base, web search, or a code index built from the repository that is
+    not updated from task outcomes. It does not change as the agent
+    works.
+-   <b>NOT_APPLICABLE</b>, with exactly one reason:
+    -   <b>NO_MECHANISM</b> - no identifiable information-handling
+        mechanism (see Step 0)
+    -   <b>PARAMETRIC</b> - the mechanism works by changing model weights
+        (training, fine-tuning or reinforcement learning on
+        trajectories)
+    -   <b>CONTEXT_FILES</b>- the object of study is human-written
+        repository instruction files (AGENTS.md, CLAUDE.md, READMEs
+        written for agents)
+
+If the mechanism draws on several sources, assign CROSS if any part is
+CROSS, otherwise EXTERNAL if any part is EXTERNAL, otherwise WITHIN.
+List every source present in &quot;sources&quot;. Words such as &quot;memory&quot;,
+&quot;experience&quot;, &quot;knowledge&quot; or &quot;long-term&quot; decide nothing on their own.
+Decide from what is stored, when it is produced, and when it is used.
+
+<b class=\"stp\">STEP 2. ROLE OF THE MECHANISM</b>
+
+-   <b>CORE</b> --- The information-handling mechanism appears in the
+    paper&#x27;s own statement of its contributions: the contribution list,
+    or the abstract&#x27;s &quot;we propose / introduce / present ...&quot;.
+-   <b>COMPONENT</b> --- The mechanism is part of a system whose stated
+    contribution is something else (e.g. a new agent, a multi-agent
+    workflow, a tool, a benchmark result). Decide from the paper&#x27;s own
+    claims, not from how important the mechanism seems to you.
+
+<b class=\"stp\">STEP 3. SE ACTIVITY (Hou et al., ACM TOSEM)</b>
+
+Assign the activity of the tasks the mechanism is evaluated on. Choose
+one, the dominant one if several apply:
+
+-   REQUIREMENTS_ENGINEERING
+-   SOFTWARE_DESIGN
+-   SOFTWARE_DEVELOPMENT (e.g. code generation, completion, translation)
+-   QUALITY_ASSURANCE (e.g. testing, fault localisation, vulnerability
+    detection)
+-   SOFTWARE_MAINTENANCE (e.g. issue resolution, program repair,
+    refactoring)
+-   SOFTWARE_MANAGEMENT
+
+<b class=\"stp\">STEP 4. TARGET</b>
+
+The main language or artefact the tasks produce, as stated in the paper
+(e.g. Python, Java, Verilog, SQL, multiple). Use &quot;unspecified&quot; if the
+paper does not say.</div>
+  </details>
+
+  <div id="paper" class="card"></div>
+  <div id="links" class="links"></div>
+
+  <div id="form">
+    <section class="grp" id="grp-scope">
+      <h2>1. Reuse scope</h2>
+      <p class="q">Where does the information the mechanism gives the agent come from?</p>
+      <div class="opts" data-field="scope">
+        <button type="button" data-v="WITHIN">WITHIN<small>this task only</small></button>
+        <button type="button" data-v="CROSS">CROSS<small>earlier, separate tasks</small></button>
+        <button type="button" data-v="EXTERNAL">EXTERNAL<small>docs, fixed KB, code index</small></button>
+        <button type="button" data-v="NOT_APPLICABLE">NOT APPLICABLE<small>give a reason</small></button>
+      </div>
+      <div class="sub" id="sub-na" hidden>
+        <div class="t">Reason</div>
+        <div class="opts" data-field="na_reason">
+          <button type="button" data-v="NO_MECHANISM">NO_MECHANISM<small>none to identify</small></button>
+          <button type="button" data-v="PARAMETRIC">PARAMETRIC<small>changes model weights</small></button>
+          <button type="button" data-v="CONTEXT_FILES">CONTEXT_FILES<small>AGENTS.md-style files</small></button>
+        </div>
+      </div>
+      <div class="sub" id="sub-origin" hidden>
+        <div class="t">Whose earlier tasks?</div>
+        <div class="opts" data-field="cross_origin">
+          <button type="button" data-v="own_trajectories">Own<small>this system’s earlier tasks</small></button>
+          <button type="button" data-v="others_tasks">Others’<small>humans or other agents</small></button>
+          <button type="button" data-v="both">Both</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="grp" id="grp-role">
+      <h2>2. Role</h2>
+      <p class="q" id="roleq">Is the mechanism itself a stated contribution?</p>
+      <div class="opts two" data-field="role">
+        <button type="button" data-v="CORE">CORE<small>in the contribution claim</small></button>
+        <button type="button" data-v="COMPONENT">COMPONENT<small>part of a bigger system</small></button>
+      </div>
+    </section>
+
+    <section class="grp" id="grp-activity">
+      <h2>3. SE activity</h2>
+      <p class="q">What kind of task is it applied to?</p>
+      <div class="opts" data-field="activity">
+        <button type="button" data-v="REQUIREMENTS_ENGINEERING">Requirements engineering</button>
+        <button type="button" data-v="SOFTWARE_DESIGN">Software design</button>
+        <button type="button" data-v="SOFTWARE_DEVELOPMENT">Software development<small>code generation, completion, translation</small></button>
+        <button type="button" data-v="QUALITY_ASSURANCE">Quality assurance<small>testing, fault localisation, vulnerabilities</small></button>
+        <button type="button" data-v="SOFTWARE_MAINTENANCE">Software maintenance<small>issue resolution, repair, refactoring</small></button>
+        <button type="button" data-v="SOFTWARE_MANAGEMENT">Software management</button>
+      </div>
+    </section>
+
+    <section class="grp">
+      <h2>Optional</h2>
+      <label for="mechanism">Mechanism (a few words)</label>
+      <input id="mechanism" type="text" autocomplete="off">
+      <label for="reasoning">Reasoning</label>
+      <textarea id="reasoning" rows="3" placeholder="Why this scope / role? One line is enough."></textarea>
+    </section>
+
+    <button id="save" type="button">Save &amp; next</button>
+    <div id="need"></div>
+  </div>
+
+  <div class="row">
+    <button id="back" type="button">◀ Back</button>
+    <button id="jump" type="button">Jump to #</button>
+    <button id="again" type="button">Open paper again</button>
+  </div>
+  <div class="tools">
+    <button id="imp" type="button">Import decisions</button>
+    <button id="dl2" type="button">Download decisions</button>
+  </div>
+  <input id="file" type="file" accept=".csv,text/csv" hidden>
+  <div class="hint">Answers are saved in this browser. Download the CSV when you finish (it downloads by itself after the last paper).</div>
+</div>
+<div id="toast"></div>
+<script id="data" type="application/json">{"hash":"0d4085f3f46f","papers":[{"id":"R00133","title":"SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search","links":[{"label":"Open paper (PDF)","url":"papers/R00133.pdf"},{"label":"Online","url":"https://doi.org/10.1609/aaai.v40i43.40975"}]},{"id":"R00253","title":"OrcaLoca: An LLM Agent Framework for Software Issue Localization","links":[{"label":"Open paper (PDF)","url":"papers/R00253.pdf"},{"label":"Online","url":"https://doi.org/10.48550/arxiv.2502.00350"}]},{"id":"R00328","title":"A Control System, a Dataset, and a Recipe for Making Frozen LLM Agents Learn a Domain","links":[{"label":"Open paper (PDF)","url":"papers/R00328.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2607.25415"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2607.25415"}]},{"id":"R00357","title":"SWE-Pruner Pro: The Coder LLM Already Knows What to Prune","links":[{"label":"Open paper (PDF)","url":"papers/R00357.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2607.18213"}]},{"id":"R00415","title":"FeatX: Editing Software by Editing Features for Repository-Level Code Evolution","links":[{"label":"Open paper (PDF)","url":"papers/R00415.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2606.31206"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2606.31206"}]},{"id":"R00429","title":"How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring","links":[{"label":"Open paper (PDF)","url":"papers/R00429.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2606.26979"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2606.26979"}]},{"id":"R00468","title":"Binary Decompilation LLM with Feedback-Driven Multi-Turn Refinement","links":[{"label":"Open paper (PDF)","url":"papers/R00468.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2606.16162"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2606.16162"}]},{"id":"R00485","title":"PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents","links":[{"label":"Open paper (PDF)","url":"papers/R00485.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2606.12329"}]},{"id":"R00528","title":"AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle","links":[{"label":"Open paper (PDF)","url":"papers/R00528.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2605.31468"}]},{"id":"R00582","title":"SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution","links":[{"label":"Open paper (PDF)","url":"papers/R00582.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2605.18401"}]},{"id":"R00595","title":"Test-Time Learning with an Evolving Library","links":[{"label":"Open paper (PDF)","url":"papers/R00595.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2605.14477"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2605.14477"}]},{"id":"R00621","title":"Nautilus Compass: Black-box Persona Drift Detection for Production LLM Agents","links":[{"label":"Open paper (PDF)","url":"papers/R00621.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2605.09863"}]},{"id":"R00667","title":"DepthKV: Layer-Dependent KV Cache Pruning for Long-Context LLM Inference","links":[{"label":"Open paper (PDF)","url":"papers/R00667.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2604.24647"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2604.24647"}]},{"id":"R00700","title":"Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC","links":[{"label":"Open paper (PDF)","url":"papers/R00700.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2604.15082"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2604.15082"}]},{"id":"R00719","title":"ORBIT: Guided Agentic Orchestration for Autonomous C-to-Rust Transpilation","links":[{"label":"Open paper (PDF)","url":"papers/R00719.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2604.12048"}]},{"id":"R00768","title":"An Empirical Study of Multi-Agent Collaboration for Automated Research","links":[{"label":"Open paper (PDF)","url":"papers/R00768.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2603.29632"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2603.29632"}]},{"id":"R00797","title":"MemCollab: Cross-Model Memory Collaboration via Contrastive Trajectory Distillation","links":[{"label":"Open paper (PDF)","url":"papers/R00797.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2603.23234"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2603.23234"}]},{"id":"R00928","title":"KAPSO: A Knowledge-grounded framework for Autonomous Program Synthesis and Optimization","links":[{"label":"Open paper (PDF)","url":"papers/R00928.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2601.21526"}]},{"id":"R00929","title":"NEMO: Execution-Aware Optimization Modeling via Autonomous Coding Agents","links":[{"label":"Open paper (PDF)","url":"papers/R00929.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2601.21372"}]},{"id":"R00944","title":"SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents","links":[{"label":"Open paper (PDF)","url":"papers/R00944.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2601.16746"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2601.16746"}]},{"id":"R00957","title":"Active Context Compression: Autonomous Memory Management in LLM Agents","links":[{"label":"Open paper (PDF)","url":"papers/R00957.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2601.07190"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2601.07190"}]},{"id":"R00985","title":"SweRank+: Multilingual, Multi-Turn Code Ranking for Software Issue Localization","links":[{"label":"Open paper (PDF)","url":"papers/R00985.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2512.20482"}]},{"id":"R01445","title":"OriGen:Enhancing RTL Code Generation with Code-to-Code Augmentation and Self-Reflection","links":[{"label":"Open paper (PDF)","url":"papers/R01445.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2407.16237"},{"label":"DOI","url":"https://doi.org/10.1145/3676536.3676830"}]},{"id":"R01453","title":"ALPINE: An adaptive language-agnostic pruning method for language models for code","links":[{"label":"Open paper (PDF)","url":"papers/R01453.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2407.04147"}]},{"id":"R01769","title":"Sverklo: A Local-First Code Intelligence MCP Server and a Cross-Repository Software Engineering Benchmark","links":[{"label":"Open paper (PDF)","url":"papers/R01769.pdf"},{"label":"Online","url":"https://doi.org/10.5281/zenodo.19802052"}]},{"id":"R00044","title":"SELF-EVOLVING MULTI-AGENT COLLABORATION NETWORKS FOR SOFTWARE DEVELOPMENT","links":[{"label":"Open paper (PDF)","url":"papers/R00044.pdf"},{"label":"Online","url":"https://doi.org/10.48550/arxiv.2410.16946"}]},{"id":"R00339","title":"A Few Words Go a Long Way: Language Guided Robot Policy Synthesis","links":[{"label":"Open paper (PDF)","url":"papers/R00339.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2607.23784"}]},{"id":"R00705","title":"Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents","links":[{"label":"Open paper (PDF)","url":"papers/R00705.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2604.14004"}]},{"id":"R00840","title":"A Rubric-Supervised Critic from Sparse Real-World Outcomes","links":[{"label":"Open paper (PDF)","url":"papers/R00840.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2603.03800"}]},{"id":"R00874","title":"Precedent-Informed Reasoning: Mitigating Overthinking in Large Reasoning Models via Test-Time Precedent Learning","links":[{"label":"Open paper (PDF)","url":"papers/R00874.pdf"},{"label":"Online","url":"https://arxiv.org/abs/2602.14451"},{"label":"DOI","url":"https://doi.org/10.48550/arxiv.2602.14451"}]}]}</script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const P = DATA.papers, N = P.length;
+const PREFIX = "class_review_v1_", KEY = PREFIX + DATA.hash;
+const IDX = new Map(P.map((p, i) => [p.id, i]));
+const ALLOWED = {
+  scope: ["WITHIN", "CROSS", "EXTERNAL", "NOT_APPLICABLE"],
+  na_reason: ["NO_MECHANISM", "PARAMETRIC", "CONTEXT_FILES"],
+  cross_origin: ["own_trajectories", "others_tasks", "both"],
+  role: ["CORE", "COMPONENT"],
+  activity: ["REQUIREMENTS_ENGINEERING", "SOFTWARE_DESIGN", "SOFTWARE_DEVELOPMENT", "QUALITY_ASSURANCE", "SOFTWARE_MAINTENANCE", "SOFTWARE_MANAGEMENT"],
+};
+const PICK = ["scope", "na_reason", "cross_origin", "role", "activity"];
+const TEXT = ["mechanism", "reasoning"];
+const COLS = ["record_id", "scope", "na_reason", "cross_origin", "role", "activity", "mechanism", "reasoning", "decided_at", "position"];
+const $ = id => document.getElementById(id);
+
+let state = { decisions: {} };
+let cur = 0, lockUntil = 0, form = blank();
+
+function blank() { return { scope: "", na_reason: "", cross_origin: "", role: "", activity: "", mechanism: "", reasoning: "" }; }
+
+// ---------- storage (every call guarded; falls back to memory) ----------
+function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+function lsSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
+function readStored(k) { try { const s = JSON.parse(lsGet(k) || "null"); return s && typeof s === "object" ? s : null; } catch (e) { return null; } }
+const t = d => { const x = Date.parse(d && d.decided_at); return isNaN(x) ? -Infinity : x; };
+function validDecision(d) {
+  if (!d || !ALLOWED.scope.includes(d.scope)) return false;
+  for (const f of ["na_reason", "cross_origin", "role", "activity"]) if (d[f] && !ALLOWED[f].includes(d[f])) return false;
+  return true;
+}
+function mergeDecisions(dst, src) {   // a src entry wins only if strictly newer
+  let n = 0;
+  for (const id in src || {}) {
+    const d = src[id];
+    if (!IDX.has(id) || !validDecision(d)) continue;
+    if (!dst[id] || t(d) > t(dst[id])) { dst[id] = { ...blank(), ...d, position: IDX.get(id) + 1 }; n++; }
+  }
+  return n;
+}
+function save() {
+  const other = readStored(KEY);
+  if (other) mergeDecisions(state.decisions, other.decisions);   // never clobber another open tab
+  const s = JSON.stringify(state);
+  const ok = lsSet(KEY, s) && lsGet(KEY) === s;
+  $("storeErr").classList.toggle("show", !ok);
+  return ok;
+}
+function load() {
+  const s = readStored(KEY);
+  if (s) mergeDecisions(state.decisions, s.decisions);
+  const probe = PREFIX + "probe";
+  $("storeErr").classList.toggle("show", !(lsSet(probe, "1") && lsGet(probe) === "1"));
+  try { localStorage.removeItem(probe); } catch (e) {}
+}
+window.addEventListener("storage", e => {
+  if (e.key !== KEY) return;
+  const o = readStored(KEY);
+  if (o && mergeDecisions(state.decisions, o.decisions)) renderTop();
+});
+
+// ---------- navigation ----------
+const done = i => !!state.decisions[P[i].id];
+function firstUnrated() { for (let i = 0; i < N; i++) if (!done(i)) return i; return N; }
+function nextUnrated(from) {
+  for (let i = from + 1; i < N; i++) if (!done(i)) return i;
+  for (let i = 0; i < from && i < N; i++) if (!done(i)) return i;
+  return N;
+}
+function go(i) {
+  cur = Math.max(0, Math.min(N, i));
+  const d = cur < N ? state.decisions[P[cur].id] : null;
+  form = d ? { ...blank(), ...d } : blank();
+  $("need").textContent = "";
+  render();
+  window.scrollTo(0, 0);
+}
+function openUrl(url) {
+  if (!url) return;
+  const w = window.open(url, "_blank");
+  if (w) { try { w.opener = null; } catch (e) {} }
+  else toast("Popup blocked - tap the Open paper (PDF) button", 4000);
+}
+
+// ---------- form ----------
+const noMech = () => form.scope === "NOT_APPLICABLE" && form.na_reason === "NO_MECHANISM";
+function setPick(field, v) {
+  form[field] = form[field] === v ? "" : v;
+  if (form.scope !== "NOT_APPLICABLE") form.na_reason = "";
+  if (form.scope !== "CROSS") form.cross_origin = "";
+  if (noMech()) form.role = "";
+  renderForm();
+}
+function missing() {
+  const m = [];
+  if (!form.scope) m.push("scope");
+  if (form.scope === "NOT_APPLICABLE" && !form.na_reason) m.push("reason");
+  if (form.scope === "CROSS" && !form.cross_origin) m.push("whose earlier tasks");
+  if (!noMech() && !form.role) m.push("role");
+  if (!form.activity) m.push("activity");
+  return m;
+}
+function renderForm() {
+  for (const g of document.querySelectorAll(".opts[data-field]")) {
+    const f = g.dataset.field;
+    for (const b of g.querySelectorAll("button")) b.classList.toggle("on", form[f] === b.dataset.v);
+  }
+  $("sub-na").hidden = form.scope !== "NOT_APPLICABLE";
+  $("sub-origin").hidden = form.scope !== "CROSS";
+  for (const b of document.querySelectorAll('[data-field="role"] button')) b.disabled = noMech();
+  $("roleq").textContent = noMech() ? "No mechanism, so no role." : "Is the mechanism itself a stated contribution?";
+  for (const f of TEXT) if ($(f).value !== form[f]) $(f).value = form[f];
+  for (const g of document.querySelectorAll(".grp")) g.classList.remove("miss");
+}
+
+// ---------- render ----------
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function renderTop() {
+  $("progress").textContent = `${Object.keys(state.decisions).length} / ${N} done`;
+}
+function render() {
+  renderTop();
+  const paper = $("paper"), links = $("links");
+  paper.innerHTML = ""; links.innerHTML = "";
+  const end = cur >= N;
+  $("form").hidden = end; $("again").disabled = end;
+  if (end) {
+    const left = N - Object.keys(state.decisions).length;
+    paper.append(el("div", "done", left ? `End of list - ${left} still to do (use Jump to #)` : `All ${N} papers done 🎉`));
+    paper.append(el("div", "hint", "Press Download decisions to save the CSV."));
+    return;
+  }
+  const p = P[cur], d = state.decisions[p.id];
+  const meta = el("div", "meta");
+  meta.append(el("span", "rid", p.id), el("span", "", `#${cur + 1} of ${N}`));
+  paper.append(meta, el("h1", "", p.title));
+  if (d) paper.append(el("div", "saved", "Already saved - change anything and press Save to overwrite"));
+  p.links.forEach((l, i) => {
+    const a = el("a", "btn lk" + (i ? " small" : ""), l.label + " ↗");
+    a.href = l.url; a.target = "_blank"; a.rel = "noopener";
+    links.append(a);
+  });
+  renderForm();
+}
+
+function saveAndNext() {
+  if (cur >= N || Date.now() < lockUntil) return;
+  const miss = missing();
+  if (miss.length) {
+    $("need").textContent = "Still needed: " + miss.join(", ");
+    $("grp-scope").classList.toggle("miss", miss.some(m => ["scope", "reason", "whose earlier tasks"].includes(m)));
+    $("grp-role").classList.toggle("miss", miss.includes("role"));
+    $("grp-activity").classList.toggle("miss", miss.includes("activity"));
+    return;
+  }
+  lockUntil = Date.now() + 700;   // stops an accidental double tap saving two papers
+  const p = P[cur];
+  const d = { ...form };
+  for (const f of TEXT) d[f] = (d[f] || "").trim();
+  d.decided_at = new Date().toISOString(); d.position = cur + 1;
+  state.decisions[p.id] = d;
+  const nxt = nextUnrated(cur);
+  const ok = save();
+  if (nxt < N) openUrl(P[nxt].links[0].url);   // same click => not popup-blocked
+  go(nxt);
+  toast(`${ok ? "Saved" : "Saved in memory only"}: ${p.id}`);
+  if (Object.keys(state.decisions).length === N) {
+    const name = download();
+    const b = $("ckpt");
+    b.textContent = `All ${N} done. Downloaded ${name}. Keep it safe.`;
+    b.classList.add("show");
+  }
+}
+
+// ---------- CSV ----------
+const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+function buildCSV() {
+  const lines = [COLS.map(q).join(",")];
+  const ids = Object.keys(state.decisions).sort((a, b) => IDX.get(a) - IDX.get(b));
+  for (const id of ids) {
+    const d = state.decisions[id];
+    lines.push(COLS.map(c => c === "record_id" ? id : c === "position" ? IDX.get(id) + 1 : d[c]).map(q).join(","));
+  }
+  return "\ufeff" + lines.join("\r\n") + "\r\n";
+}
+function download() {
+  const n = Object.keys(state.decisions).length;
+  const dt = new Date(), z = x => String(x).padStart(2, "0");
+  const stamp = `${dt.getFullYear()}${z(dt.getMonth() + 1)}${z(dt.getDate())}-${z(dt.getHours())}${z(dt.getMinutes())}`;
+  const name = `class_decisions_${n}_${stamp}.csv`;
+  const url = URL.createObjectURL(new Blob([buildCSV()], { type: "text/csv;charset=utf-8" }));
+  const a = document.createElement("a");
+  a.href = url; a.download = name; a.style.display = "none";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 60000);
+  return name;
+}
+function parseCSV(text) {
+  text = text.replace(/^\ufeff/, "");
+  const rows = []; let row = [], f = "", inq = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inq) {
+      if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else inq = false; }
+      else f += c;
+    } else if (c === '"') inq = true;
+    else if (c === ",") { row.push(f); f = ""; }
+    else if (c === "\n") { row.push(f); rows.push(row); row = []; f = ""; }
+    else if (c !== "\r") f += c;
+  }
+  if (f !== "" || row.length) { row.push(f); rows.push(row); }
+  return rows;
+}
+function importCSV(text) {
+  const rows = parseCSV(text);
+  if (!rows.length) throw new Error("empty file");
+  const h = rows[0].map(s => s.trim());
+  const ix = k => h.indexOf(k);
+  for (const k of ["record_id", "scope", "decided_at"]) if (ix(k) < 0) throw new Error("missing column " + k);
+  const src = {}; let unknown = 0, bad = 0;
+  for (const r of rows.slice(1)) {
+    if (r.length === 1 && r[0] === "") continue;
+    const id = (r[ix("record_id")] || "").trim();
+    if (!IDX.has(id)) { unknown++; continue; }
+    const d = { ...blank(), decided_at: (r[ix("decided_at")] || "").trim() };
+    for (const c of [...PICK, ...TEXT]) if (ix(c) >= 0) d[c] = (r[ix(c)] || "").trim();
+    if (!validDecision(d) || isNaN(Date.parse(d.decided_at))) { bad++; continue; }
+    if (!src[id] || t(d) > t(src[id])) src[id] = d;
+  }
+  const changed = mergeDecisions(state.decisions, src);
+  const ok = save();
+  go(firstUnrated());
+  return `Imported: ${changed} new/updated, ${Object.keys(src).length - changed} already up to date` +
+    (unknown ? `, ${unknown} unknown record_ids skipped` : "") + (bad ? `, ${bad} bad rows skipped` : "") +
+    (ok ? "" : " (storage failing - kept in memory)");
+}
+
+let toastTimer;
+function toast(msg, ms = 1800) {
+  const e = $("toast"); e.textContent = msg; e.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => e.classList.remove("show"), ms);
+}
+
+// ---------- wiring ----------
+for (const g of document.querySelectorAll(".opts[data-field]"))
+  for (const b of g.querySelectorAll("button")) b.addEventListener("click", () => setPick(g.dataset.field, b.dataset.v));
+for (const f of TEXT) $(f).addEventListener("input", () => { form[f] = $(f).value; });
+$("save").onclick = saveAndNext;
+$("back").onclick = () => go(cur - 1);
+$("again").onclick = () => { if (cur < N) openUrl(P[cur].links[0].url); };
+$("jump").onclick = () => {
+  const s = prompt(`Go to # (1-${N})`, String(Math.min(cur + 1, N)));
+  if (s == null) return;
+  const n = parseInt(s, 10);
+  if (n >= 1 && n <= N) go(n - 1); else toast("Not a valid number");
+};
+$("dl").onclick = $("dl2").onclick = () => toast("Downloaded " + download(), 3000);
+$("imp").onclick = () => $("file").click();
+$("file").onchange = async e => {
+  const f = e.target.files[0]; e.target.value = "";
+  if (!f) return;
+  try { toast(importCSV(await f.text()), 5000); } catch (err) { toast("Import failed: " + err.message, 5000); }
+};
+
+load();
+go(firstUnrated());
+</script>
+</body>
+</html>

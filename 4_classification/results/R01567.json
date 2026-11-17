@@ -1,0 +1,15 @@
+{
+  "record_id": "R01567",
+  "pdf_sha256": "c17cef9b66f438abeea87831ef5141f7f8f423401c0c896df07bed6b468a2eb2",
+  "mechanism": "Fine-tuning of code language models on program repair training data",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "it is the first work to fine-tune CLMs with APR training data, which shows that fine- tuning brings 31%–1,267% improvement to CLMs",
+  "evidence_role": "this work is the first to evaluate ten CLMs on four APR benchmarks, which shows that surprisingly, the best CLM, as is, fixes 72% more bugs than the state-of-the-art deep-learning (DL)-based APR techniques.",
+  "read_full_text": true
+}

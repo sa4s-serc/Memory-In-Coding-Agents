@@ -1,0 +1,15 @@
+{
+  "record_id": "R00683",
+  "pdf_sha256": "46528b06fb88733e95ee8aa0932eb39cc3052f6666b213faeafc001162a5097e",
+  "mechanism": "none identified (Bayesian optimisation over harness configuration flags)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

@@ -1,0 +1,81 @@
+{
+ "record_id": "R00711",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our results use the Qwen3 dense grouped-query attention family (4B, 8B, and 14B) within the sequential four-agent chain of [32]. Extension to other backbone families (MoE, non-GQA) and to other multi-agent topologies remains to be verified.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Finally, our evaluation uses reasoning, QA, and code benchmarks; performance on real-world multi-agent applications such as long-form collaboration, tool use, or full agentic workflows remains untested.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The denoising interpretation and OBF’s gain over plain eviction are consistent with our results but unverified at the mechanism level.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "OBF’s residual SVD adds per-relay compute beyond the base selector; a fast Gram-based alternative is characterized in Appendix H.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Several OBF design choices (PCA rank, demand-ratio scaling, uniform injection) are empirical defaults rather than principled, and we do not fully explain why compressed relay helps on some benchmarks but not others.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

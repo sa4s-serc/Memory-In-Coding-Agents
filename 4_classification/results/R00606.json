@@ -1,0 +1,17 @@
+{
+  "record_id": "R00606",
+  "pdf_sha256": "70a1a5780bee5966a7340017eaefff0243c0947da5b77e4d608516ae117f6b9a",
+  "mechanism": "Skill library built during RL training and frozen at the end of training",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "the skill library is frozen at end-of-training — a strict transfer test.",
+  "evidence_role": "we propose SkillFlow, a flow-based framework that takes a trainable Supervisor as the agent and a structured environment with dynamic skill library and frozen executor",
+  "read_full_text": true
+}

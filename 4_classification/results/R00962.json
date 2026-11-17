@@ -1,0 +1,17 @@
+{
+  "record_id": "R00962",
+  "pdf_sha256": "f2fdde1cd9fccbdb8e9532bfacff247518d50352da21619a345ff4100f4ba621",
+  "mechanism": "Experience base distilled from earlier issue-resolution trajectories and outcomes, retrieved to guide early termination in later issues",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "Experience generation records agent execution trajectories, i.e., sequences of tool calls and their outcomes, together with resolution results from historical issues, and summarizes them into an experience base.",
+  "evidence_role": "we propose EET, an experience-driven early termination approach for cost reduction of SE agents while preserving task performance.",
+  "read_full_text": true
+}

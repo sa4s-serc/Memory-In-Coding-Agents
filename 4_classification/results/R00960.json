@@ -1,0 +1,17 @@
+{
+  "record_id": "R00960",
+  "pdf_sha256": "7fd6ed4220c1933beb0f10278bb4f55f87e6eed5b7ac006ed588393bc7f744e7",
+  "mechanism": "Store of experience cards built from past GitHub issues and their human fixes, searched by the agent on later issues",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "others_tasks",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "ignoring the immense historical human experience available on platforms like GitHub",
+  "evidence_role": "we introduce MemGovern, a framework designed to govern and transform raw GitHub data into actionable experiential memory for agents.",
+  "read_full_text": true
+}

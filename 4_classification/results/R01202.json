@@ -1,0 +1,15 @@
+{
+  "record_id": "R01202",
+  "pdf_sha256": "b741ce46fcf59ad84edcb922d827ffc25b46663fda882a8436d045d54ffcad9c",
+  "mechanism": "RL-trained agent that re-weights data domain mixtures during continual pre-training",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "The agent learns generalizable heuristics through reinforcement learning on large quantities of data mixing trajectories with corresponding feedback from an evaluation environment.",
+  "evidence_role": "we prove that more general heuristics can be parameterized by proposing Data Mixing Agent, the first model-based, end-to-end framework that learns to re-weight domains.",
+  "read_full_text": true
+}

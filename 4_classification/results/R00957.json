@@ -1,0 +1,17 @@
+{
+  "record_id": "R00957",
+  "pdf_sha256": "7b71f61b7f3414ca182a0c32933bdddab23fbae3521ed128189f46189e1effad",
+  "mechanism": "Agent-triggered consolidation of interaction history into a Knowledge block with deletion of raw messages within a task",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Focus enablesintra-trajectorycompression—the agent actively prunes its own historyduringa single task, preserving learnings in a structured knowledge block.",
+  "evidence_role": "This paper proposes Focus, an agent-centric architecture inspired by the biological exploration strategies ofPhysarum poly-",
+  "read_full_text": true
+}

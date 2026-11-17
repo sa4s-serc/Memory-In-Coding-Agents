@@ -1,0 +1,101 @@
+{
+ "record_id": "R00333",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Although we used a variety of diagrams with differing levels of complexity and notation, our evaluation remains small and may not be fully representative of process flow diagrams drawn in practice. Real stakeholder-generated diagrams may be incomplete, ambiguous, inconsistent, or use informal notation that differs from the diagrams included in this evaluation.",
+     "page": 24,
+     "verbatim": true
+    },
+    {
+     "quote": "Finally, because the evaluation used a fixed and documented experimental design, using specific LLM models and GPU hardware, the results should be interpreted as conditional on that configuration. This supports reproducibility, but does not by itself establish robustness across all possible model families, inference engines, hardware environments, quantised deployments, or diagram sources.",
+     "page": 25,
+     "verbatim": true
+    },
+    {
+     "quote": "However, the present study does not evaluate this end-user workflow directly. Our results should therefore be interpreted as evidence for the feasibility and reliability of the underlying technical architecture, rather than as evidence that the approach has lowered barriers for novice modellers in practice.",
+     "page": 24,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We acknowledge that use of LLMs in the simulation modelling process introduces additional energy usage above and beyond traditional software tools and there is growing consensus that carbon footprint should be considered in LLM research (Jeanquartier et al., 2026).",
+     "page": 21,
+     "verbatim": true
+    },
+    {
+     "quote": "This flexibility does come at a maintenance cost. The reliability of the adapter is achieved because it is a set of deterministic rules implemented in software. As the JSON schema representing models is expanded, or the simulation package evolves, so must the adapter.",
+     "page": 22,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The most common discrepancies involved routing and parameter interpretation, rather than hallucinated activities or complete generation failures.",
+     "page": 22,
+     "verbatim": true
+    },
+    {
+     "quote": "Errors were concentrated in the visual interpretation stage, particularly for larger hand-drawn networks with routing loops and multiple arrival sources.",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The current schema targets open queuing-network style DES models and supports arrivals, services, resources, routing, and reneging behaviour. Extension to other DES constructs such as schedules, batching, priorities, and state-dependent logic is left for future work.",
+     "page": 12,
+     "verbatim": false
+    },
+    {
+     "quote": "The current schema and adapter also support only a restricted class of open queuing-network models, including arrivals, service processes, routing, resources and reneging. They do not yet represent features such as resource schedules, priorities, batching, shared resources or state-dependent logic.",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

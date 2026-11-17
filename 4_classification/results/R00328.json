@@ -1,0 +1,17 @@
+{
+  "record_id": "R00328",
+  "pdf_sha256": "57db76a6a9df2f6faf237e79f68b269ed49d84488d4ed12e62eee1e0b3966c1b",
+  "mechanism": "Online-learned policy over context-assembly levers of the harness",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "treat the harness as a small, fixed, human-legible action space and learn a policy over it online with classic sample-efficient reinforcement learning",
+  "evidence_role": "A control system: an outer harness policy (contextual bandit and REINFORCE) over a six-lever context space (prompt style, tool/retrieval policy, memory policy, planning depth, verification policy, step budget), built on DSPy",
+  "read_full_text": true
+}

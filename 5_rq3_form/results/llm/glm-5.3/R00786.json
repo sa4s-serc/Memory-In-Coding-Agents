@@ -1,0 +1,139 @@
+{
+ "record_id": "R00786",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Two-domain validation only. Our evidence spans two production systems in the DeFi domain. Generalization to other domains (Section 16) is architecturally supported but empirically unvalidated.",
+     "page": 37,
+     "verbatim": true
+    },
+    {
+     "quote": "Anvil-only testing\nLoop has not been\nexercised with real\nmainnet transactions",
+     "page": 31,
+     "verbatim": true
+    },
+    {
+     "quote": "Our corpus of 23 discussions is too small to establish whether the observed SS < 20 threshold generalizes (cf. Yao et al., 2025 [14]).",
+     "page": 32,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Per-iteration compute cost breakdown beyond the aggregate $0.38/PR figure has not yet been instrumented — this is a gap we intend to address in future work.",
+     "page": 31,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "It does not claim the codebase is bug-free, nor that latent regressions undetectable by the oracle do not exist. The oracle’s coverage is bounded by its test suite (10,913 unit tests, 62 demo\nstrategies, 77 signal verifiers).",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Oracle quality is the ceiling. The loop can only catch what the regression oracle can verify. If the\noracle misses a failure mode, the loop is blind to it.",
+     "page": 37,
+     "verbatim": true
+    },
+    {
+     "quote": "Evaluation circularity: When the moderator is Claude and one meta-analyst is also Claude,\nself-assessment bias is difficult to fully eliminate.",
+     "page": 20,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Early attempts to improve them via the L4 LLM tribunal (GPT/Claude/Gemini judgment) produced\nnon-deterministic results — catching 0-2 canaries per iteration with no convergence.",
+     "page": 11,
+     "verbatim": false
+    },
+    {
+     "quote": "Weaknesses. Disagreements resolve by one party conceding rather than genuine synthesis (premature\nconvergence).",
+     "page": 19,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "As the test suite grows, regression time grows. This is a real scaling concern:",
+     "page": 30,
+     "verbatim": true
+    },
+    {
+     "quote": "With the ∼50% round efficiency observed in the corpus, approximately 40%\nof token spend is on convergence dynamics rather than novel insight.",
+     "page": 20,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In practice, the most common intervention trigger was merge conflict resolution gone wrong: LLMs\nresolving git conflicts would sometimes silently undo work from previous commits or PRs, requiring\na human to notice the regression and revert.",
+     "page": 31,
+     "verbatim": true
+    },
+    {
+     "quote": "PR merge automation fragility\nThe Polish phase has been\nthe most failure-prone\ncomponent",
+     "page": 31,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In the current open-source release, the Discussion Manager is invoked manually;\nautomated orchestrator integration is planned.",
+     "page": 20,
+     "verbatim": true
+    },
+    {
+     "quote": "Single-threaded execution. The current orchestrator runs one iteration at a time. Parallelization\nacross multiple worktrees is architecturally straightforward but not yet implemented (Section 13.3).",
+     "page": 36,
+     "verbatim": true
+    },
+    {
+     "quote": "Automatic generation of regression oracles\nfrom natural-language specifications — eliminating the per-domain engineering cost — is an unsolved challenge.",
+     "page": 32,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

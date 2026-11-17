@@ -1,0 +1,70 @@
+{
+ "record_id": "R00551",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work could extend this framework to strictly streaming task settings and evaluate the end-to-end cost of skill acquisition, maintenance, and use.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work could extend this framework to strictly streaming task settings and evaluate the end-to-end cost of skill acquisition, maintenance, and use.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Unlike directly optimizing a task-solving policy, CODESKILL affects outcomes only after its skills are retrieved, injected, and followed in long-horizon software tasks, making the environment reward noisy.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

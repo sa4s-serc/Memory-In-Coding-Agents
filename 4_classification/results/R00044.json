@@ -1,0 +1,17 @@
+{
+  "record_id": "R00044",
+  "pdf_sha256": "c3ce52da1c34a52cbadea4d2823cd5def38284cff7ce282e1252f7572fb9c94a",
+  "mechanism": "Textual backpropagation of verification feedback to update agents and connections in a multi-agent network within a task",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "The self-evolution solution iteratively updates the MAC network using a textual backpropagation algorithm, guided by the environmental feedback.",
+  "evidence_role": "we introduce EvoMAC, a novel self-evolving paradigm for MAC networks.",
+  "read_full_text": true
+}

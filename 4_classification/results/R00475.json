@@ -1,0 +1,17 @@
+{
+  "record_id": "R00475",
+  "pdf_sha256": "197ce0dc2bc7e5a3c141507be2563555f72f28c9cbd45e3257e3d450cdea15ec",
+  "mechanism": "Git-based store of past reasoning, retrieved on new problems, compared with other memory stores",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Does giving an agent memory from past problems actually make it more accurate?",
+  "evidence_role": "GitOfThoughts stores an agent’s reasoning tree as a git repository.",
+  "read_full_text": true
+}

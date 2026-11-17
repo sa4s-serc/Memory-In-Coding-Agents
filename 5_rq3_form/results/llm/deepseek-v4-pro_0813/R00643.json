@@ -1,0 +1,69 @@
+{
+ "record_id": "R00643",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, while CASCADE performs robustly across a wide range of tasks, its behaviour over substantially longer horizons remains to be explored, which may involve memory growth, case management, and forgetting mechanism.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "Finally, as with other experiential learning methods, deployment-time learning requires a minimum level of foundational capability in the underlying LLM; when its zero-shot performance is near zero, learning from experience becomes substantially more challenging.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, the current framework primarily learns from successful experiences, discarding failed attempts that may contain informative signals.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

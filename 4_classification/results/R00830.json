@@ -1,0 +1,15 @@
+{
+  "record_id": "R00830",
+  "pdf_sha256": "e70826981748159ccc49d714befa1d8380f14443267994abab3e137f943493d1",
+  "mechanism": "none identified (testing of agent system prompts for interference)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "QUALITY_ASSURANCE",
+  "target": "Agent system prompts (natural language)",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

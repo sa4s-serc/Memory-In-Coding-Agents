@@ -1,0 +1,91 @@
+{
+ "record_id": "R00878",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This trade-off, analogous to the move from GOTO to structured control flow in programming language design, sacrifices maximal flexibility for termination guarantees, zero-cost continuity on short tasks, and lossless retrievability of all prior state.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "We acknowledge that the case for architectural control flow may diminish as LLM capabilities increase.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, inspection of Opus 4.6 reasoning traces revealed that the model occasionally recognizes the underlying data and produces correct answers from parametric memory without performing the required aggregation.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "A caveat applies to the raw model baselines. Our decontamination procedure relies on structured reasoning traces to detect memorization, which were not available for the harness-free model outputs.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "The current OOLONG suite caps at 1M tokens, a ceiling that the raw Opus 4.6 context window already exceeds.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The system is designed to enable an agent to navigate to and recover any prior state, though we cannot deterministically guarantee that the agent will always do so.",
+     "page": 2,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We note that while we have implemented the “map” half of map-reduce as an LLM-powered operator, we have not built corresponding llm_reduce or agentic_reduce tools.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

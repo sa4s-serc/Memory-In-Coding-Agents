@@ -1,0 +1,17 @@
+{
+  "record_id": "R00851",
+  "pdf_sha256": "9cb782844f7b1ada3b8c7d682b540f870cdc2c6c9c5ffe617aba4f2ee9ea23e3",
+  "mechanism": "Reusing decoding-phase KV caches of earlier agents in later agents' prefill",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "We present RelayCaching, a training-free inference method that directly reuses decoding phase KV caches from previous agents in subse- quent prefill phases.",
+  "evidence_role": "We present RelayCaching, a training-free inference method that directly reuses decoding phase KV caches from previous agents in subse- quent prefill phases.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00356",
+  "pdf_sha256": "204af5d8df1a25d09dcc2ef154b2aac8d3d3fcea4c9c737a511129f40cd27eaf",
+  "mechanism": "Synchronized file context: files registered in a synced set and refreshed before each cycle instead of stale snapshots in the trajectory",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "Before each reasoning cycle, acontext syncphase refreshes all registered files from the repository and injects their current contents into the prompt.",
+  "evidence_role": "We propose CORVUS, an efficiency-oriented trajectory architecture that proactively synchronizes agent context with the repository state",
+  "read_full_text": true
+}

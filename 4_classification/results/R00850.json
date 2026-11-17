@@ -1,0 +1,15 @@
+{
+  "record_id": "R00850",
+  "pdf_sha256": "615784288bc10174db807f7e5a4ef74845d4d898b55ad250ff6bf21157adcbb3",
+  "mechanism": "Agent-driven acquisition of reward models and synthesised verifiers for RL training",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "RLAR transforms reward acquisition into a dynamic tool synthesis and invocation task.",
+  "evidence_role": "We present RLAR ( Reinforcement Learning from Agent Rewards), an agent-driven framework that dynamically assigns tailored reward functions to individual queries.",
+  "read_full_text": true
+}

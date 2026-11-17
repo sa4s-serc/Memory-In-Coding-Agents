@@ -1,0 +1,17 @@
+{
+  "record_id": "R00716",
+  "pdf_sha256": "606c4cc9fd87bf9e8115f18e34aa364429f3df3137e4d4be6adb29b0da9a0bb5",
+  "mechanism": "Adaptive context compression of long conversation histories",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "the unbounded accumulation of historical messages in long-running agentic tasks inevitably",
+  "evidence_role": "we present Sema Code, an open AI coding framework built on the principle of being embeddable, pluggable, and framework-first.",
+  "read_full_text": true
+}

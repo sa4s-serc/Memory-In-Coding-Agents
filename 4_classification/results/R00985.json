@@ -1,0 +1,18 @@
+{
+  "record_id": "R00985",
+  "pdf_sha256": "4f8c2f50940b84d93636c3c55523628c6bda0c041382a4fb19c7d8a65d067a8c",
+  "mechanism": "Trained code retriever and reranker over the repository with an agentic search loop that keeps a memory buffer of candidates",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "SWERANKAGENT adopts an agentic search loop that moves be- yond single-shot localization with a memory buffer to reason and accumulate relevant lo- calization candidates over multiple turns.",
+  "evidence_role": "This work introduces SWERANK+ 1, a framework that couples SWERANKMULTI, a cross-lingual code ranking tool, with SWERANKAGENT, an agentic search setup, for iterative, multi-turn reasoning over the code repository.",
+  "read_full_text": true
+}

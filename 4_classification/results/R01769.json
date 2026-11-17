@@ -1,0 +1,17 @@
+{
+  "record_id": "R01769",
+  "pdf_sha256": "000203081177a3d80f28c49806dac16cd2db17eba24a1544e4c816660c94de86",
+  "mechanism": "Local code index with hybrid retrieval (lexical, dense, graph) served through MCP, plus a git-pinned memory store",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "a local-first MCP server that fuses lexical, dense, and graph signals through channelized Reciprocal Rank Fusion",
+  "evidence_role": "We present SVERKLO, an open-source code-intelligence server that combines incremental tree-sitter parsing",
+  "read_full_text": true
+}

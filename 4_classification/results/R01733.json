@@ -1,0 +1,17 @@
+{
+  "record_id": "R01733",
+  "pdf_sha256": "844f56438a9264e73d1d15af71e8983141021adadb50f6e6353b89f05a0763b7",
+  "mechanism": "Tiered durable project memory (working, episodic, long-term) with drift detection, repair and compaction in an agent operating layer",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Covenant exposes three memory tiers and a drift discipline over them.",
+  "evidence_role": "We describe Covenant, an open operating layer that exposes eight primitives—intent, run- time, memory, identity, permissions, comms, compositor, settlement—behind a local Rust daemon",
+  "read_full_text": true
+}

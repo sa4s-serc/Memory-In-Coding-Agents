@@ -1,0 +1,17 @@
+{
+  "record_id": "R00553",
+  "pdf_sha256": "f28b217f1e2c8983152b7bba18705cb71ce83fcde3db68aa625352a544b6f3f7",
+  "mechanism": "Self-Evolving Experience Representation (XPU) transferring verified setup fixes across repositories",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we construct aSelf-Evolving Experience Repre- sentation(XPU), a dual-modality knowledge unit encoding setup signals, textual guidance, executable actions to dynamically transfer verified environment fixes to unseen repositories.",
+  "evidence_role": "we introduce SETUPX, an experiential learning- based setup framework.",
+  "read_full_text": true
+}

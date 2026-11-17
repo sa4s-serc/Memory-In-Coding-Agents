@@ -1,0 +1,17 @@
+{
+  "record_id": "R00250",
+  "pdf_sha256": "7aebce9307c5bd64452b38b4fb3deee1b32bae93a3d529d5ed0b82a3215b08df",
+  "mechanism": "Agent memory caching per-function data-flow facts during on-demand repository exploration",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "unspecified",
+  "evidence_scope": "After analyzing a function, the explorer obtains a set of data-flow facts for each feasible program path and stores them into the memory of the agent.",
+  "evidence_role": "This work introduces an LLM-based agent, REPOAUDIT, designed to perform autonomous repository-level code auditing.",
+  "read_full_text": true
+}

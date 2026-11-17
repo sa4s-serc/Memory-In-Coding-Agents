@@ -1,0 +1,92 @@
+{
+ "record_id": "R00860",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The evaluation is a single-user case study; results may not generalise across usage patterns, codebases, or programming styles.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "(2) multi-user evaluation across diverse usage patterns;",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We have not yet quantified the impact on downstream reasoning accuracy in a controlled setting.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "(1) controlled comparisons of trimmed vs. untrimmed branches given identical follow-up tasks to quantify any downstream reasoning degradation;",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The byte-to-token estimation used in the benchmark over-estimates reduction for image-heavy sessions due to the discrepancy between base64 encoding size and API vision-token cost.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "(3) adaptive trim thresholds informed by auto-trim log data;",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "If a stripped tool result is needed for subsequent reasoning, the model may hallucinate its contents or request a re-read.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

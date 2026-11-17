@@ -1,0 +1,64 @@
+{
+ "record_id": "R00606",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "SkillFlow lifts every backbone but cannot replace the underlying base capability—orchestration amplifies what the model already knows about decomposition and tool use rather than installing new reasoning skills.",
+     "page": 42,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Multi-turn orchestration grows the supervisor’s input by the full history Ht = Ht−1 ⊕(rt, at, oexec t ) at every step. SkillFlow therefore relies on the backbone’s ability to attend to and faithfully use long histories—backbones with weaker long-context fidelity see the per-step credit signal degrade as trajectories grow, since the hindsight backward Pϕ must condition on increasingly distant context.",
+     "page": 41,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

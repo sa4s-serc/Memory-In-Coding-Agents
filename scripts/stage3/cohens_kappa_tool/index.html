@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Link Review</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--mute:#5d6470;--line:#d9dde3;--blue:#1f5fd1;
+--g:#1e8e3e;--o:#e07800;--r:#c62828;--warnbg:#fff4d6;--errbg:#fde2e2}
+@media (prefers-color-scheme:dark){:root{--bg:#121417;--card:#1c1f24;--ink:#eceef1;--mute:#9aa2ad;--line:#333841;
+--blue:#6ea0ff;--warnbg:#3a3214;--errbg:#3d1d1d}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding:0 16px 40px}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px}
+header .in{max-width:680px;margin:0 auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+#progress{font-weight:700;font-size:17px;flex:1;min-width:0}
+.cnt{display:inline-block;font-weight:700;padding:0 6px}
+.cg{color:var(--g)}.co{color:var(--o)}.cr{color:var(--r)}
+button,.btn{font:inherit;cursor:pointer;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);
+min-height:48px;padding:8px 14px;touch-action:manipulation;-webkit-tap-highlight-color:transparent;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+button:active,.btn:active{transform:scale(.98)}
+#dl{font-weight:700;border-color:var(--blue);color:var(--blue)}
+.banner{margin:12px 0;padding:12px 14px;border-radius:10px;font-weight:600;display:none}
+.banner.show{display:block}
+.warn{background:var(--warnbg)}.err{background:var(--errbg)}
+details{margin:12px 0;background:var(--card);border:1px solid var(--line);border-radius:12px}
+summary{padding:12px 14px;font-weight:700;cursor:pointer;min-height:48px;display:flex;align-items:center}
+details ul{margin:0;padding:0 14px 12px 32px}details p{margin:0;padding:0 14px 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--mute);font-size:14px}
+.rid{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700;color:var(--ink);font-size:15px}
+.ev{padding:2px 8px;border-radius:999px;font-weight:700;font-size:13px;text-transform:uppercase;border:1px solid var(--line)}
+.ev-strong{color:var(--g)}.ev-medium{color:var(--o)}.ev-weak{color:var(--r)}
+h1{font-size:19px;margin:8px 0 0;overflow-wrap:anywhere}
+.rated{margin-top:10px;font-weight:700;padding:8px 10px;border-radius:8px;border:2px solid currentColor}
+.links{display:flex;flex-direction:column;gap:10px}
+.lk{width:100%;flex-direction:column;align-items:flex-start;text-align:left;overflow-wrap:anywhere}
+.lk .u{font-size:13px;color:var(--mute);word-break:break-all}
+.lk.best{min-height:72px;border-color:var(--blue);font-weight:700;font-size:18px;color:var(--blue)}
+.lk.other{font-size:15px}
+.lk.last{box-shadow:0 0 0 3px var(--blue)}
+.lk .tag{font-size:12px;font-weight:700;color:var(--blue)}
+textarea{width:100%;font:inherit;padding:12px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);resize:vertical;min-height:52px}
+.rate{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}
+.rate button{min-height:96px;font-size:20px;font-weight:800;color:#fff;border:none;flex-direction:column;gap:2px}
+.rate button small{font-size:12px;font-weight:600;opacity:.85}
+#bG{background:var(--g)}#bO{background:var(--o)}#bR{background:var(--r)}
+.rate button.cur{outline:5px solid var(--ink);outline-offset:3px}
+.rate button:disabled{opacity:.35}
+.row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.row button{font-size:15px}
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+#toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);max-width:calc(100% - 32px);background:var(--ink);color:var(--bg);
+padding:12px 16px;border-radius:10px;font-weight:600;opacity:0;transition:opacity .2s;pointer-events:none;z-index:9}
+#toast.show{opacity:1}
+.done{text-align:center;font-size:20px;font-weight:700;padding:24px 0}
+.hint{color:var(--mute);font-size:13px;margin-top:14px;text-align:center}
+@media (max-width:420px){.rate{gap:10px}.rate button{font-size:18px;min-height:88px}}
+</style>
+</head>
+<body>
+<header><div class="in">
+  <div id="progress">…</div>
+  <button id="dl" type="button">Download decisions</button>
+</div></header>
+<div class="wrap">
+  <div id="storeErr" class="banner err">Browser storage is unavailable or failing. Your ratings are kept only while this tab stays open. Use “Download decisions” often.</div>
+  <div id="ckpt" class="banner warn"></div>
+  <div id="oldData" class="banner warn"></div>
+
+  <details>
+    <summary>Rating criteria</summary>
+    <ul>
+      <li><b>A1 Accessible:</b> opens without login; not empty or a placeholder</li>
+      <li><b>A2 Author-created:</b> owned by an author or their org, or stated as official</li>
+      <li><b>A3 Relevant:</b> README names the paper (title, system name, arXiv id, DOI), or the paper calls it its own code</li>
+      <li><b>A4 Adds value:</b> contains source code for the mechanism, not only docs, data or results</li>
+    </ul>
+    <p><b class="cg">GREEN</b> = all four clearly met. <b class="co">ORANGE</b> = met, but doubtful on completeness or provenance. <b class="cr">RED</b> = any one fails.</p>
+  </details>
+
+  <div id="paper" class="card"></div>
+  <div id="links" class="links"></div>
+
+  <div style="margin-top:14px"><textarea id="note" rows="1" placeholder="Optional note"></textarea></div>
+
+  <div class="rate">
+    <button id="bG" type="button" data-d="GREEN">GREEN<small>key 1</small></button>
+    <button id="bO" type="button" data-d="ORANGE">ORANGE<small>key 2</small></button>
+    <button id="bR" type="button" data-d="RED">RED<small>key 3</small></button>
+  </div>
+  <div class="row">
+    <button id="back" type="button">◀ Back</button>
+    <button id="jump" type="button">Jump to #</button>
+    <button id="again" type="button">Open link again</button>
+  </div>
+  <div class="tools">
+    <button id="imp" type="button">Import decisions</button>
+    <button id="dl2" type="button">Download decisions</button>
+  </div>
+  <input id="file" type="file" accept=".csv,text/csv" hidden>
+  <div class="hint">Keys: 1 GREEN · 2 ORANGE · 3 RED · B back · O open link again</div>
+</div>
+<div id="toast"></div>
+<script id="data" type="application/json">{"hash":"ca951b3caca6","papers":[{"id":"R00030","title":"Neuro-Symbolic Compliance: Integrating LLMS and SMT Solvers for Automated Financial Legal Analysis","ev":"strong","best":"https://github.com/shiayongshen/Neuro-Symbolic-Compliance","others":[]},{"id":"R00110","title":"Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems","ev":"strong","best":"https://github.com/sa4s-serc/asf","others":[]},{"id":"R00182","title":"Autosecagent: a semi-automated AI-driven penetration testing framework through recursive memory and real-time RAG","ev":"strong","best":"https://github.com/udbhavurs/AutosecAgent","others":[{"url":"https://github.com/digininja/DVW","label":"weak"},{"url":"https://github.com/digininja/DVWA","label":"weak"}]},{"id":"R00283","title":"Enhancing LLM-Based Code Generation with Complexity Metrics: A Feedback-Driven Approach","ev":"strong","best":"https://github.com/MelikaSepidband/Code-Generation-Complexity-Metrics","others":[{"url":"https://huggingface.co/datasets/greengerong/leetcode","label":"weak"}]},{"id":"R00368","title":"NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs","ev":"strong","best":"https://github.com/Swathika-glitch/nexForge-AI","others":[]},{"id":"R00403","title":"No Time Like the Present: Agentic Test-Time Training for LLM Agents","ev":"strong","best":"https://github.com/wltrup/Fiction-No-Time-Like-The-Present","others":[]},{"id":"R00406","title":"ContextSniper: AntTrail's Token-Efficient Code Memory for Repository-Level Program Repair","ev":"strong","best":"https://github.com/Calluking/ContextSniper","others":[{"url":"https://github.com/Calluking/ContextSniper.1","label":"strong"},{"url":"https://github.com/BurntSushi/ripgrep","label":"weak"},{"url":"https://github.com/Kayariyan28/ctxbudgeter","label":"weak"},{"url":"https://github.com/TencentCloud/TencentDB-Agent-Memory","label":"weak"},{"url":"https://github.com/c4pt0r/agfs","label":"weak"}]},{"id":"R00415","title":"FeatX: Editing Software by Editing Features for Repository-Level Code Evolution","ev":"strong","best":"https://github.com/a496263365/FeatX","others":[{"url":"https://github.com/Naccl/NBlog","label":"strong"},{"url":"https://github.com/PKU-SoftwareReuse/FeatX","label":"strong"},{"url":"https://zenodo.org/records/21187018","label":"medium"},{"url":"https://zenodo.org/records/21190519","label":"medium"}]},{"id":"R00460","title":"ENPIRE: Agentic Robot Policy Self-Improvement in the Real World","ev":"strong","best":"https://github.com/NVlabs/ENPIRE","others":[{"url":"https://github.com/NVlabs/ENPIRE.Abstract","label":"strong"},{"url":"https://github.com/enpire-research/enpire-research.github.io","label":"strong"},{"url":"https://github.com/huggingface/gym-pusht","label":"weak"},{"url":"https://trinkle23897.github.io/learning-beyond-gradients/","label":"weak"}]},{"id":"R00515","title":"Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory","ev":"strong","best":"https://github.com/RickySkywalker/Lean4Agent","others":[{"url":"https://github.com/RickySkywalker/Lean4Agent.2","label":"strong"},{"url":"https://github.com/leanprover-community/physlib","label":"weak"}]},{"id":"R00526","title":"Sandboxed Coding Agents are Competitive Omni-modal Task Solvers","ev":"strong","best":"https://github.com/Dongping-Chen/OmniCoding","others":[{"url":"https://github.com/Dongping-Chen/OmniCoding.80","label":"strong"},{"url":"https://github.com/InternLM/WildClawBench","label":"medium"},{"url":"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf","label":"medium"},{"url":"https://github.com/krafton-ai/KIRA","label":"weak"},{"url":"https://github.com/nousresearch/hermes-agent","label":"weak"}]},{"id":"R00565","title":"ACC: Compiling Agent Trajectories for Long-Context Training","ev":"strong","best":"https://huggingface.co/datasets/groundhogLLM/ACC-dataset","others":[{"url":"https://huggingface.co/groundhogLLM/ACC-Qwen3-30B-A3B","label":"strong"},{"url":"https://github.com/huggingface/accelerate","label":"strong"},{"url":"https://huggingface.co/datasets/Theafricatechguy/ACC-dataset","label":"medium"},{"url":"https://github.com/gkamradt/LLMTest_NeedleInAHaystack","label":"weak"}]},{"id":"R00566","title":"RAS: Reflection-Augmented Scaling with In-Context Learning for Executable Cypher Query Generation","ev":"strong","best":"https://github.com/RasaHQ/rasa","others":[]},{"id":"R00582","title":"SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution","ev":"strong","best":"https://github.com/MemTensor/skills-vote","others":[{"url":"https://huggingface.co/datasets/IAAR-Shanghai/SkillsVote","label":"medium"},{"url":"https://github.com/anthropics/skills","label":"medium"},{"url":"https://github.com/openai/skills","label":"medium"},{"url":"https://github.com/anthropics/claude-agent-sdk-python","label":"weak"},{"url":"https://github.com/harbor-framework/harbor","label":"weak"}]},{"id":"R00595","title":"Test-Time Learning with an Evolving Library","ev":"strong","best":"https://github.com/microsoft/EvoLib","others":[{"url":"https://github.com/microsoft/EvoLib.Preprint.arXiv","label":"strong"},{"url":"https://github.com/LiveCodeBench/LiveCodeBench","label":"weak"},{"url":"https://hkust-nlp.github.io/agentboard/","label":"weak"},{"url":"https://hkust-nlp.github.io/agentboard/9https://openai.com/index/o3-o4-mini-system-card/14","label":"weak"},{"url":"https://huggingface.co/datasets/MathArena/hmmt_feb_2025","label":"weak"}]},{"id":"R00624","title":"SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning","ev":"strong","best":"https://github.com/SimWorld-AI/SimWorld-Studio","others":[{"url":"https://github.com/SimWorld-AI/SimWorld-Studio.2","label":"strong"},{"url":"https://github.com/impossible-inc/SimWorld-Studio","label":"strong"}]},{"id":"R00679","title":"VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation","ev":"strong","best":"https://github.com/UCSC-VLAA/VLAA-GUI","others":[{"url":"https://ucsc-vlaa.github.io/VLAA-GUI","label":"strong"},{"url":"https://github.com/wadang/muscle-mem-agent","label":"weak"},{"url":"https://github.com/xlang-ai/OSWorld","label":"weak"}]},{"id":"R00694","title":"AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation","ev":"strong","best":"https://github.com/StigLidu/AdaExplore","others":[{"url":"https://github.com/StigLidu/AdaExplore.1","label":"strong"},{"url":"https://github.com/StigLidu/AdaExplore.B","label":"strong"},{"url":"https://github.com/algorithmicsuperintelligence/openevolve","label":"weak"},{"url":"https://github.com/algorithmicsuperintelligence/openevolve.Noah","label":"weak"}]},{"id":"R00702","title":"ARGUS: Agentic GPU Optimization Guided by Data-Flow Invariants","ev":"strong","best":"https://github.com/causalflow-ai/avelang","others":[{"url":"https://github.com/causalflow-ai/avelang.CCS","label":"strong"},{"url":"https://github.com/jasonxtn/Argus","label":"strong"},{"url":"https://github.com/NVIDIA/cutlass","label":"weak"},{"url":"https://github.com/ROCm/FlyDSL","label":"weak"},{"url":"https://github.com/ROCm/ROCm","label":"weak"}]},{"id":"R00744","title":"SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems","ev":"strong","best":"https://github.com/qualixar/superlocalmemory","others":[{"url":"https://doi.org/10.5281/zenodo.19435120","label":"strong"},{"url":"https://doi.org/10.5281/zenodo.19435120.Acknowledgments","label":"strong"},{"url":"https://github.com/mem0ai/mem0","label":"weak"}]},{"id":"R00808","title":"FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair","ev":"strong","best":"https://github.com/Ruize-Ma/FailureMem","others":[]},{"id":"R00872","title":"SPARC: Scenario Planning and Reasoning for Automated C Unit Test Generation","ev":"strong","best":"https://github.com/jaid-monwar/SPARC-CTestGeneration","others":[{"url":"https://github.com/TheAlgorithms/C","label":"weak"},{"url":"https://github.com/ThrowTheSwitch/Unity","label":"weak"}]},{"id":"R00940","title":"FGGM: Fisher-Guided Gradient Masking for Continual Learning","ev":"strong","best":"https://github.com/shige-h/FGGML2SRTMHGT","others":[{"url":"https://github.com/open-compass/opencompass","label":"weak"}]},{"id":"R00944","title":"SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents","ev":"strong","best":"https://github.com/Ayanami1314/swe-pruner","others":[{"url":"https://huggingface.co/ayanami-kitasan/code-pruner","label":"medium"},{"url":"https://huggingface.co/irotem98/fast-code-pruner","label":"medium"},{"url":"https://huggingface.co/5vg/qwen3.8-27b-uncensored-properly-distill-experimental","label":"medium"},{"url":"https://huggingface.co/datasets/davanstrien/context-compaction-poc","label":"medium"},{"url":"https://huggingface.co/datasets/zhongweixie/A-Survey-on-AI-Agent-Harness","label":"medium"}]},{"id":"R00966","title":"AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering","ev":"strong","best":"https://github.com/grtsinry43/AgentDevelopmentGateway","others":[{"url":"https://github.com/tatsu-lab/alpaca_eval","label":"weak"}]},{"id":"R01025","title":"Latent Collaboration in Multi-Agent Systems","ev":"strong","best":"https://github.com/Gen-Verse/LatentMAS","others":[{"url":"https://huggingface.co/spaces/MarxistLeninist/repro-latent-collaboration-in-multi-agent-systems","label":"medium"},{"url":"https://huggingface.co/spaces/sotayamashita/repro-latent-collaboration-multi-agent-systems","label":"medium"},{"url":"https://huggingface.co/datasets/Maxwell-Jia/AIME_2024","label":"weak"},{"url":"https://huggingface.co/docs/transformers/en/index","label":"weak"}]},{"id":"R01036","title":"SAINT: Service-level Integration Test Generation with Program Analysis and LLM-based Agents","ev":"strong","best":"https://github.com/SaintVisionAi/saintvision-faithful-app","others":[{"url":"https://github.com/aster-test-generation/saint","label":"medium"},{"url":"https://github.com/OpenLiberty/sample.daytrader8","label":"weak"},{"url":"https://github.com/StripesFramework/stripes","label":"weak"},{"url":"https://github.com/codellm-devkit/python-sdk","label":"weak"},{"url":"https://github.com/languagetool-org/languagetool","label":"weak"}]},{"id":"R01081","title":"STARK: Strategic Team of Agents for Refining Kernels","ev":"strong","best":"https://github.com/starknet-io/starknet.js","others":[{"url":"https://github.com/ScalingIntelligence/KernelBench","label":"weak"},{"url":"https://lilianweng.github.io/posts/2023-06-23-agent/","label":"weak"}]},{"id":"R01152","title":"Tether: A Personalized Support Assistant for Software Engineers with ADHD","ev":"strong","best":"https://github.com/SeallLab/Tether","others":[{"url":"https://github.com/shipshapecode/tether","label":"strong"},{"url":"https://figshare.com/s/9f5e8e201fdf0b26fc36","label":"medium"},{"url":"https://figshare.com/s/9f5e8e201fdf0b26fc36.Fig","label":"medium"}]},{"id":"R01215","title":"Large Language Model-Driven Closed-Loop UAV Operation with Semantic Observations","ev":"strong","best":"https://github.com/ai-uavsec/CLGSCE.slightly","others":[{"url":"https://github.com/ai-uavsec/CLGSCE","label":"medium"}]},{"id":"R01237","title":"ReVeal: Self-Evolving Code Agents via Reliable Self-Verification","ev":"strong","best":"https://github.com/Shimly-2/ReVeal","others":[{"url":"https://github.com/0russwest0/Agent-R1","label":"weak"},{"url":"https://github.com/0xWJ/code-judge","label":"weak"}]},{"id":"R01243","title":"Cartridges: Lightweight and general-purpose long context representations via self-study","ev":"strong","best":"https://github.com/HazyResearch/cartridges","others":[{"url":"https://github.com/shreyansh26/cartridges","label":"strong"},{"url":"https://huggingface.co/farpluto/doc-to-lora-niah-qwen3.5-2B","label":"medium"}]},{"id":"R01291","title":"kAgent: An execution-guided crash resolution agent for the Linux kernel","ev":"strong","best":"https://github.com/kagent-dev/kagent","others":[{"url":"https://github.com/google/syzkaller","label":"weak"},{"url":"https://github.com/google/syzkaller.Ubsan","label":"weak"}]},{"id":"R01402","title":"GraphTeam: Facilitating Large Language Model-based Graph Analysis via Multi-Agent Collaboration","ev":"strong","best":"https://github.com/BUPT-GAMMA/GraphTeam","others":[{"url":"https://huggingface.co/lixin4sky/ProGraph","label":"medium"},{"url":"https://github.com/OpenInterpreter/open-interpreter","label":"weak"},{"url":"https://github.com/jerryjliu/llama_index","label":"weak"}]},{"id":"R01512","title":"CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology","ev":"strong","best":"https://github.com/GPT-Laboratory/CodePori","others":[{"url":"https://github.com/GPT-Laboratory/CodePori_v02","label":"medium"},{"url":"https://doi.org/10.5281/zenodo.17619419","label":"weak"}]},{"id":"R01667","title":"MemForge: Portable, agent-neutral persistent memory format for AI coding agents (v0.7.0)","ev":"strong","best":"https://github.com/Paradoxdov/memforge","others":[]},{"id":"R01692","title":"SeDev: Structured Semantic Exploration for LLM-Driven Code Generation","ev":"strong","best":"https://github.com/scuptio/sedeve-kit","others":[]},{"id":"R01733","title":"Covenant: A Capability-Based Operating Layer for Autonomous Software Engineering Agents","ev":"strong","best":"https://github.com/open-covenant/covenant","others":[]},{"id":"R02303","title":"Aligning language models to code : exploring efficient, temporal, and preference alignment for code generation","ev":"strong","best":"https://github.com/martin-wey/CodeUltraFeedback","others":[{"url":"https://github.com/martin-wey/CodeUltraFeedback.5.2","label":"strong"},{"url":"https://github.com/martin-wey/peft-llm-code","label":"strong"},{"url":"https://github.com/martin-wey/peft-llm-code.56","label":"strong"},{"url":"https://github.com/martin-wey/peft-llm-code.66","label":"strong"},{"url":"https://github.com/google/guava","label":"medium"}]},{"id":"R00434","title":"Unlocking Model Potentials Through Adaptive Multi-Agent Scaffolding for Efficient Issue Resolution","ev":"medium","best":"https://github.com/Intelligent-CAT-Lab/icat-agent","others":[]},{"id":"R00840","title":"A Rubric-Supervised Critic from Sparse Real-World Outcomes","ev":"medium","best":"https://huggingface.co/OpenHands/openhands-critic-4b-v1.0","others":[{"url":"https://github.com/OpenHands/critic-rubrics","label":"medium"}]},{"id":"R01009","title":"Autonomous Issue Resolver: Towards Zero-Touch Code Maintenance","ev":"medium","best":"https://akaliutau.github.io/Abstract.Recent","others":[{"url":"https://github.com/arrow-py/arrow","label":"weak"},{"url":"https://github.com/encode/httpx","label":"weak"},{"url":"https://github.com/joernio/joern","label":"weak"},{"url":"https://github.com/jsonpickle/jsonpickle","label":"weak"},{"url":"https://github.com/lincolnloop/python-qrcode","label":"weak"}]},{"id":"R01202","title":"Data Mixing Agent: Learning to Re-weight Domains for Continual Pre-training","ev":"medium","best":"https://huggingface.co/nvidia/domain-classifier","others":[{"url":"https://github.com/EleutherAI/lm-evaluation-harness","label":"weak"},{"url":"https://github.com/ZubinGou/math-evaluation-harness","label":"weak"},{"url":"https://github.com/evalplus/evalplus","label":"weak"},{"url":"https://huggingface.co/datasets/EleutherAI/hendrycks_math","label":"weak"},{"url":"https://huggingface.co/datasets/MBZUAI-LLM/SlimPajama-627B-DC","label":"weak"}]},{"id":"R00335","title":"Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair","ev":"weak","best":"https://github.com/hellogxp/stateseal","others":[]},{"id":"R00752","title":"Prompt Compression in the Wild: Measuring Latency, Rate Adherence, and Quality for Faster LLM Inference","ev":"weak","best":"https://github.com/huggingface/text-generation-inference","others":[{"url":"https://github.com/openai/tiktoken","label":"weak"}]},{"id":"R00800","title":"STRIATUM-CTF: A Protocol-Driven Agentic Framework for General-Purpose CTF Solving","ev":"weak","best":"https://github.com/LaurieWired/GhidraMCP","others":[{"url":"https://github.com/NationalSecurityAgency/ghidra","label":"weak"},{"url":"https://github.com/aaddrick/claude-desktop-linux","label":"weak"},{"url":"https://github.com/angr/angr-doc","label":"weak"},{"url":"https://github.com/securityfortech/secops-mcp","label":"weak"},{"url":"https://github.com/signal-slot/mcp-gdb","label":"weak"}]},{"id":"R01041","title":"Smarter Together: Creating Agentic Communities of Practice through Shared Experiential Learning","ev":"weak","best":"https://ds1000-code-gen.github.io/","others":[{"url":"https://ds1000-code-gen.github.io/18https://www.anthropic.com/news/model-context-protocol","label":"weak"},{"url":"https://github.com/QwenLM/Qwen3-Coder","label":"weak"}]},{"id":"R01123","title":"Memory Transfer Planning: LLM-driven Context-Aware Code Adaptation for Robot Manipulation","ev":"weak","best":"https://github.com/luca-medeiros/lang-segment-anything","others":[]},{"id":"R01266","title":"Get Experience from Practice: LLM Agents with Record \u0026 Replay","ev":"weak","best":"https://github.com/browser-use/browser-use","others":[{"url":"https://github.com/browser-use/workflow-use","label":"weak"},{"url":"https://github.com/rr-debugger/rr","label":"weak"}]},{"id":"R01361","title":"Deriving Coding-Specific Sub-Models from LLMs using Resource-Efficient Pruning","ev":"weak","best":"https://huggingface.co/datasets/iamtarun/python_code_instructions_18k_alpaca","others":[{"url":"https://huggingface.co/datasets/nguyentruong-ins/nhlcoding_cleaned_cpp_dataset","label":"weak"},{"url":"https://huggingface.co/datasets/thomwolf/github-python","label":"weak"}]}]}</script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const P = DATA.papers, N = P.length;
+const PREFIX = "impl_review_v1_", KEY = PREFIX + DATA.hash;
+const IDX = new Map(P.map((p, i) => [p.id, i]));
+const DECS = ["GREEN", "ORANGE", "RED"];
+const CHECKPOINT_EVERY = 50;
+const $ = id => document.getElementById(id);
+
+let state = { decisions: {}, lastOpened: {}, sinceCheckpoint: 0 };
+let cur = 0, lockUntil = 0, storageBroken = false, shownId = null;
+
+// ---------- storage (every call guarded; falls back to memory) ----------
+function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+function lsSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
+function lsKeys() { try { return Object.keys(localStorage); } catch (e) { return []; } }
+function readStored(k) {
+  try { const s = JSON.parse(lsGet(k) || "null"); return s && typeof s === "object" ? s : null; } catch (e) { return null; }
+}
+const t = d => { const x = Date.parse(d && d.decided_at); return isNaN(x) ? -Infinity : x; };
+// Merge src decisions into dst; a src entry wins only if strictly newer. Returns number changed.
+function mergeDecisions(dst, src) {
+  let n = 0;
+  for (const id in src || {}) {
+    const d = src[id];
+    if (!IDX.has(id) || !d || !DECS.includes(d.decision)) continue;
+    if (!dst[id] || t(d) > t(dst[id])) { dst[id] = { ...d, position: IDX.get(id) + 1 }; n++; }
+  }
+  return n;
+}
+function save() {
+  // Pick up anything another tab saved first, so two open tabs never clobber each other.
+  const other = readStored(KEY);
+  if (other) {
+    mergeDecisions(state.decisions, other.decisions);
+    for (const id in other.lastOpened || {}) if (!(id in state.lastOpened)) state.lastOpened[id] = other.lastOpened[id];
+  }
+  const s = JSON.stringify(state);
+  const ok = lsSet(KEY, s) && lsGet(KEY) === s;
+  setStorageBroken(!ok);
+  return ok;
+}
+function setStorageBroken(b) { storageBroken = b; $("storeErr").classList.toggle("show", b); }
+function load() {
+  const s = readStored(KEY);
+  if (s) {
+    mergeDecisions(state.decisions, s.decisions);
+    if (s.lastOpened && typeof s.lastOpened === "object") state.lastOpened = s.lastOpened;
+    state.sinceCheckpoint = +s.sinceCheckpoint || 0;
+  }
+  const probe = PREFIX + "probe";
+  setStorageBroken(!(lsSet(probe, "1") && lsGet(probe) === "1"));
+  try { localStorage.removeItem(probe); } catch (e) {}
+  try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {}
+  // Progress saved by an older build of this page (different data hash) — offer to recover it.
+  if (!Object.keys(state.decisions).length) {
+    const old = {};
+    for (const k of lsKeys()) if (k.startsWith(PREFIX) && k !== KEY && k !== probe) {
+      const o = readStored(k); if (o) mergeDecisions(old, o.decisions);
+    }
+    const n = Object.keys(old).length;
+    if (n) {
+      const b = $("oldData");
+      b.innerHTML = "";
+      b.append(`Found ${n} ratings saved by an older build of this page. `);
+      const btn = document.createElement("button");
+      btn.textContent = "Recover them";
+      btn.onclick = () => { mergeDecisions(state.decisions, old); save(); b.classList.remove("show"); go(firstUnrated()); toast(`Recovered ${n} ratings`); };
+      b.append(btn); b.classList.add("show");
+    }
+  }
+}
+window.addEventListener("storage", e => {
+  if (e.key !== KEY) return;
+  const o = readStored(KEY);
+  if (o && mergeDecisions(state.decisions, o.decisions)) render();
+});
+
+// ---------- navigation ----------
+const rated = i => !!state.decisions[P[i].id];
+function firstUnrated() { for (let i = 0; i < N; i++) if (!rated(i)) return i; return N; }
+function nextUnrated(from) {
+  for (let i = from + 1; i < N; i++) if (!rated(i)) return i;
+  for (let i = 0; i < from && i < N; i++) if (!rated(i)) return i;
+  return N;
+}
+function go(i) { cur = Math.max(0, Math.min(N, i)); render(); window.scrollTo(0, 0); }
+
+function openUrl(url) {
+  if (!url) return;
+  const w = window.open(url, "_blank");
+  if (w) { try { w.opener = null; } catch (e) {} }
+  else toast("Popup blocked — tap the link button to open it", 4000);
+}
+function linkFor(i) { const p = P[i]; return state.lastOpened[p.id] || p.best; }
+
+// ---------- rating ----------
+function rate(dec) {
+  if (cur >= N || Date.now() < lockUntil) return;   // lock stops an accidental double tap rating two papers
+  lockUntil = Date.now() + 700;
+  const p = P[cur];
+  state.decisions[p.id] = {
+    decision: dec, link_judged: linkFor(cur), note: $("note").value.trim(),
+    decided_at: new Date().toISOString(), position: cur + 1,
+  };
+  state.sinceCheckpoint++;
+  const nxt = nextUnrated(cur);
+  if (nxt < N) state.lastOpened[P[nxt].id] = P[nxt].best;
+  const ok = save();
+  if (nxt < N) openUrl(P[nxt].best);   // same click => not popup-blocked
+  go(nxt);
+  toast(`${ok ? "Saved" : "Saved in memory only"}: #${p.id} → ${dec}`);
+  if (state.sinceCheckpoint >= CHECKPOINT_EVERY) {
+    const name = download();
+    const b = $("ckpt");
+    b.textContent = `Checkpoint: downloaded ${name} (${Object.keys(state.decisions).length} decisions) at ${new Date().toLocaleTimeString()}. Keep it safe.`;
+    b.classList.add("show");
+  }
+}
+
+// ---------- CSV ----------
+const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+function buildCSV() {
+  const cols = ["record_id", "decision", "link_judged", "note", "decided_at", "position"];
+  const lines = [cols.map(q).join(",")];
+  const ids = Object.keys(state.decisions).sort((a, b) => IDX.get(a) - IDX.get(b));
+  for (const id of ids) {
+    const d = state.decisions[id];
+    lines.push([id, d.decision, d.link_judged, d.note, d.decided_at, IDX.get(id) + 1].map(q).join(","));
+  }
+  return "\ufeff" + lines.join("\r\n") + "\r\n";
+}
+function download() {
+  const n = Object.keys(state.decisions).length;
+  const d = new Date(), z = x => String(x).padStart(2, "0");
+  const stamp = `${d.getFullYear()}${z(d.getMonth() + 1)}${z(d.getDate())}-${z(d.getHours())}${z(d.getMinutes())}`;
+  const name = `impl_decisions_${n}_${stamp}.csv`;
+  const url = URL.createObjectURL(new Blob([buildCSV()], { type: "text/csv;charset=utf-8" }));
+  const a = document.createElement("a");
+  a.href = url; a.download = name; a.style.display = "none";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 60000);
+  state.sinceCheckpoint = 0; save();
+  return name;
+}
+function parseCSV(text) {
+  text = text.replace(/^\ufeff/, "");
+  const rows = []; let row = [], f = "", inq = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inq) {
+      if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else inq = false; }
+      else f += c;
+    } else if (c === '"') inq = true;
+    else if (c === ",") { row.push(f); f = ""; }
+    else if (c === "\n") { row.push(f); rows.push(row); row = []; f = ""; }
+    else if (c !== "\r") f += c;
+  }
+  if (f !== "" || row.length) { row.push(f); rows.push(row); }
+  return rows;
+}
+function importCSV(text) {
+  const rows = parseCSV(text);
+  if (!rows.length) throw new Error("empty file");
+  const h = rows[0].map(s => s.trim());
+  const ix = k => h.indexOf(k);
+  for (const k of ["record_id", "decision", "decided_at"]) if (ix(k) < 0) throw new Error("missing column " + k);
+  const src = {}; let unknown = 0, bad = 0;
+  for (const r of rows.slice(1)) {
+    if (r.length === 1 && r[0] === "") continue;
+    const id = (r[ix("record_id")] || "").trim(), dec = (r[ix("decision")] || "").trim().toUpperCase();
+    if (!IDX.has(id)) { unknown++; continue; }
+    if (!DECS.includes(dec) || isNaN(Date.parse(r[ix("decided_at")]))) { bad++; continue; }
+    const d = { decision: dec, decided_at: r[ix("decided_at")].trim(),
+      link_judged: ix("link_judged") >= 0 ? r[ix("link_judged")] : P[IDX.get(id)].best,
+      note: ix("note") >= 0 ? r[ix("note")] : "" };
+    if (!src[id] || t(d) > t(src[id])) src[id] = d;
+  }
+  const changed = mergeDecisions(state.decisions, src);
+  const ok = save();
+  go(firstUnrated());
+  return `Imported: ${changed} new/updated, ${Object.keys(src).length - changed} already up to date` +
+    (unknown ? `, ${unknown} unknown record_ids skipped` : "") + (bad ? `, ${bad} bad rows skipped` : "") +
+    (ok ? "" : " (storage failing — kept in memory)");
+}
+
+// ---------- render ----------
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function render() {
+  const vals = Object.values(state.decisions);
+  const c = k => vals.filter(d => d.decision === k).length;
+  const pr = $("progress"); pr.innerHTML = "";
+  pr.append(`${vals.length} / ${N} rated `);
+  for (const [k, cl] of [["G", "cg"], ["O", "co"], ["R", "cr"]])
+    pr.append(el("span", "cnt " + cl, `${k} ${c({ G: "GREEN", O: "ORANGE", R: "RED" }[k])}`));
+
+  const paper = $("paper"), links = $("links");
+  paper.innerHTML = ""; links.innerHTML = "";
+  const done = cur >= N;
+  for (const b of document.querySelectorAll(".rate button")) { b.disabled = done; b.classList.remove("cur"); }
+  $("again").disabled = done;
+  if (done) {
+    const left = N - vals.length;
+    paper.append(el("div", "done", left ? `End of list — ${left} still unrated (use Jump to #)` : `All ${N} papers rated 🎉`));
+    paper.append(el("div", "hint", "Press Download decisions to save the CSV."));
+    $("note").value = ""; shownId = null;
+    return;
+  }
+  const p = P[cur], d = state.decisions[p.id];
+  const meta = el("div", "meta");
+  meta.append(el("span", "rid", p.id), el("span", "", `#${cur + 1} of ${N}`), el("span", "ev ev-" + p.ev, p.ev || "?"));
+  paper.append(meta, el("h1", "", p.title));
+  if (d) {
+    const r = el("div", "rated " + { GREEN: "cg", ORANGE: "co", RED: "cr" }[d.decision],
+      `Already rated ${d.decision} — press a colour to change it`);
+    paper.append(r);
+    $({ GREEN: "bG", ORANGE: "bO", RED: "bR" }[d.decision]).classList.add("cur");
+  }
+  const last = linkFor(cur);
+  const mk = (url, cls, label) => {
+    const a = el("a", "btn lk " + cls + (url === last ? " last" : ""));
+    a.href = url; a.target = "_blank"; a.rel = "noopener";
+    a.append(el("span", "", label));
+    a.append(el("span", "u", url));
+    if (url === last) a.append(el("span", "tag", "▲ judged link"));
+    a.addEventListener("click", () => { state.lastOpened[p.id] = url; save(); setTimeout(render, 0); });
+    return a;
+  };
+  links.append(mk(p.best, "best", "Open best link ↗"));
+  for (const o of p.others) links.append(mk(o.url, "other", `Other link${o.label ? " [" + o.label + "]" : ""} ↗`));
+  if (shownId !== p.id) { $("note").value = d ? d.note || "" : ""; shownId = p.id; }  // don't wipe a note being typed
+}
+
+let toastTimer;
+function toast(msg, ms = 1800) {
+  const e = $("toast"); e.textContent = msg; e.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => e.classList.remove("show"), ms);
+}
+
+// ---------- wiring ----------
+for (const b of document.querySelectorAll(".rate button")) b.addEventListener("click", () => rate(b.dataset.d));
+$("back").onclick = () => go(cur - 1);
+$("again").onclick = () => { if (cur < N) openUrl(linkFor(cur)); };
+$("jump").onclick = () => {
+  const s = prompt(`Go to # (1–${N})`, String(Math.min(cur + 1, N)));
+  if (s == null) return;
+  const n = parseInt(s, 10);
+  if (n >= 1 && n <= N) go(n - 1); else toast("Not a valid number");
+};
+$("dl").onclick = $("dl2").onclick = () => toast("Downloaded " + download(), 3000);
+$("imp").onclick = () => $("file").click();
+$("file").onchange = async e => {
+  const f = e.target.files[0]; e.target.value = "";
+  if (!f) return;
+  try { toast(importCSV(await f.text()), 5000); } catch (err) { toast("Import failed: " + err.message, 5000); }
+};
+document.addEventListener("keydown", e => {
+  if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
+  const tg = e.target.tagName;
+  if (tg === "TEXTAREA" || tg === "INPUT") { if (e.key === "Escape") e.target.blur(); return; }
+  const k = e.key.toLowerCase();
+  if (k === "1") rate("GREEN"); else if (k === "2") rate("ORANGE"); else if (k === "3") rate("RED");
+  else if (k === "b") go(cur - 1);
+  else if (k === "o" && cur < N) openUrl(linkFor(cur));
+  else return;
+  e.preventDefault();
+});
+
+load();
+go(firstUnrated());
+</script>
+</body>
+</html>

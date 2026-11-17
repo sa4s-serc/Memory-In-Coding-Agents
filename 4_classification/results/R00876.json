@@ -1,0 +1,17 @@
+{
+  "record_id": "R00876",
+  "pdf_sha256": "3d64f628fa57276c3c7d5c8a4e1402a8fe9dfb761f6b638eaaaef84ed17915d7",
+  "mechanism": "Persistent CUDA Knowledge Base accumulated from optimisation experience and retrieved for future tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "CUDA",
+  "evidence_scope": "KERNELBLASTERenables agents to learn from experience and make systematically informed decisions on future tasks by accumulating knowledge into a retrievablePersistent CUDA Knowledge Base.",
+  "evidence_role": "We proposeKERNELBLASTER, a Memory-Augmented In-context Reinforcement Learning (MAIC-RL) framework designed to improve CUDA optimization search capabilities of LLM-based GPU coding agents.",
+  "read_full_text": true
+}

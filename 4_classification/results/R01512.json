@@ -1,0 +1,15 @@
+{
+  "record_id": "R01512",
+  "pdf_sha256": "56719464970c00c24721382873eadffd74fc92525e87d32be4283fd502f48683",
+  "mechanism": "none identified (multi-agent code generation system evaluated by survey)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

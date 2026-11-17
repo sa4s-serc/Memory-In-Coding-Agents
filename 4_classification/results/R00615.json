@@ -1,0 +1,17 @@
+{
+  "record_id": "R00615",
+  "pdf_sha256": "8aad3ab5596a590c35fa76460ffd302e0872974cd0b5a51c5aeeeb050b6632ab",
+  "mechanism": "Implicit context compression of the agent trajectory into continuous memory tokens (In-Context Autoencoder)",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Implicit context compression represents a particular compression approach where text is encoded into continuous embeddings rather than discrete tokens",
+  "evidence_role": "In this work,we investigate implicit context compression for SWE agents using the In-Context Autoencoder (ICAE) approach",
+  "read_full_text": true
+}

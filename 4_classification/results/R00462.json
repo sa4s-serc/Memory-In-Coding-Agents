@@ -1,0 +1,17 @@
+{
+  "record_id": "R00462",
+  "pdf_sha256": "e5f6133ca4fdbadb6714a8eb86dd6a3307850e8f18801dbfafeee4f0e1aa1ff9",
+  "mechanism": "Persistent code skill library distilled from play-time executions and retrieved at test time",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "distills successful executions into a persistent code skill library. At test time, the agent reuses relevant skills from this frozen library to help solve new tasks.",
+  "evidence_role": "We introduce RATS, R obotics Agent Teams designed for play-time skill acquisition.",
+  "read_full_text": true
+}

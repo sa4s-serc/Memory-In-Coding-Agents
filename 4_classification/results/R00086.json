@@ -1,0 +1,18 @@
+{
+  "record_id": "R00086",
+  "pdf_sha256": "0ec14250991d14eda90638f42f85bfbdc2029d8009422f36ab84f18700d5ed72",
+  "mechanism": "Call-graph-guided iterative repository search with an LLM pruner for context management",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "We use the LLM to construct the necessary call graph dynamically in a textual representation.",
+  "evidence_role": "We propose COSIL, an LLM-driven function-level issue localization method without training or pre-indexing.",
+  "read_full_text": true
+}

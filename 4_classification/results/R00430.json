@@ -1,0 +1,18 @@
+{
+  "record_id": "R00430",
+  "pdf_sha256": "b0bbf3435cc7cc33f7f8382eace7e90068743367de5f022bd1b4522428e70ed1",
+  "mechanism": "Fixed knowledge-base snapshot of expert-validated modifications plus within-task trajectory memory",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "At task entry, NOVA loads a task-specific snapshot𝐾𝐵 from specialized knowledge bases con- taining expert-validated effective modifications and failure patterns.",
+  "evidence_role": "We introduceNOV A, a verification-aware agent harness that organizes production architecture modification as multi- round, multi-candidate search",
+  "read_full_text": true
+}

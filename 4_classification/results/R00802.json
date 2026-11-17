@@ -1,0 +1,15 @@
+{
+  "record_id": "R00802",
+  "pdf_sha256": "4c328caeac7ef6027460da8b9ff4938eb64a156606a8787ca4f3de61fbdeed38",
+  "mechanism": "none identified (adaptive rubric generation and trajectory scoring for evaluation and reward)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "QUALITY_ASSURANCE",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

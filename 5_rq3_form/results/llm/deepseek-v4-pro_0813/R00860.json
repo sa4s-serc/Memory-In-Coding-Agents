@@ -1,0 +1,87 @@
+{
+ "record_id": "R00860",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The evaluation is a single-user case study; results may not generalise across usage patterns, codebases, or programming styles.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We have not yet quantified the impact on downstream reasoning accuracy in a controlled setting.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The branching benefit—avoiding context rebuilding altogether—is harder to measure in a controlled setting but dominates the user-perceived value in practice.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The byte-to-token estimation used in the benchmark overestimates reduction for image-heavy sessions due to the discrepancy between base64 encoding size and API vision-token cost.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The most significant limitation of our approach is that CMV’s trimming is entirely structural rather than semantic. It removes content blindly by type (tool outputs, images, metadata) without assessing its downstream importance to the model’s reasoning.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Trimming necessarily changes the prefix, invalidating the cache and incurring a one-time miss penalty.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00591",
+  "pdf_sha256": "30a8833163949c0b10fad3c75a90077dfd8bb00b9ca9ca6fcb473fe69f522e29",
+  "mechanism": "Learning from agent trajectories through SFT, RL and distillation, plus a value model for reranking",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "We introduce credit-assignment supervised fine-tuning to learn from productive segments of unresolved trajectories.",
+  "evidence_role": "We presentOrchard, an open-source framework for scalable agentic modeling.",
+  "read_full_text": true
+}

@@ -1,0 +1,85 @@
+{
+ "record_id": "R01215",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, the overall performance of the framework is built upon the capability of the large-scale foundational LLMs (e.g., OpenAI models). Adapting the framework to smaller language models may require additional prompt engineering or fine-tuning to achieve reliable performance.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "While the proposed LLM-driven operation code generation framework in this paper is originally designed for UAVs, it also has the potential to be adapted to other robotic platforms, such as ground robots, underwater vehicles, and robot arms.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, it currently depends on the cloud-based LLM models, which may introduce latency for real-time UAV operations.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Moreover, querying cloud-based LLM APIs requires a reliable internet connection, which may not always be available in complex or remote operating environments.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "our current design focuses on generating the complete operation code for the given task and then deploying it on the UAV for execution. Considering the potential changes of the execution plan due to different factors, our future research will also explore how to support real-time interactive UAV operation code generation powered by LLMs.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "Moreover, we will also explore the possibility of enabling on-board deployment of energy-efficient LLM models (e.g., RWKV [32]) to enable more intelligent real-time UAV controls.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

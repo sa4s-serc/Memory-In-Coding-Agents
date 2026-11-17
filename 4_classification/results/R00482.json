@@ -1,0 +1,17 @@
+{
+  "record_id": "R00482",
+  "pdf_sha256": "4fd09f28c5ea1dc77d86478b673a7fd47cd2a81807b6348961eca6b53590b9d6",
+  "mechanism": "Persistent scoped behavioral rules compiled from user corrections and reused on later tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "We evaluate whether learned corrections improve future behavior by freezing the learned state and testing on subsequent tasks without additional user corrections.",
+  "evidence_role": "We introduceTellOnce, a drop-in personalization layer that turns conversational corrections into persistent, scoped, and revisable behavioral rules",
+  "read_full_text": true
+}

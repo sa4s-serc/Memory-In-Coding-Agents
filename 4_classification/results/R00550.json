@@ -1,0 +1,17 @@
+{
+  "record_id": "R00550",
+  "pdf_sha256": "6a9222fbccbf3f04d592aa241649c8a443817ab6c01a227830bd9a7e3dc1b201",
+  "mechanism": "Structure-first workflow that separates repository exploration into a structural scaffold from downstream problem solving",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "we propose REPOANCHOR, a structure-first prototype workflow that separates repository exploration from downstream problem solving, and show that explicit structural scaffolding yields notable gains.",
+  "evidence_role": "we introduce REPOMIRAGE, a two-stage evaluation suite built on SWE-Bench Verified that adopts perturbation as a diagnostic tool to increase the demand for context reasoning by transforming how the repository is exposed.",
+  "read_full_text": true
+}

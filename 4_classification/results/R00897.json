@@ -1,0 +1,17 @@
+{
+  "record_id": "R00897",
+  "pdf_sha256": "b65247260f7008cb07a4874d17e9a94774d65799255a3eb0a69b5463d50960c5",
+  "mechanism": "Dynamic per-round semantic routing of messages between agents",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "DyTopo embeds these descriptors and performs semantic matching, routing private messages only along the induced edges.",
+  "evidence_role": "We introduce Dy- Topo, a manager-guided multi-agent framework that reconstructs a sparse directed communication graph at each round.",
+  "read_full_text": true
+}

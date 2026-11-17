@@ -1,0 +1,15 @@
+{
+  "record_id": "R00816",
+  "pdf_sha256": "007a937cd1c3698b273b771e2756e7c60550bb3c6d3018fcfa6f20754c9c18e4",
+  "mechanism": "Adversarial RL co-evolution of code and test models with a Mistake Book for experience replay",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "We further introduce a Mistake Book mechanism for experience replay and a composite reward balancing test validity with adversarial difficulty.",
+  "evidence_role": "We introduceCode-A1, an adversarial co-evolution framework that jointly optimizes a Code LLM and a Test LLM with opposing objectives.",
+  "read_full_text": true
+}

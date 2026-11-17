@@ -1,0 +1,18 @@
+{
+  "record_id": "R01041",
+  "pdf_sha256": "5c2ed17776568439ae4b4dfc67839f4a24dd068a39555d594ceed46a52e94a8c",
+  "mechanism": "Shared persistent experiential memory with a continual learning loop that serves recommendations to coding agents",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "Spark enables AI coding agents to both contribute to and draw from a persistent and continuously evolving experiential memory.",
+  "evidence_role": "we introduce Spark, a novel shared agentic memory architecture which is designed to emulate the collective intelligence and know-how of human developer communities.",
+  "read_full_text": true
+}

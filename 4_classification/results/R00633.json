@@ -1,0 +1,17 @@
+{
+  "record_id": "R00633",
+  "pdf_sha256": "5c3de5ea4fcd65bb681f925355374ee149572ffc54adbfd9547e4778dfe34bef",
+  "mechanism": "sigma-Reveal: inference-time selection of token-budgeted context from CLI observations",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "For selective observation, we introduce σ-Reveal, an inference-time mechanism that selects token-budgeted context for the same CLI.",
+  "evidence_role": "For credit assignment, we propose Action Advantage Assignment ( A3), a native agentic RL method that preserves the algorithmic complexity of standard agentic RL.",
+  "read_full_text": true
+}

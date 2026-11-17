@@ -1,0 +1,17 @@
+{
+  "record_id": "R00686",
+  "pdf_sha256": "cd855bc9f0153282b0c9f13a0e24c67aa83799d9433435b06ecab5fccf74ae0a",
+  "mechanism": "Evolving Game Skill: template library and debug protocol refined from recorded execution outcomes",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "JavaScript/TypeScript (Phaser web games)",
+  "evidence_scope": "an agent-evolution module that continuously refines structural scaffolding (Template Skill) and repair behavior (Debug Skill) through accumulated experience.",
+  "evidence_role": "We propose OpenGame, the first open-source, tool-augmented coding agent dedicated to generating playable web games from natural-language specifications",
+  "read_full_text": true
+}

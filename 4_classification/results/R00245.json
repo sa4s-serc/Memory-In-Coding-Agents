@@ -1,0 +1,17 @@
+{
+  "record_id": "R00245",
+  "pdf_sha256": "64c9d0504344661f3477eebd0d92e1290da36f173805cef2d79a571152bf67f2",
+  "mechanism": "Feedback-conditioned improve/fix actions in tree search, passing failed test examples and errors to the LLM",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "With the improve action, the LLM is prompted with the full program (state plus rollout) from the parent node, as well as one input example where the code did not behave as intended, along with the expected output.",
+  "evidence_role": "we propose Generate, Improve and Fix with Monte Carlo Tree Search (GIF-MCTS), a new code generation strategy for LLMs.",
+  "read_full_text": true
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R01310",
+  "pdf_sha256": "a58c2e14b40a00e82e04dfbdb40ec270a9ae415c5bcdcf465415c98fed3e4c9b",
+  "mechanism": "Static-analysis-based context retention and call-graph-guided function-level translation within one migration",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Rust",
+  "evidence_scope": "LLMigrate uses static analysis to retain necessary context, pairs GPT-4o (a state-of-the-art LLM) with compiler-driven translation and program-repair techniques for complex core functions",
+  "evidence_role": "we present LLMigrate, an LLM-based C-to-Rust translation tool that splits modules into dis- crete functions, translating them individually, and then reintegrating them.",
+  "read_full_text": true
+}

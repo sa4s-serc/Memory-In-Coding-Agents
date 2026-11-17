@@ -1,0 +1,68 @@
+{
+ "record_id": "R00629",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We also explore the limits of MemQ’s benefits using multiple-choice reasoning tasks, where limited interaction offers fewer opportunities to reuse procedural experience.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "The results reveal smaller gains on held-out questions: MemQ has the highest mean on each benchmark, but its margins over the strongest baseline for each task are only 0.19, 0.83, and 0.84 pp, respectively (Table 5).",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "These benchmarks present largely self-contained questions: most task context is provided in the question, and answering it relies mainly on the model’s knowledge and reasoning. Without extended multi-turn interaction with an environment, procedural experience from earlier tasks has fewer opportunities to guide subsequent actions. This may explain the smaller additional gains from MemQ’s accumulated experience.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

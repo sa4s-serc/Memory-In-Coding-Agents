@@ -1,0 +1,15 @@
+{
+  "record_id": "R00976",
+  "pdf_sha256": "618c19fdae87086baea2181fa05654302f6dfd6f404b2fe80294697541d25da3",
+  "mechanism": "Agentic learning ecosystem and training pipeline (data composition, CPT, SFT, RL with IPA) producing the ROME agent model",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "ROLL is a post-training framework for weight optimization.",
+  "evidence_role": "we introduce the Agentic Learning Ecosystem( ALE), a foundational infrastructure that optimizes the end-to-end production pipeline for agent LLMs.",
+  "read_full_text": true
+}

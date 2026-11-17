@@ -1,0 +1,15 @@
+{
+  "record_id": "R01163",
+  "pdf_sha256": "21c90dec78a9de2d5886805676f58dc7271766c1fb4f6d47346a2043f6a63f0b",
+  "mechanism": "Online self-play with variational problem synthesis during RLVR training",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we propose an online Self-play with Variational problem Synthesis (SvS) strategy for RLVR training, which uses the policy's correct solutions to synthesize variational problems while ensuring their reference answers remain identical to the originals.",
+  "evidence_role": "we propose an online Self-play with Variational problem Synthesis (SvS) strategy for RLVR training",
+  "read_full_text": true
+}

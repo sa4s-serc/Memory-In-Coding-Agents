@@ -1,0 +1,19 @@
+{
+  "record_id": "R00528",
+  "pdf_sha256": "f6931f49c1d01fd5cf7b102fe06bcad4de089c9c37a9182005a99fb9f09d8540",
+  "mechanism": "Schema-governed research memory populated by literature ingestion, plus active project memory",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "external",
+    "within"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "memory should not disappear after a single experiment, paper, or research project, but should remain reusable across future projects.",
+  "evidence_role": "we present AutoSci, a memory-centric agentic system for the full scientific research lifecycle.",
+  "read_full_text": true
+}

@@ -1,0 +1,63 @@
+{
+ "record_id": "R00960",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "A limitation of MemGovern lies in the additional tokens generated when searching the memory during agent execution. Inevitably, the agent processes more tokens during searching in exchange for higher resolution rates.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Although MemGovern introduces some additional token overhead due to its memory mechanism, this cost is outweighed by the average performance improvement of around 4.65%, making it a highly acceptable trade-off.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,92 @@
+{
+ "record_id": "R00828",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The experiments are based on 24 programming-task samples. The sample design targets diversity of typical security scenarios, and absolute degradation rates may vary as the benchmark expands. Performance under more diverse coding styles, project scales, and security patterns requires larger benchmark validation.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Language support is constrained by toolchain availability. Our experiments cover Python and Java; extension to other languages requires corresponding AST parsers, static-analysis tools, and invariant libraries. Because security idioms and defensive conventions differ across languages, anchor-mining strategies require language-specific adaptation.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The scalability of the framework to industrial codebases, statistical validation on larger sample sets, adaptation to cross-language toolchains, and the design of human-in-the-loop collaboration mechanisms remain for future study.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "SSDR relies on LLM semantic review; evaluations are therefore inevitably affected by reviewer noise and misinterpretation.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The effectiveness of gated verification depends on underlying tools. Semgrep coverage is bounded by rule sets and may miss emerging vulnerability patterns or domain-specific security constraints.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Computational cost grows with code scale and iteration count. Each iteration requires AST parsing, data-flow analysis, static scanning, and anchor verification, which may incur notable latency on large codebases.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Current gate decisions are fully automated, but developer intervention is sometimes necessary. For example, when an anchor-violation check fails but developers consider a change safe, the system should support anchor review and decision override. Explainability of gate-failure reasons and anchor semantics remains an open problem.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

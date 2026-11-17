@@ -1,0 +1,17 @@
+{
+  "record_id": "R00371",
+  "pdf_sha256": "9a8002db3d04b79d2b9cb7e3bdc6bcf48595808a0514f402c18567656a2b43b7",
+  "mechanism": "Lifecycle-managed skill library synthesized from failure capsules of earlier attempts, co-evolved with an evolving metric",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (Python, SQL, report text)",
+  "evidence_scope": "the evolved metric grades train attempts, and failures become capsules whose error text feeds skill synthesis.",
+  "evidence_role": "that published loop is adopted unchanged here as the skill-side component, not a contribution of this work.",
+  "read_full_text": true
+}

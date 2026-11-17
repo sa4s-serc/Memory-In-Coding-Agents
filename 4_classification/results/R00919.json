@@ -1,0 +1,17 @@
+{
+  "record_id": "R00919",
+  "pdf_sha256": "ea8483bc1ab4e47fb3b0a824cf61f364e07287d5b98f0da6aafc90132cf4341f",
+  "mechanism": "Environment Reuse Mechanism patching historical environments for new task instances",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (10 languages)",
+  "evidence_scope": "integrates a novel Environment Reuse Mechanism that reduces computational overhead by incremen- tally patching historical environments.",
+  "evidence_role": "we introduce MEnvAgent, aMulti-language framework for automatedEnvironment construction that facil- itates scalable generation of verifiable task instances.",
+  "read_full_text": true
+}

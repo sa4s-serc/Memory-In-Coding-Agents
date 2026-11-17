@@ -1,0 +1,17 @@
+{
+  "record_id": "R00971",
+  "pdf_sha256": "8a0a540341228bb856231854af2d898e63661b1c8d037874675ee45e277deeec",
+  "mechanism": "Persistent Python runtime state across turns as external memory, with skill injection",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "This persistence mechanism serves as a high-fidelity external memory that reduces context drift in multi-turn interactions and preserves processed data for downstream applications with less information loss.",
+  "evidence_role": "CaveAgent introduces a dual-stream architecture: a semantic stream for lightweight reasoning and a runtime stream backed by a persistent Python environment for stateful execution.",
+  "read_full_text": true
+}

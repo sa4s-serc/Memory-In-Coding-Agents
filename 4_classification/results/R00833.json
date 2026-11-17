@@ -1,0 +1,15 @@
+{
+  "record_id": "R00833",
+  "pdf_sha256": "8a0283b482bdd5d9c76b7ce6658a2ac932acd3db9506c6a1311b7c31ec0d096d",
+  "mechanism": "RL training that internalises self-reflection and self-correction of generated code",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we propose Re- flexiCoder, a novel reinforcement learning (RL) framework that internalizes the structured rea- soning trajectory, encompassing initial gener-",
+  "evidence_role": "we propose Re- flexiCoder, a novel reinforcement learning (RL) framework that internalizes the structured rea- soning trajectory, encompassing initial gener-",
+  "read_full_text": true
+}

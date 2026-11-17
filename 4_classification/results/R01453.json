@@ -1,0 +1,17 @@
+{
+  "record_id": "R01453",
+  "pdf_sha256": "6781c5161176f4258274ff6a6202fa441e7f5a441864e3731d7aa16398dd9684",
+  "mechanism": "Adaptive pruning of input token sequences inside transformer layers",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "multiple",
+  "evidence_scope": "With Alpine, input sequences undergo adaptive compression throughout the pipeline, reaching a size that is up to ×3 less their initial size, resulting in significantly reduced computational load.",
+  "evidence_role": "This work introduces Alpine, an adaptive programming language-agnostic pruning technique designed to substantially reduce the computational overhead of these models.",
+  "read_full_text": true
+}

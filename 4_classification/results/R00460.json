@@ -1,0 +1,15 @@
+{
+  "record_id": "R00460",
+  "pdf_sha256": "b5c0c25ee0abe0c7c251b2f751b6ecb18345f5c6e11af55979262dda86c70f5a",
+  "mechanism": "none identified (agent harness for real-world robot policy improvement)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00673",
+  "pdf_sha256": "df7a7d0956f67776a798d89568f51266511d3e0fa72bf57e0229290f7e289e39",
+  "mechanism": "none identified (human-in-the-loop autoformalisation pipeline)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Lean 4",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

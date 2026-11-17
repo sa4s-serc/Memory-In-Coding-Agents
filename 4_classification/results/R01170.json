@@ -1,0 +1,15 @@
+{
+  "record_id": "R01170",
+  "pdf_sha256": "9428f4a6840a61e79ed4539dd765b8583eedd2139b8a595180a2faba09deef8f",
+  "mechanism": "Task definition, SFT dataset and fine-tuning of models to predict the next code edit from edit history",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Then, we conduct supervised fine-tuning on a series of models and performed a comprehensive evalua- tion of both the fine-tuned models and other baseline models",
+  "evidence_role": "we introduce the task of Next Edit Prediction, a novel task designed to infer developer intent from recent interaction history to predict both the location and content of the subse- quent edit.",
+  "read_full_text": true
+}

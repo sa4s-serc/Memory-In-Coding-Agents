@@ -1,0 +1,17 @@
+{
+  "record_id": "R01155",
+  "pdf_sha256": "e40b2fe085fe0a0867b43d845ec3778305d27a8f4d94af409d0d387b69e2866a",
+  "mechanism": "Observation masking, LLM summarization and a hybrid for managing context within a single agent run",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "We find that a simple environment Observation Masking strategy halves cost relative to the Raw Agent while matching, and sometimes slightly exceeding, the solve rate of LLM-Summary.",
+  "evidence_role": "We present a systematic com- parison of these approaches with SWE-agent on SWE-bench Verified across five diverse model configurations.",
+  "read_full_text": true
+}

@@ -1,0 +1,69 @@
+{
+ "record_id": "R00667",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "As a result, DepthKV may overlook tokens that become important only for specific queries, limiting performance in retrieval-intensive or fine-grained reasoning tasks.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, DepthKV operates in a non-query-aware setting, where token importance is estimated during the prefill stage without conditioning on the decoding query.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, DepthKV relies on heavy-hitter-based token importance estimation by aggregating attention scores across heads, which may obscure head-specific behaviors. Although DepthKV allocates cache budgets across layers, it does not capture intra-layer variability across heads.",
+     "page": 10,
+     "verbatim": false
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

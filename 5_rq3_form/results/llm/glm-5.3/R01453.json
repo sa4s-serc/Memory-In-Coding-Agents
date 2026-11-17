@@ -1,0 +1,68 @@
+{
+ "record_id": "R01453",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, it is important to remark that Alpine can be extended to other variants of the Transformer architecture, i.e., decoder-only and encoder-decoder models.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "The evaluation of Alpine’s performance on these architectures is deferred to future work.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "First, to assess Alpine on encoder-decoder, and decoder-only models.",
+     "page": 19,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

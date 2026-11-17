@@ -1,0 +1,63 @@
+{
+ "record_id": "R00550",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, due to the substantial engineering complexity required by repository-level perturbations, our current construction is limited to Python repositories, where syntax-tree transformation and runtime validation are relatively tractable.",
+     "page": 20,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, our tasks still follow a relatively classical problem-solving format, where agents are asked to modify a repository to satisfy a given objective. Future evaluations could further explore more diverse software-engineering scenarios, such as code review, repository-level test generation, refactoring, and maintenance-oriented tasks.",
+     "page": 20,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00753",
+  "pdf_sha256": "28349bc2cf74a93d12a505c99864d1b4bdb2754f19dbee7848fe00288df33ce6",
+  "mechanism": "Four-layer memory for long workflows plus RAG over domain library source code",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "MatClaw uses a four-layer memory architecture that pre- vents progressive context loss, and retrieval-augmented generation over domain source code that raises per-step API-call accuracy to ∼99%.",
+  "evidence_role": "We present MatClaw, acode-firstagent that writes and executes Python directly, composing any installed domain library",
+  "read_full_text": true
+}

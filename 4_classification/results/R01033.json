@@ -1,0 +1,15 @@
+{
+  "record_id": "R01033",
+  "pdf_sha256": "49e8166e2c1b30c64804a77808690f8b4bfb229307115d6cbe62f201b5ad9a19",
+  "mechanism": "Asynchronous RL training framework and tool-enhanced recipe for multi-turn SWE agents",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "Using SKYRL-AGENT, we train SA-SWE-32B, a SWE agent trained from Qwen3-32B (24.4% Pass@1) purely with RL.",
+  "evidence_role": "We introduce SKYRL-AGENT, a framework for efficient, multi-turn, long-horizon agent training and evaluation.",
+  "read_full_text": true
+}

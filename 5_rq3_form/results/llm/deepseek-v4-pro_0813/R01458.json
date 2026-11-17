@@ -1,0 +1,91 @@
+{
+ "record_id": "R01458",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The generalizability of our findings is influenced by two factors: the scale of benchmarks and the risk of data leakage.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The generalizability of our findings is influenced by two factors: the scale of benchmarks and the risk of data leakage.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "A subsequent investigation reveals inherent ambiguities in the statements of both programming problems and in the solution description of Onion Girl’s Flying Chess.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This deterioration in performance may be attributed to the lengthy prompt problem of failing test cases, as illustrated in Figure 6, the same as previous researchers have found [10, 27, 64].",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "These findings suggest that the issues of limited attention of LLMs persist even when all three types of augmented information are provided separately.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Although MultiRegenerate achieves satisfactory repair performance, initiating three distinct dialog sessions for each repair requires more computational resources in practical engineering scenarios.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "While ChatGPT shows strong performance, its training and inference require substantial computation due to huge model parameters.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

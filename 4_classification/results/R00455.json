@@ -1,0 +1,15 @@
+{
+  "record_id": "R00455",
+  "pdf_sha256": "37088076190afb106a702bb867e1ba177972f1615f9129ba750ad86ee5e95723",
+  "mechanism": "SFT and DPO training of a small critic model that steers a frozen coding agent",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "We construct SFT and DPO data to train the critic model to identify errors made by the coding agent and provide correct and clear high-level guidance without generating concrete actions.",
+  "evidence_role": "we train a separate critic model that is specialized in high-level planning to steer the coding agent in inference.",
+  "read_full_text": true
+}

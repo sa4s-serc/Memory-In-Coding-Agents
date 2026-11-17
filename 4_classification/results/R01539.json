@@ -1,0 +1,17 @@
+{
+  "record_id": "R01539",
+  "pdf_sha256": "e90e8726b29a0b1937d7943fabd8b4ea8dc35fc12395ab76e0836ab1cea62bae",
+  "mechanism": "Prompt instrumentation with relevant project files and simple version control within a web-app building session",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "This tool, called NoCodeGPT, instruments the prompts sent to the language model with useful contextual information (e.g., the files that need to be modified when the user identifies and requests a bug fix).",
+  "evidence_role": "we decided to design, implement, and evaluate a tool that offers a customized interface for language models like GPT, specifically targeting the implementation of small web applications without writing code.",
+  "read_full_text": true
+}

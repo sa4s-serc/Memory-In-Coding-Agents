@@ -1,0 +1,17 @@
+{
+  "record_id": "R01291",
+  "pdf_sha256": "40f8c1a87ae92595eee06c496c77dedf01bdb96725e994b4fa9e221933e9a667",
+  "mechanism": "Execution trace minimization to a compact high-signal slice for LLM reasoning within one crash resolution",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "C",
+  "evidence_scope": "condensing kernel execution traces into focused, high-signal subsets for trace- based LLM reasoning",
+  "evidence_role": "we first identify the prevalent bottle- necks that generic agents struggle with in complex systems such as the Linux kernel.",
+  "read_full_text": true
+}

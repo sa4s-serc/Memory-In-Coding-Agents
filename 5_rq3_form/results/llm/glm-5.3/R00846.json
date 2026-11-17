@@ -1,0 +1,83 @@
+{
+ "record_id": "R00846",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Gome’s effectiveness is sensitive to the base model’s reasoning capability. As shown in our scaling analysis, Gome underperforms tree-search methods on efficiency-tier models, where weaker reasoners may hallucinate diagnostic feedback.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "While this ensures rigorous comparison of optimization strategies by controlling for confounding factors such as retrieval quality and knowledge source coverage, it limits generalizability: real-world MLE tasks often benefit from external knowledge, and Gome’s performance in open-world settings remains less thoroughly validated.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Unlike true gradients in continuous optimization, LLM-generated update signals lack formal properties such as convergence guarantees.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This also implies higher inference costs when using frontier models (Table 9).",
+     "page": 12,
+     "verbatim": false
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This means that in rugged landscapes where solutions require fundamentally different paradigms rather than incremental edits, gradient-based guidance may get trapped in local optima.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F8:no_verbatim_quote"
+ ]
+}

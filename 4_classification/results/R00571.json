@@ -1,0 +1,15 @@
+{
+  "record_id": "R00571",
+  "pdf_sha256": "60066e00e3b3d28c33d6974da131fac938f754fc1a97397dc53807637891dd88",
+  "mechanism": "none identified (runtime registration and persistence of expert-defined tools)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

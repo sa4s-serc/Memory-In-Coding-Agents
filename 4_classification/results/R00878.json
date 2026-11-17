@@ -1,0 +1,17 @@
+{
+  "record_id": "R00878",
+  "pdf_sha256": "342b84f1abe236d2d7a81a767ecbe3f3fe1a142a1d7b92a1e3441d5b8781f2c3",
+  "mechanism": "Hierarchical summary DAG with lossless pointers and engine-managed recursive task partitioning",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "recursive context compression, in which a hierarchical summary DAG automatically compacts older messages while retaining lossless pointers to ev- ery original",
+  "evidence_role": "We introduceLossless Context Manage- ment (LCM), a deterministic architecture for LLM memory that outperformsClaude Code on long-context tasks.",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00399",
+  "pdf_sha256": "4cfdc9834b70dd15642777d79fb21841409b3d7095fff197a267c600adad14ff",
+  "mechanism": "Recording agent traces for distillation and self-improvement by fine-tuning",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (Dafny, Verus, Frama-C)",
+  "evidence_scope": "FORMALDISCOrecords traces from all agents in the agenda, allowing us to both bootstrap open models via distillation from stronger proprietary models, as well as to self-improve the agents",
+  "evidence_role": "We introduce FORMALDISCO, a language-agnostic framework for coordinating LLM- based workers around tasks and an object database, collecting traces for distillation and self-improvement.",
+  "read_full_text": true
+}

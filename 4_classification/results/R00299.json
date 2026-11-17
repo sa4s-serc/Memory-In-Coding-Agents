@@ -1,0 +1,17 @@
+{
+  "record_id": "R00299",
+  "pdf_sha256": "f0e48e10714ad37f1d22895096e0a05baa51d8401ea0070dacaebea3628c4f83",
+  "mechanism": "ReAct searcher agent that uses search engines and security scanners as external tools during code generation",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "The ReAct-based Searcher alternates between generating reasoning traces and executing actions, facilitating seamless integration of internal knowledge with external tools (such as search engines) to enhance accuracy and user control.",
+  "evidence_role": "we propose a controllable code generation framework utilizing the ReAct paradigm for multi-agent task execution.",
+  "read_full_text": true
+}

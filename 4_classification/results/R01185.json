@@ -1,0 +1,17 @@
+{
+  "record_id": "R01185",
+  "pdf_sha256": "a8f164c6b02a1c199ce54c68382611bf58c8c01fed309f5058fc33e02b1aec80",
+  "mechanism": "Trajectory pool with revision, recombination and refinement operators across attempts at one task",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "Our approach revisits and enhances former pilot trajectories through three key operations: revision, recombination, and refinement.",
+  "evidence_role": "we propose SE-Agent, a Self-Evolution framework that enables Agents to optimize their reasoning processes iteratively.",
+  "read_full_text": true
+}

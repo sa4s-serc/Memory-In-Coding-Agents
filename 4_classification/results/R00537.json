@@ -1,0 +1,17 @@
+{
+  "record_id": "R00537",
+  "pdf_sha256": "59383c00e542d2f7e78cda723204d44fdfae4b47bfc566941511c7d90614c168",
+  "mechanism": "Experience bank of past repair experiences, retrieved and updated with quality-aware scoring",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "EVOREPAIRfollows a cyclic learn-and-repair process that retrieves relevant past experiences to guide repair, extracts new experiences from repair trajectories, and updates an experience bank using quality-aware scoring.",
+  "evidence_role": "we propose EVOREPAIR, an experience-based self- evolving A VR agent framework that enables LLMs to accu- mulate, refine, and leverage domain-specific knowledge across long-horizon vulnerability repairs.",
+  "read_full_text": true
+}

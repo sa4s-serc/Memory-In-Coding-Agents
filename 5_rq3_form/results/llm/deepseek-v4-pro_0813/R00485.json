@@ -1,0 +1,108 @@
+{
+ "record_id": "R00485",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The self-study covers our own projects and is dominated by one project, which contributes 42% of events; the latency result comes from a synthetic repository on one machine; and the client suite is small and partly single-run.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "No measure of prevention. The evaluation shows that memory accumulates and that the gate is cheap in the measured synthetic workloads; it does not show that the gate prevents repeated failures, which requires the benchmark proposed below.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The hand-edited project map can drift from the implementation, the git hooks and watcher rely on unvalidated heuristics, and library-name matching can misattribute cross-project lessons (Section 4).",
+     "page": 14,
+     "verbatim": false
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The gate is only as good as the logged history; on a new project it has little to report, which backfilling from git history mitigates but does not remove.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "No semantic recall. projectmem deliberately performs no vector retrieval, trading fuzzy recall for determinism and zero read-time model cost; it complements rather than replaces embedding-based memory.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Summary growth. Notes are capped in the projection, but issues and standing decisions are not, so the summary grows with a project’s history. In one of our own long-lived projects, with 101 standing decisions, it reached roughly 120,000 characters, on the order of 30,000 tokens, well above the session-start estimate of Section 4.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The gate’s thresholds are engineering defaults whose utility has not been evaluated.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Secret redaction is pattern-based and fail-open, so it can miss a secret in an unfamiliar format and, if the scrubber fails, lets an event through unredacted.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Complete supersession. Resolving chains of references by traversal, presenting a retired decision alongside its replacement rather than withholding it, detecting two decisions that retire the same target, and a token-budgeted projection that keeps the session-start read fixed as a project ages.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F4:no_verbatim_quote"
+ ]
+}

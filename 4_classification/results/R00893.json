@@ -1,0 +1,17 @@
+{
+  "record_id": "R00893",
+  "pdf_sha256": "eb0825fda1b70a9522298d8b423fffe19d9b1cafbd183873bcfb457f8bc0892d",
+  "mechanism": "Configuration pool and experience memory updated after each task and used for later queries",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "After each task, high-reward configurations are added to the pool and evolution traces are consolidated via Consolidate and stored, enabling the system to transfer successful pat- terns to future queries",
+  "evidence_role": "We propose Evo- lutionary Generation of Multi-Agent Systems (EvoMAS), which formulates MAS generation as structured configuration generation.",
+  "read_full_text": true
+}

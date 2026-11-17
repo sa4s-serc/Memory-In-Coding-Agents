@@ -1,0 +1,17 @@
+{
+  "record_id": "R00747",
+  "pdf_sha256": "b307ab7e5b8963ed32c1a44545d881f22a9ccc3d56142717ccd4cb9d63f2fbaa",
+  "mechanism": "Runtime sequence-level intervention injecting corrective prompts when risky action patterns appear",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Governor operates at the sequence level with zero LLM overhead, injecting corrective prompts when high-risk base patterns are detected.",
+  "evidence_role": "Based on these findings, we designGovernor, a three-layer runtime intervention system comprising a rule engine, a statistical accumulator, and a chi-square-based threshold adaptor.",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00758",
+  "pdf_sha256": "0808cf915b6155dcb0bc334e0f88150d7d0842b2ed8c192a9f554e9c7af5cdca",
+  "mechanism": "Two-stage multi-turn GRPO training for self-correction from execution feedback",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we introduce a two-stage multi-turn GRPO (Group Rela- tive Policy Optimization) [25] framework that extends standard GRPO to support self-correction.",
+  "evidence_role": "We propose MM-ReCoder, the first multimodal coding MLLM equipped with self-correction abilities.",
+  "read_full_text": true
+}

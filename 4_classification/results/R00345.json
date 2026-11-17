@@ -1,0 +1,17 @@
+{
+  "record_id": "R00345",
+  "pdf_sha256": "b059472b87466b5309d188de3c2e2d0d9be583b7f01dacaba599f41b75fe5824",
+  "mechanism": "Harness-owned memory store with trigger conditions that injects facts deterministically at compaction and resume points",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "A cue-anchored memory model: memories carry first-class trigger conditions over a composable vocabulary {path, symbol, semantic, event, temporal}, evaluated deterministically by the harness",
+  "evidence_role": "Delivery, not storage, is the product: the reliable memory channel for agents is the one the agent never has to think about.",
+  "read_full_text": true
+}

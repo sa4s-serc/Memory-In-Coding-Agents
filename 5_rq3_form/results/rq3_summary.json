@@ -1,0 +1,76 @@
+{
+ "all": {
+  "n": 151,
+  "with_limitations": 144,
+  "without": 7,
+  "fields": {
+   "F1": 116,
+   "F2": 46,
+   "F3": 45,
+   "F4": 43,
+   "F5": 27,
+   "F6": 14,
+   "F7": 20,
+   "F8": 58,
+   "F9": 17,
+   "F10": 58,
+   "F11": 62
+  },
+  "groups": {
+   "Evaluation": 128,
+   "Memory and context": 78,
+   "Engineering": 115
+  },
+  "median_fields_if_any": 3.0
+ },
+ "WITHIN": {
+  "n": 95,
+  "with_limitations": 90,
+  "without": 5,
+  "fields": {
+   "F1": 74,
+   "F2": 24,
+   "F3": 27,
+   "F4": 24,
+   "F5": 9,
+   "F6": 5,
+   "F7": 16,
+   "F8": 43,
+   "F9": 13,
+   "F10": 40,
+   "F11": 42
+  },
+  "groups": {
+   "Evaluation": 78,
+   "Memory and context": 45,
+   "Engineering": 75
+  },
+  "median_fields_if_any": 3.0
+ },
+ "CROSS": {
+  "n": 56,
+  "with_limitations": 54,
+  "without": 2,
+  "fields": {
+   "F1": 42,
+   "F2": 22,
+   "F3": 18,
+   "F4": 19,
+   "F5": 18,
+   "F6": 9,
+   "F7": 4,
+   "F8": 15,
+   "F9": 4,
+   "F10": 18,
+   "F11": 20
+  },
+  "groups": {
+   "Evaluation": 50,
+   "Memory and context": 33,
+   "Engineering": 40
+  },
+  "median_fields_if_any": 3.0
+ },
+ "adjudicated": 173,
+ "adjudicated_to_1": 106
+}

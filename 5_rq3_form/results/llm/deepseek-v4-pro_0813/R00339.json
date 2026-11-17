@@ -1,0 +1,69 @@
+{
+ "record_id": "R00339",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Given that it is a modular approach, it is limited by the performance of the low-level primitives and underlying modules, such as the ability to determine grasps for objects, a known challenge in prior work [33, 34, 35].",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ARCHITECT is also limited by the number of corrections provided.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "The two participants who provided only one correction on the first task did not complete the second task without additional corrections, indicating that the number of corrections matters for building a useful skill library.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

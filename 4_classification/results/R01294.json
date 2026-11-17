@@ -1,0 +1,17 @@
+{
+  "record_id": "R01294",
+  "pdf_sha256": "651e31d3066e7a54390d08bd19c9a9a35af36166d75d70488748ac4e1b93ad44",
+  "mechanism": "Retrieval of past data-race fixes from a curated vector database using code skeleton abstraction",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Go",
+  "evidence_scope": "This RAG-approach guides the LLM to resolve new bugs by drawing on previously addressed, similar issues, adapting them to the current context with precision.",
+  "evidence_role": "We present Dr.Fix, a tool that combines large language models (LLMs) with program analysis to generate fixes for data races in real-world settings",
+  "read_full_text": true
+}

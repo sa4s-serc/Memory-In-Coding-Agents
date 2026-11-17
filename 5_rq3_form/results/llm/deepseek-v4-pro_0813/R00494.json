@@ -1,0 +1,92 @@
+{
+ "record_id": "R00494",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Backend and model coverage remain limited. The main comparison centers on GenericAgent, while the backend ablation adds the native Bayesian-Agent backend, MiniSWEAgent, and Claude Code. This supports cross-harness portability but does not establish broad plug-and-play generality across arbitrary harness/model pairs.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "Bayesian-Agent is best suited to repeated tasks with verifiers, recurring procedural failures, and a controllable skill interface; it is less suitable for one-off subjective tasks, highly nonstationary environments, or failures caused by unavailable tools or data.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The pro setting is partly saturated on SOP-Bench and Lifelong AgentBench but still gains on RealFin-Bench, where BA-Inc reaches 68%.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Full online evolution can be order-sensitive under sparse evidence",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Future work includes richer Bayesian decision policies, broader adapters, and transfer of skill beliefs across models and deployments.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The default backend is a factorized categorical evidence model with Laplace smoothing rather than full Bayesian structure learning or model selection.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The native Bayesian rows spend more tokens, so the evidence supports stronger task completion under sparse evidence rather than lower cost.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

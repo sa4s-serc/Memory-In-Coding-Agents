@@ -1,0 +1,74 @@
+{
+ "record_id": "R01351",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Sparse attention may modify the dependency structure, preventing strict equivalence.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Its efficiency gain may diminish for tasks involving highly diverse or divergent outputs.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "its performance on other tasks or models, such as multimodal transformers or retrieval-augmented generation, requires further investigation",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, garbage collection introduces some overhead. As a result, when the model size is small, the beam width is narrow, and the total number of tokens is low, our method may actually be slightly slower.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,80 @@
+{
+ "record_id": "R01035",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We first observe that there are weaker LLMs for which using LIVE-SWE-AGENT to create custom tools on the fly even decreases performance.",
+     "page": 9,
+     "verbatim": false
+    },
+    {
+     "quote": "This indicates that weaker LLMs may lack the high-level reasoning capabilities to synthesize useful tools on the fly.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, we hope to extend the self-evolution loop across different tasks as well. Instead of discarding each evolved agent after a task is completed, we can save and serialize the useful tools and insights (via concepts like Skills [5]) for future tasks.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In this work, LIVE-SWE-AGENT primarily focuses on enabling agents to self-evolve through custom tool creation and usage. As discussed previously, the key idea of LIVE-SWE-AGENT, to improve and modify the agent itself on the fly, extends beyond creating new tools to also modifying the entire agent implementation.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "In this work, LIVE-SWE-AGENT is implemented as a lightweight modification to an existing agent, requiring no offline training or updates. However, the idea of on-the-fly self-evolution can also be easily extended to LLM training, where instead of learning from a fixed workflow and a static set of tools, the LLM learns to also create new tools and modify the scaffold itself during training.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

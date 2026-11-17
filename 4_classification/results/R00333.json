@@ -1,0 +1,17 @@
+{
+  "record_id": "R00333",
+  "pdf_sha256": "87985a9a7c593af9cf4cabbc4e8959fe06f95868be4a727bf947861eeefafacc",
+  "mechanism": "Reflection loop re-prompting with prior response and schema-validation error",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "JSON model specifications converted to Ciw (Python) simulation models",
+  "evidence_scope": "The LLM is reprompted with a context including the original prompt, AI response, verification error and a request to fix.",
+  "evidence_role": "Sketch2DES, a staged workflow that combines multimodal open-weight LLMs with inspectable intermediate artefacts and deterministic software transformation.",
+  "read_full_text": true
+}

@@ -1,0 +1,76 @@
+{
+ "record_id": "R00501",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, MemOp is evaluated across four benchmarks, three programming languages, and eleven SE activity categories (§4.4, §F.1). Extending this evaluation to further programming languages and SE activities is a natural next step.",
+     "page": 36,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Third, as we focus on memory optimization, SE performance also depends on the intrinsic problem-solving abilities and behaviors of the SE agent itself (§F), and the size and curation efficiency of the training dataset depend on the rollout configuration (§E), which we leave to future exploration.",
+     "page": 36,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, memory utility is measured from agent rollouts, which are inherently stochastic, and we therefore evaluate every task under Nτ = 4 trajectories to stabilize each estimate (Alg. 1). Further improving the calibration of this utility signal offers additional headroom for MemOp.",
+     "page": 36,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In future work, we aim to extend MemOp to broader benchmarks, programming languages, and SE activities, to design new inference-time selection mechanisms over generated memory candidates (§F.6), and to explore tighter integration between memory optimization and SE agent training to further improve problem-solving performance.",
+     "page": 36,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R01367",
+  "pdf_sha256": "38aece4fd14456f4d3749811c0f01f8316a2ef751f7a4fcb8e82f1e696296482",
+  "mechanism": "none identified (empirical study of test and static-analysis feedback for code repair)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "QUALITY_ASSURANCE",
+  "target": "C",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

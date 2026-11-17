@@ -1,0 +1,17 @@
+{
+  "record_id": "R01115",
+  "pdf_sha256": "2eaaa8132613e733481ad79c5cd9ed9bd4434d0e5c3107bac531fd4f4b7ae7d1",
+  "mechanism": "Two-stage perplexity-based compression of long code context for a single request",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "LongCodeZip employs a dual-stage strategy: (1) coarse-grained compression, which identifies and ranks function-level chunks using conditional perplexity with respect to the instruction, retaining only the most relevant functions",
+  "evidence_role": "we propose LongCodeZip, a novel plug-and-play code compression framework designed specifically for code LLMs.",
+  "read_full_text": true
+}

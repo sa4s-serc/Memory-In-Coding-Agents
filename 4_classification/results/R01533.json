@@ -1,0 +1,17 @@
+{
+  "record_id": "R01533",
+  "pdf_sha256": "b3f7b444f96435fa8f6aab0082640446dedb91e28767656f9ef1684e2dac921e",
+  "mechanism": "Retrieval of retrospections built from MBPP problems to guide iterative code refinement on HumanEval",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "the model retrieves and leverages similar problems from its MBPP experiences, effectively boosting its performance.",
+  "evidence_role": "This work presents Past as a Guide (PaG), a simple approach for Large Language Models (LLMs) to improve the coding capabilities by integrating the past history with interactive and iterative code refinements.",
+  "read_full_text": true
+}

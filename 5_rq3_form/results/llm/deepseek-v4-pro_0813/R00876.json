@@ -1,0 +1,98 @@
+{
+ "record_id": "R00876",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Note that performance results may be impacted by the difference in our evaluation methodology as described in Section 4.1.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "To improve Knowledgebase management and reduce storage overheads and bias towards early entries, future directions will explore strategies such as randomized sampling and periodic updates of the Knowledgebase.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, compared to the relatively concise problem representation of KernelBench Python code, implementing full networks in native CUDA code results in extremely verbose source files, with significant overheads to boilerplate code, limiting reasoning ability, and diluting LLMs’ ability to identify performance signals.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "To improve Knowledgebase management and reduce storage overheads and bias towards early entries, future directions will explore strategies such as randomized sampling and periodic updates of the Knowledgebase.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This approach features significant repetition, but this “micro-tuning” often proves unproductive; for example, over 50% of repeated instruction level parallelism applications (and over 80% for grid size optimization) yield negligible speedups (< 1.01×).",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, due to the large number of kernels and operators within level3 models, processing a singular optimization per iteration limits the performance improvement for the whole model.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "While we don’t observe Hopper-specific warp specialization, optimized kernels use SW specialization (producer-consumer, cooperative loading, warp-scoped specialization).",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "While a single agent’s database is not useful for updating model parameters, a database aggregated from the full spectrum of agentic systems deployed can be used to train and refine the model itself.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

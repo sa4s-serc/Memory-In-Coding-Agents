@@ -1,0 +1,81 @@
+{
+ "record_id": "R01251",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Regarding our dataset a key limitation is that we had to remove ≈10% of samples from SWE-bench Verified due to defective environment setup scripts.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our analysis indicates noise introduced by distracting CTIM items or exemplar trajectories as the likely source of the performance degradation.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "Our investigations reveal noisy CTIM items as the likely culprit.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "we do not investigate such an approach",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work may also consider the re-use of self-reflections as CTIM items more explicitly.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00676",
+  "pdf_sha256": "1d27dc0496d182eb8c7b4a4f121d91175feccf5f550234011b3150a90a8fa7f8",
+  "mechanism": "Trained latent (KV-cache) communication between agents",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "DiffMAS performs parameter-efficient supervised training over multi-agent latent trajectories",
+  "evidence_role": "we propose DiffMAS, a training framework that treats latent communication as a learnable component of multi-agent systems.",
+  "read_full_text": true
+}

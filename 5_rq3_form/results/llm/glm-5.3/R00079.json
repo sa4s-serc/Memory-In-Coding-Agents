@@ -1,0 +1,81 @@
+{
+ "record_id": "R00079",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ThinkCoder’s generated test cases effectively verify code, reducing the need for manual tests, but its performance saturates in complex scenarios, making it better suited for simpler tasks.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In our current approach to managing the testing pool, we primarily focus on selective expansion but lack effective strategies for cleaning noise from the test set.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Moreover, test set diversity relies heavily on LLMs’ generation capabilities.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This indicates that fine-tuning teaches the LLM to find good answers, but the improvement in exploring the overall solution space remains limited.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "To address this, we look forward to introducing on-policy training methods in future work, combining data collection with fine-tuning to continuously evolve the model during training.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

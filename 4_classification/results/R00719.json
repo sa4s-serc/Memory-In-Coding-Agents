@@ -1,0 +1,18 @@
+{
+  "record_id": "R00719",
+  "pdf_sha256": "3333eab73e1105058140b106ac06d9fb03333cfc2e5a86c7e4ec205e3b23e9d4",
+  "mechanism": "Dependency-aware translation graph and interface/function mapping with dynamic context collection",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Rust (translated from C)",
+  "evidence_scope": "ORBIT constructs a dependency-aware translation graph, generates Rust interfaces, maps C functions to Rust counterparts, and coordinates multiple specialized agents.",
+  "evidence_role": "We present ORBIT, an autonomous agentic framework for project-level C-to-Rust translation that combines dynamic context collection with dependency-guided orchestration and iterative ver- ification.",
+  "read_full_text": true
+}

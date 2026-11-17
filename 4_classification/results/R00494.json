@@ -1,0 +1,17 @@
+{
+  "record_id": "R00494",
+  "pdf_sha256": "09764c668b18010ab72a36f29983aba82b58ad2bb9902f81c3e68136d5e1cd58",
+  "mechanism": "Bayesian posterior over reliability of skills learned from verified trajectories, driving skill repair and guardrails",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Bayesian-Agent records verified trajectories, maintains posterior beliefs over skill reliability and failure modes, and turns those beliefs into auditable skill actions and model-facing guardrails.",
+  "evidence_role": "We introduce Bayesian-Agent, a native and cross-harness framework that treats reusable agent skills as Bayesian evidence objects.",
+  "read_full_text": true
+}

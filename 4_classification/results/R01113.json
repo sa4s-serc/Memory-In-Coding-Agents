@@ -1,0 +1,17 @@
+{
+  "record_id": "R01113",
+  "pdf_sha256": "5157c07c2cdb540cb793f494580b993253b5c634b45ebfe8b2afba35e14be484",
+  "mechanism": "Offline-profiled ranking matrix ('Memory module') used to route code generation, debugging and refinement to different LLMs",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "The generation, debugging, and refinement agents select models us- ing a Memory module that ranks candidate LLMs by their measured performance for each stage, program- ming language, and algorithmic category.",
+  "evidence_role": "we propose PerfOrch, a multi-LLM-based multi-agent system consisting of four agents for categorization, generation, debugging, and refinement.",
+  "read_full_text": true
+}

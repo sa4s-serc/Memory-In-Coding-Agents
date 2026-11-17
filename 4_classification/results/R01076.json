@@ -1,0 +1,15 @@
+{
+  "record_id": "R01076",
+  "pdf_sha256": "010eda4b6497082985613b72a82c3e4b4f6cb08d7f7419a744f1742ac27d2552",
+  "mechanism": "Execution-semantics alignment objective added to RLVR training for code generation",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "CODERL+ enables the model to infer variable-level execution trajectory, providing a direct learning signal of execution semantics.",
+  "evidence_role": "we propose CODERL+, a novel approach that in- tegrates execution semantics alignment into the RLVR training pipeline for code generation.",
+  "read_full_text": true
+}

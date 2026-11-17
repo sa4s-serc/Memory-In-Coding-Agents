@@ -1,0 +1,79 @@
+{
+ "record_id": "R00064",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We do not study pipelines such as Agentless [47], as the defined pipeline denotes the agent’s strategies. We also do not include Refact [38] due to known persistent technical issues during setup and execution.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "We will support additional agents upon request as the industry evolves from single-agent to multi-agent systems, e.g, multi-agent research system in Claude.ai [7]",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We make no claim that our heuristics, and hence, identified anti-patterns are complete.",
+     "page": 19,
+     "verbatim": true
+    },
+    {
+     "quote": "The heuristics are orthogonal to our design, i.e., more heuristics or even specific inefficiency patterns can be added later.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "We believe Graphectory opens several research directions, which we plan to explore as the next step: Developing structure-aware program analysis tools for symbolic navigation, targeted context retrieval, and AST-based editing to reduce the inefficiencies exposed by Graphectory.",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00273",
+  "pdf_sha256": "6c25e6b04eecc3c9d055e6a2aa3a1dd50d1d36b943821f79be0cfbab5e4720db",
+  "mechanism": "Case-based reasoning over a case bank of Kaggle human insights and retained successful solutions",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "both",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "DS-Agent retrieves and reuses past successful solutions collected from the development stage for the current task.",
+  "evidence_role": "we present DS-Agent, a novel automatic framework that harnesses LLM agent and case-based reasoning (CBR).",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00277",
+  "pdf_sha256": "064d54e81576c465c9b37f01d4d1820a159e5b024c3efc9a1e780655b267cf7a",
+  "mechanism": "none identified: empirical energy-efficiency comparison of existing issue-resolution frameworks",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "The main contributions of this study are: (i) a reproducible methodology for measuring the energy consumption of agentic systems running SLMs",
+  "evidence_role": "The main contributions of this study are: (i) a reproducible methodology for measuring the energy consumption of agentic systems running SLMs",
+  "read_full_text": true
+}

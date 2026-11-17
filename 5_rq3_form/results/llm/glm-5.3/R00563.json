@@ -1,0 +1,70 @@
+{
+ "record_id": "R00563",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Although our experiments cover multiple budgets, backbones, model scales, and task families, broader evaluation on additional architectures, multi-turn interactions, and production serving systems would further clarify deployment behavior.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This design keeps the method lightweight and scorer-agnostic, but it also means that AMS relies on attention-derived usage as a proxy for long-range utility.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In addition, while AMS is compatible with gather-and-compact KV execution, its practical efficiency may still depend on the serving backend, batching strategy, and hardware implementation.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

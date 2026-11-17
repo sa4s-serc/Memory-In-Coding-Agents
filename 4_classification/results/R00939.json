@@ -1,0 +1,15 @@
+{
+  "record_id": "R00939",
+  "pdf_sha256": "f8e629d404678ad0040656b51856688289649ab295606da1487ad221a8253957",
+  "mechanism": "Agentic mid-training on agent-native trajectories synthesised from GitHub pull requests",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "we present a systematic study of agentic mid-training, establishing both the data synthesis principles and training methodology for effective agent development at scale.",
+  "evidence_role": "we present a systematic study of agentic mid-training, establishing both the data synthesis principles and training methodology for effective agent development at scale.",
+  "read_full_text": true
+}

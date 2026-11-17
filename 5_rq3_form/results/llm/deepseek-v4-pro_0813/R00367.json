@@ -1,0 +1,82 @@
+{
+ "record_id": "R00367",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The sufficiency evidence is small: n=12–15 questions per corpus, one blind judge, one execution model; we report CIs and treat magnitudes as directional, and the honest summary of Table 2 is per-kind patterns, not separable pooled rankings.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Specified but not run here: synthesis on the mined T4 multi-hop gold (92–104 pairs per high-co-occurrence corpus), a second judge model with agreement, the wild-question kind-distribution (and with it the expected-cost figure), and gate recalibration after the facet term enters the score mix.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Answer-sufficiency is a proxy for task help, not task completion.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The map is only as good as the repository’s own structure and documentation; synthesis reconstructs rationale only to the extent it was verbalized (§9)",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Specified but not run here: synthesis on the mined T4 multi-hop gold (92–104 pairs per high-co-occurrence corpus), a second judge model with agreement, the wild-question kind-distribution (and with it the expected-cost figure), and gate recalibration after the facet term enters the score mix.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

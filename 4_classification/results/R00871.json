@@ -1,0 +1,15 @@
+{
+  "record_id": "R00871",
+  "pdf_sha256": "d08bb65362eb4e6dd81390d05675fc245a946efe60d29f2f63517972cc1b41af",
+  "mechanism": "Training on synthetic auxiliary tasks designed from decomposed trajectories",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "we propose a training environment, HYBRID-GYM, consisting of a set of scalable synthetic tasks, such as function localization and dependency search.",
+  "evidence_role": "we propose a training environment, HYBRID-GYM, consisting of a set of scalable synthetic tasks, such as function localization and dependency search.",
+  "read_full_text": true
+}

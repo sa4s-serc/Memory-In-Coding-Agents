@@ -1,0 +1,86 @@
+{
+ "record_id": "R00521",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because we evaluate only one coding-agent/LLM configuration, we consider these results important but preliminary evidence of the usefulness of the optimization loop.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "While our (reproducible) experimental setup is tailored to a specific set of APIs, our strongest contribution is linking Git-for-data to the optimization of compound AI systems for OLAP use cases: as such, alternative implementations of the same ideas will benefit from the insights we share.",
+     "page": 2,
+     "verbatim": true
+    },
+    {
+     "quote": "Based on our experience, only frontier closed models such as GPT-5.5 were able to properly “one-shot” the entire task generation with the required internal consistency (at the cost of high latency): we leave the exploration of smaller models and multi-agent orchestration to future work.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "raw frequencies are not a sufficient benchmark specification. First, traces are partially shaped by the current skills, so they may over-represent APIs described well and under-represent poorly documented behaviors.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "only frontier closed models such as GPT-5.5 were able to properly “one-shot” the entire task generation with the required internal consistency (at the cost of high latency)",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This result points to a clear line of future work: jointly optimizing skills. Our approach optimizes each skill in isolation, but the dataset supports complex tasks where skills may need to be adapted jointly to enable the agent to complete a correct workflow, end-to-end.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00283",
+  "pdf_sha256": "62482c8416ccfc48df7b47e7433f13ccea399c1b889ac43d1009d6ec7520e75f",
+  "mechanism": "Iterative feedback prompting using complexity metrics of the failed code",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "In Step 8, for any code that failed, the values of the five most influential metrics (identified in Step 4) are collected. This feedback will be provided to LLMs to adjust these complexity aspects in the regenerated code",
+  "evidence_role": "Introducing an iterative feedback method based on code complexity metrics to enhance the correctness of generated code, both in standalone LLM prompting and within an agent-based framework.",
+  "read_full_text": true
+}

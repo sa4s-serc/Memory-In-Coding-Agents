@@ -1,0 +1,15 @@
+{
+  "record_id": "R00885",
+  "pdf_sha256": "102633b5158537f8fe784107e0723866fddea4ec72ee328fef02021546172852",
+  "mechanism": "Automated multi-agent construction of SWE training instances and distillation fine-tuning",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "We further demonstrate the dataset's utility for training by distilling 71,498 high-quality trajectories and fine-tuning Qwen-30B-A3B-Instruct to produce Scale-SWE-Agent.",
+  "evidence_role": "we propose Scale-SWE, an automated, sandboxed multi-agent workflow designed to construct high-quality SWE data at scale.",
+  "read_full_text": true
+}

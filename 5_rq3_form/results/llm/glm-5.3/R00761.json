@@ -1,0 +1,63 @@
+{
+ "record_id": "R00761",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The present evidence remains bounded by one solver stack, one benchmark design, and one base model; the natural next steps are to instantiate the same loop on additional solver backends and problem domains, and to test harder cross-regime and multiphysics transfer on larger, more diverse benchmarks.",
+     "page": 8,
+     "verbatim": false
+    },
+    {
+     "quote": "Broad cross-class binary generalization is not established by a single pair of swapped splits, but both directions show that the evolved skill file is not specific to the families it was developed on.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

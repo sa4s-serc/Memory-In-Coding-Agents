@@ -1,0 +1,74 @@
+{
+ "record_id": "R01424",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While this decision facilitates direct integration and interaction with the IoC container, enhancing execution efficiency and context management, it raises potential security concerns.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Unlike sandboxed environments, where code execution is isolated and risks are mitigated, the local process approach requires careful management to prevent unintended side effects or security vulnerabilities.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "While challenges such as execution security remain",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While not yet fully autonomous, MOSS establishes the foundation for future systems capable of evolving on their own, driven entirely by code.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R01027",
+  "pdf_sha256": "cc5b8656456886451ab6c9afd6416a000ff950ecb837aae385faee3fb6222728",
+  "mechanism": "none identified (graph compiler and runtime for typed code DAGs)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

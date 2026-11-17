@@ -1,0 +1,17 @@
+{
+  "record_id": "R00177",
+  "pdf_sha256": "59c2eeda5f8fecd06962d4755d429b5da6a3ea67274b0373ee2cc842fc4579c7",
+  "mechanism": "History rendering: compact, truncated summary of the current task's plan/code/output history passed as context",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "if the history so rendered exceeds 10k characters (configurable), only the most recent 10k are kept.",
+  "evidence_role": "We demonstrate CEDAR (Context Engineering for Data science with Agent Routing), an application for automating data science (DS) tasks with an agentic setup.",
+  "read_full_text": true
+}

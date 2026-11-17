@@ -1,0 +1,17 @@
+{
+  "record_id": "R00761",
+  "pdf_sha256": "26a151f615df160b039cd8ccac2bacb7d02d716985dc36158f7f6a14672ee0ca",
+  "mechanism": "Skill files revised from solver-grounded feedback over batches of tasks and reused on later tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "The coding agent then applies the updated skill file to the next batch of training tasks.",
+  "evidence_role": "We present a self-evolving agentic framework that lowers this barrier by coupling a coding agent, explicit human-readable skill files, and a deterministic physics-based evaluator.",
+  "read_full_text": true
+}

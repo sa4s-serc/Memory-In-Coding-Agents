@@ -1,0 +1,17 @@
+{
+  "record_id": "R00629",
+  "pdf_sha256": "e76b8ee8dd1cb3f7d378a78c4680d663bc3346946d09199df27c38130d7eddb0",
+  "mechanism": "Q-value credit propagation through a provenance DAG over an evolving episodic memory store",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Episodic memory allows LLM agents to accumulate and retrieve experience",
+  "evidence_role": "We introduceMemQ, which applies TD(λ) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG",
+  "read_full_text": true
+}

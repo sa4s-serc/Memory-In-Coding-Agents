@@ -1,0 +1,17 @@
+{
+  "record_id": "R01266",
+  "pdf_sha256": "bcb4bb64c37a28e4eaf5d0b4944a17e92275f841003e1720d64fa9c12f179547",
+  "mechanism": "Record of agent traces summarised into structured experiences and replayed in later similar tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "summarize this trace into a structured \"experience\" encapsulating the workflow and constraints, and 3 replay these experiences in subsequent similar tasks to guide the agent's behavior.",
+  "evidence_role": "This paper proposes a new paradigm called AgentRR (Agent Record & Replay), which introduces the classical record-and-replay mechanism into AI agent frameworks.",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R01243",
+  "pdf_sha256": "1635deb128c7c826ce234692b83a268e4a00cfa6cbea7fbb005ee60d59bc7815",
+  "mechanism": "Offline-trained KV-cache representation of a corpus via self-study and context distillation",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we propose SELF-STUDY, a training recipe in which we generate synthetic conversations about the corpus and train the CARTRIDGE with a context-distillation objective.",
+  "evidence_role": "We explore an alternative: training a smaller KV cache offline on each corpus.",
+  "read_full_text": true
+}

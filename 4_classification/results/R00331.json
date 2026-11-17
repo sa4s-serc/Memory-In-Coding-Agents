@@ -1,0 +1,17 @@
+{
+  "record_id": "R00331",
+  "pdf_sha256": "141c87c3f2aeeac63ed5fbdf8271961273178ed7ff1882f44e3894721a161168",
+  "mechanism": "Self-evolving loops feeding counterexamples and trace-validation divergences back to the specification agents",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "TLA+",
+  "evidence_scope": "for each loop iteration, Specula enforces AI agents to collect new information and reason about their outputs with more evidence, thus gradually enhancing the agents’ understanding of the target system.",
+  "evidence_role": "We present Specula, a push-button agentic system that generates high-quality formal specifications for any large, complex system code and uses the specifications for highly effective model checking and bug finding.",
+  "read_full_text": true
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00253",
+  "pdf_sha256": "99a918ff53ba1fcadc20d14e5326b9de8295c897971dd35b850f5970cd327c56",
+  "mechanism": "CodeGraph-based search with priority action scheduling and distance-aware pruning of searched context",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "we design a context manager that dynamically prunes the searched context. The pruning algorithm leverages a node distance heuristic within the graph-oriented codebase.",
+  "evidence_role": "This paper introduces ORCALOCA, an LLM agent framework that improves accuracy for software issue localization by integrating priority-based scheduling for LLM-guided action, action decomposition with relevance scoring, and distance-aware context pruning.",
+  "read_full_text": true
+}

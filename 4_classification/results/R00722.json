@@ -1,0 +1,15 @@
+{
+  "record_id": "R00722",
+  "pdf_sha256": "7077ff88b3c17e17eb4aabbd8dafb69143ba9811ab100e067067de374201b472",
+  "mechanism": "Process reward model trained on SWE-Bench trajectories to guide action selection",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Using trajectories fromSWE-Bench, we construct an action-level reward dataset and train a lightweight reward model on a base LLM to estimate the usefulness of intermediate actions.",
+  "evidence_role": "we proposeSWE-Shepherd, a framework that intro- duces Process Reward Models (PRMs) to provide dense, step-level supervision for repository-level code agents.",
+  "read_full_text": true
+}

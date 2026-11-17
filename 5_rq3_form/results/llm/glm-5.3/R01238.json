@@ -1,0 +1,91 @@
+{
+ "record_id": "R01238",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Although we evaluate four models from three different providers, our study still covers only a limited set of representative LLMs rather than the full spectrum of open- and closed-source architectures.",
+     "page": 19,
+     "verbatim": true
+    },
+    {
+     "quote": "Our evaluation is limited to open-source projects implemented in Python, constraining our ability to demonstrate cross-language effectiveness.",
+     "page": 19,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Since LLMs are often trained on open-source repositories, public benchmarks may inadvertently overlap with their training corpora. This raises the risk that evaluation results reflect prior exposure rather than genuine generalization.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "issues solved exclusively by DARS highlight a limitation of ExpeRepair: its effectiveness drops when relevant prior experience is unavailable.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "Django’s cumulative resolution rate stabilizes around issue 80 at approximately 60%, which may be attributable to diminishing returns from repeated memory and the increasing heterogeneity of the remaining issues.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While our approach improves test generation and patch generation by leveraging accumulated episodic and semantic memories, it currently places less emphasis on optimizing bug localization, which is also a critical factor in program repair performance.",
+     "page": 18,
+     "verbatim": true
+    },
+    {
+     "quote": "We leave the integration of reliable, memory-based bug localization into our framework as an important direction for future work.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

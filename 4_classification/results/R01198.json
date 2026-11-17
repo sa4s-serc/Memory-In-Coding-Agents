@@ -1,0 +1,18 @@
+{
+  "record_id": "R01198",
+  "pdf_sha256": "e59b0b23e2c4dd2d6eb35c9a996abcf7d3423c8e5d70e740126a0323ebd7a86d",
+  "mechanism": "Repository knowledge graph with a working-memory context engine for codebase navigation within an issue",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "Prometheus represents the repository as a unified knowledge graph to encode semantic dependencies and employs a context engine augmented with working memory that retains and reuses previously explored contexts to ensure continuity across reasoning steps.",
+  "evidence_role": "we present Prometheus, a memory-centric coding agent framework for long-horizon codebase navigation.",
+  "read_full_text": true
+}

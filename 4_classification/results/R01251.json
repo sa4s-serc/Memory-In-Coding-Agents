@@ -1,0 +1,17 @@
+{
+  "record_id": "R01251",
+  "pdf_sha256": "b88e6b4dfb9603d1edf3b04757b82ed6db7c71fe596540c1b364e7ee7d175c4b",
+  "mechanism": "Cross-task-instance memory of insights extracted from trajectories and maintained with add, edit, upvote and downvote operations",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "extracting knowledge from sets of successful trajectories from distinct instances and tuples of successful and failing attempts in the same instance",
+  "evidence_role": "extends agentic reasoning frameworks with an episodic memory, more specifically, a general and repository-level Cross-Task-Instance Memory",
+  "read_full_text": true
+}

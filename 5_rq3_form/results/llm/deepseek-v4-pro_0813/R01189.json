@@ -1,0 +1,97 @@
+{
+ "record_id": "R01189",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The first internal threat comes from our reliance on a single underlying language model for all agent interactions. This choice may introduce model-specific biases and limit the generalizability of our findings across different LLM architectures.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "The primary external threat concerns the generalizability of our approach beyond Python repositories and the specific issue types present in SWE-bench. Our evaluation focuses exclusively on Python-based open-source projects, limiting our ability to demonstrate cross-language effectiveness.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Another internal threat stems from potential data leakage, where SWE-bench instances may have been included in the training data of our underlying language model. While DeepSeek-V3-0324 is open-source, its training data composition is not publicly disclosed, making it impossible to verify potential overlap with our evaluation dataset.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "One critical concern about our experience-driven framework is the threat of knowledge leakage [56]. Specifically, in datasets such as SWE-bench, multiple instances from the same repository may correspond to closely related or even identical buggy code segments.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We also found that, although experiences have been shown to enhance the ability of agent, they could introduce misleading thoughts—particularly at the problem comprehension stage.",
+     "page": 15,
+     "verbatim": true
+    },
+    {
+     "quote": "Moreover, increasing the number of past trajectories used for experience generalization tended to introduce irrelevant or conflicting information, which negatively impacted the agent’s effectiveness on the current issue, as the model found it harder to focus on the most relevant information and was more likely to rely on irrelevant or confusing information.",
+     "page": 15,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Its effectiveness depends on the quality of extracted experiences and their relevance to the target issue; if the retrieved knowledge fails to align with the current problem’s semantics, performance may degrade.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Moreover, the agent currently lacks a robust mechanism to assess the applicability of prior experiences in novel contexts, which may lead to inappropriate reuse or misleading to irrelevant patterns.",
+     "page": 16,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

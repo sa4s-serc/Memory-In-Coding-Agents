@@ -1,0 +1,15 @@
+{
+  "record_id": "R00524",
+  "pdf_sha256": "3d6e21f542007fd19f1b4e380d4d500a1f89e1abbcbdc3cb9f32af393f7d1d1a",
+  "mechanism": "none identified (LLM-extracted Datalog fact base feeding SMT analysis)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "QUALITY_ASSURANCE",
+  "target": "C and C++",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

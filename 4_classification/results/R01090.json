@@ -1,0 +1,15 @@
+{
+  "record_id": "R01090",
+  "pdf_sha256": "3d5e442872c32331ea37d998225c833cc4e334a2817d41a2983f3b9f537b6b68",
+  "mechanism": "none identified (empirical mining study of FMware issues)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

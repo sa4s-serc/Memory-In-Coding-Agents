@@ -1,0 +1,18 @@
+{
+  "record_id": "R00339",
+  "pdf_sha256": "776b5aa0505929401fbd14a2e5a8d2ea0aa3dcc9a3946de646ecfbcd12cc0a30",
+  "mechanism": "Persistent skill library distilled from human language corrections to synthesized robot programs and reused on later tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "Successful corrections are then distilled into a Skill Library.",
+  "evidence_role": "we propose ARCHITECT, a framework that treats robot policy acquisition as an interactive program synthesis task.",
+  "read_full_text": true
+}

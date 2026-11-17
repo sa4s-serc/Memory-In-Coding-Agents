@@ -1,0 +1,80 @@
+{
+ "record_id": "R01932",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While these results indicate strong robustness on the tested suite, performance in specialized domains and under distributions beyond our benchmark remains an area for future validation.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "First,MCP-SIMis based on a general-purpose LLM (GPT-4o) without domain-speciﬁc ﬁne-tuning;performancemaydegradeinspecializedphysicalsettings,suchasrare material models or advanced multiphysics couplings.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, our evaluation is limited to a curated twelve-task benchmark with synthetic prompts; extension to experimental or safety-critical contexts will require domain-speciﬁc validation and human oversight.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, the reﬂective loop introduces computational latency compared to one-shot generation, which may restrict applicability in real-time or resource-constrained scenarios.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work will focus on integrating domain-speciﬁc foundation agents, incorporating symbolic physics engines, and optimizing inference for high-performance computing environments.",
+     "page": 6,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00404",
+  "pdf_sha256": "4e7d36b233673a3793b95e7834e588acf19bcea3b292c7168781a95df792797d",
+  "mechanism": "Skill document optimized offline from training rollouts and then deployed as a fixed artifact",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "SkillOpt-Lite operates directly on the disk via an autonomous debugging loop consisting solely of trajectory exploration, consensus mining, and validation gating.",
+  "evidence_role": "we proposeSkillOpt-Lite, a minimal viable pipeline that removes mini-batch reflection pooling, slow update damping, and rejection buffers.",
+  "read_full_text": true
+}

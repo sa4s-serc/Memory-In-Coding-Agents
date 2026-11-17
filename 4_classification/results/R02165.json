@@ -1,0 +1,17 @@
+{
+  "record_id": "R02165",
+  "pdf_sha256": "58f096731efab7cf1a169bc28d5e5d04c582aac186b4818746837f73e5299324",
+  "mechanism": "Operator knowledge base mined from real scripts and documentation, used with RAG for geospatial code generation",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "JavaScript",
+  "evidence_scope": "we extract operator knowledge from 185,236 real GEE scripts and syntax documentation, forming a structured knowledge base.",
+  "evidence_role": "we propose a framework for constructing a geospatial operator knowledge base tailored to the GEE JavaScript API.",
+  "read_full_text": true
+}

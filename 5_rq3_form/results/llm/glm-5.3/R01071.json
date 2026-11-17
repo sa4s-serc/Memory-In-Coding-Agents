@@ -1,0 +1,86 @@
+{
+ "record_id": "R01071",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "They are predominantly based on English-speaking developers using particular languages and tools, which may reduce performance for underrepresented populations.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "generalization beyond software engineering to other collaborative domains remains an open direction",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "This suggests ToM agents can handle a spectrum of ambiguity but struggle with highly underspecified scenarios",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Consequently, we focus our analysis on user-acceptance metrics, specifically, whether developers accepted, modified, or rejected the ToM agent’s suggestions. Here we don’t broad causal claims about productivity improvements.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In this work, we rely on an LLM-powered user simulator to assess interaction quality, which is cost-effective but may introduce systematic biases (e.g., over-knowledgeability and excessive compliance) (Lin & Tomlin, 2025)",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Capabilities for modeling users could be misused for manipulation or unauthorized surveillance.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

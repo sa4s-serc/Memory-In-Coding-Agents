@@ -1,0 +1,80 @@
+{
+ "models": {
+  "A": "deepseek-v4-pro:0813",
+  "B": "glm-5.3"
+ },
+ "papers": 151,
+ "decisions": 1661,
+ "pooled_kappa": 0.749,
+ "pooled_agreement": 0.896,
+ "disagreements": 173,
+ "papers_with_disagreement": 99,
+ "per_field": {
+  "F1": {
+   "kappa": 0.729,
+   "agreement": 0.901,
+   "A": 114,
+   "B": 115
+  },
+  "F2": {
+   "kappa": 0.726,
+   "agreement": 0.887,
+   "A": 47,
+   "B": 40
+  },
+  "F3": {
+   "kappa": 0.767,
+   "agreement": 0.907,
+   "A": 46,
+   "B": 36
+  },
+  "F4": {
+   "kappa": 0.602,
+   "agreement": 0.834,
+   "A": 43,
+   "B": 46
+  },
+  "F5": {
+   "kappa": 0.579,
+   "agreement": 0.874,
+   "A": 31,
+   "B": 24
+  },
+  "F6": {
+   "kappa": 0.733,
+   "agreement": 0.954,
+   "A": 14,
+   "B": 15
+  },
+  "F7": {
+   "kappa": 0.634,
+   "agreement": 0.934,
+   "A": 20,
+   "B": 10
+  },
+  "F8": {
+   "kappa": 0.74,
+   "agreement": 0.881,
+   "A": 59,
+   "B": 47
+  },
+  "F9": {
+   "kappa": 0.762,
+   "agreement": 0.954,
+   "A": 17,
+   "B": 16
+  },
+  "F10": {
+   "kappa": 0.687,
+   "agreement": 0.861,
+   "A": 56,
+   "B": 43
+  },
+  "F11": {
+   "kappa": 0.732,
+   "agreement": 0.868,
+   "A": 66,
+   "B": 68
+  }
+ }
+}

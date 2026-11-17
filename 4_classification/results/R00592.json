@@ -1,0 +1,17 @@
+{
+  "record_id": "R00592",
+  "pdf_sha256": "501b39c8bc43804f4fa1fb2129f32704e6dfd51cc47cbab184075607ea739e67",
+  "mechanism": "RepoMemory: shared memory accumulating prior work traces with read, write and verify operations",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python repositories (documentation)",
+  "evidence_scope": "Memory-Guided Agentic Interaction, in which the agent interacts with RepoMemory, a shared memory accumulating prior work traces through read, write, and verify operations.",
+  "evidence_role": "we proposeMemDocAgent, a long-horizon agentic framework that generates documentation within a single, integrated context spanning the entire repository.",
+  "read_full_text": true
+}

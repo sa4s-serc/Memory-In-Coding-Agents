@@ -1,0 +1,86 @@
+{
+ "record_id": "R00586",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The evaluation covers 425 instances across C/C++, Go, Python, and JavaScript, but does not represent all vulnerability classes, software architectures, or deployment environments.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Pretraining contamination in proprietary LLMs cannot be fully ruled out, but ContraFix’s 29.5–42.0 point gains over same-backbone GPT-5-mini baselines and its DeepSeek-V3.2 result make backbone memorization unlikely to explain the relative improvements.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "These benchmark oracles are not complete semantic specifications.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ContraFix derives each RepairSpec from a finite set of generated executions, so the inferred relation may not cover the full input space.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "ContraFix also fails to produce any benchmark-validated patch for 16 instances, including 9 root-cause tracing failures and 7 incomplete candidate repairs.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "As reported in Section 4.1, 77 benchmark-validated patches are not semantically correct, including 44 incomplete/PoC-specific and 33 behavior-regressive patches.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

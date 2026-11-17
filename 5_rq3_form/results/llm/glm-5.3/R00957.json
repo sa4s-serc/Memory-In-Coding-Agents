@@ -1,0 +1,97 @@
+{
+ "record_id": "R00957",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "1) Sample Size: Our evaluation uses N=5 hard instances. While sufficient to demonstrate feasibility and measure token savings, validation on the full SWE-bench Lite benchmark (N=300) is needed to characterize which task types benefit most from compression.",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "2) Task-Dependent Benefits: Focus showed 50-57% savings on exploration-heavy tasks but 110% overhead on one iterative refinement task. Identifying task characteristics that predict compression benefit remains future work.",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "3) Model Generalization: We evaluated Claude Haiku 4.5. Whether GPT-4, Gemini, or open-source models exhibit similar compression behavior is unknown.",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "4) Scaffold Dependence: Our results use an optimized two-tool scaffold (bash + str replace editor). Different tool configurations may show different compression patterns.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "(3) Structured compression that preserves specific artifacts (test outputs, diffs) rather than free-text summaries;",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Analysis shows Focus made 136 LLM calls vs. Baseline's 63, with 8 compressions dropping 80 messages. The problem required extensive trial-and-error, and Focus's compressions occasionally discarded useful context, forcing re-exploration.",
+     "page": 3,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The aggressive prompting strategy may need model-specific tuning.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Future work could explore: (1) fine-tuning on compression-annotated trajectories, (2) reinforcement learning with token-cost penalties, or (3) constitutional AI approaches that embed efficiency preferences.",
+     "page": 3,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

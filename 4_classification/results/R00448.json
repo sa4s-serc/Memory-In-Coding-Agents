@@ -1,0 +1,18 @@
+{
+  "record_id": "R00448",
+  "pdf_sha256": "50418b6486d59b1d09745c57b276dbabc4f76813d363561905c73188bb7a102c",
+  "mechanism": "RAG over a database of historical CVE fix patches, plus repository dependency retrieval",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Java and C",
+  "evidence_scope": "retrieving highly relevant and semantically similar historical vulnerability fixes to guide patch generation",
+  "evidence_role": "we propose RA VEN, a scalable and autonomous framework for automated vulnerability repair",
+  "read_full_text": true
+}

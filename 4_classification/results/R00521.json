@@ -1,0 +1,17 @@
+{
+  "record_id": "R00521",
+  "pdf_sha256": "14ee610418c714f5e78203c235bd765dc2a22c444215aa0c6223728b91526b15",
+  "mechanism": "Skill and environment files optimized offline on generated tasks, then evaluated as fixed artifacts on held-out tasks",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (SQL and Python pipeline code)",
+  "evidence_scope": "In a preliminary evaluation on hundreds of tasks, optimized skills improve held-out reward by up to 28.6%.",
+  "evidence_role": "We present a data-centric optimization pipeline that generates task-verifier pairs, executes candidate skills in isolated sandboxes, and scores trajectories",
+  "read_full_text": true
+}

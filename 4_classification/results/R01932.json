@@ -1,0 +1,17 @@
+{
+  "record_id": "R01932",
+  "pdf_sha256": "3055a70df955d5d540ef27ccfaaac88dc5a0a375764512dcee3880179afd6c3a",
+  "mechanism": "Shared memory coordinating agents through plan-act-reflect-revise cycles for one simulation",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "Central to MCP-SIM is a shared memory system that enables agents to collaborate coherently and track the evolution of the simulation process.",
+  "evidence_role": "we introduce MCP-SIM, short for Memory-Coordinated Physics-Aware Simulation, a fully autonomous simulation framework",
+  "read_full_text": true
+}

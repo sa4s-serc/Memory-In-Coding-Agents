@@ -1,0 +1,74 @@
+{
+ "record_id": "R00356",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, synced context may change across cycles, and long-running operations such as tests or builds may exceed cache TTLs, limiting cache reuse for dynamic prompt components [33].",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, a desync_file tool would allow agents to remove files from the synced context once they become irrelevant, proactively shrinking the working set.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, partial synchronization could refresh selected functions or code blocks rather than entire files, though this requires robust region tracking across edits, e.g., AST-based anchoring [27–31] or diff-aware boundary updates [32].",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Finally, fine-tuning models on CORVUS-style trajectories could reduce the distribution gap between conventional append-only trajectories and decoupled synchronized context.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

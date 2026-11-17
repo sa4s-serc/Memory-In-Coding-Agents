@@ -1,0 +1,17 @@
+{
+  "record_id": "R01191",
+  "pdf_sha256": "490a1cbf8935f9d7bb6e8593e0da65c819d6da9b77b1bf40705117eae4cc90f6",
+  "mechanism": "Versioned memory workspace for agent context with commit, branch, merge and context operations",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "GCC elevates agent context from a transient token stream to a persistent, navigable memory workspace with explicit operations—COMMIT, BRANCH, MERGE, and CONTEXT",
+  "evidence_role": "We introduce Git-Context-Controller (GCC), a structured context management framework inspired by software version control systems.",
+  "read_full_text": true
+}

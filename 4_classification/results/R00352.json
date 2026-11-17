@@ -1,0 +1,17 @@
+{
+  "record_id": "R00352",
+  "pdf_sha256": "892d0c8b4a57e390d96875517ae78aad83a8ea545f84ac427ec9eab43ff5497c",
+  "mechanism": "Analysis agent distils guidance from earlier patch attempts at the same edit location for later regeneration",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "An analysis agent distills guidance from historical attempts at each selected edit location.",
+  "evidence_role": "we proposePhoenixRepair, a multi-agent framework that explores multiple candidate edit locations",
+  "read_full_text": true
+}

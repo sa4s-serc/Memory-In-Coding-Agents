@@ -1,0 +1,15 @@
+{
+  "record_id": "R01469",
+  "pdf_sha256": "b8f921095170cff6039c56d0b7ac6594f73a0bc1fd0795871f158bb4369003ec",
+  "mechanism": "none identified (divide-and-conquer decomposition with functional consensus)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

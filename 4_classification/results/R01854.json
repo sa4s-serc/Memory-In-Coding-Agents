@@ -1,0 +1,17 @@
+{
+  "record_id": "R01854",
+  "pdf_sha256": "76b8250b145b82351e3f50b9fc811e0fbd0d7b72e291d4cfbdfa11c50cea4a63",
+  "mechanism": "Layered agent memory with bounded working context, episodic ledger and persistent knowledge, managed by the agent through checkpoint and distill actions",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "SOMA separates bounded working attention (L1), immutable episodic traces (L2), persistent sovereign knowledge (L3), and environment grounding (L4).",
+  "evidence_role": "This paper introduces SOMA (Sovereign Operative Memory Architecture), a four-layer cognitive operating system for autonomous agents.",
+  "read_full_text": true
+}

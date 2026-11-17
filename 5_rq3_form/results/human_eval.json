@@ -1,0 +1,310 @@
+{
+ "sample": 30,
+ "decisions": 330,
+ "human_vs_A": {
+  "kappa": 0.654,
+  "kappa_ci95": [
+   0.554,
+   0.745
+  ],
+  "agreement": 0.845,
+  "precision": 0.72,
+  "recall": 0.825,
+  "human_fields": 103,
+  "other_fields": 118,
+  "per_field": {
+   "F1": {
+    "human": 27,
+    "other": 25,
+    "both": 24,
+    "kappa": 0.429,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F2": {
+    "human": 7,
+    "other": 11,
+    "both": 7,
+    "kappa": 0.689,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F3": {
+    "human": 7,
+    "other": 9,
+    "both": 5,
+    "kappa": 0.492,
+    "agreement": 0.8,
+    "pabak": 0.6
+   },
+   "F4": {
+    "human": 5,
+    "other": 7,
+    "both": 4,
+    "kappa": 0.586,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F5": {
+    "human": 10,
+    "other": 8,
+    "both": 6,
+    "kappa": 0.526,
+    "agreement": 0.8,
+    "pabak": 0.6
+   },
+   "F6": {
+    "human": 4,
+    "other": 3,
+    "both": 1,
+    "kappa": 0.194,
+    "agreement": 0.833,
+    "pabak": 0.667
+   },
+   "F7": {
+    "human": 3,
+    "other": 6,
+    "both": 3,
+    "kappa": 0.615,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F8": {
+    "human": 12,
+    "other": 15,
+    "both": 12,
+    "kappa": 0.8,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F9": {
+    "human": 6,
+    "other": 5,
+    "both": 4,
+    "kappa": 0.667,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F10": {
+    "human": 8,
+    "other": 13,
+    "both": 7,
+    "kappa": 0.502,
+    "agreement": 0.767,
+    "pabak": 0.533
+   },
+   "F11": {
+    "human": 14,
+    "other": 16,
+    "both": 12,
+    "kappa": 0.602,
+    "agreement": 0.8,
+    "pabak": 0.6
+   }
+  }
+ },
+ "human_vs_B": {
+  "kappa": 0.724,
+  "kappa_ci95": [
+   0.637,
+   0.801
+  ],
+  "agreement": 0.882,
+  "precision": 0.814,
+  "recall": 0.806,
+  "human_fields": 103,
+  "other_fields": 102,
+  "per_field": {
+   "F1": {
+    "human": 27,
+    "other": 25,
+    "both": 25,
+    "kappa": 0.714,
+    "agreement": 0.933,
+    "pabak": 0.867
+   },
+   "F2": {
+    "human": 7,
+    "other": 9,
+    "both": 7,
+    "kappa": 0.831,
+    "agreement": 0.933,
+    "pabak": 0.867
+   },
+   "F3": {
+    "human": 7,
+    "other": 7,
+    "both": 6,
+    "kappa": 0.814,
+    "agreement": 0.933,
+    "pabak": 0.867
+   },
+   "F4": {
+    "human": 5,
+    "other": 7,
+    "both": 3,
+    "kappa": 0.379,
+    "agreement": 0.8,
+    "pabak": 0.6
+   },
+   "F5": {
+    "human": 10,
+    "other": 5,
+    "both": 5,
+    "kappa": 0.571,
+    "agreement": 0.833,
+    "pabak": 0.667
+   },
+   "F6": {
+    "human": 4,
+    "other": 4,
+    "both": 2,
+    "kappa": 0.423,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F7": {
+    "human": 3,
+    "other": 4,
+    "both": 3,
+    "kappa": 0.839,
+    "agreement": 0.967,
+    "pabak": 0.933
+   },
+   "F8": {
+    "human": 12,
+    "other": 13,
+    "both": 10,
+    "kappa": 0.658,
+    "agreement": 0.833,
+    "pabak": 0.667
+   },
+   "F9": {
+    "human": 6,
+    "other": 3,
+    "both": 2,
+    "kappa": 0.359,
+    "agreement": 0.833,
+    "pabak": 0.667
+   },
+   "F10": {
+    "human": 8,
+    "other": 8,
+    "both": 6,
+    "kappa": 0.659,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F11": {
+    "human": 14,
+    "other": 17,
+    "both": 14,
+    "kappa": 0.802,
+    "agreement": 0.9,
+    "pabak": 0.8
+   }
+  }
+ },
+ "human_vs_final": {
+  "kappa": 0.701,
+  "kappa_ci95": [
+   0.603,
+   0.789
+  ],
+  "agreement": 0.867,
+  "precision": 0.752,
+  "recall": 0.854,
+  "human_fields": 103,
+  "other_fields": 117,
+  "per_field": {
+   "F1": {
+    "human": 27,
+    "other": 26,
+    "both": 25,
+    "kappa": 0.516,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F2": {
+    "human": 7,
+    "other": 11,
+    "both": 7,
+    "kappa": 0.689,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F3": {
+    "human": 7,
+    "other": 8,
+    "both": 6,
+    "kappa": 0.734,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F4": {
+    "human": 5,
+    "other": 7,
+    "both": 4,
+    "kappa": 0.586,
+    "agreement": 0.867,
+    "pabak": 0.733
+   },
+   "F5": {
+    "human": 10,
+    "other": 8,
+    "both": 6,
+    "kappa": 0.526,
+    "agreement": 0.8,
+    "pabak": 0.6
+   },
+   "F6": {
+    "human": 4,
+    "other": 3,
+    "both": 1,
+    "kappa": 0.194,
+    "agreement": 0.833,
+    "pabak": 0.667
+   },
+   "F7": {
+    "human": 3,
+    "other": 6,
+    "both": 3,
+    "kappa": 0.615,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F8": {
+    "human": 12,
+    "other": 15,
+    "both": 12,
+    "kappa": 0.8,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F9": {
+    "human": 6,
+    "other": 5,
+    "both": 4,
+    "kappa": 0.667,
+    "agreement": 0.9,
+    "pabak": 0.8
+   },
+   "F10": {
+    "human": 8,
+    "other": 13,
+    "both": 7,
+    "kappa": 0.502,
+    "agreement": 0.767,
+    "pabak": 0.533
+   },
+   "F11": {
+    "human": 14,
+    "other": 15,
+    "both": 13,
+    "kappa": 0.8,
+    "agreement": 0.9,
+    "pabak": 0.8
+   }
+  }
+ }
+}

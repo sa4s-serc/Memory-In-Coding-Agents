@@ -1,0 +1,15 @@
+{
+  "record_id": "R00263",
+  "pdf_sha256": "19c7a4d09e34bfba5497d676c61c0a9076b4fbff9da7eb3e3dd0f9b558cda59c",
+  "mechanism": "Trajectory synthesis with rejection sampling for fine-tuning, plus reward-guided search at inference",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "we introduce a development-contextualized trajectory synthesis method leveraging real-world software repositories to bootstrap multi-stage reasoning processes, such as fault localization and patch generation.",
+  "evidence_role": "we propose a unified Test-Time Compute (TTC) scaling framework that leverages increased inference-time computation instead of larger models.",
+  "read_full_text": true
+}

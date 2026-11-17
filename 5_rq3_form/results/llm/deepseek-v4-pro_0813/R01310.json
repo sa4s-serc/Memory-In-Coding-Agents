@@ -1,0 +1,101 @@
+{
+ "record_id": "R01310",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One primary limitation of LLMigrate lies in its generalizability. While LLMigrate successfully translates a variety of C functions into functional Rust code, our experiments focus on a narrow subset of Linux kernel modules, namely, math, sort, and ramfs.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, the translation process relies on manual effort, which limits the scalability of our testing approach. As a result, we focus on translating and testing only three modules to ensure the feasibility of completing the task within the given constraints.",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, to comprehensively evaluate and refine LLMigrate, we plan to systematically translate additional modules from other codebases.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The efficiency of LLMigrate is another limitation, particularly in terms of time complexity, which can be variable and occasionally unbounded without meticulous process management.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "First, the time required for automated components such as parsing, translation, and testing is long and varies significantly.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, the time required for human effort does not always align with the Manually Modified Lines (MMLs).",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, as discussed in RQ2, certain errors still require manual intervention to ensure correctness.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, the integration of LLMs specifically trained on low-level systems code could improve the quality and accuracy of Rust code generation.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, automating the program repair process more effectively is crucial for reducing the reliance on human input.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

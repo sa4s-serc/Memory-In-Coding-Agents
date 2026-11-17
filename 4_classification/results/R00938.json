@@ -1,0 +1,18 @@
+{
+  "record_id": "R00938",
+  "pdf_sha256": "e3de293f9030fdb512e21af5cf6ad6f30bd2f37dca8705fd9565792d294fe444",
+  "mechanism": "Persistent role cache and selection statistics updated from each instance's reward and reused across later instances, alongside intra-task role and topology rewriting",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "persistent accumulation of verified roles and selection statistics improves robustness across instances.",
+  "evidence_role": "We introduce MetaGen, a training-free framework that adapts both the role space and the collaboration topology at inference time, without updating base model weights.",
+  "read_full_text": true
+}

@@ -1,0 +1,87 @@
+{
+ "record_id": "R00615",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While the method performs well on single-shot common-knowledge and code-understanding tasks, our experiments demonstrate that it fails on multi-step agentic coding tasks.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "However, in the multi-step setting, the ICAE underperforms the base model.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "To confirm or refute these hypotheses, we propose future work to experiment with a more granular selection of steps for compression. In this work, we selected observations to compress based on their length; however, further investigation of failure patterns may help to pinpoint the problem. For example, compressing only the last k steps may test the information preservation hypothesis, and randomly compressing k% of steps may estimate the compression losses regarding reconstruction fidelity.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, only the last encoder instance (the weights that compressed the observation k −1) is optimized. Hence, the training signal flows through only this single step, and the model has no incentive to preserve the information needed for subsequent steps.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Through qualitative analysis, we observed examples where URLs or file paths were hallucinated during reconstruction, such as replacing swe-agent.com/latest/ with swe-agent.com/agent/latest/, invalidating the output. In single-step tasks, such errors are isolated to a single output. However, in multi-step agentic workflows, these errors compound.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Nevertheless, since each step involves a full pass through two LLMss (encoder and decoder), addressing this would make the training of such architectures computationally very challenging for long sequences.",
+     "page": 4,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

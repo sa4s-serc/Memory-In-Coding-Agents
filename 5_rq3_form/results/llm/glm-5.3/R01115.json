@@ -1,0 +1,81 @@
+{
+ "record_id": "R01115",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "2) Our findings may be specific to the datasets, programming languages, or LLMs used.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "1) A primary threat concerns the accuracy of our evaluation for the summarization evaluation relies on LLM-generated scores, which may differ from human expert assessments and potentially suffer from ordering effects.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "3) There is a risk of data leakage if models are exposed to benchmark data during training.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In particular, when the context either lacks information relevant to the task instruction or when it is difficult to align an ambiguous instruction with any segment of the context, our method may struggle to identify and preserve useful blocks.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While our method requires a slightly higher compression overhead of 2.58s and additional GPU memory compared to the baselines, it significantly reduces input token costs by 77%",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

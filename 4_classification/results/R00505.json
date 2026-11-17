@@ -1,0 +1,18 @@
+{
+  "record_id": "R00505",
+  "pdf_sha256": "d944041c4b3e004cef56ff1e3788f037ae6f527fe2db3b0aaef1485ab8b0043e",
+  "mechanism": "Retrospective Memory: curated domain knowledge base plus a global memory accumulated during the search",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "pairing a curated domain knowledge base for cold-start initialization with a dynamic global memory that automatically accumulates and retrieves task-specific experience throughout the search",
+  "evidence_role": "We present MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery.",
+  "read_full_text": true
+}

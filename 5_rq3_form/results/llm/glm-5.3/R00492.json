@@ -1,0 +1,76 @@
+{
+ "record_id": "R00492",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Finally, the present results are limited to simulation. How the controllers perform in real-world fluid systems, and whether the acquired control strategies and design knowledge can support simulation-to-real transfer, remain to be established.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "These analyses make the physical roles of individual control structures testable; establishing which structures account for robustness across different environments remains a question for further study.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, controller evaluation in the present study relies entirely on high-fidelity CFD simulations. Whether agents can learn to autonomously use or train surrogate models to reduce simulation cost is an important question for further work.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "An interesting next step is whether agents can formalize this understanding mathematically, translating observed mechanisms into models with explicit assumptions and deriving conditions under which they remain effective.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

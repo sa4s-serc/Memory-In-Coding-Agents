@@ -1,0 +1,17 @@
+{
+  "record_id": "R01238",
+  "pdf_sha256": "7599001018d027aa2372cb868a50c01fa0373d080c54d2c7e14aa2a0d67ba60c",
+  "mechanism": "Dual episodic and semantic memory built from earlier repair trajectories and used to compose prompts for later issues",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "In subsequent repairs, ExpeRepair dynamically retrieves relevant demonstrations and insights to inform and enhance its repair strategies for new issues.",
+  "evidence_role": "We propose ExpeRepair, a novel LLM-based program repair framework inspired by the dual-memory systems of human cognition, where episodic and semantic memory synergistically support learning and decision- making.",
+  "read_full_text": true
+}

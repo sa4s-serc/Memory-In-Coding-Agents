@@ -1,0 +1,17 @@
+{
+  "record_id": "R00014",
+  "pdf_sha256": "8ca10055b38acd79a6934468af3d575733a15694c5dbe24d0951cb790a35cc97",
+  "mechanism": "RAG over a FAISS store of previously generated DOT control-flow graphs",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "REQUIREMENTS_ENGINEERING",
+  "target": "Control flow graphs (Graphviz DOT code)",
+  "evidence_scope": "The newly generated DOT code by the agent is also stored in FAISS for future reference.",
+  "evidence_role": "Developed a novel RAG-based multi-LLM driven agent (cfgLLM) for CFG generation from given user requirements.",
+  "read_full_text": true
+}

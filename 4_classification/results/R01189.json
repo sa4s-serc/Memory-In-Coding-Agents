@@ -1,0 +1,17 @@
+{
+  "record_id": "R01189",
+  "pdf_sha256": "dd3c7e6af6959e37e671f1d355f89688307154ebd84255414d4206b77ea4f49c",
+  "mechanism": "Experience bank distilled from earlier resolution trajectories and retrieved to guide new issue resolution",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "SWE-Exp distills structured experiences from prior resolution attempts, and leverages such accumulated knowledge to guide future repair attempts.",
+  "evidence_role": "we introduce SWE-Exp, an experience-enhanced approach that distills concise and actionable experience from prior agent trajectories, enabling continuous learning across issues.",
+  "read_full_text": true
+}

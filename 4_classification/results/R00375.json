@@ -1,0 +1,17 @@
+{
+  "record_id": "R00375",
+  "pdf_sha256": "581524413ec745c5fd2d5360a79a1ec58ec8437cce1a4270e46774496ea38fba",
+  "mechanism": "Per-issue question-answer repository knowledge acquisition supplied to the repair agent",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "in the first stage, aQuestioner and anAnswerercollaborate to acquire structured repository knowledge",
+  "evidence_role": "We propose ACQUIRE, a QA-driven framework for software issue resolution.",
+  "read_full_text": true
+}

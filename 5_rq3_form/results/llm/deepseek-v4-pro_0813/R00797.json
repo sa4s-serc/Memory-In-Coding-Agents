@@ -1,0 +1,66 @@
+{
+ "record_id": "R00797",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, retrieving too many memories introduces weakly relevant or noisy directions, causing attention dispersion and weakening the pruning effect.",
+     "page": 8,
+     "verbatim": false
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "MEMCOLLAB studies how to construct transferable reasoning memories for heterogeneous agents, but practical deployments may require policy-aware governance over memory access and reuse. For example, different agents, applications, or user groups may be subject to different safety policies or permission constraints. Incorporating access control and safety filtering into collaborative memory retrieval is an important direction for future work.",
+     "page": 20,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F4:no_verbatim_quote"
+ ]
+}

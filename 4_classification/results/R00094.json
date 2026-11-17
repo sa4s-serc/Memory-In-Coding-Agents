@@ -1,0 +1,15 @@
+{
+  "record_id": "R00094",
+  "pdf_sha256": "142e167cf7935447c384fadea734355cd10b4ef8fab9c479f69fef02b7565a9b",
+  "mechanism": "none identified (value-guided lookahead and trajectory selection for test-time search)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

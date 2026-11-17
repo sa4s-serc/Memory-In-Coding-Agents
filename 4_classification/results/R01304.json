@@ -1,0 +1,15 @@
+{
+  "record_id": "R01304",
+  "pdf_sha256": "908f60f8c692eeee9d0b49bb87a5310b390a62734e786f74c0874d83b09327f5",
+  "mechanism": "Parameter-efficient LoRA variant with frozen projections and sparse masks to reduce cross-task interference",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "We propose LoRA with Reduced Interference (LoRI), a simple yet effective approach that freezes the projection matrices A as random projections and sparsifies the matrices B using task-specific masks.",
+  "evidence_role": "We propose LoRA with Reduced Interference (LoRI), a simple yet effective approach that freezes the projection matrices A as random projections and sparsifies the matrices B using task-specific masks.",
+  "read_full_text": true
+}

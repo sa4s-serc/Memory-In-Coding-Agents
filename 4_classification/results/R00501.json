@@ -1,0 +1,18 @@
+{
+  "record_id": "R00501",
+  "pdf_sha256": "cbd392192410c7b8b35e422085bfea8be1a30608d3e83770ebedc77608673700",
+  "mechanism": "Utility-optimized memory distilled from trajectories and evolved across tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "within"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple (three programming languages)",
+  "evidence_scope": "MemOpevolves memory progressively across a sequence of tasks. When SE agent performs the (k+1)-th task, it is equipped with the latestMk generated atSk =S(Mk−1,τk).",
+  "evidence_role": "we introduceMemOp, a closed-loop framework for memory augmentation in SE agents.",
+  "read_full_text": true
+}

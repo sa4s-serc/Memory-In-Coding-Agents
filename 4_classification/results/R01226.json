@@ -1,0 +1,15 @@
+{
+  "record_id": "R01226",
+  "pdf_sha256": "46d803ed78e06cf51240970f4c7f80dd1ab082adb257afa4fbc0fc54a90dc547",
+  "mechanism": "Training environment, plan-boosted trajectory harvesting and fine-tuning of an open model for SQL issue debugging",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "SQL",
+  "evidence_scope": "We further propose f-Plan Boosting, which extracts high-level debugging plans automatically from SQL solutions, enabling the teacher LLMs to harvest and produce 73.7% more successful trajectories for training.",
+  "evidence_role": "we present SIX-GYM (Sql-fIX-Gym), a training environment for elevating the capabilities of open-source models specifically for SQL issue debugging.",
+  "read_full_text": true
+}

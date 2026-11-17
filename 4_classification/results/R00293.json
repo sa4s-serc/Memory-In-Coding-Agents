@@ -1,0 +1,18 @@
+{
+  "record_id": "R00293",
+  "pdf_sha256": "354c59d02fee26a6a1f9adb22e493dbd5774c9420e464b1e4cdf3614f5ba4630",
+  "mechanism": "Vector long-term memory of verified code, reasoning and metadata, retrieved and consolidated across tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "TALM incorporates a long-term memory module that allows agents to store, retrieve, and reuse knowledge across tasks, enabling cumulative learning and improved efficiency over time.",
+  "evidence_role": "we propose TALM (Tree-Structured Multi-Agent Framework with Long-Term Memory), a dynamic framework that integrates structured task decomposition, localized re-reasoning, and long-term memory mechanisms.",
+  "read_full_text": true
+}

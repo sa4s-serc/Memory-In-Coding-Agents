@@ -1,0 +1,91 @@
+{
+ "record_id": "R00254",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "L2MAC's performance is inherently bounded by its underlying LLM across various tasks, from planning to tool use.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "LLM may only be able to solve tasks that can be expressed in natural language (text) that it has been trained on. To complete tasks that it has not been trained on, such as implementing a new application in a new programming language, it may need to be further trained by fine-tuning related examples.",
+     "page": 59,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "the current design imposes an implicit constraint on the scale of the codebase by listing all file names within the context window, which could readily be improved.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Reading a file involves outputting all its content into the LLM's context and writing a file implies rewriting it. This means that to avoid falling out of context, the maximum length for a file is the LLM context window, but, in fact, it is undesirable to have a file of length more than half the LLM's context window, since this will imply that the LLM cannot modify it without falling out of context.",
+     "page": 60,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, misuse or use of such a tool with an incorrectly specified task could lead to undesirable outputs. Furthermore, due to the use of an LLM, such a tool is prone to hallucinations, and hence, such results should always have a content filter on the final output.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "These, and among many other aspects such as complex instruction flows, re-programming the instructions, and interpretable prompt programs pose exciting open directions for future work to build upon as detailed in Appendix I.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Support for comprehensive control flow (code flow) paradigms: Investigating and supporting a wider range of control flow (code flow) paradigms, encompassing constructs like 'while' loops, 'switch' statements, 'if' statements, as well as advanced patterns such as asynchronous and coroutine patterns.",
+     "page": 59,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

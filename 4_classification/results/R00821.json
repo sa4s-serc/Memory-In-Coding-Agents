@@ -1,0 +1,15 @@
+{
+  "record_id": "R00821",
+  "pdf_sha256": "03899b36d7281e6e093adb23f3b7d6eded1c71a9346a26acd16e224606c3c52a",
+  "mechanism": "Graph-based rollout memory used to propagate rewards during RL fine-tuning",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "MemReward stores rollouts (thinking processes and final answers) from an initial LLM policy as nodes in a heterogeneous graph connected by similarity and structural edges, over which a GNN propagates rewards from labeled to unlabeled rollouts.",
+  "evidence_role": "we proposeMemReward, a graph-based experience memory framework that integrates reward propagation directly into online policy optimization.",
+  "read_full_text": true
+}

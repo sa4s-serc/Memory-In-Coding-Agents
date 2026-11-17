@@ -1,0 +1,18 @@
+{
+  "record_id": "R00030",
+  "pdf_sha256": "b385e066d53e78413a16cb6257ca399eab228bae44a249ef6476692289e786ca",
+  "mechanism": "Hybrid-retrieval RAG over a fixed legal statute database (plus a case database of pre-generated SMT code)",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "SMT constraints (Z3 code)",
+  "evidence_scope": "a Retrieval-Augmented Generation (RAG) module expands each base article L 0 by retrieving semantically related provisions and enforcement rules from a legal database D.",
+  "evidence_role": "We introduce a Neuro-Symbolic Compliance Framework that integrates Large Language Models (LLMs) with Satisfiability Modulo Theories (SMT) solvers",
+  "read_full_text": true
+}

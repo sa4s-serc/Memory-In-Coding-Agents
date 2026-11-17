@@ -1,0 +1,15 @@
+{
+  "record_id": "R00110",
+  "pdf_sha256": "e4896ff8e5c49818c92dc938cfd27a0fc71ee7759f1fea5e6e097b74b6851609",
+  "mechanism": "none identified: assessment framework for agentic systems (uses default Mem0 memory only as an evaluated pillar)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "we propose an end-to-end Agent Assessment Framework with four evaluation pillars encompassing LLMs, Memory, Tools, and Environment.",
+  "evidence_role": "we propose an end-to-end Agent Assessment Framework with four evaluation pillars encompassing LLMs, Memory, Tools, and Environment.",
+  "read_full_text": true
+}

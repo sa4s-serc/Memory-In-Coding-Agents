@@ -1,0 +1,18 @@
+{
+  "record_id": "R00714",
+  "pdf_sha256": "298e329e4c411951c1b13400df01dc8c73c2fd771c401e25cf8f00be07658d14",
+  "mechanism": "Dual retrieval: live repository index plus shared vector memory (episodic memory of past tasks claimed)",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "Repository indexing ensures intra-task grounding.",
+  "evidence_role": "We introduce execution- grounded verification as a first-class principle: every code change must survive sandboxed execution before propagation.",
+  "read_full_text": true
+}

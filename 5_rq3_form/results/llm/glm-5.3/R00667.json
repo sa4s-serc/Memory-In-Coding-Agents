@@ -1,0 +1,64 @@
+{
+ "record_id": "R00667",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, DepthKV operates in a non-query-aware setting, where token importance is estimated during the prefill stage without conditioning on the decoding query. However, token relevance may change during autoregressive decoding. As a result, DepthKV may overlook tokens that become important only for specific queries, limiting performance in retrieval-intensive or fine-grained reasoning tasks.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Although DepthKV allocates cache budgets across layers, it does not capture intra-layer variability across heads. Extending the framework to jointly model layer-wise and head-wise importance is a natural direction for improvement.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

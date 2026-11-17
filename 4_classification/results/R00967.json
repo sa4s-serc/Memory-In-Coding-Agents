@@ -1,0 +1,15 @@
+{
+  "record_id": "R00967",
+  "pdf_sha256": "30826f095c9b94ab3a872b978947cbe0b5524cbf1af63b043d03283fb76515ea",
+  "mechanism": "none identified (hidden-state geometric steering of a strong model by a weak model at inference)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R01253",
+  "pdf_sha256": "c23b725cd93664eabe81d6efb09df26dfe85f795172e08830187620313684a35",
+  "mechanism": "Online RL with accumulated and fine-grained rewards for multi-turn self-correction in small models",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we propose an online reinforcement learning objective that trains the model to confidently maintain correct outputs while progressively correcting incorrect outputs as turns proceed.",
+  "evidence_role": "we introduce COCOS, an approach designed to enhance the ability of small language models for multi-turn code correction.",
+  "read_full_text": true
+}

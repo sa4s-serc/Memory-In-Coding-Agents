@@ -1,0 +1,15 @@
+{
+  "record_id": "R01000",
+  "pdf_sha256": "8dfd51f2437c19770f8f5125075b4572af5a206ca747c31d91df2036de1919cc",
+  "mechanism": "Fine-tuning and reinforcement fine-tuning of an LLM on annotated code optimization trajectories",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "C++",
+  "evidence_scope": "PerfCoder is fine-tuned on curated real-world optimization trajectories with human-readable annotations and further aligned via reinforcement fine-tuning using run- time feedback",
+  "evidence_role": "We introduce PerfCoder, a family of LLMs de- signed to generate performance-enhanced code through interpretable and customized optimiza- tion strategies.",
+  "read_full_text": true
+}

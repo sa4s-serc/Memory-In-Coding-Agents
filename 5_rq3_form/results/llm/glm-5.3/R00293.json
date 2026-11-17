@@ -1,0 +1,97 @@
+{
+ "record_id": "R00293",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, the datasets used in this study are relatively modest in scale. HumanEval and ClassEval contain fewer than two hundred problems each, and even BigCodeBench consists of only 1,140 problems.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Second, while ClassEval poses greater contextual and structural challenges than HumanEval or BigCodeBench, it remains limited to class-level tasks.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, TALM has thus far been evaluated only on natural-language-to-code tasks. Extending it to other software engineering activities—such as code completion, refactoring, and debugging—could broaden its applicability and strengthen its utility as a general-purpose intelligent assistant.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, while the memory module is fully automated, its quality could be further enhanced by incorporating human feedback or lightweight verification before updating the knowledge base.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This restricts TALM's ability to fully demonstrate the long-term benefits of its memory module.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Moreover, to ensure fairness, the memory was reset at the start of each experimental round, which further underrepresents its potential in real-world deployments where memory would accumulate continuously.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "For relatively simple tasks, decomposition may introduce additional overhead or occasional failures due to increased token usage and compounding reasoning errors.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, TALM currently relies on fixed hyperparameters to constrain its tree structure.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

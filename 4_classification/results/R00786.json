@@ -1,0 +1,17 @@
+{
+  "record_id": "R00786",
+  "pdf_sha256": "b8c5a05239ffd7eb9a4e910057b69e51926de537f9a54981ae7e4d067c9ebb51",
+  "mechanism": "Loop state and ticket backlog as shared durable memory across iterations of one development effort",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "The central nervous system is the project management tool — used not as a lightweight task tracker but as the shared, durable memory layer between the AI loop and human contributors.",
+  "evidence_role": "We present theKitchen Loop,1 a framework for autonomous, self-evolving software built on a unified trust model",
+  "read_full_text": true
+}

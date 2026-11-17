@@ -1,0 +1,85 @@
+{
+ "record_id": "R00712",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We evaluate on a single benchmark (LongMemEval-S). While LME-S provides a rigorous, standardized evaluation with realistic session data and diverse question types, additional benchmarks and real-world deployments are needed to establish generalizability.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "Per-category sample sizes are small (n = 20 questions per type), resulting in wide confidence intervals at the category level. While all three temporally complex categories show confidence intervals excluding zero, a larger question set would provide more precise estimates of category-specific effect sizes.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The encoding-retrieval confound discussed in Section 6.2 means we cannot attribute the gain exclusively to encoding-side or retrieval-side mechanisms. Both may contribute, and their relative contributions remain unmeasured.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "The coding adaptation presented in Section 5 is an architectural design with preliminary pilot validation, not a controlled experiment.",
+     "page": 12,
+     "verbatim": true
+    },
+    {
+     "quote": "Finally, our bootstrap confidence intervals assume question-level independence. In practice, some LME-S questions share topical overlap, which may introduce mild dependence that our bootstrap procedure does not account for.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "A GPT-4o evaluator grades all answers, introducing evaluator variance. We follow the LongMemEval evaluation protocol without modification, but automated evaluators can disagree with human judgments on borderline cases.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00569",
+  "pdf_sha256": "eaee59a674129e9d56c1444e1cd0f74d6adf68691a8d2f2ab95252251b743ac0",
+  "mechanism": "Skill library lifecycle: contribution-based eviction, capacity cap and constrained synthesis",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "it evicts each skill on its measured contribution, caps the library at width C, and constrains synthesis, lifting held-out pass@1 by +0.328 on a hard MBPP+ slice.",
+  "evidence_role": "Our contribution is the condition this repair carries and no deployed system states.",
+  "read_full_text": true
+}

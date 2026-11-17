@@ -1,0 +1,92 @@
+{
+ "record_id": "R00310",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Defects4J has at least one failing test case for each bug, which may not be the case for real-world usage scenarios. It will be interesting to evaluate RepairAgent on bugs with no a-priori available error-revealing test cases in future work.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "In contrast, the approach struggles with the 81 multi-line and multi-file bugs, where it finds only 4 correct fixes.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The inherently non-deterministic nature of LLMs may result in different outcomes between two consecutive runs of RepairAgent.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Data leakage: GPT-3.5 may have seen parts of the Java projects we evaluate on during training.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Inaccurate or imprecise fault localization could lead to suboptimal repair suggestions or incorrect diagnoses.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We observe that the agent sometimes suggests complex fixes for bugs that only require simple modifications.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "For multi-line, multi-file bugs, we observe that RepairAgent often edits only a subset of the required locations.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

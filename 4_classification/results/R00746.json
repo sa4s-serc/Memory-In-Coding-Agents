@@ -1,0 +1,17 @@
+{
+  "record_id": "R00746",
+  "pdf_sha256": "45c1e8660b10021ff7efe80ec5dc69a0f658c43465117feceef699ce2b601b98",
+  "mechanism": "Skill library mined from scientific resources and refined by closed-loop validation",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "SKILLFOUNDRYorganizes a target domain as a domain knowledge tree, mines resources from high-value branches, extracts operational contracts, compiles them into executable skill packages",
+  "evidence_role": "We present SKILL- FOUNDRY, a self-evolving framework that converts such resources into validated agent skills",
+  "read_full_text": true
+}

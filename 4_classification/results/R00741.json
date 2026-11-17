@@ -1,0 +1,17 @@
+{
+  "record_id": "R00741",
+  "pdf_sha256": "e8b6f2514f7a5b97093d1979e3f295c0ecdb0847f941ec7cc6e4907270f17b95",
+  "mechanism": "Experience memory built from the agent's own trajectories, distilled into lessons, consolidated and retrieved as context for new tasks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "The agent accumulates experience from past interactions, decocts it into effective context for improved inference at test time, i.e., distilling lessons from experience, organizing the experience memory, and finally retrieving salient information from it.",
+  "evidence_role": "We identify decocted experience as a key mechanism for effective context construction: extracting essence from experience, organizing it coherently, and retrieving salient information to build effective context.",
+  "read_full_text": true
+}

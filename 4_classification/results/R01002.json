@@ -1,0 +1,15 @@
+{
+  "record_id": "R01002",
+  "pdf_sha256": "6993bc44477f378764cb89f46c5bec98bccc2cf9a7d67678b9563c667407a01c",
+  "mechanism": "Training framework (SFT, RL, ranking optimization) for dynamic tool selection by LLM agents",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "AutoTool employs a dual-phase optimiza- tion pipeline: (i) SFT and RL-based trajectory stabilization for coherent reasoning, and (ii) KL- regularized Plackett–Luce Ranking to refine con- sistent multi-step tool selection.",
+  "evidence_role": "We presentAutoTool, a training framework that equips LLM agents with dynamic tool-selection capabilities throughout their reasoning trajecto- ries.",
+  "read_full_text": true
+}

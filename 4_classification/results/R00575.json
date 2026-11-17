@@ -1,0 +1,17 @@
+{
+  "record_id": "R00575",
+  "pdf_sha256": "285c346a826761c9cc13bc752c0b75684edc77ae6a213df9236bbd5b19af1109",
+  "mechanism": "Context map: cached and maintained orientation knowledge about a recurring external context",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "We introducePEEK, a system that caches and maintains this orientation knowledge as a context map: a small, constant-sized artifact in the agent’s prompt",
+  "evidence_role": "We introducePEEK, a system that caches and maintains this orientation knowledge as a context map",
+  "read_full_text": true
+}

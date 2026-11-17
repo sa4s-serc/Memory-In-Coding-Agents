@@ -1,0 +1,17 @@
+{
+  "record_id": "R00667",
+  "pdf_sha256": "31a2ca331e55b53c3e9f0cbaa996c449254642c2394a70524d1b78e14ee826f7",
+  "mechanism": "Layer-dependent KV-cache pruning with a global budget allocated across layers",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "KV cache pruning methods discard cached tokens with low attention scores during inference.",
+  "evidence_role": "We proposeDepthKV, a layer-dependent pruning framework that allocates a fixed",
+  "read_full_text": true
+}

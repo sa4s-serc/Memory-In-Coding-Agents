@@ -1,0 +1,75 @@
+{
+ "record_id": "R00528",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because these case studies are simulated research submissions rather than papers undergoing real external peer review, we do not evaluate the rebuttal stage.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, evaluation remains underdeveloped. Existing benchmarks do not yet adequately measure the separate capabilities required by a full research system, including literature understanding, ideation, experimentation, and writing.",
+     "page": 13,
+     "verbatim": true
+    },
+    {
+     "quote": "The resulting reviews are used as a paper-level review proxy, not as a replacement for formal peer review.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, the current implementation is built as a skill package on top of general-purpose coding and reasoning agents. This makes the system easy to deploy and inspect, but it is not yet a science-specialized agent foundation.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00932",
+  "pdf_sha256": "ebb3a6988ceb7e872762c3d3df19ef0a71aedfbdfb968340f5d85174af8ea55c",
+  "mechanism": "Synthetic trajectory generation (Soft-Verified Generation) for supervised finetuning of repository-specialised coding agents",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "Using only supervised finetuning (SFT), SERA achieves state-of-the-art results among fully open-source (open data, method, code) models",
+  "evidence_role": "We present Soft-Verified Efficient Repository Agents (SERA), an efficient method for training coding agents that enables the rapid and cheap creation of agents specialized to private codebases.",
+  "read_full_text": true
+}

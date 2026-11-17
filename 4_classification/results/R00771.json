@@ -1,0 +1,17 @@
+{
+  "record_id": "R00771",
+  "pdf_sha256": "9a7e628ae6a43ec57ed4d4be5845924b52b6103c7ae710fc177af983f478691d",
+  "mechanism": "Learned compression of code context for issue resolution (oracle-guided distillation trains the compressor)",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "We use this distilled data to fine-tuneSWEzze, a lightweight model that learns to compress code context at inference time, filtering noise and combating distraction while preserving fix",
+  "evidence_role": "we propose a novel framework consisting of two components. First, Oracle-guided Code Distillation (OCD), a con- text distillation algorithm",
+  "read_full_text": true
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00582",
+  "pdf_sha256": "4649df551ef69aaebb90541e42a1cf9db113266ab7f745e9581fcb90790eb233",
+  "mechanism": "Lifecycle governance of agent skills: library search, trajectory attribution and evidence-gated skill updates",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "external"
+  ],
+  "cross_origin": "both",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "online evolution over task streams at test time and offline transfer via frozen libraries built from either historical trajectories or curated open source skills.",
+  "evidence_role": "We presentSkillsVote, a lifecycle-governance framework for Agent Skills across collection, recommendation, attribution, and evolution.",
+  "read_full_text": true
+}

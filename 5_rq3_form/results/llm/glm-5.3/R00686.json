@@ -1,0 +1,63 @@
+{
+ "record_id": "R00686",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Even the full OpenGame system leaves approximately 34.9% of weighted mechanical requirements partially or fully unsatisfied.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "When logic desynchronizes, the resulting failures are often silent, triggering neither compiler warnings nor runtime crashes. The lack of explicit trace signals makes such errors substantially harder for the agent to detect and repair during automated debugging, highlighting an important direction for future work.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

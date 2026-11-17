@@ -1,0 +1,18 @@
+{
+  "record_id": "R00183",
+  "pdf_sha256": "914359eccd0f105dd6283163ecaeb40fea75d58c7cbaf2553d7dd76639157547",
+  "mechanism": "Self-improving pool of verified programs and error-fix trajectories reused as few-shot exemplars",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Rust (Verus)",
+  "evidence_scope": "Finally, the newly generated programs and a subset of the error trajectories are added to a pool of data that is used by the translator, refinement, and critique models in the next iteration.",
+  "evidence_role": "We propose AlphaVerus, a novel self-improving framework for generating formally verified code",
+  "read_full_text": true
+}

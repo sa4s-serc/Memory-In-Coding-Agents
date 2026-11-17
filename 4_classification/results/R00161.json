@@ -1,0 +1,17 @@
+{
+  "record_id": "R00161",
+  "pdf_sha256": "bd8014b5de27a8e0c8e36c699c9a995e041eff09d473058243675a34128cb5be",
+  "mechanism": "Multi-agent debate and self-reflection with shared dialogue histories and a shared data pool",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "REQUIREMENTS_ENGINEERING",
+  "target": "UML use case diagrams (PlantUML)",
+  "evidence_scope": "During the debate, each debater adds the other party’s speech to their respective dialogue history",
+  "evidence_role": "we propose UCD-LLM, a multi-agent framework for automated use case diagram requirement modeling",
+  "read_full_text": true
+}

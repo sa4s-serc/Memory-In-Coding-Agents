@@ -1,0 +1,15 @@
+{
+  "record_id": "R00351",
+  "pdf_sha256": "f29491f2676272d2e8f37919244842dea36f91a5d6967b4bdcc05475ba91fe40",
+  "mechanism": "Recycling RL replay memory (specialist rollouts) as an offline dataset to train a generalist model",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (math, code generation, instruction following)",
+  "evidence_scope": "REGEN aggregates the replay memory collected during specialist training into a single offline dataset, on which a generalist student is optimized.",
+  "evidence_role": "we proposeREGEN, an offline post-training framework that reuses the replay memories generated during RL teacher training.",
+  "read_full_text": true
+}

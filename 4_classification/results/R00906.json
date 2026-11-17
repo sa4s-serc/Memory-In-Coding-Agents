@@ -1,0 +1,15 @@
+{
+  "record_id": "R00906",
+  "pdf_sha256": "503edb5edfdefa8e9dcb494f3b2a52ff38a98a690bb7e1f27cee6f0063067e29",
+  "mechanism": "Back-translating website repositories into training data to improve the backbone LLM",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple (frontend, backend, database code)",
+  "evidence_scope": "FullStack-Learn, an in- novative data-scaling and self-improving method that back-translates crawled and synthesized web- site repositories to improve the backbone LLM of FullStack-Dev.",
+  "evidence_role": "we introduceFullStack-Agent, a uni- fied agent system for full-stack agentic coding that consists of three parts",
+  "read_full_text": true
+}

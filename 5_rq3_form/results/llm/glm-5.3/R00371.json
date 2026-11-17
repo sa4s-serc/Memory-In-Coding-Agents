@@ -1,0 +1,107 @@
+{
+ "record_id": "R00371",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This is a mechanism study, not a scaling result. Three task families spanning the detectability axis including its negative end, one model family, rounds in the low hundreds, and held-out sets of tens of items, though graded every round by every candidate (52,600 item-level verdicts against the locked reference and 5,743 birth-gate decisions).",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Nothing in the design is model-specific, and every LLM role is bound from a configuration table, but we have not run a cross-family replication and cannot claim one.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Guidance-text skills cannot substitute for capabilities that need interaction, such as live schema exploration, which is the ceiling Spider's absolute lift runs into for both loops.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Teacher quality is held fixed, so how anchor quality degrades with a weaker teacher is untested.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The Goodhart repair is claimed as a coupled pair of detector and hints, since we did not run the detector-only and hints-only arms that would separate them.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "The task-aware rubric was written after reading the generic judge's rationales, so it is a diagnosis and not an independent confirmation.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Peak values are locked-set argmaxes and therefore optimistic, which is why the final-rounds column, fixed in advance, is reported beside them everywhere.",
+     "page": 10,
+     "verbatim": false
+    },
+    {
+     "quote": "The paired McNemar test pools seeds over a single 40-item locked set, so it licenses a claim about graders, not about tasks.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Evolution expands coverage but never creates ground truth. With no anchor the loop optimizes noise, which is what the naive arm demonstrates from the inside: remove the guards that tie selection to ten real labels and the search finds the cheapest way to look perfect.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "And metamorphic detectors (Chen, Cheung, and Yiu 1998), the natural next op family for exactly the semantic regime where our current pool is weakest, are built but unexercised here.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

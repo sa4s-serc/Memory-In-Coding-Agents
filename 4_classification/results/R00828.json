@@ -1,0 +1,17 @@
+{
+  "record_id": "R00828",
+  "pdf_sha256": "5b48929a87abf2706203e433fef3db7ad8305ebfc2af9a643af97c3f62e7fc4c",
+  "mechanism": "Semantic anchors held as hard constraints plus lessons extracted from rejected candidates within a refinement chain",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "multiple",
+  "evidence_scope": "Failure assimilation extracts structured lessons from re- jected candidates to guide subsequent generation.",
+  "evidence_role": "To address this problem, we propose the SCAFFOLD-CEGIS framework.",
+  "read_full_text": true
+}

@@ -1,0 +1,108 @@
+{
+ "record_id": "R01113",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our four benchmarks may not cover all real-world coding scenarios.",
+     "page": 29,
+     "verbatim": true
+    },
+    {
+     "quote": "PerfOrch works at the function level, matching the scope of all four benchmarks.",
+     "page": 29,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "As LLMs continue to improve, HumanEval-X may eventually become too easy to tell models apart.",
+     "page": 29,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Noisy measurements here could lead to suboptimal model selection, causing more retry iterations and higher token cost.",
+     "page": 29,
+     "verbatim": true
+    },
+    {
+     "quote": "Measurement noise here could cause the agent to accept a slower solution or reject a faster one, resulting in non-optimized or even degraded performance.",
+     "page": 29,
+     "verbatim": true
+    },
+    {
+     "quote": "The incremental estimates exceed the fully measured pass@1 values by 1.70–4.51 pp because they carry forward predecessor successes without testing for regressions.",
+     "page": 26,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "On HumanEval-X, PerfOrch uses 443–855 tokens per task, 1.10–2.03× the cost of PCG + Qwen, the strongest PCG configuration averaged across languages, and only 7–17% of the brute-force budget. This additional cost over PCG accompanies the highest correctness and refinement results across all five languages (Section 5.1).",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "PerfOrch solves the vast majority of problems, but some remain unsolved after multi-model orchestration.",
+     "page": 22,
+     "verbatim": true
+    },
+    {
+     "quote": "The failure analysis in Section 5.2 marks two boundaries of the current approach: specification misunderstandings shared by every candidate model, and problems whose correct algorithm lies beyond the reach of iterative debugging.",
+     "page": 37,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Assigning labels at inference time without reference patches, profiling candidate models on these categories, and evaluating category-aware routing remain future work.",
+     "page": 33,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00449",
+  "pdf_sha256": "bbdca656fb6464b2d8cfe6edc93d1b8c402dad66effc17a79ed842a934d55cb0",
+  "mechanism": "Structural codebase index (semantic, lexical, call-graph) built once per repository",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple (Go, Java, Python)",
+  "evidence_scope": "structural codebase indices built once per repository",
+  "evidence_role": "We report the first leak-audited, model-controlled, causal ablation of a shipped structural codebase index inside a coding- agent harness",
+  "read_full_text": true
+}

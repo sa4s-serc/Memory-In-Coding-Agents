@@ -1,0 +1,80 @@
+{
+ "record_id": "R00844",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, HumanEval contains only 164 problems, so small differences in accuracy are inherently noisy.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The K-step unrolling training pipeline requires K+1 sequential forward passes through the backbone per training iteration (one warmup pass plus K unrolled steps), compared to a single forward pass in standard dLLM training.",
+     "page": 27,
+     "verbatim": true
+    },
+    {
+     "quote": "At inference time, each denoising step requires executing the Mixer, Updater, and Injector in addition to the frozen backbone forward pass.",
+     "page": 27,
+     "verbatim": true
+    },
+    {
+     "quote": "Furthermore, maintaining the constant-size persistent state tensor increases peak memory usage during generation.",
+     "page": 27,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Curriculum-based K scheduling or auxiliary objectives that explicitly encourage long-horizon state stability may also help close the training-to-inference extrapolation gap.",
+     "page": 27,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

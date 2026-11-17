@@ -1,0 +1,81 @@
+{
+ "record_id": "R00254",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This work is not without limitations. L2MAC’s performance is inherently bounded by its underlying LLM across various tasks, from planning to tool use.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Further, the current design imposes an implicit constraint on the scale of the codebase by listing all file names within the context window, which could readily be improved.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "There are two inherent limitations to the length of the generated code files in the current implementation of Code-L2MAC.",
+     "page": 60,
+     "verbatim": true
+    }
+   ]
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, misuse or use of such a tool with an incorrectly specified task could lead to undesirable outputs. Furthermore, due to the use of an LLM, such a tool is prone to hallucinations, and hence, such results should always have a content filter on the final output.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Investigating and supporting a wider range of control flow (code flow) paradigms, encompassing constructs like ‘while‘ loops, ‘switch‘ statements, ‘if‘ statements, as well as advanced patterns such as asynchronous and coroutine patterns.",
+     "page": 59,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

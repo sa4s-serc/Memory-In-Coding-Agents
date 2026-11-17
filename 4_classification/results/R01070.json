@@ -1,0 +1,15 @@
+{
+  "record_id": "R01070",
+  "pdf_sha256": "06cbf326c605e59777d3f8550e01d41e6b49f78bf0d850f2d173c9f06f6cc254",
+  "mechanism": "none identified (tree search over self-modifications of a coding agent)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

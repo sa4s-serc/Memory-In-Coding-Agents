@@ -1,0 +1,64 @@
+{
+ "record_id": "R00851",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our current framework focuses on homogeneous multi-agent systems where all agents share identical model architectures. In heterogeneous settings—where agents may use different model families or sizes—direct KV cache transfer becomes infeasible due to mismatched hidden dimensions and attention head configurations.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While both generalize well across our evaluated benchmarks, task distributions with substantially different characteristics may benefit from task-specific calibration or online adaptation.",
+     "page": 18,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

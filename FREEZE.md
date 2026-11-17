@@ -1,0 +1,76 @@
+# Replication package freeze
+
+SHA-256 hashes are relative to this directory. Dates follow the package stages in order:
+stage 1: Oct 27; stage 2: Oct 28; stage 3: Oct 29; stage 4: Oct 30; corpus: Oct 31; supporting QGS/README files: Nov 1; later additions and edits: Nov 2; RQ3 extraction form (stage 5) and re-frozen stage 4 edits: Nov 15.
+This manifest excludes its own hash to avoid a self-referential digest. The per-paper result JSONs in `4_classification/results/` and `5_rq3_form/results/llm/` are not hashed individually.
+
+| File | Frozen | SHA-256 |
+| --- | --- | --- |
+| 1_search_string_and_corpus/search_protocol.md | 2026-10-27 | ba13ecc9155d6078457a95825874e0af51ba1d104045994024a2880aefc1a379 |
+| 1_search_string_and_corpus/search_string.txt | 2026-10-27 | 2ba20d227c2a6c671c1605615a10ceaf37dd72d2fc4ef4931b818764b6aa736a |
+| scripts/stage1/arxiv_harvest.py | 2026-10-27 | f85d0f02f089b09ff09021e1aafc037d8e5e0981613799c0400e817f2f0416e0 |
+| scripts/stage1/dedup_corpus.py | 2026-10-27 | 929d78052ac1eecddbc63d2aceca1cac5fca9abdba0902e8270126257d71d501 |
+| scripts/stage1/diagnose_corpus.py | 2026-10-27 | d755dc0fbd7842eea40317df75ac1f7b1f3f9ea82205a07782d0ba8274d1ef77 |
+| scripts/stage1/filter_types.py | 2026-10-27 | 0a365368fd3ff8b746ed69726e693f862afd32f770672933b2346d02dc72fcad |
+| scripts/stage1/openalex_harvest.py | 2026-10-27 | 0a80a21b89b95b562c3284257ee02bd5a9b58c6b616a6d2929b5329ff1b55874 |
+| 2_relevance_check_and_bucketing/cohens_kappa/stage1_disagreements.xlsx | 2026-10-28 | 61baffe8126db4a4f8906322d476f6581c8816de771fdbd4ba2cf36ce5c6c027 |
+| 2_relevance_check_and_bucketing/cohens_kappa/stage1_labels_AG.xlsx | 2026-10-28 | 87eb67370150c526f2f30a45383a25631a35c6777e3e451310f5239cbe75d23a |
+| 2_relevance_check_and_bucketing/cohens_kappa/stage1_labels_PSK.xlsx | 2026-10-28 | 8adb69241953d442fc13ece0adef7f039db9c058f9938a89d25ebf19492a05d2 |
+| 2_relevance_check_and_bucketing/cohens_kappa/stage1_sample_key.xlsx | 2026-10-28 | d754c4263802bae300e9d70c4311bd5d2b6013fbf239ecbba7b31ad48a689a0a |
+| 2_relevance_check_and_bucketing/relevance.md | 2026-10-28 | a23652fb9871610f476fe4af9301d397f1003d055dafffda27dca2eff8b87a39 |
+| 2_relevance_check_and_bucketing/screened_qwen3.5_397b_r1.jsonl | 2026-10-28 | d2ede8caaa2593e9836182d11b04d761354bf363ad752231ec61174649eaba08 |
+| scripts/stage2/cohens_kappa/compute_stage1_kappa.py | 2026-10-28 | 81440d0e4ae02bcedbee45a6220b2b7656ed13b6a4c5cff5f0edac9782aa492d |
+| quasi_gold_standard_test_qgs/definitions.md | 2026-10-28 | f7c48bdf3a76461f768ea62936d4b1b9a0c292312401806685a1f14d4eabca0b |
+| quasi_gold_standard_test_qgs/qgs.csv | 2026-10-28 | f4a7ac1237a573964fdeb020ce3d782c537fdb7b8c10d54d259a80565368bdc5 |
+| scripts/stage2/cohens_kappa/make_stage1_sample.py | 2026-10-28 | ee23a05a5c8a90a3ede749c80423c70dc3297e9c7820d04b07c860f76bfbdab5 |
+| scripts/stage2/screen.py | 2026-10-28 | 97bdff24b0cd3c699fcfc77a73efbcf910f0f558cb422edbadafc1fa8f09df06 |
+| 3_implementation_screening/598_papers_to_be_reviewed.xlsx | 2026-10-29 | 7f91efffcec02a65323f668ceda37b2897f255d1b7ab4bfa08c7595b503439c4 |
+| 3_implementation_screening/AG_rated_implementations.xlsx | 2026-10-29 | 32f0d658734260213a5e771b31328525bdd51a34043a5d7ca6fb2a1fa7d891d9 |
+| 3_implementation_screening/outcome_screening.md | 2026-10-29 | cea7903add42615d8920c30bc6746e8ff763ab9e071dca3f559d73dd4a67bbdc |
+| 3_implementation_screening/PSK_rated_implementations.xlsx | 2026-10-29 | ebfe34671cd419d34d7ffe065b7e217b90c1f4a0796e97cf7148384de1fd2276 |
+| 3_implementation_screening/rated_implementations_discrepancies.xlsx | 2026-10-29 | b359d9b97cd286d1e6dd95242a421691785929cd3762687e710b52b71d94025f |
+| 3_implementation_screening/rated_implementations_final_598.xlsx | 2026-10-29 | ed8773461e74278a2d78130b6a62a52264ede71b0bcc66949e6e9725c263b0c2 |
+| scripts/stage3/kappa_random_sample.py | 2026-10-29 | cd1f0cbaa4beff1434ddc251cc2b874585449b05493d2ccc9529ea60a95e4aa6 |
+| scripts/stage3/cohens_kappa_tool/build_site.py | 2026-11-02 | d19bdddcdbdecf87e24fd45d6d0520504e5f581ea418f8a09df3f7780561e5f0 |
+| scripts/stage3/cohens_kappa_tool/index.html | 2026-11-02 | 6cdaec91d252f0451c653b7325daef16777435ba53045dcd4c63668af4fe7162 |
+| scripts/stage3/cohens_kappa_tool/merge_decisions.py | 2026-11-02 | 27abc2bb780afaea264c9cf64a6f7e75158ed48640fff5b436343c95d0f18415 |
+| 4_classification/classification_joined.xlsx | 2026-11-15 | 15283b2a0e29f132efb0388ad11b7a87b70ee05c3246b6b9ba2c32d497944457 |
+| 4_classification/classification_report.md | 2026-11-15 | 2188b5f9722ded67df6b50dc9aaae4fcd45240af91deb4b9afd995f88aea9385 |
+| 4_classification/cohens_kappa/AG_labelled_30.csv | 2026-11-02 | 50a5e6f1229953ac7bb0655369842979f4c75d1c5d835f27a56bca410a0723f5 |
+| 4_classification/cohens_kappa/PSK_labelled_30.csv | 2026-11-02 | 4b909ab5bd56110369daf31eeb77bac59fe752c34e9b155d3d775449536d435b |
+| 4_classification/cohens_kappa/sample_30.csv | 2026-11-02 | 5a33f1e59ff8943bec641a1080a569bad3e297b0094bda9d8c8883c3a012774c |
+| 4_classification/cohens_kappa/scope_role_activity_mismatches.md | 2026-11-02 | fc5f1ab1610058c219c611602c4e80fffcd02954d9a85ddafae93535e7e913df |
+| 4_classification/guidelines.md | 2026-11-15 | 5aafbdcfa12fcfff9e7e7887b605f5d0d17f1182957de2d08f861be8ac36146f |
+| 4_classification/manifest.csv | 2026-10-30 | 91e7fa5750db47e9f8f8a24f5a2120d031270be207c9d6e1a79d74fbbd793661 |
+| 4_classification/notes.txt | 2026-10-30 | d0593fdfa5fd87f8f18833bf40c972d538f57311b3684bcdf065928be9eb132d |
+| 4_classification/rationale.md | 2026-10-30 | 06e9b2c948f4aaee63cf97d9caa274eb43171ac590f6a4e3f4fb7474975229f2 |
+| scripts/stage4/join_results.py | 2026-10-30 | 30db89610a53fe1cd1060e78535b422c4fa1bffe62b9149d6f43773cf7376a89 |
+| scripts/stage4/kappa_rater_tool/build_site.py | 2026-11-02 | 04e290124df069b7f25a71c85d81f5660fe091919e0f64d7b9c5bcc5c806a91d |
+| scripts/stage4/kappa_rater_tool/compare_ratings.py | 2026-11-02 | 0898a28b9af96a9d6f7743f6b0b156d759e80dd3da48efc0fdb28fe17c2be8f0 |
+| scripts/stage4/kappa_rater_tool/index.html | 2026-11-02 | cf0818b7abd4d2b9ad65289158cc0b8585c167a6904a9f43c658f2de4ce83a14 |
+| scripts/stage4/kappa_rater_tool/make_sample.py | 2026-11-02 | 2007d0e6216f6ed89e260dfdead2306631138423825f8de59d296e21398ae70a |
+| scripts/stage4/kappa_rater_tool/rater_guide.md | 2026-11-02 | d0b292a00b599f33b0ddc8ccebe1b82cac806faa4dd17d61315d681336d8f86c |
+| corpus/corpus.csv | 2026-10-31 | 0908fb78d1b8ed0c3141f8e338dcfeadfc1b69db34bfb2dee6003a65110ad818 |
+| README.md | 2026-11-01 | b975637caf9be61ad6ad27c1cbb1f5ad82fcdea92c18389137877b4c44a426e4 |
+| 5_rq3_form/README.md | 2026-11-15 | 6093cd495a3992173e1e378da21e8ec75a76e9d309f5fa7490f63ea10664e03c |
+| 5_rq3_form/report.md | 2026-11-15 | a944fe9a0a496afbb99c393250addec522b150dc75547b3d3504a5a97610a5bb |
+| 5_rq3_form/results/adjudication.xlsx | 2026-11-15 | 2a079b7c847837f1875f0339be82b558898acedea96196d7360cc689619391d5 |
+| 5_rq3_form/results/disagreements.csv | 2026-11-15 | 56748e35e3d1c03bb5738a3a605d7299c7b8b25b9e4f0e95cf21707df886bf75 |
+| 5_rq3_form/results/human_eval.json | 2026-11-15 | c4f1bcc41217dbba38a23e6699ae68176637e4f231e750f19b6eaef2333a1720 |
+| 5_rq3_form/results/human_eval.xlsx | 2026-11-15 | 0e37f16fe82784885b82cbae891bbbb6aed78f996c19aad61acf26db5b157edb |
+| 5_rq3_form/results/human_sample.csv | 2026-11-15 | ecd1f941799c52e8f7922b8bce3bece8b6e18d3b1ca2f8650eb91f664f04209a |
+| 5_rq3_form/results/llm_agreement.json | 2026-11-15 | 5390d894423c6fefe6efb60b30bba31f7ec4a1ee15cac01f0640da27b40330de |
+| 5_rq3_form/results/paper_fields.csv | 2026-11-15 | c48b253f71110161753d2723ac155990edeb03a46f4731327e628ea3446e484f |
+| 5_rq3_form/results/papers.csv | 2026-11-15 | 06e524293a72bde6c7430a3083b5fcb3be47f6a5ef8bd55c6b4cb406476f9d76 |
+| 5_rq3_form/results/rq3_summary.json | 2026-11-15 | c8bc4abd7ddc0622a628b5c2398f066b93d3b0d034711fc3c7622ac34ed9e288 |
+| 5_rq3_form/results/text_log.csv | 2026-11-15 | ba8a945181f930e6f317cb917fbf0191597277e604b404469891f23d190e2e3d |
+| scripts/stage4_rq3_form/extraction_form_v1.json | 2026-11-15 | 15e6eccadf474d8dc917200fbd39d33a7ad52ef8ea873fd43a2fd108aef6f130 |
+| scripts/stage4_rq3_form/extraction_guidelines.md | 2026-11-15 | 026abada3a3995df023bc5e5564852fb665cebe1565ce8d3380deb4a8e77f6cd |
+| scripts/stage4_rq3_form/pilot_sample.txt | 2026-11-15 | f76e1314f68c925d44b5c2f7cc48b06aa02ae934a543634b666fb8d467e39d5f |
+| scripts/stage4_rq3_form/prompt_extraction.md | 2026-11-15 | 4d868ea2a41c254d458299e0d47d72d27968d706362fdce875849a846bbadd0a |
+| scripts/stage4_rq3_form/rq3_01_fulltext.py | 2026-11-15 | 4860f9b1d09cb186ec021c5746ddba064708501f4f68b4a2444f9b8aeee6c80f |
+| scripts/stage4_rq3_form/rq3_02_extract_llm.py | 2026-11-15 | 9bfb421224a1b188877518b47e9aca5f8de09e67ca35b0b3431fce300cb20e7c |
+| scripts/stage4_rq3_form/rq3_03_agreement.py | 2026-11-15 | c7c635b64ecce7480ad31aff08a6148ee0548d65dc0f0f08b1df3bc7d27cbcf4 |
+| scripts/stage4_rq3_form/rq3_04_finalize.py | 2026-11-15 | 4b7a1f44bafb4f14ff33677e11a10ff734387d03e04e8524ffcab181a29d6d1e |
+| scripts/stage4_rq3_form/rq3_05_human_eval.py | 2026-11-15 | 9cc99224c1640f769d48e9cfd614e4f4ee8de4d0723ef3cd5dccf51f9ff343ae |
+| scripts/stage4_rq3_form/rq3_common.py | 2026-11-15 | 3229da65ef378fe91e982615f8aae944e7611d0fdcffdec6fd498b0f7f77b8a3 |

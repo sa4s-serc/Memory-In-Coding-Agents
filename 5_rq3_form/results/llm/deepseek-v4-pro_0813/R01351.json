@@ -1,0 +1,74 @@
+{
+ "record_id": "R01351",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "A further limitation stems from sparse attention mechanisms (Child et al., 2019): because they modify the effective dependency structure, the flattened trie may not perfectly replicate the behavior of dense-attention beam search. This structural divergence can introduce additional discrepancies, albeit typically small in practice.",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "Our approach offers substantial gains primarily when beams share common prefixes, making it most beneficial for tasks where beams frequently converge. Its efficiency gain may diminish for tasks involving highly diverse or divergent outputs.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Our experiments focus on summarization (CNN/DailyMail) and code generation (HumanEval), evaluating three mainstream transformer architectures. While these results support the generalizability of our approach, its performance on other tasks or models, such as multimodal transformers or retrieval-augmented generation, requires further investigation.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, garbage collection introduces some overhead. As a result, when the model size is small, the beam width is narrow, and the total number of tokens is low, our method may actually be slightly slower.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

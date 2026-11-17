@@ -1,0 +1,17 @@
+{
+  "record_id": "R00793",
+  "pdf_sha256": "8b8ed15cfb943a553034e1d5fa930cd5bb9432931e7c99dc79258dd84d0c0733",
+  "mechanism": "Code Property Graph MCP server giving the LLM slicing, taint and data-flow tools over the repository",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "unspecified",
+  "evidence_scope": "We introduce codebadger, an open-source Model Context Protocol (MCP) server that integrates Joern’s Code Property Graph (CPG) engine with LLMs.",
+  "evidence_role": "We introduce codebadger, an open-source Model Context Protocol (MCP) server that integrates Joern’s Code Property Graph (CPG) engine with LLMs.",
+  "read_full_text": true
+}

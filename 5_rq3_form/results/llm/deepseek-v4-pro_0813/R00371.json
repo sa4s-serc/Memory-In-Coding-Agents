@@ -1,0 +1,118 @@
+{
+ "record_id": "R00371",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This is a mechanism study, not a scaling result. Three task families spanning the detectability axis including its negative end, one model family, rounds in the low hundreds, and held-out sets of tens of items, though graded every round by every candidate (52,600 item-level verdicts against the locked reference and 5,743 birth-gate decisions).",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Guidance-text skills cannot substitute for capabilities that need interaction, such as live schema exploration, which is the ceiling Spider’s absolute lift runs into for both loops.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "It buys least where they are semantic, and there its value shifts from agreement to legibility: an expression that names its verdicts supports triage and repair even when it barely beats chance at predicting truth.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Two baselines would split the remaining credit and neither is run here: a prompt-tuned judge on the same ten items, which would separate anchored composition from anchored prompting, and random composition in place of the LLM composer, which would separate the composer from the search space it draws on.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Teacher quality is held fixed, so how anchor quality degrades with a weaker teacher is untested.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "The Goodhart repair is claimed as a coupled pair of detector and hints, since we did not run the detector-only and hints-only arms that would separate them.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The judge itself then needed auditing. The pipeline requires raw evidence tags in its output, a format contract the original generic rubric did not know, so its loss rationales blamed that syntax and the repair barely moved the win rate (0.122 to 0.126).",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "The task-aware rubric was written after reading the generic judge’s rationales, so it is a diagnosis and not an independent confirmation.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The anchor cannot be manufactured. Evolution expands coverage but never creates ground truth.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "With no anchor the loop optimizes noise, which is what the naive arm demonstrates from the inside: remove the guards that tie selection to ten real labels and the search finds the cheapest way to look perfect.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The rubric’s metric-discipline dimension counts inline evidence tags, and the first skill runs raised the rubric score by +0.26 partly by gaming exactly this: evolved skills wrote the tag in place of the number (about 30% of tags at peak rounds had no value beside them) and invented confident forecasts for a style dimension. The independent judge preferred the baseline in 88% of decided pairs, citing unrendered placeholders and fabrication.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "And metamorphic detectors (Chen, Cheung, and Yiu 1998), the natural next op family for exactly the semantic regime where our current pool is weakest, are built but unexercised here.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

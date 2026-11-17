@@ -1,0 +1,89 @@
+{
+ "record_id": "R00328",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "OpenAI’s API key was unavailable at run time.",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "Our tool-use domain is synthetic (a mock CRM backend) rather than a real production system.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Up to 3 seeds and a 729-action space evaluated over 25–60 episodes per run in the main matrix is a reduced-but-transparent scope, not the full statistical power a longer study would give",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our unsupported-claim metric is a lexical-overlap heuristic for the retrieval domain only, not a general hallucination detector.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "it is evidence that starting an online controller from a uniform prior over a 729-configuration space is sample-inefficient compared to a targeted, metric-guided search (BootstrapFewShot) that only ever proposes plausible demonstration sets.",
+     "page": 6,
+     "verbatim": false
+    }
+   ]
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Total spend ($7.62) exceeded the $5 per-run pre-flight cap we set in configs/experiment.yaml in aggregate, because the sample-efficiency and spot-check runs were separate, individually-capped invocations added after seeing the main matrix’s results",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F5:no_verbatim_quote"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "R00485",
+  "pdf_sha256": "1a15ac2c974b23b0b7ea55d37f8e70e650867823391c06414fd2741329239d33",
+  "mechanism": "Append-only event-sourced project memory with file-scoped advisory prechecks",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "records development as an append-only, plain-text log of typed events (issues, attempts, fixes, decisions, and notes) and deterministically projects it into compact summaries",
+  "evidence_role": "We present projectmem, an open-source, local-first memory and judgment layer for AI coding agents",
+  "read_full_text": true
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "R00891",
+  "pdf_sha256": "c330fd8bfc97801fb910ba4f83049d2fa8e574e45aa9d24d8406cb080e6005b9",
+  "mechanism": "none identified (empirical study of agent-written tests)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

@@ -1,0 +1,13 @@
+R00414 | different_version | PDF title lacks the "UniCoder:" prefix ("Unified Visual-to-Code Generation via Symbolic Rewards and Reference-Guided Code Optimization")
+R00468 | different_version | PDF title is "AutoDecompiler: Reinforcement-Learning-Trained Binary Decompilation LLM for Feedback-Driven Multi-Turn Refinement"
+R00482 | different_version | PDF title is "TellOnce: Correcting Coding Agents Once, Improving Their Future Actions"
+R00492 | different_version | PDF title is "Self-Evolving Scientific Agent Designs Physically Reasoned White-Box Fluid Control"
+R00537 | different_version | PDF title is "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair"
+R00569 | different_version | PDF title is "Ratchet: How Reliable Must an LLM Judge Be to Retire a Skill?"
+R00679 | different_version | minor: PDF title lacks the "VLAA-GUI:" prefix
+R00849 | different_version | PDF title is "ContextCov: Bridging the Gap Between Developer Intent and Autonomous Agent Execution"
+R00904 | different_version | PDF title is "Cobalt: Contextual Bandit Learning with Offline Trajectories for Multi-Turn Code Generation"
+R01191 | different_version | minor: PDF title is "Git Context Controller: Manage the Context of Agents by Agentic Git"
+R01206 | different_version | minor: PDF title is "Kodezi Chronos-1: ..." (manifest has "Kodezi Chronos: ...")
+R01453 | different_version | PDF title is "An Adaptive Language-Agnostic Pruning Method for Greener Language Models for Code" (no "ALPINE:" prefix, adds "Greener")
+R01854 | different_version | minor: PDF title says "Sovereign Operative Memory Architecture" (manifest has "Operating")

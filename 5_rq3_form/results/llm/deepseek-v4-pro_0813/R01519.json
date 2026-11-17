@@ -1,0 +1,85 @@
+{
+ "record_id": "R01519",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, the adaptation and generalization of EHRAgent in low-resource languages is constrained by the availability of relevant resources and training data.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Due to limited access to LLMs’ API services and constraints related to budget and computation resources, our current experiments are restricted to utilizing the Microsoft Azure OpenAI API service with the gpt-3.5-turbo (0613) and gpt-4 (0613) models.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "However, it is important to note that a higher CR may not necessarily imply a superior outcome, especially in clinical settings.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "We will explore stricter evaluation metrics to assess the cases of misinformation that could pose a risk within clinical settings in our future work.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "EHRAgent, as well as other baselines that rely on environmental feedback like ReAct, Reflexion, Self-Debugging, and AutoGen, require additional LLM calls due to the multi-round conversation.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "We can clearly observe the trade-off between performance and execution times.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

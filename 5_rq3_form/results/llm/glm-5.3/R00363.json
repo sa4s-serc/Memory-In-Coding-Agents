@@ -1,0 +1,90 @@
+{
+ "record_id": "R00363",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In a three-seed granularity ablation, the full taxonomy is directionally higher than a flat code list by 3.3 percentage points on TheoremQA and 1.7 percentage points on MMLU-Pro, but neither difference is statistically conclusive (Section I).",
+     "page": 4,
+     "verbatim": true
+    },
+    {
+     "quote": "We read this figure as a within-run mechanism trace, not an independent causal ablation.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Because this is a single-run transfer study without budget-matched accounting, we treat it as evidence that the integration operates in a new domain rather than as a confirmatory effectiveness comparison.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "Selection routes taxonomy criteria through the feature selector and heuristic verifier substrate of Section 3.5, so the gain reflects both the induced vocabulary and the selection pipeline that consumes it.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "This is not a causal ablation, but it is consistent with the vocabulary participating in the breakthroughs rather than labeling them after the fact.",
+     "page": 12,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "On ForgeCode, both MAST and AdaMAST approach the oracle ceiling, so the comparison is less informative.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This gate certifies that the taxonomy is consistently applicable; it does not certify that its codes are correct.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

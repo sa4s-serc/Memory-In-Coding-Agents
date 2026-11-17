@@ -1,0 +1,18 @@
+{
+  "record_id": "R01071",
+  "pdf_sha256": "6c500b58a5c0456fc4ebe50f67cdd3ec38122116762fd5286403d02c3904dee2",
+  "mechanism": "Hierarchical persistent memory of the user's mental state, updated by a ToM agent after each session and consulted in later sessions",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "the ToM agent maintains an external hierarchical memory system to persist the user's state and update user models after each session (with update memory action).",
+  "evidence_role": "we introduce ToM-SWE, a dual-agent architecture that pairs a primary software-engineering (SWE) agent with a lightweight theory-of-mind (ToM) partner agent dedicated to modeling the user's mental state.",
+  "read_full_text": true
+}

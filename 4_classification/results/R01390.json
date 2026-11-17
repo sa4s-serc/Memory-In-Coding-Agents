@@ -1,0 +1,15 @@
+{
+  "record_id": "R01390",
+  "pdf_sha256": "4c50452291662b224f94693fac0111a5e0bba5789140e32fdd40dcbfdce2de3d",
+  "mechanism": "none identified (user study of LLM failures in a web development task)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

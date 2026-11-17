@@ -1,0 +1,80 @@
+{
+ "record_id": "R00014",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Further, we acknowledge the need for more extensive evaluations, including stakeholder feedback and usability studies.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Cyclomatic complexity with the original graphs may not fully capture other qualitative aspects.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Any bias or error in the original graphs could affect the comparison.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Despite achieving higher accuracy in cyclomatic complexity, functional accuracy, and event consistency, the fusion strategy showed slightly lower performance in exception handling. This is due to the given retrieved from the vector database.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "The use of a vector database in the fusion strategy tends to increase the number of control flows, which may cause the model to exaggerate events. This over-generation leads to less exception handling.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

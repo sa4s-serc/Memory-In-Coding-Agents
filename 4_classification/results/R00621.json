@@ -1,0 +1,18 @@
+{
+  "record_id": "R00621",
+  "pdf_sha256": "1f783f9f557d5823a475670e3c282d3804c43217f6a79ed479baaa539305e61e",
+  "mechanism": "Persona drift detection against curated behavioral anchor texts, plus an embedding memory layer",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross",
+    "external"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Anchors come in two flavors: positive (desired task patterns) and negative (mistakes the user has flagged).",
+  "evidence_role": "We presentNautilus Compass, a black-box persona drift detector and agent memory layer for production coding agents.",
+  "read_full_text": true
+}

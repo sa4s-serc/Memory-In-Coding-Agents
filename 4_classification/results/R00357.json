@@ -1,0 +1,17 @@
+{
+  "record_id": "R00357",
+  "pdf_sha256": "a3c692ec5dab0a6fae464a3e1a411c1a080f8539aa5cd3b265e699756d4c404f",
+  "mechanism": "Learned line-level pruning head that prunes tool outputs from the agent backbone's hidden states",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "the pruned response˜rt replaces rt in the next turn.",
+  "evidence_role": "We propose SWE-Pruner Pro, a lightweight head that reads the pruning signal directly from the backbone with a learned length-aware embedding and a per-sample balanced focal loss.",
+  "read_full_text": true
+}

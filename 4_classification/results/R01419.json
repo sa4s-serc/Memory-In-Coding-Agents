@@ -1,0 +1,15 @@
+{
+  "record_id": "R01419",
+  "pdf_sha256": "af3791a20f5fc5d59646c6d38b1e94fc672eef6ed9a40b0eb26ed97d11e04fc6",
+  "mechanism": "Curriculum learning and progressive training of a retriever across Lean repositories, with a dynamic database of repository data",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Lean",
+  "evidence_scope": "Progressive training happens over one epoch to prevent forgetting old knowledge.",
+  "evidence_role": "We present LeanAgent, a novel lifelong learning framework for formal theorem proving that continuously generalizes to and improves on ever-expanding mathematical knowledge without forgetting pre- viously learned knowledge.",
+  "read_full_text": true
+}

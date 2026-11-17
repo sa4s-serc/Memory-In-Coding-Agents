@@ -1,0 +1,69 @@
+{
+ "record_id": "R00633",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Second, σ-Reveal provides a lightweight workspace prior for partial initial observations, but it cannot replace exhaustive evidence discovery when task relevance is weakly reflected in the file hierarchy.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, the empirical scope is shell-driven filesystem interaction, and GUI, web, embodied, binary, or networked settings require further validation.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, the AST based action abstraction uses shell structure as a scalable proxy for action intent, but structurally similar commands can differ in effect because of paths, file contents, options, or prior workspace state.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

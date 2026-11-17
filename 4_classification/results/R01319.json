@@ -1,0 +1,15 @@
+{
+  "record_id": "R01319",
+  "pdf_sha256": "e9cee90745fc96556300d36b33a0ae4d8e6c735a573a9ed9d07de14e117e4550",
+  "mechanism": "none identified (empirical study and tool-feedback ReAct loop for accessible code)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

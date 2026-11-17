@@ -1,0 +1,17 @@
+{
+  "record_id": "R00944",
+  "pdf_sha256": "ef6edb631960d0d3816593420a0440dcf1835dd029dcf3a777b921cdc02d93de",
+  "mechanism": "Goal-conditioned line-level pruning of tool-observation context within a task using a small neural skimmer",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "SWE-Pruner performs task-aware adaptive pruning for long contexts.",
+  "evidence_role": "we propose SWE-Pruner, a self-adaptive context pruning framework tailored for coding agents.",
+  "read_full_text": true
+}

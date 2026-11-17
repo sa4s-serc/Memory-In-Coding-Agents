@@ -1,0 +1,80 @@
+{
+ "record_id": "R00068",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The effectiveness of PAT-Agent depends on the quality and clarity of the natural language input: ambiguous or incomplete specifications can produce incorrect or underspecified formal models.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Moreover, highly entangled control logic or intricate data-dependent behaviors may not decompose cleanly into the semantic-prompt structure we employ, limiting the ability of LLMs to synthesize faithful models.",
+     "page": 11,
+     "verbatim": true
+    },
+    {
+     "quote": "Our rule-based repair heuristics are tailored to the violations observed in our datasets, primarily safety and liveness errors. While effective in these settings, they may not generalize to other types of failures, where alternative forms of guidance could be required.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In addition, like all LLM-based methods, PAT-Agent inherits stochasticity in generation. We mitigate this by fixing LLM versions with timestamps and incorporating multiple repair iterations guided by PAT feedback, but stochasticity remains an inherent limitation.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "We plan to expand the semantic prompt library to support more advanced modeling paradigms, such as probabilistic, real-time, and hybrid systems.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

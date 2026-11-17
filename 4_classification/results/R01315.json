@@ -1,0 +1,17 @@
+{
+  "record_id": "R01315",
+  "pdf_sha256": "34d6ec85fab96b54ab72487c35cab8815f18eda73fc4c778752d32d3ed807702",
+  "mechanism": "Log-based filtering and 2-bit quantization of the KV cache",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "By applying a log-based filtering mechanism, it selectively compresses the KV Cache across the entire context",
+  "evidence_role": "We introduce LogQuant, a groundbreaking 2-bit quantization technique for KV Cache in large language model (LLM) inference",
+  "read_full_text": true
+}

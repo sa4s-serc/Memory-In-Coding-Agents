@@ -1,0 +1,69 @@
+{
+ "record_id": "R00061",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Secondly, unlike traditional function-level code generation approach, automating the evaluation of general-purpose software is exceptionally challenging. Though recent efforts aimed to employ Human Revision Cost (Hong et al., 2024), manual verification is still impractical.",
+     "page": 9,
+     "verbatim": true
+    },
+    {
+     "quote": "This paper instead focuses on three objective and crucial dimensions and a comprehensive quality. Future research need take additional dimensions like robustness into consideration.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Firstly, the ability of autonomous agents to produce software might be overestimated. In co-learning, autonomous agents still tend to implement the simplest logic in absence of necessary and clear requirements, indicating that these technologies are more suitable for prototype systems rather than real-world applications.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

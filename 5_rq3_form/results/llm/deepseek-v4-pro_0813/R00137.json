@@ -1,0 +1,112 @@
+{
+ "record_id": "R00137",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "The dataset was manually handcrafted, limiting the diversity of problem types and complexity levels to those anticipated by the authors.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "Single-function generation may not reveal multi-file generation challenges, and results from 11 problems may not generalize.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "We used only GPT-4.1, performance may vary with other LLMs. Our architecture requires OpenAI function-calling protocol, limiting applicability to LLMs lacking this capability (e.g., open-source models).",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Limited sample size (N=11 task-level pairs) constrains statistical power, which can lead to Type II errors.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Ground truth tests might not be comprehensive.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "Using the same LLM for test and code generation creates test-code collusion risk.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "Our evaluation focuses exclusively on functional correctness, deliberately isolating from performance, scalability, maintainability, security, and non-functional requirements in general.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Furthermore, in mission-critical contexts, guardrails [11] need to be introduced to prevent unwanted evolutions.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While SelfEvolve currently operates reactively to user requests, a full MAPE architecture would enable proactive self-evolution through continuous monitoring of generated function performance and usage patterns, analysis of execution metrics to identify optimization opportunities or recurring failure modes, planning of autonomous improvements without explicit user requests, and execution of self-initiated adaptations [7, 31].",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "Embed Requirements Engineering: since our approach is user-oriented, we will focus especially on requirements engineering extensions to clarify user intent, understand context, and capture domain knowledge.",
+     "page": 5,
+     "verbatim": true
+    },
+    {
+     "quote": "incorporate deeper runtime data (breakpoints, memory states, call stacks) to enhance failure diagnosis precision.",
+     "page": 5,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

@@ -1,0 +1,18 @@
+{
+  "record_id": "R00644",
+  "pdf_sha256": "c30955f7909472ff05f8811490afc8b180c14f55f1a4c1c54ddd34792755ed8e",
+  "mechanism": "Knowledge base over repository code metadata, lemma semantics and Verus documentation, with lemma retrieval",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "QUALITY_ASSURANCE",
+  "target": "Rust (Verus proofs)",
+  "evidence_scope": "KVerus builds a dynamic knowledge base over code metadata, lemma se- mantics, and Verus/toolchain knowledge.",
+  "evidence_role": "We present KVerus, a verifier-in-the-loop and human-review-centered workflow for generating Verus proof code in evolving Rust repositories.",
+  "read_full_text": true
+}

@@ -1,0 +1,75 @@
+{
+ "record_id": "R00897",
+ "fields": {
+  "F1": {
+   "present": false,
+   "evidence": []
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "DyTopo can also fail when descriptors are misleading, causing misrouting and error propagation.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Two failure modes are apparent at the extremes: when τ is low, the topology becomes overly dense, increasing irrelevant message traffic and degrading effective context utilization; when τ is too high, the topology becomes sparse, preventing useful information flow and reducing collaboration benefits.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "The fact that the optimal τ differs across datasets further supports the conclusion that communication structure is task-sensitive, and that controlling sparsity is a key practical knob for stable performance.",
+     "page": 8,
+     "verbatim": false
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Potential risks include misuse of improved agentic capabilities and privacy concerns if agent messages or coordination traces are logged in sensitive settings.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

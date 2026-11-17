@@ -1,0 +1,17 @@
+{
+  "record_id": "R01035",
+  "pdf_sha256": "7bd8e1c6345c2ff8d5a93674a8a88fcfc70ab6f657f946c82a2961f449e01535",
+  "mechanism": "On-the-fly synthesis of custom tool scripts during a single issue-resolution run, with reflection after each step",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "Python",
+  "evidence_scope": "we also explicitly ask the agent to reflect on its past trajectory to determine if it should create any tools after each step.",
+  "evidence_role": "we propose LIVE-SWE-AGENT, the first live software agent that can autonomously and continuously evolve itself on-the-fly during runtime when solving real-world software problems.",
+  "read_full_text": true
+}

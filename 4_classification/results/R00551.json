@@ -1,0 +1,17 @@
+{
+  "record_id": "R00551",
+  "pdf_sha256": "79453eb5ed3cf33e4a798359b1f40c7229b54a72b0ea8a902e02c968b898bcc4",
+  "mechanism": "Learned skill extraction and skill-bank maintenance from coding-agent trajectories",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "CODESKILLextracts multi-granularity procedural skills from coding-agent trajectories, evolves skills with new experience, and maintains a compact skill bank for future task solv- ing.",
+  "evidence_role": "We proposeCODESKILL, an LLM-based framework that reformulates skill extraction and skill-bank maintenance as a learnable management policy.",
+  "read_full_text": true
+}

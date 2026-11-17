@@ -1,0 +1,76 @@
+{
+ "record_id": "R00352",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One potential threat arises from the choice of backbone models used in our evaluation. Due to budget constraints, we primarily evaluate on five open-source or open-weight models.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "One potential threat concerns whether the evaluation metrics used in our study are sufficient to fully capture the quality of automated issue resolution.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In particular, the assessment of the quality of reproduction tests and edge tests relies on the judgment of an analysis agent, which may introduce a subjective bias.",
+     "page": 11,
+     "verbatim": true
+    }
+   ]
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "PhoenixRepair incurs an average cost of $0.154 per task, compared to $0.083 for SWE-agent, $0.079 for Mini-SWE-agent, and $0.080 for Live-SWE-agent. This corresponds to approximately a 1.85× overhead over the SWE-agent.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

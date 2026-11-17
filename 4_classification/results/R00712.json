@@ -1,0 +1,17 @@
+{
+  "record_id": "R00712",
+  "pdf_sha256": "6692c098caeb9ea83e4e8676276f90ee76d1f738a2cdac4856fe36a470cd3222",
+  "mechanism": "Dual-trace memory encoding that pairs each stored fact with a scene trace, recalled across sessions",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we introduce dual-trace memory encoding. In this method, each stored fact is paired with a concrete scene trace, a narrative reconstruction of the moment and context in which the information was learned.",
+  "evidence_role": "Dual-trace achieves 73.7% overall accuracy versus 53.5%, a +20.2 percentage point (pp) gain",
+  "read_full_text": true
+}

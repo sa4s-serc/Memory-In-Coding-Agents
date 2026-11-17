@@ -1,0 +1,17 @@
+{
+  "record_id": "R00064",
+  "pdf_sha256": "a05088ae93a2536790040ecad9828231bc8e3804c79a92eb46fc52ccd2fe355f",
+  "mechanism": "Online trajectory monitor that drops violating steps and injects diagnostic messages",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "unspecified",
+  "evidence_scope": "the intervention component suppresses the current step, i.e., drops the thought–action–observation, and returns only a diagnostic message.",
+  "evidence_role": "Our contributions are: (1) a novel structural representation of agent trajectories, i.e., Graphectory; (2) a novel human-readable abstraction of Graphectory",
+  "read_full_text": true
+}

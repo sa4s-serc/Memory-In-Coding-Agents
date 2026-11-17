@@ -1,0 +1,68 @@
+{
+ "record_id": "R00526",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "First, due to computing-resource constraints, the Code-X training recipe is only validated at the 9B and 27B scales (Qwen-3.5-9B and Qwen-3.6-27B), and we have not yet characterized how the recipe scales to frontier-size open-source models.",
+     "page": 25,
+     "verbatim": true
+    },
+    {
+     "quote": "In particular, Claude Opus 4.6 results on VideoZeroBench and Claude Opus 4.7 results across all four benchmarks are incomplete in the current draft, which means the comparison between coding agents and native omni-modal models is somewhat uneven on the closed-source side.",
+     "page": 25,
+     "verbatim": true
+    },
+    {
+     "quote": "Third, our scope is restricted to offline omni-modal tasks, where files are staged into a workspace ahead of time; conclusions do not transfer directly to streaming or interactive settings.",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

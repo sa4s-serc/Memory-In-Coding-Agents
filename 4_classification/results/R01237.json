@@ -1,0 +1,15 @@
+{
+  "record_id": "R01237",
+  "pdf_sha256": "e250c2a1b48f5156efa53330f1bd148111a4af7770ba411c99fc556eb10ed2eb",
+  "mechanism": "Multi-turn reinforcement learning of code generation and self-verification with turn-level credit assignment",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "ReVeal structures long-horizon reasoning as iterative generation- verification turns and incorporates TAPO for turn-level credit assignment",
+  "evidence_role": "We introduce ReVeal, a multi-turn Reinforcement learning framework that evolves code generation through self-Verification and tool- based evaluation.",
+  "read_full_text": true
+}

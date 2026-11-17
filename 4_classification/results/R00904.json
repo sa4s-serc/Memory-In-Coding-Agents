@@ -1,0 +1,15 @@
+{
+  "record_id": "R00904",
+  "pdf_sha256": "4e918c90050c137f9e56da55278474d897154bdcb2036809bcf761b56dea4d76",
+  "mechanism": "Contextual bandit training on partial offline multi-turn trajectories",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "we present contextual bandit learning with offlinetrajectories (Cobalt), a simple method that reuses offline multi-turn trajectories to efficiently train LLMs for multi-turn code generation.",
+  "evidence_role": "we present contextual bandit learning with offlinetrajectories (Cobalt), a simple method that reuses offline multi-turn trajectories to efficiently train LLMs for multi-turn code generation.",
+  "read_full_text": true
+}

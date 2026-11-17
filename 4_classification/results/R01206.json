@@ -1,0 +1,18 @@
+{
+  "record_id": "R01206",
+  "pdf_sha256": "4e869a4ce5d9ca968eb3399f24bf36e034da06c0537aad669358e47ea18ee65d",
+  "mechanism": "Persistent debug memory of code, bug patterns and validated fixes updated after fix validation, with graph-guided code retrieval",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "Persistent Debug Memory (PDM) learning from 15M+ sessions",
+  "evidence_role": "We present Kodezi Chronos-1, the first debugging-specific language model combining:",
+  "read_full_text": true
+}

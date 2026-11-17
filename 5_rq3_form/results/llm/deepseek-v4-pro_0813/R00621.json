@@ -1,0 +1,122 @@
+{
+ "record_id": "R00621",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Synthetic drift test set. Our 100-prompt drift evaluation set is hand-authored to cover canonical aligned and deviation patterns. AUC 0.92 reflects performance on this distribution; real production prompt distributions may differ. We have not yet conducted a longitudinal study on real user traces, in part because the user base of nautilus-compass is currently the authors and a small private deployment.",
+     "page": 17,
+     "verbatim": true
+    },
+    {
+     "quote": "larger n per subject (the n = 20 here is chosen to fit the 6-subject CPU budget)",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "Subset 12 for mem0 only. The mem0 head-to-head (Table 5) is on the stratified subset of 12 questions because re-running mem0 at full scale requires resetting and re-populating its index per question (approximately 30 s of Vertex AI calls per question).",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "In practice, the long-term value of this loop depends on user willingness to label, which we have not yet measured at scale (current evaluation is on synthetic alerts seeded into the log file).",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Train-on-test concern in the in-set ablation. The four-step ablation (Table 1) reaches AUC 0.9232 on a 100-prompt set partially constructed by the authors. Step 4 explicitly incorporates patterns from misclassified test prompts into the anchor set, which by classical interpretation contaminates the test signal. We mitigate via the held-out test set in Section 4.7, but the in-set 0.9232 should be read as “illustrating which design decisions matter” rather than as a generalization estimate.",
+     "page": 16,
+     "verbatim": true
+    },
+    {
+     "quote": "We acknowledge that LLM-as-judge labeling is itself a noisy signal; we treat held-out AUC as a complementary metric to the in-set ablation rather than a definitive replacement.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "LongMemEval-S 56.6% is ~30 points below recent white-box leaders (90+%); we treat that as the architectural ceiling of the no-extraction design.",
+     "page": 1,
+     "verbatim": true
+    },
+    {
+     "quote": "Single-session-user retrieval ceiling. On LongMemEval-S single-session-user questions, even with bge-reranker-v2-m3 we achieve MRR 0.522. The remaining gap is not closable by any embedding-based reranker: the questions ask for a specific factual claim (“What degree did I graduate with?”) buried in a 50-session chatty haystack. Closing this gap requires LLM-based reasoning over candidates, which is out of scope for our local-only deployment but trivial to add when API access is acceptable.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our local-only deployment trades 1.8 s for the absence of any external API dependency.",
+     "page": 13,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Cross-domain anchor profiles need expert review. The legal, medical, and finance starter anchor sets we ship are written by software engineers reasoning about each domain’s typical patterns, not by domain experts. Production deployment in any of these sensitive areas should involve review by qualified domain practitioners before relying on drift detection signals.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Notably, the destruct axis trends negative (∆= −0.027, t = −0.90, n.s.), driven primarily by gemini-2.5-pro (∆destruct = −0.145). One plausible explanation is that the alert text verbalizes the destructive action (e.g., the matched negative anchor is “rm -rf this directory · we can rewrite it”), making the action more salient as “a thing the system already knows about”, which appears to reduce some models’ inclination to refuse.",
+     "page": 16,
+     "verbatim": false
+    }
+   ]
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Daemon caches a single anchor profile. The current implementation cold-loads one anchor profile at daemon startup; switching profile requires daemon restart. Multi-profile in-memory caching with per-request profile selection is planned for v0.8.",
+     "page": 17,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F10:no_verbatim_quote"
+ ]
+}

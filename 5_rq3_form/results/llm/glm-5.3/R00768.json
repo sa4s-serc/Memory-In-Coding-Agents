@@ -1,0 +1,75 @@
+{
+ "record_id": "R00768",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because our RTX 3090 setup is more constrained than the original H100-based setting, these results should be read as a controlled comparison of collaboration topologies rather than a claim about absolute best performance.",
+     "page": 10,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Because this topology invests significant context window and API calls into pre-execution deliberation among experts [18, 19], fewer actual training runs are executed within the short time limit.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Agent teams instead expose a trade-off between deliberation and fragility. As experts sequentially edit the same script through text handoffs (idea plus diff), the risk of incompatible tensor dimensions, missing imports, and logical errors compounds across turns.",
+     "page": 10,
+     "verbatim": true
+    },
+    {
+     "quote": "However, the subagent modifications exhibited a distinct lack of diversity. The subagents predominantly engaged in greedy local optimization, frequently falling into a repetitive cycle of single-dimensional hyperparameter squeezing.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

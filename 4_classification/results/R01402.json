@@ -1,0 +1,17 @@
+{
+  "record_id": "R01402",
+  "pdf_sha256": "8941ebb91b57c4d10360466d9a8caf745fd649e176d61f65c1143fbeeb560a25",
+  "mechanism": "Knowledge base of documentation and experience entries retrieved by a search agent for a coding agent",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Python",
+  "evidence_scope": "we first build a knowledge base consisting of relevant documentation and experience information, and then the search agent retrieves the most relevant entries from the knowledge base for each question.",
+  "evidence_role": "we propose a multi-agent system based on LLMs named GraphTeam, for graph analysis.",
+  "read_full_text": true
+}

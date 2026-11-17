@@ -1,0 +1,15 @@
+{
+  "record_id": "R01257",
+  "pdf_sha256": "13ff4abe0c7ad4a7dd3b4876d19a8bf940e39e70dabbf06065aa774a6c3457de",
+  "mechanism": "none identified (archive-based self-modification of a coding agent's own code)",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "NO_MECHANISM",
+  "sources": [],
+  "cross_origin": null,
+  "role": null,
+  "activity": "SOFTWARE_MAINTENANCE",
+  "target": "multiple",
+  "evidence_scope": "",
+  "evidence_role": "",
+  "read_full_text": true
+}

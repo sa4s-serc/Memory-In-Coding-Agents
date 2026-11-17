@@ -1,0 +1,18 @@
+{
+  "record_id": "R00015",
+  "pdf_sha256": "8eb2fa610456318dce9befa8f01334792acb5330513c138a44919b5a6bd1ea64",
+  "mechanism": "Memory pool of generation guides from previously solved tasks, retrieved by hybrid SBERT/BM25 similarity",
+  "scope": "CROSS",
+  "na_reason": null,
+  "sources": [
+    "within",
+    "cross"
+  ],
+  "cross_origin": "own_trajectories",
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "When a task is completed successfully (it passes both visible and hidden test cases), we call the GPT-4o-mini API to generate the set of keywords Ki based on the task description Q and the generated code C.",
+  "evidence_role": "we introduce a novel architecture of LLM-based agents for code generation and automatic debugging: Refinement and Guidance Debugging (RGD).",
+  "read_full_text": true
+}

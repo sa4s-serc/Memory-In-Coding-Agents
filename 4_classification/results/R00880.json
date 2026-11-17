@@ -1,0 +1,18 @@
+{
+  "record_id": "R00880",
+  "pdf_sha256": "d3b3cf9537f35167af2725a7a6c58629b98bc7596ba9069d28e6712a05eb8fa6",
+  "mechanism": "Retrieval from a reference code library for object generation, plus a closed-loop critic refinement",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external",
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "our method utilizes a Reference Code Library, denoted as Lcode that contains reusable code snippets for generating various procedural content.",
+  "evidence_role": "We introduceCode2Worlds, a frame- work that formulates 4D generation as language- to-simulation code generation.",
+  "read_full_text": true
+}

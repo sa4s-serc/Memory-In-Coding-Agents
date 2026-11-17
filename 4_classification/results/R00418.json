@@ -1,0 +1,17 @@
+{
+  "record_id": "R00418",
+  "pdf_sha256": "cec80b43669b84df2ed4162a954f58fa0269e69127e437548b855aa1d15b562c",
+  "mechanism": "Learned skill-sequence predictor selecting and ordering skills from a fixed curated skill library",
+  "scope": "EXTERNAL",
+  "na_reason": null,
+  "sources": [
+    "external"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "Given a natural-language task and a fixed reusable skill library, the model predicts an ordered sequence of skill identifiers ending with a stop symbol.",
+  "evidence_role": "We proposeSkillComposer, a generative framework that uses a constrained autoregressive decoder over existing library skills",
+  "read_full_text": true
+}

@@ -1,0 +1,84 @@
+{
+ "record_id": "R00747",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Single system. All data comes from one agent system (DunCrew). While the base encoding scheme is general (any ReAct agent produces tool call sequences that can be classified), the specific patterns (P-X-P risk, X self-loop rates) may differ across systems, models, and task domains.",
+     "page": 18,
+     "verbatim": true
+    },
+    {
+     "quote": "Sample size. With N=347, our n-gram analysis is limited to 2-grams and 3-grams. Higher-order patterns (4-grams, 5-grams) require substantially more data.",
+     "page": 19,
+     "verbatim": true
+    },
+    {
+     "quote": "The base encoding scheme assumes a ReAct-style agent with observable tool calls. It does not apply to: • Pure chat models without tool use • End-to-end RL agents where actions are not decomposable into discrete tool calls • Multi-agent systems where coordination between agents introduces a fifth dimension",
+     "page": 25,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Non-randomized design. Our before/after comparison cannot fully exclude confounds. Task distribution, user behavior, and system improvements may all contribute to the observed gains. A randomized A/B test with concurrent control would provide stronger causal evidence.",
+     "page": 18,
+     "verbatim": true
+    },
+    {
+     "quote": "However, at this sample size the best anomaly detector achieves only F1=0.17 (Figure 12d), reflecting the severe class imbalance (only 26 failures out of 347) and the need for >1K traces to train reliable detectors.",
+     "page": 22,
+     "verbatim": true
+    },
+    {
+     "quote": "At N=347, however, the mean cumulative reward difference between successful and failed traces is not statistically significant (p=0.25, Figure 13d), indicating that the reward signal is directionally correct but too noisy at this scale to serve as a standalone training signal.",
+     "page": 23,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

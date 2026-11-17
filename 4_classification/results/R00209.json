@@ -1,0 +1,17 @@
+{
+  "record_id": "R00209",
+  "pdf_sha256": "365e3b08e895c32dfdeeca0a524bd736b0af09270b10c674a169c4e6e3b8647a",
+  "mechanism": "Reflection with iteration trace and escape mechanism that discards non-progress loops",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Chisel (Scala-based HDL)",
+  "evidence_scope": "all iterations between these two points form a non-progress loop. In such cases, the LLM discards all iterations involved in the loop.",
+  "evidence_role": "This work proposes ReChisel, an LLM-based agentic system designed to enhance the effectiveness of Chisel code generation.",
+  "read_full_text": true
+}

@@ -1,0 +1,76 @@
+{
+ "record_id": "R00730",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "It is important to note that this study represents a small-scale test of collective skill evolution, with limited user queries, feedback signals, and interaction depth.",
+     "page": 7,
+     "verbatim": true
+    },
+    {
+     "quote": "Results are reported on four representative categories, with additional categories to be included in the future version.",
+     "page": 6,
+     "verbatim": true
+    },
+    {
+     "quote": "Scaling up the number of users, extending the time horizon, and introducing more diverse tasks and validation conditions are likely to further enrich the evolution trajectory and further improve system performance.",
+     "page": 7,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "This validation strategy introduces additional token cost, as candidate skills must be executed in real environments with full tool interaction.",
+     "page": 7,
+     "verbatim": false
+    }
+   ]
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": false,
+   "evidence": []
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": [
+  "F8:no_verbatim_quote"
+ ]
+}

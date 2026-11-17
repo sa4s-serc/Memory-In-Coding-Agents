@@ -1,0 +1,15 @@
+{
+  "record_id": "R02303",
+  "pdf_sha256": "7efffac9012d70ac21dbfdc886b30092ea86f01cbdea3da6b5b75bb35fee747b",
+  "mechanism": "Parameter-efficient fine-tuning, continual fine-tuning and preference alignment (DPO) of code language models",
+  "scope": "NOT_APPLICABLE",
+  "na_reason": "PARAMETRIC",
+  "sources": [],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "multiple",
+  "evidence_scope": "we examine the behaviour of code PLMs in a continual fine-tuning setting, where the model acquires new knowledge from sequential domain-specific datasets.",
+  "evidence_role": "We focus on model alignment in three overlooked scenarios for code generation, each addressing a specific objective: optimizing fine-tuning costs, aligning models with new data while retaining previous knowledge, and aligning with user coding preferences or non-functional requirements.",
+  "read_full_text": true
+}

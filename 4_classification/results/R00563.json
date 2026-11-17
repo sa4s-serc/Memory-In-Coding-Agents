@@ -1,0 +1,17 @@
+{
+  "record_id": "R00563",
+  "pdf_sha256": "c1d6d3112fde78fc3b13110f6c27904147cdbf9d99a4cb59d1ae051b6a5c177f",
+  "mechanism": "Region-aware KV-cache compression with adaptive mass-based quotas",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "CORE",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "unspecified",
+  "evidence_scope": "AMS adaptively partitions the KV cache based on the spatial distribution of attention mass, ensuring structurally vital reasoning segments receive guaranteed memory quotas.",
+  "evidence_role": "we propose Adaptive Mass-Segmented (AMS) KV Compression, a framework that shifts the paradigm from token-level competition to region-aware quota allocation.",
+  "read_full_text": true
+}

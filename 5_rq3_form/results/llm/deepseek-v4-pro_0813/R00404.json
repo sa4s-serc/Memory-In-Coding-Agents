@@ -1,0 +1,80 @@
+{
+ "record_id": "R00404",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While current state-of-the-art agents (e.g., Claude Code [14]) offer effective safety protocols for local software engineering environments, extending these containment mechanisms to internet-augmented or multimodally grounded execution domains remains unaddressed.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Under the original dataset splits, LiveMath and OfficeQA contain only 10 to 20 validation instances, resulting in high validation variance.",
+     "page": 9,
+     "verbatim": true
+    }
+   ]
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "While this work explores basic programmatic modifications of the execution harness, scaling harness optimization requires a robust reference framework.",
+     "page": 14,
+     "verbatim": false
+    },
+    {
+     "quote": "While the base foundation models remain frozen in our current framework, this optimization pipeline can naturally extend to the model training phase itself.",
+     "page": 14,
+     "verbatim": true
+    },
+    {
+     "quote": "Fully automating this data-model-harness co-design loop without manual intervention remains a critical next step.",
+     "page": 14,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}

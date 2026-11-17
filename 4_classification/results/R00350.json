@@ -1,0 +1,17 @@
+{
+  "record_id": "R00350",
+  "pdf_sha256": "65aecc65fcb919fe77be883578c1cc3a94df11ee48737ceb20a73cd5db576271",
+  "mechanism": "Traceability graph linking requirements, design and code, used as compressed shared context for the agents",
+  "scope": "WITHIN",
+  "na_reason": null,
+  "sources": [
+    "within"
+  ],
+  "cross_origin": null,
+  "role": "COMPONENT",
+  "activity": "SOFTWARE_DEVELOPMENT",
+  "target": "Java (repository-level code from use cases)",
+  "evidence_scope": "the traceability graph is used to provide a compressed representation of the context.",
+  "evidence_role": "We propose TraceDev, a traceability-driven multi-agent framework with five specialized roles",
+  "read_full_text": true
+}

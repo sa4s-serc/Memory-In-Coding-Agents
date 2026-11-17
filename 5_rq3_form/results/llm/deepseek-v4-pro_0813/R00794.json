@@ -1,0 +1,74 @@
+{
+ "record_id": "R00794",
+ "fields": {
+  "F1": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "Our study evaluated a single task with open-weight models (Qwen3.5 0.8B and 27B) and two frontier models (Gemini 3.1 Pro Preview and Claude Opus 4.6).",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "More benchmarking and experiments are needed to determine the generality of these findings.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  },
+  "F2": {
+   "present": false,
+   "evidence": []
+  },
+  "F3": {
+   "present": false,
+   "evidence": []
+  },
+  "F4": {
+   "present": false,
+   "evidence": []
+  },
+  "F5": {
+   "present": false,
+   "evidence": []
+  },
+  "F6": {
+   "present": false,
+   "evidence": []
+  },
+  "F7": {
+   "present": false,
+   "evidence": []
+  },
+  "F8": {
+   "present": false,
+   "evidence": []
+  },
+  "F9": {
+   "present": false,
+   "evidence": []
+  },
+  "F10": {
+   "present": false,
+   "evidence": []
+  },
+  "F11": {
+   "present": true,
+   "evidence": [
+    {
+     "quote": "All LLM methods in this benchmark operate without tools or external knowledge retrieval. Equipping LLM optimizers with agentic capabilities such as paper search, documentation lookup, or code analysis tools is a promising direction.",
+     "page": 8,
+     "verbatim": true
+    },
+    {
+     "quote": "Additionally, exploring other classical optimizers as the hybrid base and pairing CMA-ES with a code-editing LLM agent could allow the search space to co-evolve with the optimization trajectory.",
+     "page": 8,
+     "verbatim": true
+    }
+   ]
+  }
+ },
+ "only_boilerplate": false,
+ "no_limitation": false,
+ "flags": []
+}
