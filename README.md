@@ -1,11 +1,11 @@
 <div align="center">
 
 # Memory or Context?
-### A Systematic Mapping Study of Memory and Information-Handling Mechanisms in LLM-Based Coding Agents
+### A Rapid Review of Information Management in Coding Agents
 
 **Replication package**
 
-[Pranav Swarup Kumar](mailto:pranavswarup.kumar@research.iiit.ac.in) · [Karthik Vaidhyanathan](mailto:karthik.vaidhyanathan@iiit.ac.in)
+[Pranav Swarup Kumar](https://scholar.google.com/citations?user=L7XN5AsAAAAJ&hl=en) · [Karthik Vaidhyanathan](https://scholar.google.com/citations?hl=en&user=qtITyHkAAAAJ)
 
 Software Engineering Research Centre (SERC), IIIT Hyderabad, India
 
