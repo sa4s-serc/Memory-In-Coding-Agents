@@ -75,7 +75,7 @@ Model A filled more fields than model B (513 vs 460), most visibly in F7, F10, F
 
 ## 3. Adjudication
 
-All disagreements were adjudicated; The decisions and notes are in `results/adjudication.xlsx`.
+All disagreements were adjudicated; The decisions and notes are in `results/LLM_conflicts_manual_adjudication.xlsx`.
 
 ## 4. Human evaluation
 
@@ -95,8 +95,10 @@ All disagreements were adjudicated; The decisions and notes are in `results/adju
 | `results/llm/<model>/<record_id>.json` | Each model's filled form, with quotes, page numbers and verbatim checks |
 | `results/llm/<model>/_run.json` | Model, host, temperature, thinking setting, prompt+form SHA-256, start time |
 | `results/llm_agreement.json`, `results/disagreements.csv` | LLM–LLM agreement and the list of disagreements with both models' quotes |
-| `results/adjudication.xlsx` | The adjudicated value for each disagreement |
-| `results/human_sample.csv`, `results/human_eval.xlsx` | The human evaluation sample and the human's filled form |
+| `results/LLM_conflicts_manual_adjudication.xlsx` | The adjudicated value for each disagreement |
+| `results/human_sample.csv` | The human evaluation sample |
+| `results/PSK_eval.xlsx`, `results/AG_eval.xlsx` | The two human raters' filled forms (PSK, AG) |
+| `results/PSK_vs_AG_conflicts.xlsx` | Field-level conflicts between the two human raters, with notes and resolutions |
 | `results/human_eval.json` | Human vs A, B and final: κ with CI, precision, recall, per-field counts |
 | `results/paper_fields.csv` | Final values per paper (F1–F11), number of fields, status |
 | `results/rq3_summary.json` | The counts in Section 1 |

@@ -95,6 +95,7 @@ The study follows the guidelines for systematic mapping studies of Petersen et a
 ```
 replication/
 ├── FREEZE.md                           Record of the frozen protocol versions
+├── figures/                            Figures used in this README (SVG)
 ├── corpus/
 │   └── corpus.csv                      The 2,411 deduplicated records
 ├── quasi_gold_standard_test_qgs/

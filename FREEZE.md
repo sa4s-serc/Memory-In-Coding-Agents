@@ -51,13 +51,11 @@ This manifest excludes its own hash to avoid a self-referential digest. The per-
 | scripts/stage4/kappa_rater_tool/make_sample.py | 2026-11-02 | 2007d0e6216f6ed89e260dfdead2306631138423825f8de59d296e21398ae70a |
 | scripts/stage4/kappa_rater_tool/rater_guide.md | 2026-11-02 | d0b292a00b599f33b0ddc8ccebe1b82cac806faa4dd17d61315d681336d8f86c |
 | corpus/corpus.csv | 2026-10-31 | 0908fb78d1b8ed0c3141f8e338dcfeadfc1b69db34bfb2dee6003a65110ad818 |
-| README.md | 2026-11-15 | b4510cda231326a1f1af9d8d10f9a89cb7376b66f34925d449f2bcd0122ce77b |
-| 5_rq3_form/README.md | 2026-11-15 | 6093cd495a3992173e1e378da21e8ec75a76e9d309f5fa7490f63ea10664e03c |
-| 5_rq3_form/report.md | 2026-11-15 | a944fe9a0a496afbb99c393250addec522b150dc75547b3d3504a5a97610a5bb |
-| 5_rq3_form/results/adjudication.xlsx | 2026-11-15 | 2a079b7c847837f1875f0339be82b558898acedea96196d7360cc689619391d5 |
+| README.md | 2026-11-15 | cc6f042be4a0738375574b1d44f815a2de017dda035de56242bb20d3e77d57df |
+| 5_rq3_form/README.md | 2026-11-15 | 0b6e42818150fe50d96291ada6a2be7b0a35ee188de11985a8be0e1092eaf66e |
+| 5_rq3_form/report.md | 2026-11-15 | 22adf315e43ce908a8ddd688e2742447abf107a36d3a2ac99189e78e3cd0d958 |
 | 5_rq3_form/results/disagreements.csv | 2026-11-15 | 56748e35e3d1c03bb5738a3a605d7299c7b8b25b9e4f0e95cf21707df886bf75 |
 | 5_rq3_form/results/human_eval.json | 2026-11-15 | c4f1bcc41217dbba38a23e6699ae68176637e4f231e750f19b6eaef2333a1720 |
-| 5_rq3_form/results/human_eval.xlsx | 2026-11-15 | 0e37f16fe82784885b82cbae891bbbb6aed78f996c19aad61acf26db5b157edb |
 | 5_rq3_form/results/human_sample.csv | 2026-11-15 | ecd1f941799c52e8f7922b8bce3bece8b6e18d3b1ca2f8650eb91f664f04209a |
 | 5_rq3_form/results/llm_agreement.json | 2026-11-15 | 5390d894423c6fefe6efb60b30bba31f7ec4a1ee15cac01f0640da27b40330de |
 | 5_rq3_form/results/paper_fields.csv | 2026-11-15 | c48b253f71110161753d2723ac155990edeb03a46f4731327e628ea3446e484f |
@@ -74,3 +72,10 @@ This manifest excludes its own hash to avoid a self-referential digest. The per-
 | scripts/stage4_rq3_form/rq3_04_finalize.py | 2026-11-15 | 4b7a1f44bafb4f14ff33677e11a10ff734387d03e04e8524ffcab181a29d6d1e |
 | scripts/stage4_rq3_form/rq3_05_human_eval.py | 2026-11-15 | 9cc99224c1640f769d48e9cfd614e4f4ee8de4d0723ef3cd5dccf51f9ff343ae |
 | scripts/stage4_rq3_form/rq3_common.py | 2026-11-15 | 3229da65ef378fe91e982615f8aae944e7611d0fdcffdec6fd498b0f7f77b8a3 |
+| 5_rq3_form/results/AG_eval.xlsx | 2026-11-15 | 29c231ebe4a18324c6e435892af71a079bbc6b03a6f7a13980232df22c943b51 |
+| 5_rq3_form/results/LLM_conflicts_manual_adjudication.xlsx | 2026-11-15 | 2a079b7c847837f1875f0339be82b558898acedea96196d7360cc689619391d5 |
+| 5_rq3_form/results/PSK_eval.xlsx | 2026-11-15 | 0e37f16fe82784885b82cbae891bbbb6aed78f996c19aad61acf26db5b157edb |
+| 5_rq3_form/results/PSK_vs_AG_conflicts.xlsx | 2026-11-15 | 95b0d866c0365a00c5edbeef1afad10c769ff50181ad2b2decc5a2f4ca3bb746 |
+| figures/concept-information-sources.svg | 2026-11-15 | 4ebb8f50bcf7d3d595da39fe06e43bc604d6a2177a6ae560cb02cac1de765fe7 |
+| figures/stage3-implementation.svg | 2026-11-15 | 56562bd8598892915269d221b929b58e7baeb7c03db1da8f9ee09beb155a19a3 |
+| figures/study-overview.svg | 2026-11-15 | fc43667fc6ce9316f7385830e774f47c0dd81ae79f6441c219c901dfd97bf665 |

@@ -39,7 +39,7 @@ Re-running the extraction from scratch needs the PDFs and `classification_joined
 python rq3_01_fulltext.py                  # writes results/papers.csv and results/text/ (paper text, not included here)
 python rq3_02_extract_llm.py --model A     # deepseek-v4-pro:0813
 python rq3_02_extract_llm.py --model B     # glm-5.3
-python rq3_03_agreement.py                 # does not overwrite an existing human_eval.xlsx or adjudication.xlsx
+python rq3_03_agreement.py                 # writes human_eval.xlsx and adjudication.xlsx (does not overwrite existing ones); renamed in results/ to PSK_eval.xlsx and LLM_conflicts_manual_adjudication.xlsx
 ```
 
 LLM output can vary between runs even at temperature 0, so a re-run may not reproduce `results/llm/` exactly. The prompt and form used are fixed by the SHA-256 recorded in `results/llm/<model>/_run.json`.
