@@ -1,7 +1,7 @@
 <div align="center">
 
-# Memory or Context?
-### A Rapid Review of Information Management in Coding Agents
+# How do Coding Agents Leverage Memory?
+### A Rapid Review
 
 **Replication package**
 
@@ -30,7 +30,9 @@ This repository contains every input, output, label, guideline and script used i
 
 ## Abstract
 
-LLM-based coding agents increasingly include components that their authors call memory. The name covers mechanisms that draw on different sources of information: the current task, earlier tasks, or persistent resources such as documentation and repository indexes. Only mechanisms that draw on earlier tasks let an agent carry experience from one task to the next, and they must be designed and evaluated differently from the rest. We report a systematic mapping study of memory and information-handling mechanisms in LLM-based coding agents. From 2,411 records retrieved from Scopus, arXiv and OpenAlex, LLM-assisted screening validated against two human raters retained 860 primary studies. Most of this literature is unrefereed, so we used the availability of a public implementation, not the publication venue, as the criterion for the evidence we analyse: 289 of the 860 papers meet our adaptation of the ACM Artifacts Available criteria. We classified these 289 papers by hand according to the source of the information their mechanism supplies. Of them, 201 have an information-handling mechanism: 95 work within a single task, 50 draw on persistent external sources, and 56 carry information across tasks. A further 54 improve the agent by changing model weights.
+Memory is increasingly built into LLM-based coding agents. However, the term is applied to mechanisms that compress the current context, retrieve external knowledge, or retain experience from previous tasks which allows an agent to improve with use. It is therefore unclear what the literature builds under this name and how well that work can be checked. We report a rapid review of memory mechanisms in LLM-based coding agents. From 2,411 records retrieved from Scopus, arXiv and OpenAlex, LLM-assisted screening validated against human labels identified 860 primary studies. Only 289 of them (34%) provide an implementation that others can inspect. We then classified these studies manually by the source of the information their mechanism supplies, and extracted the limitations their authors report into common themes. Most of the mechanisms we classified do not carry anything from one task to the next. Out of 201 studies that propose a memory mechanism, 95 operate within a single task and 50 retrieve external knowledge, while 56 retain information across tasks. Most of what the field calls memory is gone once the agent finishes a task at hand. Authors most often report a narrow evaluation as a limitation of their own work (77% of studies). Studies whose mechanisms carry information across tasks report a lack of relevant prior experience more than three times as often as those working within a single task (32% vs. 9%). From these results we derive five lessons for research and practice. The protocol, data and scripts are publicly available.
+
+**Index Terms:** coding agents, agent memory, context management, rapid review, large language models
 
 ## Research Questions
 
@@ -162,9 +164,8 @@ LLM screening and extraction call hosted models and need an API key for the prov
 If you use this package, please cite:
 
 ```bibtex
-@misc{kumar2026memorycontext,
-  title  = {Memory or Context? A Systematic Mapping Study of Memory and
-            Information-Handling Mechanisms in LLM-Based Coding Agents},
+@misc{kumar2026codingagentsmemory,
+  title  = {How do Coding Agents Leverage Memory? A Rapid Review},
   author = {Kumar, Pranav Swarup and Vaidhyanathan, Karthik},
   year   = {2026},
   note   = {Under review}
