@@ -42,6 +42,17 @@ Memory is increasingly built into LLM-based coding agents. However, the term is 
 | **RQ2** | What types of memory mechanisms are implemented in coding agents, by the source of the information they supply? |
 | **RQ3** | What limitations and challenges do the authors of these mechanisms report, and how do they evaluate them? |
 
+## Search String
+
+The exact string run on Scopus, fixed on 2 August 2026 ([`search_string.txt`](1_search_string_and_corpus/search_string.txt)). It has four blocks: model, agent, memory and software engineering. arXiv and OpenAlex were queried through their APIs with the same term blocks and filtered locally, without the agent block, which was enforced at screening instead; see [`search_protocol.md`](1_search_string_and_corpus/search_protocol.md).
+
+```text
+TITLE-ABS-KEY ( "large language model*" OR LLM* OR "language model*" OR "foundation model*" OR "coding agent*" OR "code agent*" OR "software engineering agent*" OR "SWE agent*" )
+    AND TITLE-ABS-KEY ( agent* OR agentic OR "multi-agent" )
+    AND TITLE-ABS-KEY ( memory OR experience OR reflection OR trajector* OR "continual learning" OR "lifelong learning" OR self-improv* OR self-evolv* OR "knowledge accumulation" OR "skill librar*" OR "case-based reasoning" OR "context management" OR "context compression" OR "context pruning" OR "context folding" )
+    AND TITLE-ABS-KEY ( "software engineering" OR "software development" OR "code generation" OR "code completion" OR "program repair" OR "issue resolution" OR "bug fix*" OR repositor* OR codebase OR "SWE-bench" OR "SWE-agent" OR "coding agent*" OR "software agent*" OR SWE )
+```
+
 ## Information Sources
 
 The classification adapts the three memory sources of Zhang et al. (*A Survey on the Memory Mechanism of Large Language Model-Based Agents*, ACM TOIS 2025) from trials to tasks.
