@@ -11,9 +11,9 @@ Software Engineering Research Centre (SERC), IIIT Hyderabad, India
 
 <!-- Badges: add once available
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![Venue](https://img.shields.io/badge/AGENT-ICSE%202027-blue.svg)](#)
 -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24395110.svg)](https://doi.org/10.5281/zenodo.24395110)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](#license)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)](#license)
 
@@ -172,6 +172,8 @@ The scripts are written in Python and should be run in the order of the stage fo
 LLM screening and extraction call hosted models and need an API key for the provider. LLM outputs can vary between runs even at temperature 0, so the outputs used in the paper are included and all later stages can be rerun from them.
 
 ## Citation
+
+This replication package is archived on Zenodo: [doi.org/10.5281/zenodo.24395110](https://doi.org/10.5281/zenodo.24395110).
 
 If you use this package, please cite:
 
