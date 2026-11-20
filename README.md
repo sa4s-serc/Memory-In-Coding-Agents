@@ -26,7 +26,7 @@ This repository contains every input, output, label, guideline and script used i
 <p align="center">
   <img src="figures/study-overview.svg" alt="Overview of the study" width="95%">
 </p>
-<p align="center"><em>Overview of the study. Each stage reports the number of papers it retains and the validation applied to it.</em></p>
+<p align="center"><em>Overview of the study's five stages. Each stage reports the number of papers it retains and the validation applied to it.</em></p>
 
 ## Abstract
 
@@ -72,6 +72,7 @@ Papers with no agent-side mechanism are recorded with one of three reasons: the 
 | Relevance screening | 1,048 relevant: 860 primary studies, 104 surveys, 84 benchmarks |
 | Implementation screening | 598 papers with a candidate link; **289** with an available implementation |
 | Classification | 95 within-task · 50 external · **56 cross-task** · 88 no agent-side mechanism |
+| Limitation extraction | 151 within- and cross-task papers coded on 11 limitation fields; most frequent: generalizability (116 papers, 77%) |
 
 ## Methodology
 
@@ -81,7 +82,7 @@ The study follows the guidelines for systematic mapping studies of Petersen et a
 2. **Relevance screening.** An LLM (qwen3.5:397b, temperature 0) screened titles and abstracts against the inclusion and exclusion criteria and returned an inclusion probability, a bucket and a reason. Records scoring at least 0.70 were retained.
 3. **Implementation screening.** Candidate links were collected from the full text, the arXiv comment field, Zenodo, Hugging Face and a GitHub search. Every paper with a link was then judged by hand against four criteria adapted from the ACM *Artifacts Available* badge: accessible, author-created, relevant to the paper, and containing source code.
 4. **Classification.** Each of the 289 papers was classified by hand from its full text by information source, role (core or component) and software engineering activity, with a verbatim quote and a rationale per paper.
-5. **RQ3.** Within-task and cross-task papers were coded for reported limitations by thematic synthesis, and their evaluations were extracted with a structured form.
+5. **Limitation extraction.** The 151 within-task and cross-task papers were coded on an 11-field limitation form derived from a 30-paper pilot. Two LLMs (deepseek-v4-pro:0813 and glm-5.3, temperature 0) filled in the form independently from the full text, backing each field with verbatim quotes; the 173 decisions on which they disagreed were adjudicated by hand.
 
 ### Validation
 
@@ -90,7 +91,7 @@ The study follows the guidelines for systematic mapping studies of Petersen et a
 | Relevance screening | 60 records, stratified by score band | Rater vs rater κ = 0.92; LLM vs consensus κ = 0.69; estimated recall 91.4% |
 | Implementation screening | 50 papers, random | κ = 0.88 (47 of 50) |
 | Classification | 30 papers, random | κ = 0.82 (26 of 30) |
-| RQ3 limitations coding | 20 papers | *to be added* |
+| Limitation extraction | 151 papers × 11 fields (LLM vs LLM); 30 papers, stratified (human) | LLM vs LLM κ = 0.75; human vs final values κ = 0.70 (95% CI 0.60–0.79) |
 
 ## Repository Structure
 

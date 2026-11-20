@@ -51,7 +51,7 @@ This manifest excludes its own hash to avoid a self-referential digest. The per-
 | scripts/stage4/kappa_rater_tool/make_sample.py | 2026-11-02 | 2007d0e6216f6ed89e260dfdead2306631138423825f8de59d296e21398ae70a |
 | scripts/stage4/kappa_rater_tool/rater_guide.md | 2026-11-02 | d0b292a00b599f33b0ddc8ccebe1b82cac806faa4dd17d61315d681336d8f86c |
 | corpus/corpus.csv | 2026-10-31 | 0908fb78d1b8ed0c3141f8e338dcfeadfc1b69db34bfb2dee6003a65110ad818 |
-| README.md | 2026-11-15 | 4ec598023b4382a679cd2f80d1a261722eb6fd8e49422d8ed0827ad96549f7ff |
+| README.md | 2026-11-15 | 4c6230c9b5679ccde86794cd9d7ec494e43ce801992c36599f2a6fa646afc324 |
 | 5_rq3_form/README.md | 2026-11-15 | 0b6e42818150fe50d96291ada6a2be7b0a35ee188de11985a8be0e1092eaf66e |
 | 5_rq3_form/report.md | 2026-11-15 | 22adf315e43ce908a8ddd688e2742447abf107a36d3a2ac99189e78e3cd0d958 |
 | 5_rq3_form/results/disagreements.csv | 2026-11-15 | 56748e35e3d1c03bb5738a3a605d7299c7b8b25b9e4f0e95cf21707df886bf75 |
@@ -78,4 +78,4 @@ This manifest excludes its own hash to avoid a self-referential digest. The per-
 | 5_rq3_form/results/PSK_vs_AG_conflicts.xlsx | 2026-11-15 | 95b0d866c0365a00c5edbeef1afad10c769ff50181ad2b2decc5a2f4ca3bb746 |
 | figures/concept-information-sources.svg | 2026-11-15 | 4ebb8f50bcf7d3d595da39fe06e43bc604d6a2177a6ae560cb02cac1de765fe7 |
 | figures/stage3-implementation.svg | 2026-11-15 | 56562bd8598892915269d221b929b58e7baeb7c03db1da8f9ee09beb155a19a3 |
-| figures/study-overview.svg | 2026-11-15 | fc43667fc6ce9316f7385830e774f47c0dd81ae79f6441c219c901dfd97bf665 |
+| figures/study-overview.svg | 2026-11-15 | 41490342cc5dde9b7596ed0b73b77a6cc41140a3dc671591ff3108756a3414dd |
