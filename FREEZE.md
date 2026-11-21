@@ -51,7 +51,7 @@ This manifest excludes its own hash to avoid a self-referential digest. The per-
 | scripts/stage4/kappa_rater_tool/make_sample.py | 2026-11-03 | 2007d0e6216f6ed89e260dfdead2306631138423825f8de59d296e21398ae70a |
 | scripts/stage4/kappa_rater_tool/rater_guide.md | 2026-11-03 | d0b292a00b599f33b0ddc8ccebe1b82cac806faa4dd17d61315d681336d8f86c |
 | corpus/corpus.csv | 2026-11-02 | 0908fb78d1b8ed0c3141f8e338dcfeadfc1b69db34bfb2dee6003a65110ad818 |
-| README.md | 2026-11-20 | 918d165ff49275996a36fdfd6691d0cf16bc5e27eefd8397b76f634a017872dd |
+| README.md | 2026-11-15 | c4ee91291c5ff37f23c2ffbb2eab8c1ca69ff194840e276c3ebd076f4afb4587 |
 | 5_rq3_form/README.md | 2026-11-18 | 0b6e42818150fe50d96291ada6a2be7b0a35ee188de11985a8be0e1092eaf66e |
 | 5_rq3_form/report.md | 2026-11-18 | 22adf315e43ce908a8ddd688e2742447abf107a36d3a2ac99189e78e3cd0d958 |
 | 5_rq3_form/results/disagreements.csv | 2026-11-17 | 56748e35e3d1c03bb5738a3a605d7299c7b8b25b9e4f0e95cf21707df886bf75 |

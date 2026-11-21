@@ -13,7 +13,7 @@ Software Engineering Research Centre (SERC), IIIT Hyderabad, India
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![Venue](https://img.shields.io/badge/AGENT-ICSE%202027-blue.svg)](#)
 -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24415048.svg)](https://doi.org/10.5281/zenodo.24415048)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24415184.svg)](https://doi.org/10.5281/zenodo.24415184)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](#license)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)](#license)
 
@@ -173,7 +173,7 @@ LLM screening and extraction call hosted models and need an API key for the prov
 
 ## Citation
 
-This replication package is archived on Zenodo: [doi.org/10.5281/zenodo.24395110](https://doi.org/10.5281/zenodo.24395110).
+This replication package is archived on Zenodo: [doi.org/10.5281/zenodo.24415184](https://doi.org/10.5281/zenodo.24415184).
 
 If you use this package, please cite:
 
