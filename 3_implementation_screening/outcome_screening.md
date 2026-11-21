@@ -24,7 +24,7 @@ Two reviewers rated a simple random sample of 50 of the 598 papers (seed 2026103
 | Comparison | Cohen's kappa | 95% CI | Agreement | PABAK |
 |---|---:|---:|---:|---:|
 | GREEN+ORANGE vs RED | 0.88 | 0.72–1.00 | 94% | 0.88 |
-| GREEN / ORANGE / RED | 0.84 | 0.68–0.96 | 92% | 0.84 |
+| GREEN / ORANGE / RED | 0.84 | 0.68–0.96 | 92% | 0.88 |
 | GREEN vs ORANGE+RED | 0.84 | 0.68–0.96 | 92% | 0.84 |
 
 | Result | Reviewer 1 | Reviewer 2 | Papers |
