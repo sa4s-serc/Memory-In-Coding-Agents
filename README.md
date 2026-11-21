@@ -13,7 +13,7 @@ Software Engineering Research Centre (SERC), IIIT Hyderabad, India
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![Venue](https://img.shields.io/badge/AGENT-ICSE%202027-blue.svg)](#)
 -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24395110.svg)](https://doi.org/10.5281/zenodo.24395110)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24415048.svg)](https://doi.org/10.5281/zenodo.24415048)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](#license)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)](#license)
 
